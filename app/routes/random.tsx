@@ -19,15 +19,6 @@ export default function Random() {
   const [score, setScore] = useState({ correct: 0, total: 0 });
   const [usedIndices, setUsedIndices] = useState<Set<number>>(new Set());
 
-  useEffect(() => {
-    fetch("/words.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setAllWords(data);
-        pickRandomWord(data, new Set());
-      });
-  }, []);
-
   const pickRandomWord = (words: Word[], used: Set<number>) => {
     if (words.length === 0) return;
 
@@ -46,6 +37,16 @@ export default function Random() {
     setCurrentWord(words[randomIndex]);
     setUsedIndices(new Set([...used, randomIndex]));
   };
+
+  useEffect(() => {
+    fetch("/words.json")
+      .then((res) => res.json() as Promise<Word[]>)
+      .then((data) => {
+        setAllWords(data);
+        pickRandomWord(data, new Set());
+      });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const handlePronounce = () => {
     if (!currentWord) return;

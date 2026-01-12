@@ -22,11 +22,11 @@ export default function Review() {
   useEffect(() => {
     // 加载已学习的单词
     fetch("/words.json")
-      .then((res) => res.json())
+      .then((res) => res.json() as Promise<Word[]>)
       .then((data) => {
         const learnedWords = JSON.parse(
           localStorage.getItem("learnedWords") || "[]"
-        );
+        ) as string[];
         const learned = data.filter((w: Word) => learnedWords.includes(w.word));
 
         if (learned.length === 0) {

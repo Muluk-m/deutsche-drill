@@ -23,13 +23,13 @@ export default function Learn() {
   useEffect(() => {
     // 加载单词数据
     fetch("/words.json")
-      .then((res) => res.json())
+      .then((res) => res.json() as Promise<Word[]>)
       .then((data) => {
         setWords(data);
         // 加载已学习的单词
         const learned = JSON.parse(
           localStorage.getItem("learnedWords") || "[]"
-        );
+        ) as string[];
         setLearnedWords(learned);
         // 找到第一个未学习的单词
         const firstUnlearned = data.findIndex(
