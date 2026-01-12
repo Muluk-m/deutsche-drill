@@ -1,0 +1,4122 @@
+[
+  {
+    "word": "Deutschland",
+    "zh_cn": "德国"
+  },
+  {
+    "word": "Österreich",
+    "zh_cn": "奥地利"
+  },
+  {
+    "word": "die Schweiz",
+    "zh_cn": "瑞士"
+  },
+  {
+    "word": "der Name, -n",
+    "zh_cn": "姓名"
+  },
+  {
+    "word": "der Vorname, -n",
+    "zh_cn": "名字"
+  },
+  {
+    "word": "der Nachname, -n",
+    "zh_cn": "姓氏"
+  },
+  {
+    "word": "der Kaffee (nur Sg.)",
+    "zh_cn": "咖啡"
+  },
+  {
+    "word": "der Tee (nur Sg.)",
+    "zh_cn": "茶"
+  },
+  {
+    "word": "die Schokolade (nur Sg.)",
+    "zh_cn": "巧克力"
+  },
+  {
+    "word": "die Chips (nur Pl.)",
+    "zh_cn": "薯片"
+  },
+  {
+    "word": "das Kino, -s",
+    "zh_cn": "电影院"
+  },
+  {
+    "word": "das Theater, -",
+    "zh_cn": "剧院，戏剧"
+  },
+  {
+    "word": "der Sport (nur Sg.)",
+    "zh_cn": "体育"
+  },
+  {
+    "word": "die Musik (nur Sg.)",
+    "zh_cn": "音乐"
+  },
+  {
+    "word": "der Fußball (nur Sg.)",
+    "zh_cn": "足球"
+  },
+  {
+    "word": "das Tennis (nur Sg.)",
+    "zh_cn": "网球"
+  },
+  {
+    "word": "die Sonne (nur Sg.)",
+    "zh_cn": "太阳"
+  },
+  {
+    "word": "der Regen (nur Sg.)",
+    "zh_cn": "雨"
+  },
+  {
+    "word": "das Telefon, -e",
+    "zh_cn": "电话"
+  },
+  {
+    "word": "die E-Mail, -s",
+    "zh_cn": "电子邮件"
+  },
+  {
+    "word": "die Tasche, -n",
+    "zh_cn": "包"
+  },
+  {
+    "word": "der Stift, -e",
+    "zh_cn": "笔"
+  },
+  {
+    "word": "das Handy, -s",
+    "zh_cn": "手机"
+  },
+  {
+    "word": "das Buch, ¨-er",
+    "zh_cn": "书"
+  },
+  {
+    "word": "der Schlüssel, -",
+    "zh_cn": "钥匙"
+  },
+  {
+    "word": "die Flasche, -n",
+    "zh_cn": "瓶子"
+  },
+  {
+    "word": "das Portmonnee, -s",
+    "zh_cn": "钱包"
+  },
+  {
+    "word": "die Brille, -n",
+    "zh_cn": "眼镜"
+  },
+  {
+    "word": "der Lippenstift, -e",
+    "zh_cn": "唇膏，口红"
+  },
+  {
+    "word": "das Foto, -s",
+    "zh_cn": "照片"
+  },
+  {
+    "word": "das Heft, -e",
+    "zh_cn": "练习本，本子"
+  },
+  {
+    "word": "das Taschentuch, ¨-er",
+    "zh_cn": "手帕，纸巾"
+  },
+  {
+    "word": "die Zigarette, -n",
+    "zh_cn": "香烟"
+  },
+  {
+    "word": "die Zeitung, -en",
+    "zh_cn": "报纸"
+  },
+  {
+    "word": "der Spiegel, -",
+    "zh_cn": "镜子"
+  },
+  {
+    "word": "die Zahnbürste, -n",
+    "zh_cn": "牙刷"
+  },
+  {
+    "word": "der Mann, ¨-er",
+    "zh_cn": "男人，丈夫"
+  },
+  {
+    "word": "die Frau, -en",
+    "zh_cn": "女人，妻子，女士（称呼），太太（称呼）"
+  },
+  {
+    "word": "das Wort, ¨-er",
+    "zh_cn": "词"
+  },
+  {
+    "word": "ich",
+    "zh_cn": "我"
+  },
+  {
+    "word": "du",
+    "zh_cn": "你"
+  },
+  {
+    "word": "er",
+    "zh_cn": "他（代指第三人称单数阳性名词）"
+  },
+  {
+    "word": "sie",
+    "zh_cn": "她（代指第三人称单数阴性名词），他们（代指第三人称复数）"
+  },
+  {
+    "word": "Sie",
+    "zh_cn": "您，你们（代指第二人称尊称单数或复数）"
+  },
+  {
+    "word": "heißen",
+    "zh_cn": "名叫"
+  },
+  {
+    "word": "sein, ist",
+    "zh_cn": "是"
+  },
+  {
+    "word": "schreiben",
+    "zh_cn": "写"
+  },
+  {
+    "word": "gut",
+    "zh_cn": "好的"
+  },
+  {
+    "word": "schön",
+    "zh_cn": "美丽的，漂亮的"
+  },
+  {
+    "word": "Wie",
+    "zh_cn": "怎么样?"
+  },
+  {
+    "word": "Wer",
+    "zh_cn": "谁?"
+  },
+  {
+    "word": "Was",
+    "zh_cn": "什么!"
+  },
+  {
+    "word": "Hallo",
+    "zh_cn": "你好!"
+  },
+  {
+    "word": "Guten Tag",
+    "zh_cn": "你好! 白天好!"
+  },
+  {
+    "word": "Guten Morgen",
+    "zh_cn": "早上好!"
+  },
+  {
+    "word": "Guten Abend",
+    "zh_cn": "晚上好!"
+  },
+  {
+    "word": "Gute Nacht",
+    "zh_cn": "晚安!"
+  },
+  {
+    "word": "Mein Name ist",
+    "zh_cn": "我的名字是…"
+  },
+  {
+    "word": "Ich komme aus",
+    "zh_cn": "我来自…"
+  },
+  {
+    "word": "Ich mag",
+    "zh_cn": "我喜欢…"
+  },
+  {
+    "word": "Tschüss",
+    "zh_cn": "再见!（口语）"
+  },
+  {
+    "word": "Auf Wiedersehen",
+    "zh_cn": "再见!"
+  },
+  {
+    "word": "Ciao",
+    "zh_cn": "再见!（口语）"
+  },
+  {
+    "word": "Wie geht's",
+    "zh_cn": "（你）好吗? 过得怎么样?"
+  },
+  {
+    "word": "Wie heißt das auf Deutsch",
+    "zh_cn": "这个用德语怎么说?"
+  },
+  {
+    "word": "Wie schreibt man das",
+    "zh_cn": "这个怎么写?"
+  },
+  {
+    "word": "Wie bitte",
+    "zh_cn": "什么?（请再说一遍。）"
+  },
+  {
+    "word": "Herr Müller",
+    "zh_cn": "米勒先生"
+  },
+  {
+    "word": "Frau Müller",
+    "zh_cn": "米勒女士，米勒太太"
+  },
+  {
+    "word": "Das ist",
+    "zh_cn": "这是…"
+  },
+  {
+    "word": "Noch einmal, bitte",
+    "zh_cn": "请再说一遍。"
+  },
+  {
+    "word": "danke / danke schön",
+    "zh_cn": "谢谢/多谢"
+  },
+  {
+    "word": "bitte / bitte schön",
+    "zh_cn": "不客气"
+  },
+  {
+    "word": "und",
+    "zh_cn": "和"
+  },
+  {
+    "word": "oder",
+    "zh_cn": "或"
+  },
+  {
+    "word": "ja",
+    "zh_cn": "是"
+  },
+  {
+    "word": "nein",
+    "zh_cn": "不"
+  },
+  {
+    "word": "auch",
+    "zh_cn": "也"
+  },
+  {
+    "word": "da",
+    "zh_cn": "那里，那时"
+  },
+  {
+    "word": "in",
+    "zh_cn": "在…里面"
+  },
+  {
+    "word": "der Berg, -e",
+    "zh_cn": "山"
+  },
+  {
+    "word": "die Stadt, -e",
+    "zh_cn": "城市"
+  },
+  {
+    "word": "das Land, ¨er",
+    "zh_cn": "国家"
+  },
+  {
+    "word": "die Freizeit (nur Sg.)",
+    "zh_cn": "业余时间"
+  },
+  {
+    "word": "Ägypten",
+    "zh_cn": "埃及"
+  },
+  {
+    "word": "Brasilien",
+    "zh_cn": "巴西"
+  },
+  {
+    "word": "China",
+    "zh_cn": "中国"
+  },
+  {
+    "word": "Griechenland",
+    "zh_cn": "希腊"
+  },
+  {
+    "word": "Italien",
+    "zh_cn": "意大利"
+  },
+  {
+    "word": "Marokko",
+    "zh_cn": "摩洛哥"
+  },
+  {
+    "word": "Mexiko",
+    "zh_cn": "墨西哥"
+  },
+  {
+    "word": "Polen",
+    "zh_cn": "波兰"
+  },
+  {
+    "word": "Russland",
+    "zh_cn": "俄罗斯"
+  },
+  {
+    "word": "Spanien",
+    "zh_cn": "西班牙"
+  },
+  {
+    "word": "die Türkei",
+    "zh_cn": "土耳其"
+  },
+  {
+    "word": "die USA (Pl.)",
+    "zh_cn": "美国"
+  },
+  {
+    "word": "die Sprache, -n",
+    "zh_cn": "语言"
+  },
+  {
+    "word": "Arabisch",
+    "zh_cn": "阿拉伯语"
+  },
+  {
+    "word": "Chinesisch",
+    "zh_cn": "中文"
+  },
+  {
+    "word": "Deutsch",
+    "zh_cn": "德语"
+  },
+  {
+    "word": "Englisch",
+    "zh_cn": "英语"
+  },
+  {
+    "word": "Französisch",
+    "zh_cn": "法语"
+  },
+  {
+    "word": "Hindi",
+    "zh_cn": "印地语"
+  },
+  {
+    "word": "Italienisch",
+    "zh_cn": "意大利语"
+  },
+  {
+    "word": "Japanisch",
+    "zh_cn": "日语"
+  },
+  {
+    "word": "Portugiesisch",
+    "zh_cn": "葡萄牙语"
+  },
+  {
+    "word": "Russisch",
+    "zh_cn": "俄语"
+  },
+  {
+    "word": "Spanisch",
+    "zh_cn": "西班牙语"
+  },
+  {
+    "word": "das Computerspiel, -e",
+    "zh_cn": "电脑游戏"
+  },
+  {
+    "word": "das Restaurant, -s",
+    "zh_cn": "餐馆"
+  },
+  {
+    "word": "das Souvenir, -s",
+    "zh_cn": "纪念品，纪念礼物"
+  },
+  {
+    "word": "das Auto, -s",
+    "zh_cn": "小轿车、汽车"
+  },
+  {
+    "word": "das Bier, -e",
+    "zh_cn": "啤酒"
+  },
+  {
+    "word": "die Blume, -n",
+    "zh_cn": "花"
+  },
+  {
+    "word": "die Bürste, -n",
+    "zh_cn": "刷子"
+  },
+  {
+    "word": "die Flasche, -n",
+    "zh_cn": "瓶子"
+  },
+  {
+    "word": "der Fußball, ¨e",
+    "zh_cn": "足球"
+  },
+  {
+    "word": "das Gummibärchen, -",
+    "zh_cn": "小熊软糖"
+  },
+  {
+    "word": "das Herz, -en",
+    "zh_cn": "心"
+  },
+  {
+    "word": "der Hut, ¨e",
+    "zh_cn": "帽子"
+  },
+  {
+    "word": "das Messer, -",
+    "zh_cn": "刀"
+  },
+  {
+    "word": "die Postkarte, -n",
+    "zh_cn": "明信片"
+  },
+  {
+    "word": "das Haus, ¨er",
+    "zh_cn": "房子，家"
+  },
+  {
+    "word": "die Tasse, -n",
+    "zh_cn": "杯子"
+  },
+  {
+    "word": "der Wein, -e",
+    "zh_cn": "葡萄酒"
+  },
+  {
+    "word": "die Uhr, -en",
+    "zh_cn": "钟点，表，钟"
+  },
+  {
+    "word": "der Euro, -s",
+    "zh_cn": "欧元"
+  },
+  {
+    "word": "der Franken, -",
+    "zh_cn": "瑞士法郎"
+  },
+  {
+    "word": "der Cent, -s ( 欧 )",
+    "zh_cn": "分"
+  },
+  {
+    "word": "der Preis, -e",
+    "zh_cn": "价格"
+  },
+  {
+    "word": "wir",
+    "zh_cn": "我们"
+  },
+  {
+    "word": "ihr",
+    "zh_cn": "你们"
+  },
+  {
+    "word": "sie (Pl.)",
+    "zh_cn": "他们（第三人称复数）"
+  },
+  {
+    "word": "gehen",
+    "zh_cn": "走，去"
+  },
+  {
+    "word": "spazieren gehen, geht spazieren",
+    "zh_cn": "去散步"
+  },
+  {
+    "word": "shoppen gehen, geht shoppen",
+    "zh_cn": "去购物"
+  },
+  {
+    "word": "tanzen gehen, geht tanzen",
+    "zh_cn": "去跳舞"
+  },
+  {
+    "word": "hören",
+    "zh_cn": "听"
+  },
+  {
+    "word": "Musik hören, hört Musik",
+    "zh_cn": "听音乐"
+  },
+  {
+    "word": "machen",
+    "zh_cn": "做"
+  },
+  {
+    "word": "Sport machen, macht Sport",
+    "zh_cn": "做运动"
+  },
+  {
+    "word": "Musik machen, macht Musik",
+    "zh_cn": "演奏音乐"
+  },
+  {
+    "word": "Pause machen, macht Pause",
+    "zh_cn": "休息"
+  },
+  {
+    "word": "lachen",
+    "zh_cn": "笑"
+  },
+  {
+    "word": "reisen",
+    "zh_cn": "旅游"
+  },
+  {
+    "word": "schwimmen",
+    "zh_cn": "游泳"
+  },
+  {
+    "word": "spielen",
+    "zh_cn": "玩"
+  },
+  {
+    "word": "fotografieren",
+    "zh_cn": "拍照"
+  },
+  {
+    "word": "telefonieren",
+    "zh_cn": "打电话"
+  },
+  {
+    "word": "kommen aus, kommt aus",
+    "zh_cn": "来自"
+  },
+  {
+    "word": "kosten",
+    "zh_cn": "花费，价格为…"
+  },
+  {
+    "word": "wohnen",
+    "zh_cn": "住"
+  },
+  {
+    "word": "hässlich",
+    "zh_cn": "丑陋的"
+  },
+  {
+    "word": "lecker",
+    "zh_cn": "美味的"
+  },
+  {
+    "word": "lustig",
+    "zh_cn": "好玩的，好笑的"
+  },
+  {
+    "word": "langweilig",
+    "zh_cn": "无聊的"
+  },
+  {
+    "word": "cool",
+    "zh_cn": "酷的"
+  },
+  {
+    "word": "teuer",
+    "zh_cn": "贵的"
+  },
+  {
+    "word": "billig",
+    "zh_cn": "便宜的"
+  },
+  {
+    "word": "eins, zwei, drei,...",
+    "zh_cn": "1, 2, 3,…"
+  },
+  {
+    "word": "einhundert/hundert",
+    "zh_cn": "100"
+  },
+  {
+    "word": "Woher?",
+    "zh_cn": "从哪里来?"
+  },
+  {
+    "word": "Wohin?",
+    "zh_cn": "到哪里去?"
+  },
+  {
+    "word": "Viel Spaß!",
+    "zh_cn": "玩得开心!"
+  },
+  {
+    "word": "Ich bleibe zu Hause.",
+    "zh_cn": "我待在家里。"
+  },
+  {
+    "word": "Entschuldigung.",
+    "zh_cn": "不好意思，对不起。"
+  },
+  {
+    "word": "Sprechen Sie Deutsch?",
+    "zh_cn": "您说德语吗?"
+  },
+  {
+    "word": "Woher kommt das?",
+    "zh_cn": "这个是来自哪里的?"
+  },
+  {
+    "word": "Woher kommen Sie?",
+    "zh_cn": "您是来自哪里的?"
+  },
+  {
+    "word": "Das ist kein/e...",
+    "zh_cn": "这不是…!"
+  },
+  {
+    "word": "Doch, das ist ein/e...",
+    "zh_cn": "不，这是一个…"
+  },
+  {
+    "word": "Was kostet das?",
+    "zh_cn": "这个多少钱?"
+  },
+  {
+    "word": "Das ist teuer!",
+    "zh_cn": "这个好贵!"
+  },
+  {
+    "word": "doch",
+    "zh_cn": "加强语气，无实义"
+  },
+  {
+    "word": "gern",
+    "zh_cn": "喜欢，乐意"
+  },
+  {
+    "word": "nicht",
+    "zh_cn": "不（否定词）"
+  },
+  {
+    "word": "das Essen",
+    "zh_cn": "饮食"
+  },
+  {
+    "word": "die Zeit (nur Sg.)",
+    "zh_cn": "时间"
+  },
+  {
+    "word": "das Brot, -e",
+    "zh_cn": "面包"
+  },
+  {
+    "word": "das Weißbrot, -e",
+    "zh_cn": "白面包"
+  },
+  {
+    "word": "das Schwarzbrot, -e",
+    "zh_cn": "黑面包"
+  },
+  {
+    "word": "das Brötchen, -",
+    "zh_cn": "小面包"
+  },
+  {
+    "word": "die Brezel, -n",
+    "zh_cn": "8字形面包"
+  },
+  {
+    "word": "der Bäcker, - / die Bäckerin, -nen",
+    "zh_cn": "面包师/女面包师"
+  },
+  {
+    "word": "der Kunde, -n / die Kundin, -nen",
+    "zh_cn": "顾客/女顾客"
+  },
+  {
+    "word": "der, die Deutsche, -n",
+    "zh_cn": "德国人"
+  },
+  {
+    "word": "das Kilogramm",
+    "zh_cn": "公斤，千克"
+  },
+  {
+    "word": "das Prozent, -e",
+    "zh_cn": "百分数"
+  },
+  {
+    "word": "das Frühstück, -e",
+    "zh_cn": "早餐"
+  },
+  {
+    "word": "das Ei, -er",
+    "zh_cn": "鸡蛋"
+  },
+  {
+    "word": "die Butter (nur Sg.)",
+    "zh_cn": "黄油"
+  },
+  {
+    "word": "der Schinken, -",
+    "zh_cn": "火腿"
+  },
+  {
+    "word": "der Käse (nur Sg.)",
+    "zh_cn": "奶酪"
+  },
+  {
+    "word": "die Marmelade, -n",
+    "zh_cn": "果酱"
+  },
+  {
+    "word": "der Honig (nur Sg.)",
+    "zh_cn": "蜂蜜"
+  },
+  {
+    "word": "die Milch (nur Sg.)",
+    "zh_cn": "牛奶"
+  },
+  {
+    "word": "das Butterbrot, -e",
+    "zh_cn": "黄油面包片"
+  },
+  {
+    "word": "das Abendbrot (nur Sg.)",
+    "zh_cn": "(以面包为主)晚餐"
+  },
+  {
+    "word": "die Scheibe, -n",
+    "zh_cn": "(薄)片"
+  },
+  {
+    "word": "der Korb, -e",
+    "zh_cn": "筐，篮子"
+  },
+  {
+    "word": "der Fisch, -e",
+    "zh_cn": "鱼"
+  },
+  {
+    "word": "der Imbissstand, -e",
+    "zh_cn": "小吃亭"
+  },
+  {
+    "word": "die Speise, -n",
+    "zh_cn": "菜肴"
+  },
+  {
+    "word": "das Getränk, -e",
+    "zh_cn": "饮料"
+  },
+  {
+    "word": "der Hamburger, -",
+    "zh_cn": "汉堡"
+  },
+  {
+    "word": "die Pizza, -s / Pizzen",
+    "zh_cn": "披萨"
+  },
+  {
+    "word": "die Wurst, -e",
+    "zh_cn": "香肠"
+  },
+  {
+    "word": "die Bratwurst, -e",
+    "zh_cn": "烤香肠"
+  },
+  {
+    "word": "der Senf, -e",
+    "zh_cn": "芥末"
+  },
+  {
+    "word": "die Pommes frites (Pl.)",
+    "zh_cn": "炸薯条"
+  },
+  {
+    "word": "der / das Ketchup (nur Sg.)",
+    "zh_cn": "番茄酱"
+  },
+  {
+    "word": "die Majonäse, -n",
+    "zh_cn": "蛋黄酱"
+  },
+  {
+    "word": "der Salat, -e",
+    "zh_cn": "色拉，沙拉"
+  },
+  {
+    "word": "das Hähnchen, -",
+    "zh_cn": "小鸡，小鸡肉"
+  },
+  {
+    "word": "das Wasser (nur Sg.)",
+    "zh_cn": "水"
+  },
+  {
+    "word": "das Mineralwasser (nur Sg.)",
+    "zh_cn": "矿泉水"
+  },
+  {
+    "word": "der Saft, -e",
+    "zh_cn": "果汁"
+  },
+  {
+    "word": "der Apfelsaft, -e",
+    "zh_cn": "苹果汁"
+  },
+  {
+    "word": "die Cola, -s",
+    "zh_cn": "可乐"
+  },
+  {
+    "word": "die Limonade, -n",
+    "zh_cn": "柠檬水"
+  },
+  {
+    "word": "das Bier, -e",
+    "zh_cn": "啤酒"
+  },
+  {
+    "word": "der Hunger (nur Sg.)",
+    "zh_cn": "饥饿"
+  },
+  {
+    "word": "der Durst (nur Sg.)",
+    "zh_cn": "口渴"
+  },
+  {
+    "word": "das Dessert, -s",
+    "zh_cn": "甜品"
+  },
+  {
+    "word": "der Kuchen, -",
+    "zh_cn": "蛋糕"
+  },
+  {
+    "word": "die Torte, -n",
+    "zh_cn": "奶油大蛋糕"
+  },
+  {
+    "word": "das Eis (nur Sg.)",
+    "zh_cn": "冰淇淋"
+  },
+  {
+    "word": "der Apfel, -",
+    "zh_cn": "苹果"
+  },
+  {
+    "word": "die Birne, -n",
+    "zh_cn": "梨子"
+  },
+  {
+    "word": "die Banane, -n",
+    "zh_cn": "香蕉"
+  },
+  {
+    "word": "Lebensmittel, Pl.",
+    "zh_cn": "食品，食物"
+  },
+  {
+    "word": "das Fastfood, -",
+    "zh_cn": "快餐"
+  },
+  {
+    "word": "der Döner (Kebab), -",
+    "zh_cn": "土耳其肉夹馍"
+  },
+  {
+    "word": "das Sushi, -",
+    "zh_cn": "寿司"
+  },
+  {
+    "word": "die Currywurst, ¨e",
+    "zh_cn": "咖喱香肠"
+  },
+  {
+    "word": "der Apfelstrudel, -",
+    "zh_cn": "苹果派"
+  },
+  {
+    "word": "die Buchtel, -n",
+    "zh_cn": "果酱面包"
+  },
+  {
+    "word": "die Sachertorte, -n",
+    "zh_cn": "维也纳萨赫巧克力蛋糕"
+  },
+  {
+    "word": "das Schokoladen-Fondue, -s",
+    "zh_cn": "巧克力火锅"
+  },
+  {
+    "word": "die Vanillesoße, -n",
+    "zh_cn": "香草汁"
+  },
+  {
+    "word": "trinken",
+    "zh_cn": "喝"
+  },
+  {
+    "word": "bestellen",
+    "zh_cn": "点餐，预订"
+  },
+  {
+    "word": "bezahlen",
+    "zh_cn": "买单，付款"
+  },
+  {
+    "word": "suchen",
+    "zh_cn": "寻找"
+  },
+  {
+    "word": "finden",
+    "zh_cn": "找到"
+  },
+  {
+    "word": "nehmen, nimmt",
+    "zh_cn": "拿，取，收"
+  },
+  {
+    "word": "schmecken",
+    "zh_cn": "尝，尝起来"
+  },
+  {
+    "word": "mögen, mag",
+    "zh_cn": "喜欢"
+  },
+  {
+    "word": "haben, hat",
+    "zh_cn": "有"
+  },
+  {
+    "word": "essen, isst",
+    "zh_cn": "吃"
+  },
+  {
+    "word": "mager",
+    "zh_cn": "瘦的"
+  },
+  {
+    "word": "fett",
+    "zh_cn": "油腻的，肥胖的"
+  },
+  {
+    "word": "salzig",
+    "zh_cn": "咸的"
+  },
+  {
+    "word": "süß",
+    "zh_cn": "甜的"
+  },
+  {
+    "word": "gesund",
+    "zh_cn": "健康的"
+  },
+  {
+    "word": "ungesund",
+    "zh_cn": "不健康的"
+  },
+  {
+    "word": "typisch",
+    "zh_cn": "典型的"
+  },
+  {
+    "word": "schnell",
+    "zh_cn": "快的，迅速的"
+  },
+  {
+    "word": "irka",
+    "zh_cn": "大约，大概"
+  },
+  {
+    "word": "sehr",
+    "zh_cn": "非常，很"
+  },
+  {
+    "word": "man",
+    "zh_cn": "人们"
+  },
+  {
+    "word": "einmal//zweimal//...",
+    "zh_cn": "一次/两次…"
+  },
+  {
+    "word": "pro Person//Monat//Jahr",
+    "zh_cn": "每个人/每个月/每年"
+  },
+  {
+    "word": "jeden Tag",
+    "zh_cn": "每天"
+  },
+  {
+    "word": "frisch",
+    "zh_cn": "新鲜的"
+  },
+  {
+    "word": "alt",
+    "zh_cn": "旧的，年纪大的"
+  },
+  {
+    "word": "viel",
+    "zh_cn": "多的，许多的"
+  },
+  {
+    "word": "wenig",
+    "zh_cn": "少的，不多的"
+  },
+  {
+    "word": "weich",
+    "zh_cn": "柔软的"
+  },
+  {
+    "word": "hart",
+    "zh_cn": "坚硬的"
+  },
+  {
+    "word": "warm",
+    "zh_cn": "温暖的"
+  },
+  {
+    "word": "kalt",
+    "zh_cn": "冷的"
+  },
+  {
+    "word": "morgens",
+    "zh_cn": "早晨，上午，每天早晨，每天上午"
+  },
+  {
+    "word": "mittags",
+    "zh_cn": "中午，每天中午"
+  },
+  {
+    "word": "abends",
+    "zh_cn": "晚上，每天晚上"
+  },
+  {
+    "word": "immer",
+    "zh_cn": "总是"
+  },
+  {
+    "word": "oft",
+    "zh_cn": "经常"
+  },
+  {
+    "word": "selten",
+    "zh_cn": "很少，极少"
+  },
+  {
+    "word": "nie",
+    "zh_cn": "从不"
+  },
+  {
+    "word": "zwischendurch",
+    "zh_cn": "期间，在此期间"
+  },
+  {
+    "word": "Was darf es sein?",
+    "zh_cn": "您想要点什么?"
+  },
+  {
+    "word": "Ich weiß nicht.",
+    "zh_cn": "我不知道。"
+  },
+  {
+    "word": "Was für ein Brot?",
+    "zh_cn": "您想要哪种面包?"
+  },
+  {
+    "word": "Was macht das?",
+    "zh_cn": "多少钱?"
+  },
+  {
+    "word": "Ich habe Hunger.",
+    "zh_cn": "我饿了。"
+  },
+  {
+    "word": "Ich habe Durst.",
+    "zh_cn": "我渴了。"
+  },
+  {
+    "word": "das Jahr, -e",
+    "zh_cn": "年"
+  },
+  {
+    "word": "der Monat, -e",
+    "zh_cn": "月"
+  },
+  {
+    "word": "die Woche, -n",
+    "zh_cn": "星期"
+  },
+  {
+    "word": "der Tag, -e",
+    "zh_cn": "白天，天"
+  },
+  {
+    "word": "der Wochentag, -e",
+    "zh_cn": "一周中的某一天；工作日"
+  },
+  {
+    "word": "der Montag, -e",
+    "zh_cn": "星期一"
+  },
+  {
+    "word": "der Dienstag, -e",
+    "zh_cn": "星期二"
+  },
+  {
+    "word": "der Mittwoch, -e",
+    "zh_cn": "星期三"
+  },
+  {
+    "word": "der Donnerstag, -e",
+    "zh_cn": "星期四"
+  },
+  {
+    "word": "der Freitag, -e",
+    "zh_cn": "星期五"
+  },
+  {
+    "word": "der Samstag, -e",
+    "zh_cn": "星期六"
+  },
+  {
+    "word": "der Sonntag, -e",
+    "zh_cn": "星期日"
+  },
+  {
+    "word": "das Wochenende, -n",
+    "zh_cn": "周末"
+  },
+  {
+    "word": "der Mensch, -en",
+    "zh_cn": "人"
+  },
+  {
+    "word": "der Beruf, -e",
+    "zh_cn": "职业，工作"
+  },
+  {
+    "word": "der Student, -en",
+    "zh_cn": "大学生"
+  },
+  {
+    "word": "die Studentin, -nen",
+    "zh_cn": "女大学生"
+  },
+  {
+    "word": "der Praktikant, -en",
+    "zh_cn": "实习生"
+  },
+  {
+    "word": "die Praktikantin, -nen",
+    "zh_cn": "女实习生"
+  },
+  {
+    "word": "der IT-Spezialist, -en",
+    "zh_cn": "电脑专家"
+  },
+  {
+    "word": "die IT-Spezialistin, -nen",
+    "zh_cn": "女电脑专家"
+  },
+  {
+    "word": "der Hotelfachmann, ¨er",
+    "zh_cn": "酒店管理人员"
+  },
+  {
+    "word": "die Hotelfachfrau, -en",
+    "zh_cn": "酒店管理人员（女）"
+  },
+  {
+    "word": "der Taxifahrer, -",
+    "zh_cn": "出租车司机"
+  },
+  {
+    "word": "die Taxifahrerin, -nen",
+    "zh_cn": "女出租车司机"
+  },
+  {
+    "word": "das Hotel, -s",
+    "zh_cn": "酒店，宾馆"
+  },
+  {
+    "word": "die Universität, -en",
+    "zh_cn": "大学"
+  },
+  {
+    "word": "das Krankenhaus, ¨er",
+    "zh_cn": "医院"
+  },
+  {
+    "word": "das Praktikum, die Praktika",
+    "zh_cn": "实习"
+  },
+  {
+    "word": "das Kindergarten, ¨",
+    "zh_cn": "幼儿园"
+  },
+  {
+    "word": "die Firma, die Firmen",
+    "zh_cn": "公司"
+  },
+  {
+    "word": "das Büro, -s",
+    "zh_cn": "办公室"
+  },
+  {
+    "word": "die Mittagspause, -n",
+    "zh_cn": "午休"
+  },
+  {
+    "word": "der Moment, -e",
+    "zh_cn": "时刻，瞬间"
+  },
+  {
+    "word": "das Bett, -en",
+    "zh_cn": "床"
+  },
+  {
+    "word": "der Stress (nur Sg.)",
+    "zh_cn": "压力"
+  },
+  {
+    "word": "der Ruhetag, -e",
+    "zh_cn": "休息日"
+  },
+  {
+    "word": "der Supermarkt, ¨e",
+    "zh_cn": "超市"
+  },
+  {
+    "word": "das Geschäft, -e",
+    "zh_cn": "商店"
+  },
+  {
+    "word": "die Party, -s",
+    "zh_cn": "聚会"
+  },
+  {
+    "word": "der Freund, -e",
+    "zh_cn": "朋友"
+  },
+  {
+    "word": "die Freundin, -nen",
+    "zh_cn": "女朋友"
+  },
+  {
+    "word": "der Krimi, -s",
+    "zh_cn": "侦探片"
+  },
+  {
+    "word": "der Bus, -se",
+    "zh_cn": "公共汽车"
+  },
+  {
+    "word": "die Haltestelle, -n",
+    "zh_cn": "车站"
+  },
+  {
+    "word": "der Fahrplan, ¨e",
+    "zh_cn": "时刻表"
+  },
+  {
+    "word": "schlafen, schläft",
+    "zh_cn": "睡觉"
+  },
+  {
+    "word": "sehen, sieht",
+    "zh_cn": "看，看见"
+  },
+  {
+    "word": "fernsehen, sieht fern",
+    "zh_cn": "看电视"
+  },
+  {
+    "word": "arbeiten",
+    "zh_cn": "工作"
+  },
+  {
+    "word": "lesen, liest",
+    "zh_cn": "阅读"
+  },
+  {
+    "word": "Auto fahren, fährt Auto",
+    "zh_cn": "开车"
+  },
+  {
+    "word": "sprechen, spricht",
+    "zh_cn": "说，说话"
+  },
+  {
+    "word": "im Internet surfen, surft im Internet",
+    "zh_cn": "上网"
+  },
+  {
+    "word": "küssen",
+    "zh_cn": "亲吻"
+  },
+  {
+    "word": "studieren",
+    "zh_cn": "学习"
+  },
+  {
+    "word": "jobben",
+    "zh_cn": "打工"
+  },
+  {
+    "word": "frei haben, hat frei",
+    "zh_cn": "休息"
+  },
+  {
+    "word": "von Beruf sein, ist von Beruf",
+    "zh_cn": "从事……职业"
+  },
+  {
+    "word": "beruflich machen",
+    "zh_cn": "从事……职业"
+  },
+  {
+    "word": "aufwachen, wacht auf",
+    "zh_cn": "醒来"
+  },
+  {
+    "word": "aufstehen, steht auf",
+    "zh_cn": "起床，起身"
+  },
+  {
+    "word": "losfahren, fährt los",
+    "zh_cn": "出发"
+  },
+  {
+    "word": "auspacken, packt aus",
+    "zh_cn": "打开，拆开"
+  },
+  {
+    "word": "anfangen, fängt an",
+    "zh_cn": "开始"
+  },
+  {
+    "word": "scheinen",
+    "zh_cn": "照耀，照射"
+  },
+  {
+    "word": "wollen, will",
+    "zh_cn": "想，想要"
+  },
+  {
+    "word": "einkaufen, kauft ein",
+    "zh_cn": "购物"
+  },
+  {
+    "word": "zu haben, hat zu",
+    "zh_cn": "要做…"
+  },
+  {
+    "word": "wegwerfen, wirft weg",
+    "zh_cn": "扔"
+  },
+  {
+    "word": "anrufen, ruft an",
+    "zh_cn": "打电话"
+  },
+  {
+    "word": "müssen, muss",
+    "zh_cn": "必须"
+  },
+  {
+    "word": "Stress haben, hat Stress",
+    "zh_cn": "有压力"
+  },
+  {
+    "word": "lernen",
+    "zh_cn": "学习"
+  },
+  {
+    "word": "kommen",
+    "zh_cn": "来"
+  },
+  {
+    "word": "ankommen, kommt an",
+    "zh_cn": "到达"
+  },
+  {
+    "word": "arbeitslos",
+    "zh_cn": "失业的"
+  },
+  {
+    "word": "toll",
+    "zh_cn": "极好的"
+  },
+  {
+    "word": "wundervoll",
+    "zh_cn": "绝妙的，美好的"
+  },
+  {
+    "word": "laut",
+    "zh_cn": "大声的，嘈杂的"
+  },
+  {
+    "word": "leise",
+    "zh_cn": "轻声的"
+  },
+  {
+    "word": "früh",
+    "zh_cn": "早的"
+  },
+  {
+    "word": "spät",
+    "zh_cn": "晚的，迟的"
+  },
+  {
+    "word": "pünktlich",
+    "zh_cn": "准时的"
+  },
+  {
+    "word": "unpünktlich",
+    "zh_cn": "不准时的"
+  },
+  {
+    "word": "normal",
+    "zh_cn": "正常的，通常的"
+  },
+  {
+    "word": "vormittags",
+    "zh_cn": "上午"
+  },
+  {
+    "word": "nachmittags",
+    "zh_cn": "下午"
+  },
+  {
+    "word": "nachts",
+    "zh_cn": "夜晚"
+  },
+  {
+    "word": "montags, dienstags,...",
+    "zh_cn": "每周一，每周二……"
+  },
+  {
+    "word": "heute",
+    "zh_cn": "今天"
+  },
+  {
+    "word": "manchmal",
+    "zh_cn": "有时"
+  },
+  {
+    "word": "anders",
+    "zh_cn": "不同，不一样"
+  },
+  {
+    "word": "Wann?",
+    "zh_cn": "何时?"
+  },
+  {
+    "word": "Warum?",
+    "zh_cn": "为什么?"
+  },
+  {
+    "word": "Wie viel?",
+    "zh_cn": "多少?"
+  },
+  {
+    "word": "Wie lange?",
+    "zh_cn": "多久?"
+  },
+  {
+    "word": "Wie viele Stunden?",
+    "zh_cn": "多长时间?"
+  },
+  {
+    "word": "Wie spät ist es?",
+    "zh_cn": "现在几点了?"
+  },
+  {
+    "word": "Wie viel Uhr ist es?",
+    "zh_cn": "现在几点了?"
+  },
+  {
+    "word": "Jeden Tag das Gleiche",
+    "zh_cn": "每天如此。"
+  },
+  {
+    "word": "Moment mal!",
+    "zh_cn": "稍等!"
+  },
+  {
+    "word": "Das geht leider nicht",
+    "zh_cn": "遗憾的是这不可以。"
+  },
+  {
+    "word": "Es ist Viertel nach/vor",
+    "zh_cn": "现在是…点一刻。/差一刻…点。"
+  },
+  {
+    "word": "um... Uhr",
+    "zh_cn": "在……点"
+  },
+  {
+    "word": "am Sonntag/...",
+    "zh_cn": "在周日/在周……"
+  },
+  {
+    "word": "von... bis...",
+    "zh_cn": "从……到……"
+  },
+  {
+    "word": "leider",
+    "zh_cn": "很遗憾"
+  },
+  {
+    "word": "zirka",
+    "zh_cn": "大概，大约"
+  },
+  {
+    "word": "nichts",
+    "zh_cn": "什么也没有"
+  },
+  {
+    "word": "alles",
+    "zh_cn": "所有的，一切"
+  },
+  {
+    "word": "der Wunsch, ¨-e",
+    "zh_cn": "愿望，祝愿"
+  },
+  {
+    "word": "der Traum, ¨-e",
+    "zh_cn": "梦，梦想"
+  },
+  {
+    "word": "die Familie, -n",
+    "zh_cn": "家，家庭"
+  },
+  {
+    "word": "die Eltern (nur Pl.)",
+    "zh_cn": "父母"
+  },
+  {
+    "word": "der Vater, ¨-",
+    "zh_cn": "父亲，爸爸"
+  },
+  {
+    "word": "die Mutter, ¨-",
+    "zh_cn": "母亲，妈妈"
+  },
+  {
+    "word": "der Sohn, ¨-e",
+    "zh_cn": "儿子"
+  },
+  {
+    "word": "die Tochter, ¨-",
+    "zh_cn": "女儿"
+  },
+  {
+    "word": "die Geschwister (nur Pl.)",
+    "zh_cn": "兄弟姐妹"
+  },
+  {
+    "word": "der Bruder, ¨-",
+    "zh_cn": "弟"
+  },
+  {
+    "word": "die Schwester, -n",
+    "zh_cn": "姐，妹"
+  },
+  {
+    "word": "die Großeltern (nur Pl.)",
+    "zh_cn": "祖父母"
+  },
+  {
+    "word": "der Großvater, ¨- (外)",
+    "zh_cn": "祖父"
+  },
+  {
+    "word": "die Großmutter, ¨- (外)",
+    "zh_cn": "祖母"
+  },
+  {
+    "word": "der Enkel, - (外)",
+    "zh_cn": "孙子"
+  },
+  {
+    "word": "die Enkelin, -nen (外)",
+    "zh_cn": "孙女"
+  },
+  {
+    "word": "die Tante, -n",
+    "zh_cn": "姑母，伯母，舅母，婶婶，阿姨"
+  },
+  {
+    "word": "der Onkel, -",
+    "zh_cn": "姑父，伯父，舅舅，叔叔，姨夫"
+  },
+  {
+    "word": "das Kind, -er",
+    "zh_cn": "孩子"
+  },
+  {
+    "word": "das Baby, -s",
+    "zh_cn": "婴儿"
+  },
+  {
+    "word": "der Zwilling, -e",
+    "zh_cn": "双胞胎"
+  },
+  {
+    "word": "der Single, -s",
+    "zh_cn": "单身者"
+  },
+  {
+    "word": "der Erfolg, -e",
+    "zh_cn": "成功，成果"
+  },
+  {
+    "word": "das Glück (nur Sg.)",
+    "zh_cn": "幸运，幸福"
+  },
+  {
+    "word": "die Gesundheit (nur Sg.)",
+    "zh_cn": "健康"
+  },
+  {
+    "word": "die Liebe (nur Sg.)",
+    "zh_cn": "爱，爱情"
+  },
+  {
+    "word": "das Leben, -",
+    "zh_cn": "生活"
+  },
+  {
+    "word": "die Angst, ¨-e",
+    "zh_cn": "害怕，恐惧"
+  },
+  {
+    "word": "der Spaß, ¨-e",
+    "zh_cn": "愉快，乐趣"
+  },
+  {
+    "word": "der Weg, -e",
+    "zh_cn": "路，道路"
+  },
+  {
+    "word": "das Ziel, -e",
+    "zh_cn": "目的，目标"
+  },
+  {
+    "word": "der Musiker, -/ ",
+    "zh_cn": "音乐家"
+  },
+  {
+    "word": "die Musikerin, -nen",
+    "zh_cn": "女音乐家"
+  },
+  {
+    "word": "die Gitarre, -n",
+    "zh_cn": "吉他"
+  },
+  {
+    "word": "der Star, -s",
+    "zh_cn": "明星"
+  },
+  {
+    "word": "der Fan, -s",
+    "zh_cn": "迷，粉丝"
+  },
+  {
+    "word": "der Song, -s",
+    "zh_cn": "歌曲"
+  },
+  {
+    "word": "Europa",
+    "zh_cn": "欧洲"
+  },
+  {
+    "word": "der Garten, ¨-",
+    "zh_cn": "花园"
+  },
+  {
+    "word": "der Zoo, -s",
+    "zh_cn": "动物园"
+  },
+  {
+    "word": "der Affe, -n",
+    "zh_cn": "猴子"
+  },
+  {
+    "word": "der Fotograf, -en /",
+    "zh_cn": "摄影师"
+  },
+  {
+    "word": "die Fotografin, -nen",
+    "zh_cn": "女摄影师"
+  },
+  {
+    "word": "der Journalist, -en /",
+    "zh_cn": "记者"
+  },
+  {
+    "word": "die Journalistin, -nen",
+    "zh_cn": "女记者"
+  },
+  {
+    "word": "die Welt (nur Sg.)",
+    "zh_cn": "世界"
+  },
+  {
+    "word": "die Weltreise, -n",
+    "zh_cn": "环球旅行"
+  },
+  {
+    "word": "die Million, -en",
+    "zh_cn": "百万"
+  },
+  {
+    "word": "das Geld, -er",
+    "zh_cn": "钱"
+  },
+  {
+    "word": "der Bestseller, - /",
+    "zh_cn": "畅销品（尤指书和唱片）"
+  },
+  {
+    "word": "die Überraschung, -en",
+    "zh_cn": "惊喜，惊讶"
+  },
+  {
+    "word": "die Großeltern",
+    "zh_cn": "祖父母"
+  },
+  {
+    "word": "die Geschwister",
+    "zh_cn": "兄弟姐妹"
+  },
+  {
+    "word": "der Onkel",
+    "zh_cn": "叔叔"
+  },
+  {
+    "word": "die Tante",
+    "zh_cn": "阿姨"
+  },
+  {
+    "word": "wünschen (V.)",
+    "zh_cn": "希望，愿望"
+  },
+  {
+    "word": "leben (V.)",
+    "zh_cn": "生活，活着"
+  },
+  {
+    "word": "denken (V.)",
+    "zh_cn": "想，考虑"
+  },
+  {
+    "word": "bleiben (V.)",
+    "zh_cn": "停留，保持"
+  },
+  {
+    "word": "singen (V.)",
+    "zh_cn": "唱，唱歌"
+  },
+  {
+    "word": "kennen (V.)",
+    "zh_cn": "认识，了解"
+  },
+  {
+    "word": "lieben (V.)",
+    "zh_cn": "爱"
+  },
+  {
+    "word": "surfen (V.)",
+    "zh_cn": "冲浪"
+  },
+  {
+    "word": "verkaufen (V.)",
+    "zh_cn": "卖"
+  },
+  {
+    "word": "anschauen, schaut an (V.)",
+    "zh_cn": "注视，看"
+  },
+  {
+    "word": "schreien (V.)",
+    "zh_cn": "叫，喊"
+  },
+  {
+    "word": "verstehen (V.)",
+    "zh_cn": "理解，明白"
+  },
+  {
+    "word": "fliegen (V.)",
+    "zh_cn": "飞"
+  },
+  {
+    "word": "gewinnen (V.)",
+    "zh_cn": "获得，赢得"
+  },
+  {
+    "word": "können, kann (V.)",
+    "zh_cn": "能，能够"
+  },
+  {
+    "word": "möcht, möchte (V.)",
+    "zh_cn": "想要"
+  },
+  {
+    "word": "heiraten (V.)",
+    "zh_cn": "结婚"
+  },
+  {
+    "word": "verheiratet (Adj.)",
+    "zh_cn": "已婚的"
+  },
+  {
+    "word": "jung (Adj.)",
+    "zh_cn": "年轻的"
+  },
+  {
+    "word": "hübsch (Adj.)",
+    "zh_cn": "漂亮的"
+  },
+  {
+    "word": "sympathisch (Adj.)",
+    "zh_cn": "令人喜爱的"
+  },
+  {
+    "word": "unsympathisch (Adj.)",
+    "zh_cn": "令人厌恶的"
+  },
+  {
+    "word": "nett (Adj.)",
+    "zh_cn": "友好的，讨人喜欢的"
+  },
+  {
+    "word": "interessant (Adj.)",
+    "zh_cn": "有趣的"
+  },
+  {
+    "word": "mutig (Adj.)",
+    "zh_cn": "勇敢的"
+  },
+  {
+    "word": "neugierig (Adj.)",
+    "zh_cn": "好奇的"
+  },
+  {
+    "word": "glücklich (Adj.)",
+    "zh_cn": "幸福的"
+  },
+  {
+    "word": "positiv (Adj.)",
+    "zh_cn": "积极的"
+  },
+  {
+    "word": "super (Adj.)",
+    "zh_cn": "棒的，高级的"
+  },
+  {
+    "word": "zusammen (Adv.)",
+    "zh_cn": "一起"
+  },
+  {
+    "word": "allein (Adv.)",
+    "zh_cn": "单独，独自"
+  },
+  {
+    "word": "leicht (Adj.)",
+    "zh_cn": "轻的，轻松的"
+  },
+  {
+    "word": "schwer (Adj.)",
+    "zh_cn": "重的，困难的"
+  },
+  {
+    "word": "gefährlich (Adj.)",
+    "zh_cn": "危险的"
+  },
+  {
+    "word": "spannend (Adj.)",
+    "zh_cn": "紧张的"
+  },
+  {
+    "word": "wichtig (Adj.)",
+    "zh_cn": "重要的"
+  },
+  {
+    "word": "möglich (Adj.)",
+    "zh_cn": "可能的"
+  },
+  {
+    "word": "schon (Kleinwort)",
+    "zh_cn": "已经"
+  },
+  {
+    "word": "noch (Kleinwort)",
+    "zh_cn": "还"
+  },
+  {
+    "word": "vielleicht (Kleinwort)",
+    "zh_cn": "也许，可能"
+  },
+  {
+    "word": "nur (Kleinwort)",
+    "zh_cn": "只，仅"
+  },
+  {
+    "word": "so (Kleinwort)",
+    "zh_cn": "这样"
+  },
+  {
+    "word": "plötzlich (Kleinwort)",
+    "zh_cn": "突然的"
+  },
+  {
+    "word": "aber (Kleinwort)",
+    "zh_cn": "但是"
+  },
+  {
+    "word": "jetzt (Kleinwort)",
+    "zh_cn": "现在"
+  },
+  {
+    "word": "wieder (Kleinwort)",
+    "zh_cn": "又，再"
+  },
+  {
+    "word": "der Ort, -e",
+    "zh_cn": "地点，地方"
+  },
+  {
+    "word": "die Straße, -n",
+    "zh_cn": "街，街道"
+  },
+  {
+    "word": "die Kunst, ¨-e",
+    "zh_cn": "艺术"
+  },
+  {
+    "word": "die Kultur, -en",
+    "zh_cn": "文化"
+  },
+  {
+    "word": "das Café, -s ,法]",
+    "zh_cn": "咖啡馆"
+  },
+  {
+    "word": "der Turm, ¨-e",
+    "zh_cn": "钟楼，塔"
+  },
+  {
+    "word": "der Fernsehturm",
+    "zh_cn": "电视塔"
+  },
+  {
+    "word": "die Aussicht, -en",
+    "zh_cn": "前景，视野"
+  },
+  {
+    "word": "das Ticket, -s",
+    "zh_cn": "票"
+  },
+  {
+    "word": "die Stadtrundfahrt, -en",
+    "zh_cn": "环城观光"
+  },
+  {
+    "word": "die Sehenswürdigkeit, -en",
+    "zh_cn": "名胜古迹"
+  },
+  {
+    "word": "das Museum, Museen",
+    "zh_cn": "博物馆"
+  },
+  {
+    "word": "die Geschichte (hier nur Sg.)",
+    "zh_cn": "历史"
+  },
+  {
+    "word": "der Park, -s",
+    "zh_cn": "公园"
+  },
+  {
+    "word": "die Insel, -n",
+    "zh_cn": "岛，岛屿"
+  },
+  {
+    "word": "das Schiff, -e",
+    "zh_cn": "船，舰"
+  },
+  {
+    "word": "das Boot, -e",
+    "zh_cn": "小船"
+  },
+  {
+    "word": "die Bar, -s",
+    "zh_cn": "酒吧"
+  },
+  {
+    "word": "die Strandbar, -s",
+    "zh_cn": "海滨酒吧"
+  },
+  {
+    "word": "der Club, -s",
+    "zh_cn": "俱乐部"
+  },
+  {
+    "word": "der Cocktail, -s",
+    "zh_cn": "鸡尾酒"
+  },
+  {
+    "word": "das Einkaufszentrum, -zentren",
+    "zh_cn": "购物中心"
+  },
+  {
+    "word": "das Kaufhaus, ¨er",
+    "zh_cn": "百货公司"
+  },
+  {
+    "word": "die Flohmarkt, ¨e",
+    "zh_cn": "跳蚤市场"
+  },
+  {
+    "word": "die Galerie, -n",
+    "zh_cn": "长廊，美术馆"
+  },
+  {
+    "word": "der Tourist, -en",
+    "zh_cn": "游客"
+  },
+  {
+    "word": "die Touristin, -nen",
+    "zh_cn": "女游客"
+  },
+  {
+    "word": "die Tour, -en",
+    "zh_cn": "远足，旅行"
+  },
+  {
+    "word": "der Bahnhof, ¨e",
+    "zh_cn": "火车站"
+  },
+  {
+    "word": "die Station, -en",
+    "zh_cn": "站"
+  },
+  {
+    "word": "die U-Bahn, -en",
+    "zh_cn": "地铁"
+  },
+  {
+    "word": "die S-Bahn, -en",
+    "zh_cn": "轻轨"
+  },
+  {
+    "word": "die Karte, -n",
+    "zh_cn": "票，卡片，地图"
+  },
+  {
+    "word": "die Bibliothek, -en",
+    "zh_cn": "图书馆"
+  },
+  {
+    "word": "der Platz, ¨e",
+    "zh_cn": "广场，座位"
+  },
+  {
+    "word": "die Leute (nur Pl.)",
+    "zh_cn": "人，人们"
+  },
+  {
+    "word": "der DJ, -s",
+    "zh_cn": "唱片选播员"
+  },
+  {
+    "word": "die Idee, -n",
+    "zh_cn": "主意，想法"
+  },
+  {
+    "word": "das Produkt, -e",
+    "zh_cn": "产品"
+  },
+  {
+    "word": "die Erfahrung, -en",
+    "zh_cn": "经验，经历"
+  },
+  {
+    "word": "das Studium (nur Sg.)",
+    "zh_cn": "(在大学)学习"
+  },
+  {
+    "word": "das Studentenwohnheim, -e",
+    "zh_cn": "学生宿舍"
+  },
+  {
+    "word": "das Zimmer, -",
+    "zh_cn": "房间"
+  },
+  {
+    "word": "die WG, -s (Wohngemeinschaft)",
+    "zh_cn": "合租公寓"
+  },
+  {
+    "word": "das Dorf, ¨er",
+    "zh_cn": "村，村庄"
+  },
+  {
+    "word": "das Fahrrad, ¨er",
+    "zh_cn": "自行车"
+  },
+  {
+    "word": "das Open-Air-Kino, -s",
+    "zh_cn": "露天影院"
+  },
+  {
+    "word": "der Besuch, -e",
+    "zh_cn": "参观，访问"
+  },
+  {
+    "word": "der Bär, -en",
+    "zh_cn": "熊"
+  },
+  {
+    "word": "der Künstler, -",
+    "zh_cn": "艺术家"
+  },
+  {
+    "word": "die Künstlerin, -nen",
+    "zh_cn": "女艺术家"
+  },
+  {
+    "word": "frühstücken",
+    "zh_cn": "用早餐，吃早餐"
+  },
+  {
+    "word": "kaufen",
+    "zh_cn": "买"
+  },
+  {
+    "word": "genießen",
+    "zh_cn": "享受"
+  },
+  {
+    "word": "sitzen",
+    "zh_cn": "坐"
+  },
+  {
+    "word": "stehen",
+    "zh_cn": "站，立，竖放"
+  },
+  {
+    "word": "liegen",
+    "zh_cn": "躺，卧，平放"
+  },
+  {
+    "word": "besuchen",
+    "zh_cn": "拜访，上学"
+  },
+  {
+    "word": "erleben",
+    "zh_cn": "经历"
+  },
+  {
+    "word": "beginnen",
+    "zh_cn": "开始"
+  },
+  {
+    "word": "chillen",
+    "zh_cn": "放松，使凉快"
+  },
+  {
+    "word": "ausgehen, geht aus",
+    "zh_cn": "外出"
+  },
+  {
+    "word": "starten",
+    "zh_cn": "开始，出发"
+  },
+  {
+    "word": "sagen",
+    "zh_cn": "说"
+  },
+  {
+    "word": "holen",
+    "zh_cn": "拿，取"
+  },
+  {
+    "word": "entschuldigen",
+    "zh_cn": "原谅，道歉"
+  },
+  {
+    "word": "glauben",
+    "zh_cn": "相信，认为"
+  },
+  {
+    "word": "günstig",
+    "zh_cn": "有益的，物美价廉的"
+  },
+  {
+    "word": "super",
+    "zh_cn": "棒极的"
+  },
+  {
+    "word": "chinesisch",
+    "zh_cn": "中国的"
+  },
+  {
+    "word": "amerikanisch",
+    "zh_cn": "美国的，美洲的"
+  },
+  {
+    "word": "französisch",
+    "zh_cn": "法国的"
+  },
+  {
+    "word": "italienisch",
+    "zh_cn": "意大利的"
+  },
+  {
+    "word": "türkisch",
+    "zh_cn": "土耳其的"
+  },
+  {
+    "word": "wunderbar",
+    "zh_cn": "不可思议的"
+  },
+  {
+    "word": "bunt",
+    "zh_cn": "彩色的"
+  },
+  {
+    "word": "kreativ",
+    "zh_cn": "创造性的"
+  },
+  {
+    "word": "lang",
+    "zh_cn": "长的"
+  },
+  {
+    "word": "offen",
+    "zh_cn": "开着的"
+  },
+  {
+    "word": "international",
+    "zh_cn": "国际的"
+  },
+  {
+    "word": "anstrengend",
+    "zh_cn": "紧张的，费力的"
+  },
+  {
+    "word": "anonym",
+    "zh_cn": "匿名的"
+  },
+  {
+    "word": "tief",
+    "zh_cn": "深的"
+  },
+  {
+    "word": "fest",
+    "zh_cn": "固定的，牢固的"
+  },
+  {
+    "word": "müde",
+    "zh_cn": "疲倦的"
+  },
+  {
+    "word": "links",
+    "zh_cn": "在左边"
+  },
+  {
+    "word": "rechts",
+    "zh_cn": "在右边"
+  },
+  {
+    "word": "geradeaus",
+    "zh_cn": "笔直地"
+  },
+  {
+    "word": "zuerst",
+    "zh_cn": "首先"
+  },
+  {
+    "word": "dann",
+    "zh_cn": "然后"
+  },
+  {
+    "word": "danach",
+    "zh_cn": "此后"
+  },
+  {
+    "word": "gestern",
+    "zh_cn": "昨天"
+  },
+  {
+    "word": "gerade (Zeit)",
+    "zh_cn": "恰巧，刚刚"
+  },
+  {
+    "word": "später",
+    "zh_cn": "将来，以后"
+  },
+  {
+    "word": "in",
+    "zh_cn": "在…里"
+  },
+  {
+    "word": "an",
+    "zh_cn": "在…旁"
+  },
+  {
+    "word": "auf",
+    "zh_cn": "在…上"
+  },
+  {
+    "word": "von ... zu ...",
+    "zh_cn": "从…到…"
+  },
+  {
+    "word": "wo?",
+    "zh_cn": "在哪里?"
+  },
+  {
+    "word": "In ... ist was los!",
+    "zh_cn": "在……很有趣!"
+  },
+  {
+    "word": "Ja genau!",
+    "zh_cn": "是的，对!"
+  },
+  {
+    "word": "etwas Neues",
+    "zh_cn": "一些新东西/事物"
+  },
+  {
+    "word": "also",
+    "zh_cn": "那，那么"
+  },
+  {
+    "word": "vor ... Jahren",
+    "zh_cn": "在……年前"
+  },
+  {
+    "word": "besonders",
+    "zh_cn": "特别，极其"
+  },
+  {
+    "word": "vor allem",
+    "zh_cn": "首先，主要是"
+  },
+  {
+    "word": "am Anfang",
+    "zh_cn": "起初"
+  },
+  {
+    "word": "die Natur (nur Sg.)",
+    "zh_cn": "大自然"
+  },
+  {
+    "word": "der Schnee (nur Sg.)",
+    "zh_cn": "雪"
+  },
+  {
+    "word": "die Wiese, -n",
+    "zh_cn": "草地"
+  },
+  {
+    "word": "der Wald, ¨er",
+    "zh_cn": "森林"
+  },
+  {
+    "word": "der Baum, ¨e",
+    "zh_cn": "树"
+  },
+  {
+    "word": "der Vogel, ¨",
+    "zh_cn": "鸟"
+  },
+  {
+    "word": "das Meer, -e",
+    "zh_cn": "海"
+  },
+  {
+    "word": "der Strand, ¨e",
+    "zh_cn": "海滩"
+  },
+  {
+    "word": "die Muschel, -n",
+    "zh_cn": "贝壳"
+  },
+  {
+    "word": "die Welle, -n",
+    "zh_cn": "海浪"
+  },
+  {
+    "word": "das Gemüse (nur Sg.)",
+    "zh_cn": "蔬菜"
+  },
+  {
+    "word": "das Obst (nur Sg.)",
+    "zh_cn": "水果"
+  },
+  {
+    "word": "die Zeitschrift, -en",
+    "zh_cn": "杂志"
+  },
+  {
+    "word": "das Thema, Themen",
+    "zh_cn": "主题"
+  },
+  {
+    "word": "die Seite, -n",
+    "zh_cn": "页码"
+  },
+  {
+    "word": "der Leser, -",
+    "zh_cn": "读者"
+  },
+  {
+    "word": "die Leserin, -nen",
+    "zh_cn": "女读者"
+  },
+  {
+    "word": "das Problem, -e",
+    "zh_cn": "问题"
+  },
+  {
+    "word": "der Computer, -",
+    "zh_cn": "电脑"
+  },
+  {
+    "word": "der Bergführer, -",
+    "zh_cn": "登山向导"
+  },
+  {
+    "word": "die Bergführerin, -nen",
+    "zh_cn": "登山女向导"
+  },
+  {
+    "word": "der Fischer, -",
+    "zh_cn": "渔夫，捕鱼人"
+  },
+  {
+    "word": "die Hausfrau, -en",
+    "zh_cn": "家庭主妇"
+  },
+  {
+    "word": "der Bauer, -n",
+    "zh_cn": "农民"
+  },
+  {
+    "word": "die Bäuerin, -nen",
+    "zh_cn": "女农民"
+  },
+  {
+    "word": "das Tier, -e",
+    "zh_cn": "动物"
+  },
+  {
+    "word": "der See, -n",
+    "zh_cn": "湖，湖泊"
+  },
+  {
+    "word": "der Fluss, ¨e",
+    "zh_cn": "河，河流"
+  },
+  {
+    "word": "die Ruhe (nur Sg.)",
+    "zh_cn": "安静"
+  },
+  {
+    "word": "die Idee, -n",
+    "zh_cn": "主意，想法"
+  },
+  {
+    "word": "der Frühling, -e",
+    "zh_cn": "春天"
+  },
+  {
+    "word": "der Sommer, -",
+    "zh_cn": "夏天"
+  },
+  {
+    "word": "der Herbst, -e",
+    "zh_cn": "秋天"
+  },
+  {
+    "word": "der Winter, -",
+    "zh_cn": "冬天"
+  },
+  {
+    "word": "das Eis (Wetter)",
+    "zh_cn": "冰"
+  },
+  {
+    "word": "der Himmel, -",
+    "zh_cn": "天空"
+  },
+  {
+    "word": "der Kopf, ¨e",
+    "zh_cn": "头"
+  },
+  {
+    "word": "die Richtung, -en",
+    "zh_cn": "方向"
+  },
+  {
+    "word": "die Ampel, -n",
+    "zh_cn": "交通灯"
+  },
+  {
+    "word": "der Fußweg, -e",
+    "zh_cn": "人行道"
+  },
+  {
+    "word": "der Radweg, -e",
+    "zh_cn": "自行车道"
+  },
+  {
+    "word": "das T-Shirt, -s",
+    "zh_cn": "T恤衫"
+  },
+  {
+    "word": "der Pullover, -",
+    "zh_cn": "毛衣"
+  },
+  {
+    "word": "die Regenjacke, -n",
+    "zh_cn": "雨衣（防雨上衣）"
+  },
+  {
+    "word": "das Hobby, -s",
+    "zh_cn": "爱好"
+  },
+  {
+    "word": "das Verkehrsmittel, -",
+    "zh_cn": "交通工具"
+  },
+  {
+    "word": "das Schild, -er",
+    "zh_cn": "指示牌"
+  },
+  {
+    "word": "die Bewegung, -en",
+    "zh_cn": "运动，活动"
+  },
+  {
+    "word": "das Protokoll, -e",
+    "zh_cn": "记录"
+  },
+  {
+    "word": "das Alter (nur Sg.)",
+    "zh_cn": "年龄"
+  },
+  {
+    "word": "der Informatiker, -",
+    "zh_cn": "计算机科学家，信息学家"
+  },
+  {
+    "word": "die Informatikerin, -nen",
+    "zh_cn": "女计算机科学家，女信息学家"
+  },
+  {
+    "word": "die Notiz, -en",
+    "zh_cn": "笔记"
+  },
+  {
+    "word": "die Arbeit (hier nur Sg.)",
+    "zh_cn": "工作"
+  },
+  {
+    "word": "das Wetter (nur Sg.)",
+    "zh_cn": "天气"
+  },
+  {
+    "word": "der Rücken, -",
+    "zh_cn": "背部"
+  },
+  {
+    "word": "der Schmerz, -en",
+    "zh_cn": "疼痛"
+  },
+  {
+    "word": "die Rückenschmerzen (nur Pl.)",
+    "zh_cn": "背疼"
+  },
+  {
+    "word": "die Kopfschmerzen (nur Pl.)",
+    "zh_cn": "头疼"
+  },
+  {
+    "word": "das Fitnessstudio, -s",
+    "zh_cn": "健身房"
+  },
+  {
+    "word": "die Person, -en",
+    "zh_cn": "人"
+  },
+  {
+    "word": "der Kollege, -n",
+    "zh_cn": "同事"
+  },
+  {
+    "word": "die Kollegin, -nen",
+    "zh_cn": "女同事"
+  },
+  {
+    "word": "der Chef, -s",
+    "zh_cn": "老板"
+  },
+  {
+    "word": "die Chefin, -nen",
+    "zh_cn": "女老板"
+  },
+  {
+    "word": "kochen (v.)",
+    "zh_cn": "烹饪"
+  },
+  {
+    "word": "verdienen (v.)",
+    "zh_cn": "挣钱"
+  },
+  {
+    "word": "fangen, fängt (v.)",
+    "zh_cn": "捕住"
+  },
+  {
+    "word": "bauen (v.)",
+    "zh_cn": "建造"
+  },
+  {
+    "word": "werden, wird (v.)",
+    "zh_cn": "成为"
+  },
+  {
+    "word": "joggen (v.)",
+    "zh_cn": "慢跑"
+  },
+  {
+    "word": "klettern (v.)",
+    "zh_cn": "攀登，登山"
+  },
+  {
+    "word": "mitkommen, kommt mit (v.)",
+    "zh_cn": "同来，一起来"
+  },
+  {
+    "word": "treten, tritt (v.)",
+    "zh_cn": "踏入，进入"
+  },
+  {
+    "word": "nachdenken, denkt nach (v.)",
+    "zh_cn": "思考"
+  },
+  {
+    "word": "träumen (v.)",
+    "zh_cn": "梦想"
+  },
+  {
+    "word": "anziehen, zieht an (v.)",
+    "zh_cn": "穿上"
+  },
+  {
+    "word": "regnen (v.)",
+    "zh_cn": "下雨"
+  },
+  {
+    "word": "Inliner fahren, fährt Inliner (v.)",
+    "zh_cn": "滑旱冰"
+  },
+  {
+    "word": "Skateboard fahren, fährt Skateboard (v.)",
+    "zh_cn": "滑滑板"
+  },
+  {
+    "word": "Yoga machen (v.)",
+    "zh_cn": "做瑜伽"
+  },
+  {
+    "word": "trainieren (v.)",
+    "zh_cn": "训练"
+  },
+  {
+    "word": "zu Fuß gehen (v.)",
+    "zh_cn": "步行"
+  },
+  {
+    "word": "weiterfahren, fährt weiter (v.)",
+    "zh_cn": "继续行驶"
+  },
+  {
+    "word": "chatten (v.)",
+    "zh_cn": "聊天"
+  },
+  {
+    "word": "dürfen, darf (v.)",
+    "zh_cn": "允许"
+  },
+  {
+    "word": "herrlich (Adj.)",
+    "zh_cn": "美好的"
+  },
+  {
+    "word": "ruhig (Adj.)",
+    "zh_cn": "安静的"
+  },
+  {
+    "word": "stressig (Adj.)",
+    "zh_cn": "有压力的"
+  },
+  {
+    "word": "gesund (Adj.)",
+    "zh_cn": "健康的"
+  },
+  {
+    "word": "krank (Adj.)",
+    "zh_cn": "生病的"
+  },
+  {
+    "word": "sportlich (Adj.)",
+    "zh_cn": "运动的"
+  },
+  {
+    "word": "barfuß (Adj.)",
+    "zh_cn": "光脚的"
+  },
+  {
+    "word": "komisch (Adj.)",
+    "zh_cn": "可笑的"
+  },
+  {
+    "word": "richtig (Adj.)",
+    "zh_cn": "正确的"
+  },
+  {
+    "word": "schlecht (Adj.)",
+    "zh_cn": "坏的"
+  },
+  {
+    "word": "sonnig (Adj.)",
+    "zh_cn": "有阳光的"
+  },
+  {
+    "word": "blau (Adj.)",
+    "zh_cn": "蓝色的"
+  },
+  {
+    "word": "verbieten (v.)",
+    "zh_cn": "禁止的"
+  },
+  {
+    "word": "erlaubt (Adj.)",
+    "zh_cn": "允许的"
+  },
+  {
+    "word": "es gibt + Akk.",
+    "zh_cn": "有，存在"
+  },
+  {
+    "word": "Er lebt auf dem Land.",
+    "zh_cn": "他住在农村。"
+  },
+  {
+    "word": "Ich habe Lust. / Ich habe keine Lust.",
+    "zh_cn": "我有兴趣。/我没兴趣。"
+  },
+  {
+    "word": "Gute Idee!",
+    "zh_cn": "好主意！"
+  },
+  {
+    "word": "Das ist kein Problem.",
+    "zh_cn": "没问题。"
+  },
+  {
+    "word": "Das ist doch egal!",
+    "zh_cn": "随便！"
+  },
+  {
+    "word": "Es regnet.",
+    "zh_cn": "下雨了。"
+  },
+  {
+    "word": "etwas",
+    "zh_cn": "一些，一点儿"
+  },
+  {
+    "word": "zum Beispiel",
+    "zh_cn": "比如"
+  },
+  {
+    "word": "ein bisschen",
+    "zh_cn": "一些"
+  },
+  {
+    "word": "mehr",
+    "zh_cn": "更多"
+  },
+  {
+    "word": "oben",
+    "zh_cn": "在上面"
+  },
+  {
+    "word": "das Zimmer",
+    "zh_cn": "房间"
+  },
+  {
+    "word": "das Hotelzimmer",
+    "zh_cn": "酒店房间"
+  },
+  {
+    "word": "das Studentenzimmer",
+    "zh_cn": "学生宿舍"
+  },
+  {
+    "word": "das Einfamilienhaus, ¨er",
+    "zh_cn": "单户住宅"
+  },
+  {
+    "word": "die Wohnung, -en",
+    "zh_cn": "住房，公寓"
+  },
+  {
+    "word": "die Ferienwohnung, -en",
+    "zh_cn": "假日公寓"
+  },
+  {
+    "word": "die Zweizimmerwohnung, -en",
+    "zh_cn": "两房公寓"
+  },
+  {
+    "word": "die Miete, -n",
+    "zh_cn": "房租"
+  },
+  {
+    "word": "die Mietwohnung, -en",
+    "zh_cn": "租房"
+  },
+  {
+    "word": "der Norden (nur Sg.)",
+    "zh_cn": "北方"
+  },
+  {
+    "word": "der Süden (nur Sg.)",
+    "zh_cn": "南方"
+  },
+  {
+    "word": "der Westen (nur Sg.)",
+    "zh_cn": "西方"
+  },
+  {
+    "word": "der Osten (nur Sg.)",
+    "zh_cn": "东方"
+  },
+  {
+    "word": "das Angebot, -e",
+    "zh_cn": "供给"
+  },
+  {
+    "word": "die Großstadt, ¨e",
+    "zh_cn": "大城市"
+  },
+  {
+    "word": "der Einwohner, - 居民，房客",
+    "zh_cn": "居民，房客"
+  },
+  {
+    "word": "die Einwohnerin, -nen",
+    "zh_cn": "女性居民，女房客"
+  },
+  {
+    "word": "der Bauernhof, ¨e",
+    "zh_cn": "农庄"
+  },
+  {
+    "word": "der Wohnwagen, -",
+    "zh_cn": "房车"
+  },
+  {
+    "word": "der Leuchtturm, ¨e",
+    "zh_cn": "灯塔"
+  },
+  {
+    "word": "das Baumhaus, ¨er",
+    "zh_cn": "树屋"
+  },
+  {
+    "word": "das Hausboot, -e",
+    "zh_cn": "水上房屋"
+  },
+  {
+    "word": "der Nachbar, -n",
+    "zh_cn": "邻居"
+  },
+  {
+    "word": "die Nachbarin, -nen",
+    "zh_cn": "女邻居"
+  },
+  {
+    "word": "die Dusche, -n",
+    "zh_cn": "淋浴"
+  },
+  {
+    "word": "das Internet",
+    "zh_cn": "互联网"
+  },
+  {
+    "word": "der Koffer, -",
+    "zh_cn": "箱子"
+  },
+  {
+    "word": "die Maus, ¨e",
+    "zh_cn": "老鼠"
+  },
+  {
+    "word": "der Hund, -e",
+    "zh_cn": "狗"
+  },
+  {
+    "word": "die Katze, -n",
+    "zh_cn": "猫"
+  },
+  {
+    "word": "das Fenster, -",
+    "zh_cn": "窗户"
+  },
+  {
+    "word": "der Stuhl, ¨e",
+    "zh_cn": "椅子"
+  },
+  {
+    "word": "der Tisch, -e",
+    "zh_cn": "桌子"
+  },
+  {
+    "word": "der Schreibtisch, -e",
+    "zh_cn": "书桌"
+  },
+  {
+    "word": "der Esstisch, -e",
+    "zh_cn": "餐桌"
+  },
+  {
+    "word": "der Schrank, ¨e",
+    "zh_cn": "柜子"
+  },
+  {
+    "word": "der Kühlschrank, ¨e",
+    "zh_cn": "冰箱"
+  },
+  {
+    "word": "die Decke, -n",
+    "zh_cn": "被子"
+  },
+  {
+    "word": "das Kissen, -",
+    "zh_cn": "枕头"
+  },
+  {
+    "word": "das Kinderbett, -en",
+    "zh_cn": "儿童床"
+  },
+  {
+    "word": "der Teddybär, -en",
+    "zh_cn": "泰迪熊"
+  },
+  {
+    "word": "der Fernseher, -",
+    "zh_cn": "电视机"
+  },
+  {
+    "word": "das Sofa, -s",
+    "zh_cn": "沙发"
+  },
+  {
+    "word": "das iPad, -s",
+    "zh_cn": "平板电脑"
+  },
+  {
+    "word": "der/das Laptop, -s",
+    "zh_cn": "笔记本电脑"
+  },
+  {
+    "word": "das Arbeitszimmer, - 工作室，书房",
+    "zh_cn": "工作室，书房"
+  },
+  {
+    "word": "das Wohnzimmer, -",
+    "zh_cn": "客厅"
+  },
+  {
+    "word": "das Esszimmer, -",
+    "zh_cn": "饭厅"
+  },
+  {
+    "word": "das Schlafzimmer, -",
+    "zh_cn": "卧室"
+  },
+  {
+    "word": "das Kinderzimmer, -",
+    "zh_cn": "儿童房"
+  },
+  {
+    "word": "die Küche, -n",
+    "zh_cn": "厨房"
+  },
+  {
+    "word": "das Badezimmer, -(das Bad, ¨er)",
+    "zh_cn": "浴室"
+  },
+  {
+    "word": "die Badewanne, -n",
+    "zh_cn": "浴缸"
+  },
+  {
+    "word": "die Toilette, -n",
+    "zh_cn": "卫生间"
+  },
+  {
+    "word": "die Lampe, -n",
+    "zh_cn": "灯"
+  },
+  {
+    "word": "das Licht, -er",
+    "zh_cn": "光"
+  },
+  {
+    "word": "die Nationalität, -en",
+    "zh_cn": "国籍"
+  },
+  {
+    "word": "das Interesse, -n",
+    "zh_cn": "兴趣（只用单数），利益"
+  },
+  {
+    "word": "die Adresse, -n",
+    "zh_cn": "地址"
+  },
+  {
+    "word": "der Wohnort, -e",
+    "zh_cn": "住处"
+  },
+  {
+    "word": "die Hausnummer, -n",
+    "zh_cn": "门牌号"
+  },
+  {
+    "word": "die Pflanze, -n",
+    "zh_cn": "植物"
+  },
+  {
+    "word": "der Fotoapparat, -e",
+    "zh_cn": "照相机"
+  },
+  {
+    "word": "die Kaffeemaschine, -n",
+    "zh_cn": "咖啡机"
+  },
+  {
+    "word": "das Geschenk, -e",
+    "zh_cn": "礼物"
+  },
+  {
+    "word": "das Ding, -e",
+    "zh_cn": "东西"
+  },
+  {
+    "word": "das Lieblingsding, -e",
+    "zh_cn": "喜欢的东西"
+  },
+  {
+    "word": "die Nachricht, -en",
+    "zh_cn": "消息，信息"
+  },
+  {
+    "word": "mieten",
+    "zh_cn": "租房"
+  },
+  {
+    "word": "hin/fahren, fährt hin",
+    "zh_cn": "驶向那里"
+  },
+  {
+    "word": "brauchen",
+    "zh_cn": "需要"
+  },
+  {
+    "word": "nerven",
+    "zh_cn": "使紧张，使烦躁"
+  },
+  {
+    "word": "baden",
+    "zh_cn": "洗澡"
+  },
+  {
+    "word": "riechen",
+    "zh_cn": "闻"
+  },
+  {
+    "word": "anmachen, macht an",
+    "zh_cn": "打开"
+  },
+  {
+    "word": "mitnehmen, nimmt mit",
+    "zh_cn": "随身携带"
+  },
+  {
+    "word": "abholen, holt ab",
+    "zh_cn": "取走，接"
+  },
+  {
+    "word": "bei + Dat.",
+    "zh_cn": "在…附近，在…地方"
+  },
+  {
+    "word": "mit + Dat.",
+    "zh_cn": "在…一起，带着"
+  },
+  {
+    "word": "ohne + Akk.",
+    "zh_cn": "没有"
+  },
+  {
+    "word": "für + Akk.",
+    "zh_cn": "为了"
+  },
+  {
+    "word": "romantisch",
+    "zh_cn": "浪漫的"
+  },
+  {
+    "word": "voll",
+    "zh_cn": "满的"
+  },
+  {
+    "word": "stark",
+    "zh_cn": "强的"
+  },
+  {
+    "word": "heiß",
+    "zh_cn": "热的"
+  },
+  {
+    "word": "groß",
+    "zh_cn": "大的"
+  },
+  {
+    "word": "klein",
+    "zh_cn": "小的"
+  },
+  {
+    "word": "schwierig",
+    "zh_cn": "难的"
+  },
+  {
+    "word": "furchtbar",
+    "zh_cn": "恐怖的，可怕的"
+  },
+  {
+    "word": "schmutzig",
+    "zh_cn": "脏的"
+  },
+  {
+    "word": "sauber",
+    "zh_cn": "干净的"
+  },
+  {
+    "word": "(ein)hundert, zweihundert, drei(e)hundert,...",
+    "zh_cn": "100, 200, 300……"
+  },
+  {
+    "word": "zweihundert(eins, zweihundertzwei, zweihundert drei,...)",
+    "zh_cn": "201, 202, 203……"
+  },
+  {
+    "word": "(ein)tausend, zweitausend, dreitausend,...",
+    "zh_cn": "1000, 2000, 3000……"
+  },
+  {
+    "word": "Wirklich!",
+    "zh_cn": "真的！"
+  },
+  {
+    "word": "Ich hab dich lieb.",
+    "zh_cn": "我爱你！"
+  },
+  {
+    "word": "Mein Handy ist weg.",
+    "zh_cn": "我的手机不见了。"
+  },
+  {
+    "word": "Meinen Fotoapparat habe ich immer dabei.",
+    "zh_cn": "相机我一直随身带着。"
+  },
+  {
+    "word": "der Trend, -s",
+    "zh_cn": "趋势"
+  },
+  {
+    "word": "die Kleidung (nur Sg.)",
+    "zh_cn": "服装（总称）"
+  },
+  {
+    "word": "der Schmuck (nur Sg.)",
+    "zh_cn": "首饰"
+  },
+  {
+    "word": "der Schuh, -e",
+    "zh_cn": "鞋"
+  },
+  {
+    "word": "die Unterwäsche (nur Sg.)",
+    "zh_cn": "内衣"
+  },
+  {
+    "word": "die Sport sachen (nur Pl.)",
+    "zh_cn": "体育用品"
+  },
+  {
+    "word": "die Waschmaschine, -n",
+    "zh_cn": "洗衣机"
+  },
+  {
+    "word": "das Werkzeug, -e",
+    "zh_cn": "工具"
+  },
+  {
+    "word": "das Bankkonto, -konten",
+    "zh_cn": "银行账户"
+  },
+  {
+    "word": "das Passwort, ¨er",
+    "zh_cn": "密码"
+  },
+  {
+    "word": "das Wissen (nur Sg.)",
+    "zh_cn": "知识"
+  },
+  {
+    "word": "das Mobiltelefon, -e",
+    "zh_cn": "移动电话，手机"
+  },
+  {
+    "word": "das Smartphone, -s / das iPhone, -s",
+    "zh_cn": "智能手机"
+  },
+  {
+    "word": "der Automechaniker, -",
+    "zh_cn": "汽车修理工"
+  },
+  {
+    "word": "die Sonnenbrille, -n",
+    "zh_cn": "太阳镜"
+  },
+  {
+    "word": "die Kette, -n",
+    "zh_cn": "项链"
+  },
+  {
+    "word": "das Kleidungsstück, -e",
+    "zh_cn": "服装（单件）"
+  },
+  {
+    "word": "die Hose, -n",
+    "zh_cn": "裤子"
+  },
+  {
+    "word": "die Badehose, -n",
+    "zh_cn": "游泳裤"
+  },
+  {
+    "word": "die Jogginghose, -n",
+    "zh_cn": "运动裤"
+  },
+  {
+    "word": "die Jeans, -",
+    "zh_cn": "牛仔裤"
+  },
+  {
+    "word": "der Gürtel, -",
+    "zh_cn": "皮带"
+  },
+  {
+    "word": "die Jacke, -n",
+    "zh_cn": "夹克"
+  },
+  {
+    "word": "der Mantel, ¨",
+    "zh_cn": "大衣"
+  },
+  {
+    "word": "der Regenmantel, ¨",
+    "zh_cn": "雨衣"
+  },
+  {
+    "word": "die Mütze, -n",
+    "zh_cn": "帽子"
+  },
+  {
+    "word": "der Schal, -s",
+    "zh_cn": "围巾"
+  },
+  {
+    "word": "der Handschuh, -e",
+    "zh_cn": "手套"
+  },
+  {
+    "word": "das Kleid, -er",
+    "zh_cn": "连衣裙"
+  },
+  {
+    "word": "der Rock, ¨e",
+    "zh_cn": "裙子"
+  },
+  {
+    "word": "die Bluse, -n",
+    "zh_cn": "女士衬衣"
+  },
+  {
+    "word": "das Hemd, -en",
+    "zh_cn": "男士衬衣"
+  },
+  {
+    "word": "der Anzug, ¨e",
+    "zh_cn": "西服"
+  },
+  {
+    "word": "die Krawatte, -n",
+    "zh_cn": "领带"
+  },
+  {
+    "word": "der Laufschuh, -e",
+    "zh_cn": "跑鞋"
+  },
+  {
+    "word": "der Strumpf, ¨e",
+    "zh_cn": "长筒袜"
+  },
+  {
+    "word": "die Socke, -n",
+    "zh_cn": "短袜"
+  },
+  {
+    "word": "die Farbe, -n",
+    "zh_cn": "颜色"
+  },
+  {
+    "word": "das Netzwerk, -e",
+    "zh_cn": "网络"
+  },
+  {
+    "word": "die Fähigkeit, -en",
+    "zh_cn": "能力"
+  },
+  {
+    "word": "der Lehrer, -",
+    "zh_cn": "老师，男老师"
+  },
+  {
+    "word": "die Lehrerin, -nen",
+    "zh_cn": "女老师"
+  },
+  {
+    "word": "der Unterricht",
+    "zh_cn": "课程"
+  },
+  {
+    "word": "die Gymnastikübung, -en",
+    "zh_cn": "体操练习"
+  },
+  {
+    "word": "das Computerprogramm, -e",
+    "zh_cn": "电脑程序"
+  },
+  {
+    "word": "das Rezept, -e",
+    "zh_cn": "食谱，菜谱"
+  },
+  {
+    "word": "der Tipp, -s",
+    "zh_cn": "建议"
+  },
+  {
+    "word": "der Brief, -e",
+    "zh_cn": "信件"
+  },
+  {
+    "word": "das Märchen, -",
+    "zh_cn": "童话"
+  },
+  {
+    "word": "das Bild, -er",
+    "zh_cn": "图片"
+  },
+  {
+    "word": "teilen",
+    "zh_cn": "分享"
+  },
+  {
+    "word": "tauschen",
+    "zh_cn": "交换"
+  },
+  {
+    "word": "übrigbleiben, bleibt übrig",
+    "zh_cn": "剩余"
+  },
+  {
+    "word": "geben, gibt",
+    "zh_cn": "给"
+  },
+  {
+    "word": "gefallen, gefällt",
+    "zh_cn": "喜欢"
+  },
+  {
+    "word": "stehen (Kleid) （如连衣裙）",
+    "zh_cn": "适合"
+  },
+  {
+    "word": "passen",
+    "zh_cn": "合适"
+  },
+  {
+    "word": "anprobieren, probiert an",
+    "zh_cn": "试穿"
+  },
+  {
+    "word": "reparieren",
+    "zh_cn": "修理"
+  },
+  {
+    "word": "helfen, hilft",
+    "zh_cn": "帮助"
+  },
+  {
+    "word": "zeigen",
+    "zh_cn": "指示"
+  },
+  {
+    "word": "kennenlernen, lernt kennen",
+    "zh_cn": "认识"
+  },
+  {
+    "word": "verbessern",
+    "zh_cn": "完善"
+  },
+  {
+    "word": "schenken",
+    "zh_cn": "赠送"
+  },
+  {
+    "word": "hinunterfallen, fällt hinunter",
+    "zh_cn": "落下去"
+  },
+  {
+    "word": "kommunikativ",
+    "zh_cn": "交际的"
+  },
+  {
+    "word": "korrekt",
+    "zh_cn": "正确的"
+  },
+  {
+    "word": "praktisch",
+    "zh_cn": "实际的，实用的"
+  },
+  {
+    "word": "ökologisch",
+    "zh_cn": "生态的"
+  },
+  {
+    "word": "sozial",
+    "zh_cn": "社会的"
+  },
+  {
+    "word": "modern",
+    "zh_cn": "现代的"
+  },
+  {
+    "word": "perfekt",
+    "zh_cn": "完美的"
+  },
+  {
+    "word": "echt",
+    "zh_cn": "真的，真正的"
+  },
+  {
+    "word": "kaputt",
+    "zh_cn": "破的"
+  },
+  {
+    "word": "dumm",
+    "zh_cn": "愚蠢的"
+  },
+  {
+    "word": "altmodisch",
+    "zh_cn": "过时的"
+  },
+  {
+    "word": "elegant",
+    "zh_cn": "高雅的"
+  },
+  {
+    "word": "schick",
+    "zh_cn": "时髦的"
+  },
+  {
+    "word": "kurz",
+    "zh_cn": "短的"
+  },
+  {
+    "word": "eng",
+    "zh_cn": "狭窄的，紧的"
+  },
+  {
+    "word": "weit",
+    "zh_cn": "宽的"
+  },
+  {
+    "word": "rot",
+    "zh_cn": "红色的"
+  },
+  {
+    "word": "grün",
+    "zh_cn": "绿色的"
+  },
+  {
+    "word": "gelb",
+    "zh_cn": "黄色的"
+  },
+  {
+    "word": "schwarz",
+    "zh_cn": "黑色的"
+  },
+  {
+    "word": "weiß",
+    "zh_cn": "白色的"
+  },
+  {
+    "word": "grau",
+    "zh_cn": "灰色的"
+  },
+  {
+    "word": "braun",
+    "zh_cn": "棕色的"
+  },
+  {
+    "word": "lila",
+    "zh_cn": "淡紫色的"
+  },
+  {
+    "word": "okay",
+    "zh_cn": "好"
+  },
+  {
+    "word": "zum Schluss",
+    "zh_cn": "结束，最后"
+  },
+  {
+    "word": "niemand",
+    "zh_cn": "无人"
+  },
+  {
+    "word": "wenige",
+    "zh_cn": "少数几人"
+  },
+  {
+    "word": "viele",
+    "zh_cn": "许多人"
+  },
+  {
+    "word": "alle",
+    "zh_cn": "所有人"
+  },
+  {
+    "word": "jeder",
+    "zh_cn": "每个人"
+  },
+  {
+    "word": "fast",
+    "zh_cn": "几乎"
+  },
+  {
+    "word": "echt",
+    "zh_cn": "真的"
+  },
+  {
+    "word": "das Fest, -e",
+    "zh_cn": "节日"
+  },
+  {
+    "word": "der Gast, -e",
+    "zh_cn": "客人"
+  },
+  {
+    "word": "der Ball, -e (Fest)",
+    "zh_cn": "舞会"
+  },
+  {
+    "word": "das Kostüm, -e",
+    "zh_cn": "服装"
+  },
+  {
+    "word": "die Maske, -n",
+    "zh_cn": "面具"
+  },
+  {
+    "word": "der Politiker, -",
+    "zh_cn": "政治家"
+  },
+  {
+    "word": "die Politikerin, -nen",
+    "zh_cn": "女政治家"
+  },
+  {
+    "word": "die Veranstaltung, -en",
+    "zh_cn": "活动"
+  },
+  {
+    "word": "die Hilfe, -n",
+    "zh_cn": "帮助"
+  },
+  {
+    "word": "die Modenschau, -en",
+    "zh_cn": "时装表演"
+  },
+  {
+    "word": "der Prinz, -en",
+    "zh_cn": "王子"
+  },
+  {
+    "word": "die Prinzessin, -nen",
+    "zh_cn": "公主"
+  },
+  {
+    "word": "das Gesicht, -er",
+    "zh_cn": "面孔，脸"
+  },
+  {
+    "word": "das Datum, Daten",
+    "zh_cn": "日期；数据"
+  },
+  {
+    "word": "der Geburtstag, -e",
+    "zh_cn": "生日"
+  },
+  {
+    "word": "der Namenstag, -e",
+    "zh_cn": "命名日"
+  },
+  {
+    "word": "das Geschenk, -e",
+    "zh_cn": "礼物"
+  },
+  {
+    "word": "der Geburtstagskalender, -",
+    "zh_cn": "生日日历"
+  },
+  {
+    "word": "die Geburtstagskarte, -n",
+    "zh_cn": "生日卡"
+  },
+  {
+    "word": "die Feier, -n",
+    "zh_cn": "庆祝"
+  },
+  {
+    "word": "die Einladung, -en",
+    "zh_cn": "邀请"
+  },
+  {
+    "word": "die Entschuldigung, -en",
+    "zh_cn": "抱歉，对不起"
+  },
+  {
+    "word": "das Motto, -s",
+    "zh_cn": "格言"
+  },
+  {
+    "word": "der Partner, -",
+    "zh_cn": "伙伴"
+  },
+  {
+    "word": "die Partnerin, -nen",
+    "zh_cn": "女伙伴"
+  },
+  {
+    "word": "der Ordner, -",
+    "zh_cn": "文件夹"
+  },
+  {
+    "word": "der / die Jugendliche, -n",
+    "zh_cn": "年轻人"
+  },
+  {
+    "word": "der / die Erwachsene, -n",
+    "zh_cn": "成年人"
+  },
+  {
+    "word": "das Treffen, -",
+    "zh_cn": "见面"
+  },
+  {
+    "word": "das Abendessen, -",
+    "zh_cn": "晚餐"
+  },
+  {
+    "word": "die Atmosphäre (nur Sg.)",
+    "zh_cn": "气氛"
+  },
+  {
+    "word": "die Organisation, -en",
+    "zh_cn": "组织"
+  },
+  {
+    "word": "die Daten (nur Pl.)",
+    "zh_cn": "数据"
+  },
+  {
+    "word": "die Vorspeise, -n",
+    "zh_cn": "前餐"
+  },
+  {
+    "word": "die Hauptspeise, -n",
+    "zh_cn": "主餐"
+  },
+  {
+    "word": "das Lokal, -e",
+    "zh_cn": "酒馆，地点"
+  },
+  {
+    "word": "die Kosten (nur Pl.)",
+    "zh_cn": "费用"
+  },
+  {
+    "word": "die Website, -s",
+    "zh_cn": "网页"
+  },
+  {
+    "word": "die Telefonnummer, -n",
+    "zh_cn": "电话号码"
+  },
+  {
+    "word": "die Postleitzahl, -en",
+    "zh_cn": "邮编"
+  },
+  {
+    "word": "das Fleisch (nur Sg.)",
+    "zh_cn": "肉"
+  },
+  {
+    "word": "der Reis (nur Sg.)",
+    "zh_cn": "大米"
+  },
+  {
+    "word": "die Kartoffel, -n",
+    "zh_cn": "土豆"
+  },
+  {
+    "word": "die Nudel, -n",
+    "zh_cn": "面条"
+  },
+  {
+    "word": "die Tomate, -n",
+    "zh_cn": "番茄"
+  },
+  {
+    "word": "der Zucker (nur Sg.)",
+    "zh_cn": "糖"
+  },
+  {
+    "word": "der Alkohol (nur Sg.)",
+    "zh_cn": "酒，酒精"
+  },
+  {
+    "word": "das Glas, -er",
+    "zh_cn": "杯子，玻璃杯"
+  },
+  {
+    "word": "der Bauch, -e",
+    "zh_cn": "肚子"
+  },
+  {
+    "word": "die Bauchschmerzen (nur Pl.)",
+    "zh_cn": "肚子疼"
+  },
+  {
+    "word": "der Januar, -e",
+    "zh_cn": "一月"
+  },
+  {
+    "word": "der Februar, -e",
+    "zh_cn": "二月"
+  },
+  {
+    "word": "der März, -e",
+    "zh_cn": "三月"
+  },
+  {
+    "word": "der April, -e",
+    "zh_cn": "四月"
+  },
+  {
+    "word": "der Mai, -e",
+    "zh_cn": "五月"
+  },
+  {
+    "word": "der Juni, -s",
+    "zh_cn": "六月"
+  },
+  {
+    "word": "der Juli, -s",
+    "zh_cn": "七月"
+  },
+  {
+    "word": "der August, -e",
+    "zh_cn": "八月"
+  },
+  {
+    "word": "der September, -",
+    "zh_cn": "九月"
+  },
+  {
+    "word": "der Oktober, -",
+    "zh_cn": "十月"
+  },
+  {
+    "word": "der November, -",
+    "zh_cn": "十一月"
+  },
+  {
+    "word": "der Dezember, -",
+    "zh_cn": "十二月"
+  },
+  {
+    "word": "feiern",
+    "zh_cn": "庆祝"
+  },
+  {
+    "word": "sammeln",
+    "zh_cn": "收集"
+  },
+  {
+    "word": "tragen, trägt (Kleidung)",
+    "zh_cn": "穿（衣服）"
+  },
+  {
+    "word": "stattfinden, findet statt",
+    "zh_cn": "举行"
+  },
+  {
+    "word": "aussehen, sieht aus",
+    "zh_cn": "看起来"
+  },
+  {
+    "word": "meinen",
+    "zh_cn": "认为"
+  },
+  {
+    "word": "geboren sein",
+    "zh_cn": "出生"
+  },
+  {
+    "word": "bringen",
+    "zh_cn": "带来"
+  },
+  {
+    "word": "mitbringen, bringt mit",
+    "zh_cn": "带来，拿来"
+  },
+  {
+    "word": "organisieren",
+    "zh_cn": "组织"
+  },
+  {
+    "word": "einladen, lädt ein",
+    "zh_cn": "邀请"
+  },
+  {
+    "word": "hochladen, lädt hoch",
+    "zh_cn": "上传"
+  },
+  {
+    "word": "fehlen",
+    "zh_cn": "缺少"
+  },
+  {
+    "word": "eingeben, gibt ein",
+    "zh_cn": "输入"
+  },
+  {
+    "word": "bekommen",
+    "zh_cn": "得到"
+  },
+  {
+    "word": "zu Abend essen, isst zu Abend",
+    "zh_cn": "吃晚饭"
+  },
+  {
+    "word": "anbieten, bietet an",
+    "zh_cn": "提供"
+  },
+  {
+    "word": "reden",
+    "zh_cn": "说，讲话"
+  },
+  {
+    "word": "erzählen",
+    "zh_cn": "讲述"
+  },
+  {
+    "word": "fragen",
+    "zh_cn": "提问"
+  },
+  {
+    "word": "antworten",
+    "zh_cn": "回答"
+  },
+  {
+    "word": "austauschen, tauscht aus",
+    "zh_cn": "交换"
+  },
+  {
+    "word": "vergessen, vergisst",
+    "zh_cn": "忘记"
+  },
+  {
+    "word": "treffen, trifft",
+    "zh_cn": "碰到"
+  },
+  {
+    "word": "rauchen",
+    "zh_cn": "抽烟"
+  },
+  {
+    "word": "weh tun",
+    "zh_cn": "疼痛"
+  },
+  {
+    "word": "aufräumen, räumt auf",
+    "zh_cn": "整理"
+  },
+  {
+    "word": "planen",
+    "zh_cn": "计划"
+  },
+  {
+    "word": "verrückt",
+    "zh_cn": "疯狂的"
+  },
+  {
+    "word": "fantastisch",
+    "zh_cn": "好极的"
+  },
+  {
+    "word": "berühmt",
+    "zh_cn": "著名的"
+  },
+  {
+    "word": "geschminkt",
+    "zh_cn": "化妆的"
+  },
+  {
+    "word": "herzlich",
+    "zh_cn": "衷心的"
+  },
+  {
+    "word": "privat",
+    "zh_cn": "私人的"
+  },
+  {
+    "word": "gemeinsam",
+    "zh_cn": "共同的"
+  },
+  {
+    "word": "vegetarisch",
+    "zh_cn": "素食的"
+  },
+  {
+    "word": "ähnlich",
+    "zh_cn": "相似的"
+  },
+  {
+    "word": "selbst",
+    "zh_cn": "自己"
+  },
+  {
+    "word": "ein paar",
+    "zh_cn": "几个"
+  },
+  {
+    "word": "zu (+ Adjektiv)",
+    "zh_cn": "太（+形容词）"
+  },
+  {
+    "word": "morgen",
+    "zh_cn": "明天"
+  },
+  {
+    "word": "sicher",
+    "zh_cn": "确定的"
+  },
+  {
+    "word": "natürlich",
+    "zh_cn": "当然"
+  },
+  {
+    "word": "denn",
+    "zh_cn": "因为"
+  },
+  {
+    "word": "Du hast recht!",
+    "zh_cn": "你是对的!"
+  },
+  {
+    "word": "Schau mal! / Guck mal!",
+    "zh_cn": "看呀!"
+  },
+  {
+    "word": "Bis bald.",
+    "zh_cn": "一会儿见!"
+  },
+  {
+    "word": "Alles Gute!",
+    "zh_cn": "一切都好!"
+  },
+  {
+    "word": "Alles Liebe!",
+    "zh_cn": "一切都好!"
+  },
+  {
+    "word": "Herzlichen Glückwunsch!",
+    "zh_cn": "衷心祝愿!"
+  },
+  {
+    "word": "Danke für alles!",
+    "zh_cn": "感谢所有的一切!"
+  },
+  {
+    "word": "Das ist schade!",
+    "zh_cn": "很遗憾!"
+  },
+  {
+    "word": "Guten Appetit!",
+    "zh_cn": "祝胃口好!"
+  },
+  {
+    "word": "Prost!",
+    "zh_cn": "干杯!"
+  },
+  {
+    "word": "Ich mache lieber...",
+    "zh_cn": "我更乐意做..."
+  }
+]

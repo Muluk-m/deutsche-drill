@@ -14,3 +14,53 @@ body {
 		color-scheme: dark;
 	}
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* 移动端优化 */
+@media (max-width: 640px) {
+  input[type="text"] {
+    font-size: 24px;
+  }
+}
+
+/* 防止点击高亮 */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 优化移动端按钮点击体验 */
+button {
+  touch-action: manipulation;
+}
+
+/* 自定义滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
