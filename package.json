@@ -36,6 +36,8 @@
 	"private": true,
 	"scripts": {
 		"add-unit-ids": "node scripts/addUnitIds.js",
+		"add-verb-conjugations": "node scripts/addVerbConjugations.js",
+		"mark-word-types": "node scripts/markWordTypes.js",
 		"build": "react-router build",
 		"cf-typegen": "wrangler types && react-router typegen",
 		"check": "tsc && react-router build && wrangler deploy --dry-run",

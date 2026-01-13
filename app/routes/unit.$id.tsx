@@ -66,13 +66,13 @@ export default function UnitDetail() {
             <>
               <Link
                 to={`/review?unit=${unitId}`}
-                className="flex-1 text-center bg-white bg-opacity-20 text-white py-2.5 rounded-lg text-sm font-medium hover:bg-opacity-30 transition-colors"
+                className="flex-1 text-center bg-white text-purple-600 py-2.5 rounded-lg text-sm font-medium hover:bg-opacity-90 transition-colors"
               >
                 🔄 复习
               </Link>
               <Link
                 to={`/random?unit=${unitId}`}
-                className="flex-1 text-center bg-white bg-opacity-20 text-white py-2.5 rounded-lg text-sm font-medium hover:bg-opacity-30 transition-colors"
+                className="flex-1 text-center bg-white text-blue-600 py-2.5 rounded-lg text-sm font-medium hover:bg-opacity-90 transition-colors"
               >
                 🎲 测试
               </Link>

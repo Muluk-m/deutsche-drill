@@ -6,9 +6,11 @@ import {
 	Scripts,
 	ScrollRestoration,
 } from "react-router";
+import { useEffect } from "react";
 
 import type { Route } from "./+types/root";
 import "./app.css";
+import { initializeApp } from "./utils/initializeApp";
 
 export const links: Route.LinksFunction = () => [
 	{ rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -42,6 +44,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
+	// 初始化应用（仅在客户端执行一次）
+	useEffect(() => {
+		if (typeof window !== 'undefined') {
+			initializeApp();
+		}
+	}, []);
+
 	return <Outlet />;
 }
 

@@ -3,6 +3,8 @@ import { Link } from "react-router";
 import { useState, useEffect } from "react";
 import type { Word } from "../types/word";
 import { createUnits, getUnitProgress } from "../utils/unitManager";
+import { getSRSProgress, getMistakesList, needsMigration, migrateData } from "../utils/storageManager";
+import { getDueWords, getSRSStats } from "../utils/srsAlgorithm";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -20,8 +22,15 @@ export default function Home() {
     Array<{ word: Word; index: number; unitId: number }>
   >([]);
   const [isSearching, setIsSearching] = useState(false);
+  const [dueCount, setDueCount] = useState(0);
+  const [mistakesCount, setMistakesCount] = useState(0);
 
   useEffect(() => {
+    // 检查是否需要迁移旧数据
+    if (needsMigration()) {
+      migrateData();
+    }
+
     fetch("/words.json")
       .then((res) => res.json() as Promise<Word[]>)
       .then((data) => {
@@ -36,6 +45,15 @@ export default function Home() {
           localStorage.getItem("todayLearned") || "{}"
         );
         setTodayCount(todayLearned[todayDate] || 0);
+
+        // 获取 SRS 统计
+        const srsProgress = getSRSProgress();
+        const dueWords = getDueWords(srsProgress);
+        setDueCount(dueWords.length);
+
+        // 获取错题数量
+        const mistakes = getMistakesList();
+        setMistakesCount(mistakes.length);
       });
   }, []);
 
@@ -193,7 +211,7 @@ export default function Home() {
         </div>
 
         {/* Stats Cards */}
-        <div className="grid grid-cols-3 gap-4 mb-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
           <div className="bg-white rounded-xl shadow-sm p-4 text-center">
             <div className="text-3xl font-bold text-blue-600">
               {learnedWords.length}
@@ -212,6 +230,35 @@ export default function Home() {
             </div>
             <div className="text-sm text-gray-600 mt-1">词库总数</div>
           </div>
+          <Link
+            to="/srs-review"
+            className={`bg-white rounded-xl shadow-sm p-4 text-center hover:shadow-md transition-shadow ${
+              dueCount > 0 ? 'ring-2 ring-red-500' : ''
+            }`}
+          >
+            <div className={`text-3xl font-bold ${dueCount > 0 ? 'text-red-600' : 'text-gray-400'}`}>
+              {dueCount}
+            </div>
+            <div className="text-sm text-gray-600 mt-1">待复习</div>
+          </Link>
+          <Link
+            to="/mistakes"
+            className="bg-white rounded-xl shadow-sm p-4 text-center hover:shadow-md transition-shadow"
+          >
+            <div className={`text-3xl font-bold ${mistakesCount > 0 ? 'text-orange-600' : 'text-gray-400'}`}>
+              {mistakesCount}
+            </div>
+            <div className="text-sm text-gray-600 mt-1">错题本</div>
+          </Link>
+          <Link
+            to="/test-modes"
+            className="bg-white rounded-xl shadow-sm p-4 text-center hover:shadow-md transition-shadow"
+          >
+            <div className="text-3xl font-bold text-indigo-600">
+              🎯
+            </div>
+            <div className="text-sm text-gray-600 mt-1">多种测试</div>
+          </Link>
         </div>
 
         {/* Overall Progress */}

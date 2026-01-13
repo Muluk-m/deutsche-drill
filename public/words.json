@@ -3,5579 +3,7177 @@
     "word": "Deutschland",
     "zh_cn": "德国",
     "phonetic": "/ˈdɔɪ̯t͡ʃˌlant/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "Österreich",
     "zh_cn": "奥地利",
     "phonetic": "/ˈøːstəʁaɪ̯ç/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "die Schweiz",
     "zh_cn": "瑞士",
     "phonetic": "/ʃvaɪ̯t͡s/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "der Name, -n",
     "zh_cn": "姓名",
     "phonetic": "/ˈnaːmə/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "der Vorname, -n",
     "zh_cn": "名字",
     "phonetic": "/ˈfoːɐ̯ˌnaːmə/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "der Nachname, -n",
     "zh_cn": "姓氏",
     "phonetic": "/ˈnaːxˌnaːmə/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "der Kaffee (nur Sg.)",
     "zh_cn": "咖啡",
     "phonetic": "/ˈkafe/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "der Tee (nur Sg.)",
     "zh_cn": "茶",
     "phonetic": "/teː/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "die Schokolade (nur Sg.)",
     "zh_cn": "巧克力",
     "phonetic": "/ʃokoˈlaːdə/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "die Chips (nur Pl.)",
     "zh_cn": "薯片",
     "phonetic": "/t͡ʃɪps/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "das Kino, -s",
     "zh_cn": "电影院",
     "phonetic": "/ˈkiːno/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "das Theater, -",
     "zh_cn": "剧院，戏剧",
     "phonetic": "/teˈaːtɐ/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "der Sport (nur Sg.)",
     "zh_cn": "体育",
     "phonetic": "/ʃpɔʁt/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "die Musik (nur Sg.)",
     "zh_cn": "音乐",
     "phonetic": "/muˈziːk/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "der Fußball (nur Sg.)",
     "zh_cn": "足球",
     "phonetic": "/ˈfuːsˌbal/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "das Tennis (nur Sg.)",
     "zh_cn": "网球",
     "phonetic": "/ˈtɛnɪs/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "die Sonne (nur Sg.)",
     "zh_cn": "太阳",
     "phonetic": "/ˈzɔnə/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "der Regen (nur Sg.)",
     "zh_cn": "雨",
     "phonetic": "/ˈʁeːɡn̩/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "das Telefon, -e",
     "zh_cn": "电话",
     "phonetic": "/ˈteːləfoːn/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "die E-Mail, -s",
     "zh_cn": "电子邮件",
     "phonetic": "/ˈiːmeɪ̯l/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "die Tasche, -n",
     "zh_cn": "包",
     "phonetic": "/ˈtaʃə/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "der Stift, -e",
     "zh_cn": "笔",
     "phonetic": "/ʃtɪft/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "das Handy, -s",
     "zh_cn": "手机",
     "phonetic": "/ˈhɛndi/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "das Buch, ¨-er",
     "zh_cn": "书",
     "phonetic": "/buːx/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "der Schlüssel, -",
     "zh_cn": "钥匙",
     "phonetic": "/ˈʃlʏsl̩/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "die Flasche, -n",
     "zh_cn": "瓶子",
     "phonetic": "/ˈflaʃə/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "das Portmonnee, -s",
     "zh_cn": "钱包",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "noun"
   },
   {
     "word": "die Brille, -n",
     "zh_cn": "眼镜",
     "phonetic": "/ˈbʁɪlə/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "der Lippenstift, -e",
     "zh_cn": "唇膏，口红",
     "phonetic": "/ˈlɪpn̩ˌʃtɪft/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "das Foto, -s",
     "zh_cn": "照片",
     "phonetic": "/ˈfoːto/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "das Heft, -e",
     "zh_cn": "练习本，本子",
     "phonetic": "/hɛft/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "das Taschentuch, ¨-er",
     "zh_cn": "手帕，纸巾",
     "phonetic": "/ˈtaʃn̩ˌtuːx/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "die Zigarette, -n",
     "zh_cn": "香烟",
     "phonetic": "/t͡siɡaˈʁɛtə/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "die Zeitung, -en",
     "zh_cn": "报纸",
     "phonetic": "/ˈt͡saɪ̯tʊŋ/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "der Spiegel, -",
     "zh_cn": "镜子",
     "phonetic": "/ˈʃpiːɡl̩/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "die Zahnbürste, -n",
     "zh_cn": "牙刷",
     "phonetic": "/ˈt͡saːnˌbʏʁstə/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "der Mann, ¨-er",
     "zh_cn": "男人，丈夫",
     "phonetic": "/man/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "die Frau, -en",
     "zh_cn": "女人，妻子，女士（称呼），太太（称呼）",
     "phonetic": "/fʁaʊ̯/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "das Wort, ¨-er",
     "zh_cn": "词",
     "phonetic": "/vɔʁt/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "ich",
     "zh_cn": "我",
     "phonetic": "/ɪç/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "du",
     "zh_cn": "你",
     "phonetic": "/duː/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "er",
     "zh_cn": "他（代指第三人称单数阳性名词）",
     "phonetic": "/eːɐ̯/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "sie",
     "zh_cn": "她（代指第三人称单数阴性名词），他们（代指第三人称复数）",
     "phonetic": "/ziː/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "Sie",
     "zh_cn": "您，你们（代指第二人称尊称单数或复数）",
     "phonetic": "/ziː/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "heißen",
     "zh_cn": "名叫",
     "phonetic": "/ˈhaɪ̯sn̩/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "verb"
   },
   {
     "word": "sein, ist",
     "zh_cn": "是",
     "phonetic": "/zaɪ̯n/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "schreiben",
     "zh_cn": "写",
     "phonetic": "/ˈʃʁaɪ̯bn̩/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "verb"
   },
   {
     "word": "gut",
     "zh_cn": "好的",
     "phonetic": "/ɡuːt/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "schön",
     "zh_cn": "美丽的，漂亮的",
     "phonetic": "/ʃøːn/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "Wie",
     "zh_cn": "怎么样?",
     "phonetic": "/viː/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "Wer",
     "zh_cn": "谁?",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Was",
     "zh_cn": "什么!",
     "phonetic": "/…/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "Hallo",
     "zh_cn": "你好!",
     "phonetic": "/haˈloː/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "Guten Tag",
     "zh_cn": "你好! 白天好!",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Guten Morgen",
     "zh_cn": "早上好!",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Guten Abend",
     "zh_cn": "晚上好!",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Gute Nacht",
     "zh_cn": "晚安!",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Mein Name ist",
     "zh_cn": "我的名字是…",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "Ich komme aus",
     "zh_cn": "我来自…",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "Ich mag",
     "zh_cn": "我喜欢…",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Tschüss",
     "zh_cn": "再见!（口语）",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Auf Wiedersehen",
     "zh_cn": "再见!",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Ciao",
     "zh_cn": "再见!（口语）",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Wie geht's",
     "zh_cn": "（你）好吗? 过得怎么样?",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Wie heißt das auf Deutsch",
     "zh_cn": "这个用德语怎么说?",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "noun"
   },
   {
     "word": "Wie schreibt man das",
     "zh_cn": "这个怎么写?",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "Wie bitte",
     "zh_cn": "什么?（请再说一遍。）",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Herr Müller",
     "zh_cn": "米勒先生",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Frau Müller",
     "zh_cn": "米勒女士，米勒太太",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Das ist",
     "zh_cn": "这是…",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "noun"
   },
   {
     "word": "Noch einmal, bitte",
     "zh_cn": "请再说一遍。",
     "unitId": 1,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "danke / danke schön",
     "zh_cn": "谢谢/多谢",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "bitte / bitte schön",
     "zh_cn": "不客气",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "und",
     "zh_cn": "和",
     "phonetic": "/ʊnt/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "oder",
     "zh_cn": "或",
     "phonetic": "/ˈoːdɐ/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "ja",
     "zh_cn": "是",
     "phonetic": "/jaː/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "nein",
     "zh_cn": "不",
     "phonetic": "/naɪ̯n/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "auch",
     "zh_cn": "也",
     "phonetic": "/aʊ̯x/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "da",
     "zh_cn": "那里，那时",
     "phonetic": "/daː/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "in",
     "zh_cn": "在…里面",
     "phonetic": "/ɪn/",
-    "unitId": 1
+    "unitId": 1,
+    "wordType": "other"
   },
   {
     "word": "der Berg, -e",
     "zh_cn": "山",
     "phonetic": "/bɛʁk/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "die Stadt, -e",
     "zh_cn": "城市",
     "phonetic": "/ʃtat/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "das Land, ¨er",
     "zh_cn": "国家",
     "phonetic": "/lant/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "die Freizeit (nur Sg.)",
     "zh_cn": "业余时间",
     "phonetic": "/ˈfʁaɪ̯ˌt͡saɪ̯t/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "Ägypten",
     "zh_cn": "埃及",
     "phonetic": "/ˌɛˈɡʏptn̩/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "Brasilien",
     "zh_cn": "巴西",
     "phonetic": "/bʁaˈziːli̯ən/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "China",
     "zh_cn": "中国",
     "phonetic": "/ˈçiːna/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Griechenland",
     "zh_cn": "希腊",
     "phonetic": "/ˈɡʁiːçn̩ˌlant/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Italien",
     "zh_cn": "意大利",
     "phonetic": "/iˈtaːli̯ən/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "Marokko",
     "zh_cn": "摩洛哥",
     "phonetic": "/ˌmaˈʁɔko/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Mexiko",
     "zh_cn": "墨西哥",
     "phonetic": "/ˈmɛksikoː/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Polen",
     "zh_cn": "波兰",
     "phonetic": "/ˈpoːlən/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "Russland",
     "zh_cn": "俄罗斯",
     "phonetic": "/ˈʁʊslant/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Spanien",
     "zh_cn": "西班牙",
     "phonetic": "/ˈʃpaːni̯ən/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "die Türkei",
     "zh_cn": "土耳其",
     "phonetic": "/tʏʁˈkaɪ̯/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "die USA (Pl.)",
     "zh_cn": "美国",
     "phonetic": "/ˌuːʔɛsˈʔaː/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "die Sprache, -n",
     "zh_cn": "语言",
     "phonetic": "/ˈʃpʁaːxə/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "Arabisch",
     "zh_cn": "阿拉伯语",
     "phonetic": "/aˈʁaːbɪʃ/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Chinesisch",
     "zh_cn": "中文",
     "phonetic": "/çiˈneːzɪʃ/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Deutsch",
     "zh_cn": "德语",
     "phonetic": "/dɔɪ̯t͡ʃ/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Englisch",
     "zh_cn": "英语",
     "phonetic": "/ˈɛŋlɪʃ/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Französisch",
     "zh_cn": "法语",
     "phonetic": "/fʁanˈt͡søːzɪʃ/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Hindi",
     "zh_cn": "印地语",
     "phonetic": "/ˈhɪndiː/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Italienisch",
     "zh_cn": "意大利语",
     "phonetic": "/ˌitaˈli̯eːnɪʃ/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Japanisch",
     "zh_cn": "日语",
     "phonetic": "/jaˈpaːnɪʃ/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Portugiesisch",
     "zh_cn": "葡萄牙语",
     "phonetic": "/ˌpɔʁtuˈɡiːzɪʃ/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Russisch",
     "zh_cn": "俄语",
     "phonetic": "/ˈʁʊsɪʃ/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Spanisch",
     "zh_cn": "西班牙语",
     "phonetic": "/ˈʃpaːnɪʃ/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "das Computerspiel, -e",
     "zh_cn": "电脑游戏",
     "phonetic": "/kɔmˈpjuːtɐˌʃpiːl/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "das Restaurant, -s",
     "zh_cn": "餐馆",
     "phonetic": "/ʁɛstoˈʁɑ̃ː/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "das Souvenir, -s",
     "zh_cn": "纪念品，纪念礼物",
     "phonetic": "/zuvəˈniːɐ̯/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "das Auto, -s",
     "zh_cn": "小轿车、汽车",
     "phonetic": "/ˈaʊ̯to/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "das Bier, -e",
     "zh_cn": "啤酒",
     "phonetic": "/biːɐ̯/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "die Blume, -n",
     "zh_cn": "花",
     "phonetic": "/ˈbluːmə/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "die Bürste, -n",
     "zh_cn": "刷子",
     "phonetic": "/ˈbʏʁstə/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "die Flasche, -n",
     "zh_cn": "瓶子",
     "phonetic": "/ˈflaʃə/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "der Fußball, ¨e",
     "zh_cn": "足球",
     "phonetic": "/ˈfuːsˌbal/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "das Gummibärchen, -",
     "zh_cn": "小熊软糖",
     "phonetic": "/ˈɡʊmiˌbɛːɐ̯çən/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "das Herz, -en",
     "zh_cn": "心",
     "phonetic": "/hɛʁt͡s/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "der Hut, ¨e",
     "zh_cn": "帽子",
     "phonetic": "/huːt/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "das Messer, -",
     "zh_cn": "刀",
     "phonetic": "/ˈmɛsɐ/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "die Postkarte, -n",
     "zh_cn": "明信片",
     "phonetic": "/ˈpɔstˌkaʁtə/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "das Haus, ¨er",
     "zh_cn": "房子，家",
     "phonetic": "/haʊ̯s/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "die Tasse, -n",
     "zh_cn": "杯子",
     "phonetic": "/ˈtasə/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "der Wein, -e",
     "zh_cn": "葡萄酒",
     "phonetic": "/vaɪ̯n/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "die Uhr, -en",
     "zh_cn": "钟点，表，钟",
     "phonetic": "/uːɐ̯/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "der Euro, -s",
     "zh_cn": "欧元",
     "phonetic": "/ˈɔɪ̯ʁo/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "der Franken, -",
     "zh_cn": "瑞士法郎",
     "phonetic": "/ˈfʁaŋkən/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "der Cent, -s ( 欧 )",
     "zh_cn": "分",
     "phonetic": "/t͡sɛnt/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "der Preis, -e",
     "zh_cn": "价格",
     "phonetic": "/pʁaɪ̯s/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "wir",
     "zh_cn": "我们",
     "phonetic": "/viːɐ̯/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "ihr",
     "zh_cn": "你们",
     "phonetic": "/iːɐ̯/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "sie (Pl.)",
     "zh_cn": "他们（第三人称复数）",
     "phonetic": "/ziː/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "gehen",
     "zh_cn": "走，去",
     "phonetic": "/ˈɡeːən/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb",
+    "verbConjugation": {
+      "infinitive": "gehen",
+      "present": {
+        "ich": "gehe",
+        "du": "gehst",
+        "er": "geht",
+        "wir": "gehen",
+        "ihr": "geht",
+        "sie": "gehen"
+      }
+    }
   },
   {
     "word": "spazieren gehen, geht spazieren",
     "zh_cn": "去散步",
     "unitId": 2,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "shoppen gehen, geht shoppen",
     "zh_cn": "去购物",
     "unitId": 2,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "tanzen gehen, geht tanzen",
     "zh_cn": "去跳舞",
     "unitId": 2,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "hören",
     "zh_cn": "听",
     "phonetic": "/ˈhøːʁən/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "Musik hören, hört Musik",
     "zh_cn": "听音乐",
     "unitId": 2,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "machen",
     "zh_cn": "做",
     "phonetic": "/ˈmaxn̩/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb",
+    "verbConjugation": {
+      "infinitive": "machen",
+      "present": {
+        "ich": "mache",
+        "du": "machst",
+        "er": "macht",
+        "wir": "machen",
+        "ihr": "macht",
+        "sie": "machen"
+      }
+    }
   },
   {
     "word": "Sport machen, macht Sport",
     "zh_cn": "做运动",
     "unitId": 2,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Musik machen, macht Musik",
     "zh_cn": "演奏音乐",
     "unitId": 2,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Pause machen, macht Pause",
     "zh_cn": "休息",
     "unitId": 2,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "lachen",
     "zh_cn": "笑",
     "phonetic": "/ˈlaxn̩/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "reisen",
     "zh_cn": "旅游",
     "phonetic": "/ˈʁaɪ̯zn̩/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "schwimmen",
     "zh_cn": "游泳",
     "phonetic": "/ˈʃvɪmən/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "spielen",
     "zh_cn": "玩",
     "phonetic": "/ˈʃpiːlən/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "fotografieren",
     "zh_cn": "拍照",
     "phonetic": "/fotoɡʁaˈfiːʁən/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "telefonieren",
     "zh_cn": "打电话",
     "phonetic": "/teləfoˈniːʁən/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "kommen aus, kommt aus",
     "zh_cn": "来自",
     "unitId": 2,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "kosten",
     "zh_cn": "花费，价格为…",
     "phonetic": "/ˈkɔstn̩/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "wohnen",
     "zh_cn": "住",
     "phonetic": "/ˈvoːnən/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "hässlich",
     "zh_cn": "丑陋的",
     "phonetic": "/ˈhɛslɪç/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "lecker",
     "zh_cn": "美味的",
     "phonetic": "/ˈlɛkɐ/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "lustig",
     "zh_cn": "好玩的，好笑的",
     "phonetic": "/ˈlʊstɪç/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "langweilig",
     "zh_cn": "无聊的",
     "phonetic": "/ˈlaŋvaɪ̯lɪç/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "cool",
     "zh_cn": "酷的",
     "phonetic": "/kuːl/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "teuer",
     "zh_cn": "贵的",
     "phonetic": "/ˈtɔɪ̯ɐ/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "billig",
     "zh_cn": "便宜的",
     "phonetic": "/ˈbɪlɪç/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "eins, zwei, drei,...",
     "zh_cn": "1, 2, 3,…",
     "phonetic": "/aɪ̯ns/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "einhundert/hundert",
     "zh_cn": "100",
     "unitId": 2,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Woher?",
     "zh_cn": "从哪里来?",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Wohin?",
     "zh_cn": "到哪里去?",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Viel Spaß!",
     "zh_cn": "玩得开心!",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Ich bleibe zu Hause.",
     "zh_cn": "我待在家里。",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Entschuldigung.",
     "zh_cn": "不好意思，对不起。",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Sprechen Sie Deutsch?",
     "zh_cn": "您说德语吗?",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Woher kommt das?",
     "zh_cn": "这个是来自哪里的?",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Woher kommen Sie?",
     "zh_cn": "您是来自哪里的?",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Das ist kein/e...",
     "zh_cn": "这不是…!",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "Doch, das ist ein/e...",
     "zh_cn": "不，这是一个…",
     "unitId": 2,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "noun"
   },
   {
     "word": "Was kostet das?",
     "zh_cn": "这个多少钱?",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "Das ist teuer!",
     "zh_cn": "这个好贵!",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "noun"
   },
   {
     "word": "doch",
     "zh_cn": "加强语气，无实义",
     "phonetic": "/dɔx/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "gern",
     "zh_cn": "喜欢，乐意",
     "phonetic": "/ɡɛʁn/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "verb"
   },
   {
     "word": "nicht",
     "zh_cn": "不（否定词）",
     "phonetic": "/nɪçt/",
-    "unitId": 2
+    "unitId": 2,
+    "wordType": "other"
   },
   {
     "word": "das Essen",
     "zh_cn": "饮食",
     "phonetic": "/ˈɛsn̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Zeit (nur Sg.)",
     "zh_cn": "时间",
     "phonetic": "/t͡saɪ̯t/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Brot, -e",
     "zh_cn": "面包",
     "phonetic": "/bʁoːt/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Weißbrot, -e",
     "zh_cn": "白面包",
     "phonetic": "/ˈvaɪ̯sˌbʁoːt/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Schwarzbrot, -e",
     "zh_cn": "黑面包",
     "phonetic": "/ˈʃvaʁt͡sˌbʁoːt/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Brötchen, -",
     "zh_cn": "小面包",
     "phonetic": "/ˈbʁøːtçən/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Brezel, -n",
     "zh_cn": "8字形面包",
     "phonetic": "/ˈbʁeːt͡sl̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Bäcker, - / die Bäckerin, -nen",
     "zh_cn": "面包师/女面包师",
     "phonetic": "/ˈbɛkɐ/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Kunde, -n / die Kundin, -nen",
     "zh_cn": "顾客/女顾客",
     "phonetic": "/ˈkʊndə/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der, die Deutsche, -n",
     "zh_cn": "德国人",
     "phonetic": "/deːɐ̯/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Kilogramm",
     "zh_cn": "公斤，千克",
     "phonetic": "/kiloˈɡʁam/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Prozent, -e",
     "zh_cn": "百分数",
     "phonetic": "/pʁoˈt͡sɛnt/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Frühstück, -e",
     "zh_cn": "早餐",
     "phonetic": "/ˈfʁyːˌʃtʏk/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Ei, -er",
     "zh_cn": "鸡蛋",
     "phonetic": "/aɪ̯/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Butter (nur Sg.)",
     "zh_cn": "黄油",
     "phonetic": "/ˈbʊtɐ/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Schinken, -",
     "zh_cn": "火腿",
     "phonetic": "/ˈʃɪŋkn̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Käse (nur Sg.)",
     "zh_cn": "奶酪",
     "phonetic": "/ˈkɛːzə/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Marmelade, -n",
     "zh_cn": "果酱",
     "phonetic": "/ˌmaʁməˈlaːdə/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Honig (nur Sg.)",
     "zh_cn": "蜂蜜",
     "phonetic": "/ˈhoːnɪç/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Milch (nur Sg.)",
     "zh_cn": "牛奶",
     "phonetic": "/mɪlç/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Butterbrot, -e",
     "zh_cn": "黄油面包片",
     "phonetic": "/ˈbʊtɐˌbʁoːt/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Abendbrot (nur Sg.)",
     "zh_cn": "(以面包为主)晚餐",
     "phonetic": "/ˈaːbn̩tˌbʁoːt/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Scheibe, -n",
     "zh_cn": "(薄)片",
     "phonetic": "/ˈʃaɪ̯bə/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Korb, -e",
     "zh_cn": "筐，篮子",
     "phonetic": "/kɔʁp/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Fisch, -e",
     "zh_cn": "鱼",
     "phonetic": "/fɪʃ/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Imbissstand, -e",
     "zh_cn": "小吃亭",
     "phonetic": "/ˈɪmbɪsˌʃtant/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Speise, -n",
     "zh_cn": "菜肴",
     "phonetic": "/ˈʃpaɪ̯zə/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Getränk, -e",
     "zh_cn": "饮料",
     "phonetic": "/ɡəˈtʁɛŋk/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Hamburger, -",
     "zh_cn": "汉堡",
     "phonetic": "/ˈhamˌbʊʁɡɐ/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Pizza, -s / Pizzen",
     "zh_cn": "披萨",
     "phonetic": "/ˈpɪt͡sa/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Wurst, -e",
     "zh_cn": "香肠",
     "phonetic": "/vʊʁst/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Bratwurst, -e",
     "zh_cn": "烤香肠",
     "phonetic": "/…ʃt…/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Senf, -e",
     "zh_cn": "芥末",
     "phonetic": "/zɛnf/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Pommes frites (Pl.)",
     "zh_cn": "炸薯条",
     "unitId": 3,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "noun"
   },
   {
     "word": "der / das Ketchup (nur Sg.)",
     "zh_cn": "番茄酱",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Majonäse, -n",
     "zh_cn": "蛋黄酱",
     "phonetic": "/majɔˈnɛːzə/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Salat, -e",
     "zh_cn": "色拉，沙拉",
     "phonetic": "/zaˈlaːt/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Hähnchen, -",
     "zh_cn": "小鸡，小鸡肉",
     "phonetic": "/ˈhɛːnçən/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Wasser (nur Sg.)",
     "zh_cn": "水",
     "phonetic": "/ˈvasɐ/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Mineralwasser (nur Sg.)",
     "zh_cn": "矿泉水",
     "phonetic": "/mineˈʁaːlˌvasɐ/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Saft, -e",
     "zh_cn": "果汁",
     "phonetic": "/zaft/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Apfelsaft, -e",
     "zh_cn": "苹果汁",
     "phonetic": "/ˈap͡fl̩ˌzaft/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Cola, -s",
     "zh_cn": "可乐",
     "phonetic": "/ˈkoːla/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Limonade, -n",
     "zh_cn": "柠檬水",
     "phonetic": "/limoˈnaːdə/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Bier, -e",
     "zh_cn": "啤酒",
     "phonetic": "/biːɐ̯/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Hunger (nur Sg.)",
     "zh_cn": "饥饿",
     "phonetic": "/ˈhʊŋɐ/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Durst (nur Sg.)",
     "zh_cn": "口渴",
     "phonetic": "/dʊʁst/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Dessert, -s",
     "zh_cn": "甜品",
     "phonetic": "/dɛˈseːɐ̯/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Kuchen, -",
     "zh_cn": "蛋糕",
     "phonetic": "/ˈkuːxn̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Torte, -n",
     "zh_cn": "奶油大蛋糕",
     "phonetic": "/ˈtɔʁtə/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Eis (nur Sg.)",
     "zh_cn": "冰淇淋",
     "phonetic": "/aɪ̯s/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Apfel, -",
     "zh_cn": "苹果",
     "phonetic": "/ˈap͡fl̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Birne, -n",
     "zh_cn": "梨子",
     "phonetic": "/ˈbɪʁnə/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Banane, -n",
     "zh_cn": "香蕉",
     "phonetic": "/baˈnaːnə/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "Lebensmittel, Pl.",
     "zh_cn": "食品，食物",
     "phonetic": "/ˈleːbn̩sˌmɪtl̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "das Fastfood, -",
     "zh_cn": "快餐",
     "phonetic": "/ˈfaːstfuːt/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Döner (Kebab), -",
     "zh_cn": "土耳其肉夹馍",
     "phonetic": "/ˈdœnɛr/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Sushi, -",
     "zh_cn": "寿司",
     "phonetic": "/sɯɕiꜜ/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Currywurst, ¨e",
     "zh_cn": "咖喱香肠",
     "phonetic": "/…ʃt…/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "der Apfelstrudel, -",
     "zh_cn": "苹果派",
     "phonetic": "/ˈap͡fl̩ˌʃtʁuːdl̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Buchtel, -n",
     "zh_cn": "果酱面包",
     "phonetic": "/ˈbʊxtl̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "die Sachertorte, -n",
     "zh_cn": "维也纳萨赫巧克力蛋糕",
     "phonetic": "/ˈzaxɐˌtɔʁtə/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "das Schokoladen-Fondue, -s",
     "zh_cn": "巧克力火锅",
     "unitId": 3,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "noun"
   },
   {
     "word": "die Vanillesoße, -n",
     "zh_cn": "香草汁",
     "phonetic": "/vaˈnɪləˌzoːsə/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "noun"
   },
   {
     "word": "trinken",
     "zh_cn": "喝",
     "phonetic": "/ˈtʁɪŋkn̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "verb"
   },
   {
     "word": "bestellen",
     "zh_cn": "点餐，预订",
     "phonetic": "/bəˈʃtɛlən/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "verb"
   },
   {
     "word": "bezahlen",
     "zh_cn": "买单，付款",
     "phonetic": "/bəˈt͡saːlən/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "verb"
   },
   {
     "word": "suchen",
     "zh_cn": "寻找",
     "phonetic": "/ˈzuːxn̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "verb"
   },
   {
     "word": "finden",
     "zh_cn": "找到",
     "phonetic": "/ˈfɪndn̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "verb"
   },
   {
     "word": "nehmen, nimmt",
     "zh_cn": "拿，取，收",
     "phonetic": "/ˈneːmən/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "schmecken",
     "zh_cn": "尝，尝起来",
     "phonetic": "/ˈʃmɛkn̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "verb"
   },
   {
     "word": "mögen, mag",
     "zh_cn": "喜欢",
     "phonetic": "/ˈmøːɡn̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "haben, hat",
     "zh_cn": "有",
     "phonetic": "/ˈhaːbn̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "essen, isst",
     "zh_cn": "吃",
     "phonetic": "/ˈɛsn̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "mager",
     "zh_cn": "瘦的",
     "phonetic": "/ˈmaːɡɐ/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "fett",
     "zh_cn": "油腻的，肥胖的",
     "phonetic": "/fɛt/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "salzig",
     "zh_cn": "咸的",
     "phonetic": "/ˈzalt͡sɪç/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "süß",
     "zh_cn": "甜的",
     "phonetic": "/zyːs/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "gesund",
     "zh_cn": "健康的",
     "phonetic": "/ɡəˈzʊnt/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "ungesund",
     "zh_cn": "不健康的",
     "phonetic": "/ˈʊnɡəˌzʊnt/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "typisch",
     "zh_cn": "典型的",
     "phonetic": "/ˈtyːpɪʃ/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "schnell",
     "zh_cn": "快的，迅速的",
     "phonetic": "/ʃnɛl/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "irka",
     "zh_cn": "大约，大概",
     "unitId": 3,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "sehr",
     "zh_cn": "非常，很",
     "phonetic": "/zeːɐ̯/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "man",
     "zh_cn": "人们",
     "phonetic": "/man/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "einmal//zweimal//...",
     "zh_cn": "一次/两次…",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "pro Person//Monat//Jahr",
     "zh_cn": "每个人/每个月/每年",
     "unitId": 3,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "jeden Tag",
     "zh_cn": "每天",
     "unitId": 3,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "frisch",
     "zh_cn": "新鲜的",
     "phonetic": "/fʁɪʃ/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "alt",
     "zh_cn": "旧的，年纪大的",
     "phonetic": "/alt/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "viel",
     "zh_cn": "多的，许多的",
     "phonetic": "/fiːl/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "wenig",
     "zh_cn": "少的，不多的",
     "phonetic": "/ˈveːnɪç/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "weich",
     "zh_cn": "柔软的",
     "phonetic": "/vaɪ̯ç/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "hart",
     "zh_cn": "坚硬的",
     "phonetic": "/haʁt/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "warm",
     "zh_cn": "温暖的",
     "phonetic": "/vaʁm/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "kalt",
     "zh_cn": "冷的",
     "phonetic": "/kalt/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "morgens",
     "zh_cn": "早晨，上午，每天早晨，每天上午",
     "phonetic": "/ˈmɔʁɡn̩s/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "mittags",
     "zh_cn": "中午，每天中午",
     "phonetic": "/ˈmɪtaːks/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "abends",
     "zh_cn": "晚上，每天晚上",
     "phonetic": "/ˈaːbn̩t͡s/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "immer",
     "zh_cn": "总是",
     "phonetic": "/ˈɪmɐ/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "oft",
     "zh_cn": "经常",
     "phonetic": "/ɔft/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "selten",
     "zh_cn": "很少，极少",
     "phonetic": "/ˈzɛltn̩/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "verb"
   },
   {
     "word": "nie",
     "zh_cn": "从不",
     "phonetic": "/niː/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "zwischendurch",
     "zh_cn": "期间，在此期间",
     "phonetic": "/t͡svɪʃn̩ˈdʊʁç/",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "Was darf es sein?",
     "zh_cn": "您想要点什么?",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "Ich weiß nicht.",
     "zh_cn": "我不知道。",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "Was für ein Brot?",
     "zh_cn": "您想要哪种面包?",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "Was macht das?",
     "zh_cn": "多少钱?",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "Ich habe Hunger.",
     "zh_cn": "我饿了。",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "Ich habe Durst.",
     "zh_cn": "我渴了。",
-    "unitId": 3
+    "unitId": 3,
+    "wordType": "other"
   },
   {
     "word": "das Jahr, -e",
     "zh_cn": "年",
     "phonetic": "/jaːɐ̯/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Monat, -e",
     "zh_cn": "月",
     "phonetic": "/ˈmoːnat/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "die Woche, -n",
     "zh_cn": "星期",
     "phonetic": "/ˈvɔxə/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Tag, -e",
     "zh_cn": "白天，天",
     "phonetic": "/taːk/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Wochentag, -e",
     "zh_cn": "一周中的某一天；工作日",
     "phonetic": "/ˈvɔxn̩ˌtaːk/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Montag, -e",
     "zh_cn": "星期一",
     "phonetic": "/ˈmoːnˌtaːk/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Dienstag, -e",
     "zh_cn": "星期二",
     "phonetic": "/ˈdiːnsˌtaːk/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Mittwoch, -e",
     "zh_cn": "星期三",
     "phonetic": "/ˈmɪtˌvɔx/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Donnerstag, -e",
     "zh_cn": "星期四",
     "phonetic": "/ˈdɔnɐsˌtaːk/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Freitag, -e",
     "zh_cn": "星期五",
     "phonetic": "/ˈfʁaɪ̯ˌtaːk/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Samstag, -e",
     "zh_cn": "星期六",
     "phonetic": "/ˈzamstaːk/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Sonntag, -e",
     "zh_cn": "星期日",
     "phonetic": "/ˈzɔnˌtaːk/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "das Wochenende, -n",
     "zh_cn": "周末",
     "phonetic": "/ˈvɔxn̩ˌʔɛndə/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Mensch, -en",
     "zh_cn": "人",
     "phonetic": "/mɛnʃ/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Beruf, -e",
     "zh_cn": "职业，工作",
     "phonetic": "/bəˈʁuːf/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Student, -en",
     "zh_cn": "大学生",
     "phonetic": "/ʃtuˈdɛnt/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "die Studentin, -nen",
     "zh_cn": "女大学生",
     "phonetic": "/ʃtuˈdɛntɪn/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Praktikant, -en",
     "zh_cn": "实习生",
     "phonetic": "/pʁaktiˈkant/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "die Praktikantin, -nen",
     "zh_cn": "女实习生",
     "phonetic": "/pʁaktiˈkantɪn/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der IT-Spezialist, -en",
     "zh_cn": "电脑专家",
     "phonetic": "/aɪ̯ˈtiːʃpet͡si̯aˌlɪst/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "die IT-Spezialistin, -nen",
     "zh_cn": "女电脑专家",
     "phonetic": "/aɪ̯ˈtiːʃpet͡si̯aˌlɪstɪn/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Hotelfachmann, ¨er",
     "zh_cn": "酒店管理人员",
     "unitId": 4,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "noun"
   },
   {
     "word": "die Hotelfachfrau, -en",
     "zh_cn": "酒店管理人员（女）",
     "unitId": 4,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "noun"
   },
   {
     "word": "der Taxifahrer, -",
     "zh_cn": "出租车司机",
     "phonetic": "/ˈtaksiˌfaːʁɐ/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "die Taxifahrerin, -nen",
     "zh_cn": "女出租车司机",
     "phonetic": "/ˈtaksiˌfaːʁəʁɪn/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "das Hotel, -s",
     "zh_cn": "酒店，宾馆",
     "phonetic": "/hoˈtɛl/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "die Universität, -en",
     "zh_cn": "大学",
     "phonetic": "/ˌunivɛʁziˈtɛːt/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "das Krankenhaus, ¨er",
     "zh_cn": "医院",
     "phonetic": "/ˈkʁaŋkn̩ˌhaʊ̯s/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "das Praktikum, die Praktika",
     "zh_cn": "实习",
     "phonetic": "/ˈpʁaktikʊm/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "das Kindergarten, ¨",
     "zh_cn": "幼儿园",
     "phonetic": "/ˈkɪndɐˌɡaʁtn̩/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "die Firma, die Firmen",
     "zh_cn": "公司",
     "phonetic": "/ˈfɪʁma/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "das Büro, -s",
     "zh_cn": "办公室",
     "phonetic": "/byˈʁoː/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "die Mittagspause, -n",
     "zh_cn": "午休",
     "phonetic": "/ˈmɪtaːksˌpaʊ̯zə/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Moment, -e",
     "zh_cn": "时刻，瞬间",
     "phonetic": "/moˈmɛnt/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "das Bett, -en",
     "zh_cn": "床",
     "phonetic": "/bɛt/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Stress (nur Sg.)",
     "zh_cn": "压力",
     "phonetic": "/ʃtʁɛs/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Ruhetag, -e",
     "zh_cn": "休息日",
     "phonetic": "/ˈʁuːəˌtaːk/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Supermarkt, ¨e",
     "zh_cn": "超市",
     "phonetic": "/ˈzuːpɐˌmaʁkt/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "das Geschäft, -e",
     "zh_cn": "商店",
     "phonetic": "/ɡəˈʃɛft/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "die Party, -s",
     "zh_cn": "聚会",
     "phonetic": "/ˈpaːɐ̯ti/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Freund, -e",
     "zh_cn": "朋友",
     "phonetic": "/fʁɔɪ̯nt/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "die Freundin, -nen",
     "zh_cn": "女朋友",
     "phonetic": "/ˈfʁɔɪ̯ndɪn/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Krimi, -s",
     "zh_cn": "侦探片",
     "phonetic": "/ˈkʁɪmi/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Bus, -se",
     "zh_cn": "公共汽车",
     "phonetic": "/bʊs/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "die Haltestelle, -n",
     "zh_cn": "车站",
     "phonetic": "/ˈhaltəˌʃtɛlə/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "der Fahrplan, ¨e",
     "zh_cn": "时刻表",
     "phonetic": "/ˈfaːɐ̯ˌplaːn/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "schlafen, schläft",
     "zh_cn": "睡觉",
     "phonetic": "/ˈʃlaːfn̩/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "sehen, sieht",
     "zh_cn": "看，看见",
     "phonetic": "/ˈzeːən/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "fernsehen, sieht fern",
     "zh_cn": "看电视",
     "phonetic": "/ˈfɛʁnˌzeːən/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "arbeiten",
     "zh_cn": "工作",
     "phonetic": "/ˈaʁbaɪ̯tn̩/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "verb"
   },
   {
     "word": "lesen, liest",
     "zh_cn": "阅读",
     "phonetic": "/ˈleːzn̩/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "Auto fahren, fährt Auto",
     "zh_cn": "开车",
     "unitId": 4,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "sprechen, spricht",
     "zh_cn": "说，说话",
     "phonetic": "/ˈʃpʁɛçn̩/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "im Internet surfen, surft im Internet",
     "zh_cn": "上网",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "küssen",
     "zh_cn": "亲吻",
     "phonetic": "/ˈkʏsn̩/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "verb"
   },
   {
     "word": "studieren",
     "zh_cn": "学习",
     "phonetic": "/ʃtuˈdiːʁən/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "verb"
   },
   {
     "word": "jobben",
     "zh_cn": "打工",
     "phonetic": "/ˈd͡ʒɔbn̩/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "verb"
   },
   {
     "word": "frei haben, hat frei",
     "zh_cn": "休息",
     "unitId": 4,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "von Beruf sein, ist von Beruf",
     "zh_cn": "从事……职业",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "beruflich machen",
     "zh_cn": "从事……职业",
     "unitId": 4,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "aufwachen, wacht auf",
     "zh_cn": "醒来",
     "phonetic": "/ˈaʊ̯fˌvaxn̩/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "aufstehen, steht auf",
     "zh_cn": "起床，起身",
     "phonetic": "/ˈaʊ̯fˌʃteːən/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "losfahren, fährt los",
     "zh_cn": "出发",
     "phonetic": "/ˈloːsˌfaːʁən/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "auspacken, packt aus",
     "zh_cn": "打开，拆开",
     "phonetic": "/ˈaʊ̯sˌpakn̩/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "anfangen, fängt an",
     "zh_cn": "开始",
     "phonetic": "/ˈanˌfaŋən/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "scheinen",
     "zh_cn": "照耀，照射",
     "phonetic": "/ˈʃaɪ̯nən/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "verb"
   },
   {
     "word": "wollen, will",
     "zh_cn": "想，想要",
     "phonetic": "/ˈvɔlən/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "einkaufen, kauft ein",
     "zh_cn": "购物",
     "phonetic": "/ˈaɪ̯nˌkaʊ̯fn̩/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "zu haben, hat zu",
     "zh_cn": "要做…",
     "unitId": 4,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "wegwerfen, wirft weg",
     "zh_cn": "扔",
     "phonetic": "/ˈvɛkˌvɛʁfn̩/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "anrufen, ruft an",
     "zh_cn": "打电话",
     "phonetic": "/ˈanˌʁuːfn̩/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "müssen, muss",
     "zh_cn": "必须",
     "phonetic": "/ˈmʏsn̩/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "Stress haben, hat Stress",
     "zh_cn": "有压力",
     "unitId": 4,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "lernen",
     "zh_cn": "学习",
     "phonetic": "/ˈlɛʁnən/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "verb"
   },
   {
     "word": "kommen",
     "zh_cn": "来",
     "phonetic": "/ˈkɔmən/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "verb",
+    "verbConjugation": {
+      "infinitive": "kommen",
+      "present": {
+        "ich": "komme",
+        "du": "kommst",
+        "er": "kommt",
+        "wir": "kommen",
+        "ihr": "kommt",
+        "sie": "kommen"
+      }
+    }
   },
   {
     "word": "ankommen, kommt an",
     "zh_cn": "到达",
     "phonetic": "/ˈanˌkɔmən/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "arbeitslos",
     "zh_cn": "失业的",
     "phonetic": "/ˈaʁbaɪ̯t͡sloːs/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "toll",
     "zh_cn": "极好的",
     "phonetic": "/tɔl/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "wundervoll",
     "zh_cn": "绝妙的，美好的",
     "phonetic": "/ˈvʊndɐˌfɔl/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "laut",
     "zh_cn": "大声的，嘈杂的",
     "phonetic": "/laʊ̯t/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "leise",
     "zh_cn": "轻声的",
     "phonetic": "/ˈlaɪ̯zə/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "früh",
     "zh_cn": "早的",
     "phonetic": "/fʁyː/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "spät",
     "zh_cn": "晚的，迟的",
     "phonetic": "/ʃpɛːt/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "pünktlich",
     "zh_cn": "准时的",
     "phonetic": "/ˈpʏŋktlɪç/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "unpünktlich",
     "zh_cn": "不准时的",
     "phonetic": "/ˈʊnˌpʏŋktlɪç/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "normal",
     "zh_cn": "正常的，通常的",
     "phonetic": "/nɔʁˈmaːl/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "vormittags",
     "zh_cn": "上午",
     "phonetic": "/ˈfoːɐ̯mɪˌtaːks/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "nachmittags",
     "zh_cn": "下午",
     "phonetic": "/ˈnaːxmɪˌtaːks/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "nachts",
     "zh_cn": "夜晚",
     "phonetic": "/naxt͡s/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "montags, dienstags,...",
     "zh_cn": "每周一，每周二……",
     "phonetic": "/ˈmoːntaːks/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "heute",
     "zh_cn": "今天",
     "phonetic": "/ˈhɔɪ̯tə/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "manchmal",
     "zh_cn": "有时",
     "phonetic": "/ˈmançmaːl/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "anders",
     "zh_cn": "不同，不一样",
     "phonetic": "/ˈandɐs/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "Wann?",
     "zh_cn": "何时?",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "Warum?",
     "zh_cn": "为什么?",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "Wie viel?",
     "zh_cn": "多少?",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "Wie lange?",
     "zh_cn": "多久?",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "Wie viele Stunden?",
     "zh_cn": "多长时间?",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "Wie spät ist es?",
     "zh_cn": "现在几点了?",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "Wie viel Uhr ist es?",
     "zh_cn": "现在几点了?",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "Jeden Tag das Gleiche",
     "zh_cn": "每天如此。",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "Moment mal!",
     "zh_cn": "稍等!",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "Das geht leider nicht",
     "zh_cn": "遗憾的是这不可以。",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "noun"
   },
   {
     "word": "Es ist Viertel nach/vor",
     "zh_cn": "现在是…点一刻。/差一刻…点。",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "um... Uhr",
     "zh_cn": "在……点",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "am Sonntag/...",
     "zh_cn": "在周日/在周……",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "von... bis...",
     "zh_cn": "从……到……",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "leider",
     "zh_cn": "很遗憾",
     "phonetic": "/ˈlaɪ̯dɐ/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "zirka",
     "zh_cn": "大概，大约",
     "phonetic": "/ˈt͡sɪʁka/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "nichts",
     "zh_cn": "什么也没有",
     "phonetic": "/nɪçt͡s/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "alles",
     "zh_cn": "所有的，一切",
     "phonetic": "/ˈaləs/",
-    "unitId": 4
+    "unitId": 4,
+    "wordType": "other"
   },
   {
     "word": "der Wunsch, ¨-e",
     "zh_cn": "愿望，祝愿",
     "phonetic": "/vʊnʃ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Traum, ¨-e",
     "zh_cn": "梦，梦想",
     "phonetic": "/tʁaʊ̯m/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Familie, -n",
     "zh_cn": "家，家庭",
     "phonetic": "/faˈmiːli̯ə/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Eltern (nur Pl.)",
     "zh_cn": "父母",
     "phonetic": "/ˈɛltɐn/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Vater, ¨-",
     "zh_cn": "父亲，爸爸",
     "phonetic": "/ˈfaːtɐ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Mutter, ¨-",
     "zh_cn": "母亲，妈妈",
     "phonetic": "/ˈmʊtɐ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Sohn, ¨-e",
     "zh_cn": "儿子",
     "phonetic": "/zoːn/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Tochter, ¨-",
     "zh_cn": "女儿",
     "phonetic": "/ˈtɔxtɐ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Geschwister (nur Pl.)",
     "zh_cn": "兄弟姐妹",
     "phonetic": "/ɡəˈʃvɪstɐ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Bruder, ¨-",
     "zh_cn": "弟",
     "phonetic": "/ˈbʁuːdɐ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Schwester, -n",
     "zh_cn": "姐，妹",
     "phonetic": "/ˈʃvɛstɐ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Großeltern (nur Pl.)",
     "zh_cn": "祖父母",
     "phonetic": "/ˈɡʁoːsˌʔɛltɐn/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Großvater, ¨- (外)",
     "zh_cn": "祖父",
     "phonetic": "/ˈɡʁoːsˌfaːtɐ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Großmutter, ¨- (外)",
     "zh_cn": "祖母",
     "phonetic": "/ˈɡʁoːsˌmʊtɐ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Enkel, - (外)",
     "zh_cn": "孙子",
     "phonetic": "/ˈɛŋkl̩/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Enkelin, -nen (外)",
     "zh_cn": "孙女",
     "phonetic": "/ˈɛŋkəlɪn/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Tante, -n",
     "zh_cn": "姑母，伯母，舅母，婶婶，阿姨",
     "phonetic": "/ˈtantə/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Onkel, -",
     "zh_cn": "姑父，伯父，舅舅，叔叔，姨夫",
     "phonetic": "/ˈɔŋkl̩/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "das Kind, -er",
     "zh_cn": "孩子",
     "phonetic": "/kɪnt/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "das Baby, -s",
     "zh_cn": "婴儿",
     "phonetic": "/ˈbeːbi/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Zwilling, -e",
     "zh_cn": "双胞胎",
     "phonetic": "/ˈt͡svɪlɪŋ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Single, -s",
     "zh_cn": "单身者",
     "phonetic": "/ˈsɪŋl̩/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Erfolg, -e",
     "zh_cn": "成功，成果",
     "phonetic": "/ɛɐ̯ˈfɔlk/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "das Glück (nur Sg.)",
     "zh_cn": "幸运，幸福",
     "phonetic": "/ɡlʏk/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Gesundheit (nur Sg.)",
     "zh_cn": "健康",
     "phonetic": "/ɡəˈzʊnthaɪ̯t/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Liebe (nur Sg.)",
     "zh_cn": "爱，爱情",
     "phonetic": "/ˈliːbə/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "das Leben, -",
     "zh_cn": "生活",
     "phonetic": "/ˈleːbn̩/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Angst, ¨-e",
     "zh_cn": "害怕，恐惧",
     "phonetic": "/aŋst/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Spaß, ¨-e",
     "zh_cn": "愉快，乐趣",
     "phonetic": "/ʃpaːs/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Weg, -e",
     "zh_cn": "路，道路",
     "phonetic": "/veːk/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "das Ziel, -e",
     "zh_cn": "目的，目标",
     "phonetic": "/t͡siːl/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Musiker, -/ ",
     "zh_cn": "音乐家",
     "phonetic": "/ˈmuːzɪkɐ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Musikerin, -nen",
     "zh_cn": "女音乐家",
     "phonetic": "/ˈmuːzɪkəʁɪn/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Gitarre, -n",
     "zh_cn": "吉他",
     "phonetic": "/ɡiˈtaʁə/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Star, -s",
     "zh_cn": "明星",
     "phonetic": "/ʃtaːɐ̯/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Fan, -s",
     "zh_cn": "迷，粉丝",
     "phonetic": "/fæn/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Song, -s",
     "zh_cn": "歌曲",
     "phonetic": "/zɔŋ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "Europa",
     "zh_cn": "欧洲",
     "phonetic": "/ɔɪ̯ˈʁoːpa/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "other"
   },
   {
     "word": "der Garten, ¨-",
     "zh_cn": "花园",
     "phonetic": "/ˈɡaʁtn̩/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Zoo, -s",
     "zh_cn": "动物园",
     "phonetic": "/t͡soː/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Affe, -n",
     "zh_cn": "猴子",
     "phonetic": "/ˈafə/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Fotograf, -en /",
     "zh_cn": "摄影师",
     "phonetic": "/fotoˈɡʁaːf/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Fotografin, -nen",
     "zh_cn": "女摄影师",
     "phonetic": "/fotoˈɡʁaːfɪn/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Journalist, -en /",
     "zh_cn": "记者",
     "phonetic": "/ʒʊʁnaˈlɪst/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Journalistin, -nen",
     "zh_cn": "女记者",
     "phonetic": "/ʒʊʁnaˈlɪstɪn/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Welt (nur Sg.)",
     "zh_cn": "世界",
     "phonetic": "/vɛlt/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Weltreise, -n",
     "zh_cn": "环球旅行",
     "phonetic": "/ˈvɛltˌʁaɪ̯zə/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Million, -en",
     "zh_cn": "百万",
     "phonetic": "/mɪˈli̯oːn/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "das Geld, -er",
     "zh_cn": "钱",
     "phonetic": "/ɡɛlt/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Bestseller, - /",
     "zh_cn": "畅销品（尤指书和唱片）",
     "phonetic": "/ˈbɛstˌsɛlɐ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Überraschung, -en",
     "zh_cn": "惊喜，惊讶",
     "phonetic": "/yːbɐˈʁaʃʊŋ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Großeltern",
     "zh_cn": "祖父母",
     "phonetic": "/ˈɡʁoːsˌʔɛltɐn/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Geschwister",
     "zh_cn": "兄弟姐妹",
     "phonetic": "/ɡəˈʃvɪstɐ/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "der Onkel",
     "zh_cn": "叔叔",
     "phonetic": "/ˈɔŋkl̩/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "die Tante",
     "zh_cn": "阿姨",
     "phonetic": "/ˈtantə/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "noun"
   },
   {
     "word": "wünschen (V.)",
     "zh_cn": "希望，愿望",
     "phonetic": "/ˈvʏnʃn̩/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "other"
   },
   {
     "word": "leben (V.)",
     "zh_cn": "生活，活着",
     "phonetic": "/ˈleːbn̩/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "other"
   },
   {
     "word": "denken (V.)",
     "zh_cn": "想，考虑",
     "phonetic": "/ˈdɛŋkn̩/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "other"
   },
   {
     "word": "bleiben (V.)",
     "zh_cn": "停留，保持",
     "phonetic": "/ˈblaɪ̯bn̩/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "other"
   },
   {
     "word": "singen (V.)",
     "zh_cn": "唱，唱歌",
     "phonetic": "/ˈzɪŋən/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "other"
   },
   {
     "word": "kennen (V.)",
     "zh_cn": "认识，了解",
     "phonetic": "/ˈkɛnən/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "other"
   },
   {
     "word": "lieben (V.)",
     "zh_cn": "爱",
     "phonetic": "/ˈliːbn̩/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "other"
   },
   {
     "word": "surfen (V.)",
     "zh_cn": "冲浪",
     "phonetic": "/ˈsœːɐ̯fn̩/",
-    "unitId": 5
+    "unitId": 5,
+    "wordType": "other"
   },
   {
     "word": "verkaufen (V.)",
     "zh_cn": "卖",
     "unitId": 5,
-    "phonetic": "/fɛɐ̯ˈkaʊ̯fn̩/"
+    "phonetic": "/fɛɐ̯ˈkaʊ̯fn̩/",
+    "wordType": "other"
   },
   {
     "word": "anschauen, schaut an (V.)",
     "zh_cn": "注视，看",
     "unitId": 5,
-    "phonetic": "/ˈanˌʃaʊ̯ən/"
+    "phonetic": "/ˈanˌʃaʊ̯ən/",
+    "wordType": "other"
   },
   {
     "word": "schreien (V.)",
     "zh_cn": "叫，喊",
     "unitId": 5,
-    "phonetic": "/ˈʃʁaɪ̯ən/"
+    "phonetic": "/ˈʃʁaɪ̯ən/",
+    "wordType": "other"
   },
   {
     "word": "verstehen (V.)",
     "zh_cn": "理解，明白",
     "unitId": 5,
-    "phonetic": "/fɛɐ̯ˈʃteːən/"
+    "phonetic": "/fɛɐ̯ˈʃteːən/",
+    "wordType": "other"
   },
   {
     "word": "fliegen (V.)",
     "zh_cn": "飞",
     "unitId": 5,
-    "phonetic": "/ˈfliːɡn̩/"
+    "phonetic": "/ˈfliːɡn̩/",
+    "wordType": "other"
   },
   {
     "word": "gewinnen (V.)",
     "zh_cn": "获得，赢得",
     "unitId": 5,
-    "phonetic": "/ɡəˈvɪnən/"
+    "phonetic": "/ɡəˈvɪnən/",
+    "wordType": "other"
   },
   {
     "word": "können, kann (V.)",
     "zh_cn": "能，能够",
     "unitId": 5,
-    "phonetic": "/ˈkœnən/"
+    "phonetic": "/ˈkœnən/",
+    "wordType": "other"
   },
   {
     "word": "möcht, möchte (V.)",
     "zh_cn": "想要",
     "unitId": 5,
-    "phoneticFailed": true
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "heiraten (V.)",
     "zh_cn": "结婚",
     "unitId": 5,
-    "phonetic": "/ˈhaɪ̯ʁaːtn̩/"
+    "phonetic": "/ˈhaɪ̯ʁaːtn̩/",
+    "wordType": "other"
   },
   {
     "word": "verheiratet (Adj.)",
     "zh_cn": "已婚的",
     "unitId": 5,
-    "phonetic": "/fɛɐ̯ˈhaɪ̯ʁaːtət/"
+    "phonetic": "/fɛɐ̯ˈhaɪ̯ʁaːtət/",
+    "wordType": "other"
   },
   {
     "word": "jung (Adj.)",
     "zh_cn": "年轻的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/jʊŋ/",
+    "wordType": "other"
   },
   {
     "word": "hübsch (Adj.)",
     "zh_cn": "漂亮的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/hʏpʃ/",
+    "wordType": "other"
   },
   {
     "word": "sympathisch (Adj.)",
     "zh_cn": "令人喜爱的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/zʏmˈpaːtɪʃ/",
+    "wordType": "other"
   },
   {
     "word": "unsympathisch (Adj.)",
     "zh_cn": "令人厌恶的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ˈʊnzʏmˌpaːtɪʃ/",
+    "wordType": "other"
   },
   {
     "word": "nett (Adj.)",
     "zh_cn": "友好的，讨人喜欢的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/nɛt/",
+    "wordType": "other"
   },
   {
     "word": "interessant (Adj.)",
     "zh_cn": "有趣的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ɪntəʁɛˈsant/",
+    "wordType": "other"
   },
   {
     "word": "mutig (Adj.)",
     "zh_cn": "勇敢的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ˈmuːtɪç/",
+    "wordType": "other"
   },
   {
     "word": "neugierig (Adj.)",
     "zh_cn": "好奇的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ˈnɔɪ̯ˌɡiːʁɪç/",
+    "wordType": "other"
   },
   {
     "word": "glücklich (Adj.)",
     "zh_cn": "幸福的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ˈɡlʏklɪç/",
+    "wordType": "other"
   },
   {
     "word": "positiv (Adj.)",
     "zh_cn": "积极的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ˈpoːzitiːf/",
+    "wordType": "other"
   },
   {
     "word": "super (Adj.)",
     "zh_cn": "棒的，高级的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ˈzuːpɐ/",
+    "wordType": "other"
   },
   {
     "word": "zusammen (Adv.)",
     "zh_cn": "一起",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/t͡suˈzamən/",
+    "wordType": "other"
   },
   {
     "word": "allein (Adv.)",
     "zh_cn": "单独，独自",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/aˈlaɪ̯n/",
+    "wordType": "other"
   },
   {
     "word": "leicht (Adj.)",
     "zh_cn": "轻的，轻松的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/laɪ̯çt/",
+    "wordType": "other"
   },
   {
     "word": "schwer (Adj.)",
     "zh_cn": "重的，困难的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ʃveːɐ̯/",
+    "wordType": "other"
   },
   {
     "word": "gefährlich (Adj.)",
     "zh_cn": "危险的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ɡəˈfɛːɐ̯lɪç/",
+    "wordType": "other"
   },
   {
     "word": "spannend (Adj.)",
     "zh_cn": "紧张的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ˈʃpanənt/",
+    "wordType": "other"
   },
   {
     "word": "wichtig (Adj.)",
     "zh_cn": "重要的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ˈvɪçtɪç/",
+    "wordType": "other"
   },
   {
     "word": "möglich (Adj.)",
     "zh_cn": "可能的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ˈmøːklɪç/",
+    "wordType": "other"
   },
   {
     "word": "schon (Kleinwort)",
     "zh_cn": "已经",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ʃoːn/",
+    "wordType": "other"
   },
   {
     "word": "noch (Kleinwort)",
     "zh_cn": "还",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/nɔx/",
+    "wordType": "other"
   },
   {
     "word": "vielleicht (Kleinwort)",
     "zh_cn": "也许，可能",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/fiˈlaɪ̯çt/",
+    "wordType": "other"
   },
   {
     "word": "nur (Kleinwort)",
     "zh_cn": "只，仅",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/nuːɐ̯/",
+    "wordType": "other"
   },
   {
     "word": "so (Kleinwort)",
     "zh_cn": "这样",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/zoː/",
+    "wordType": "other"
   },
   {
     "word": "plötzlich (Kleinwort)",
     "zh_cn": "突然的",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ˈplœt͡slɪç/",
+    "wordType": "other"
   },
   {
     "word": "aber (Kleinwort)",
     "zh_cn": "但是",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ˈaːbɐ/",
+    "wordType": "other"
   },
   {
     "word": "jetzt (Kleinwort)",
     "zh_cn": "现在",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/jɛt͡st/",
+    "wordType": "other"
   },
   {
     "word": "wieder (Kleinwort)",
     "zh_cn": "又，再",
-    "unitId": 5
+    "unitId": 5,
+    "phonetic": "/ˈviːdɐ/",
+    "wordType": "other"
   },
   {
     "word": "der Ort, -e",
     "zh_cn": "地点，地方",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ɔʁt/",
+    "wordType": "noun"
   },
   {
     "word": "die Straße, -n",
     "zh_cn": "街，街道",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈʃtʁaːsə/",
+    "wordType": "noun"
   },
   {
     "word": "die Kunst, ¨-e",
     "zh_cn": "艺术",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/kʊnst/",
+    "wordType": "noun"
   },
   {
     "word": "die Kultur, -en",
     "zh_cn": "文化",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/kʊlˈtuːɐ̯/",
+    "wordType": "noun"
   },
   {
     "word": "das Café, -s ,法]",
     "zh_cn": "咖啡馆",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/kaˈfeː/",
+    "wordType": "noun"
   },
   {
     "word": "der Turm, ¨-e",
     "zh_cn": "钟楼，塔",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/tʊʁm/",
+    "wordType": "noun"
   },
   {
     "word": "der Fernsehturm",
     "zh_cn": "电视塔",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈfɛʁnzeːˌtʊʁm/",
+    "wordType": "noun"
   },
   {
     "word": "die Aussicht, -en",
     "zh_cn": "前景，视野",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈaʊ̯sˌz̥ɪçt/",
+    "wordType": "noun"
   },
   {
     "word": "das Ticket, -s",
     "zh_cn": "票",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈtɪkət/",
+    "wordType": "noun"
   },
   {
     "word": "die Stadtrundfahrt, -en",
     "zh_cn": "环城观光",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈʃtatʁʊntˌfaːɐ̯t/",
+    "wordType": "noun"
   },
   {
     "word": "die Sehenswürdigkeit, -en",
     "zh_cn": "名胜古迹",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈzeːənsˌvʏʁdɪçkaɪ̯t/",
+    "wordType": "noun"
   },
   {
     "word": "das Museum, Museen",
     "zh_cn": "博物馆",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/muˈzeːʊm/",
+    "wordType": "noun"
   },
   {
     "word": "die Geschichte (hier nur Sg.)",
     "zh_cn": "历史",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ɡəˈʃɪçtə/",
+    "wordType": "noun"
   },
   {
     "word": "der Park, -s",
     "zh_cn": "公园",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/paʁk/",
+    "wordType": "noun"
   },
   {
     "word": "die Insel, -n",
     "zh_cn": "岛，岛屿",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈɪnzl̩/",
+    "wordType": "noun"
   },
   {
     "word": "das Schiff, -e",
     "zh_cn": "船，舰",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ʃɪf/",
+    "wordType": "noun"
   },
   {
     "word": "das Boot, -e",
     "zh_cn": "小船",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/boːt/",
+    "wordType": "noun"
   },
   {
     "word": "die Bar, -s",
     "zh_cn": "酒吧",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/baːɐ̯/",
+    "wordType": "noun"
   },
   {
     "word": "die Strandbar, -s",
     "zh_cn": "海滨酒吧",
-    "unitId": 6
+    "unitId": 6,
+    "phoneticFailed": true,
+    "wordType": "noun"
   },
   {
     "word": "der Club, -s",
     "zh_cn": "俱乐部",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/klʊp/",
+    "wordType": "noun"
   },
   {
     "word": "der Cocktail, -s",
     "zh_cn": "鸡尾酒",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈkɔktɛɪ̯l/",
+    "wordType": "noun"
   },
   {
     "word": "das Einkaufszentrum, -zentren",
     "zh_cn": "购物中心",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈaɪ̯nkaʊ̯fsˌt͡sɛntʁʊm/",
+    "wordType": "noun"
   },
   {
     "word": "das Kaufhaus, ¨er",
     "zh_cn": "百货公司",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈkaʊ̯fˌhaʊ̯s/",
+    "wordType": "noun"
   },
   {
     "word": "die Flohmarkt, ¨e",
     "zh_cn": "跳蚤市场",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈfloːˌmaʁkt/",
+    "wordType": "noun"
   },
   {
     "word": "die Galerie, -n",
     "zh_cn": "长廊，美术馆",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ɡaləˈʁiː/",
+    "wordType": "noun"
   },
   {
     "word": "der Tourist, -en",
     "zh_cn": "游客",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/tuˈʁɪst/",
+    "wordType": "noun"
   },
   {
     "word": "die Touristin, -nen",
     "zh_cn": "女游客",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/tuˈʁɪstɪn/",
+    "wordType": "noun"
   },
   {
     "word": "die Tour, -en",
     "zh_cn": "远足，旅行",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/tuːɐ̯/",
+    "wordType": "noun"
   },
   {
     "word": "der Bahnhof, ¨e",
     "zh_cn": "火车站",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈbaːnˌhoːf/",
+    "wordType": "noun"
   },
   {
     "word": "die Station, -en",
     "zh_cn": "站",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ʃtaˈt͡si̯oːn/",
+    "wordType": "noun"
   },
   {
     "word": "die U-Bahn, -en",
     "zh_cn": "地铁",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈuːˌbaːn/",
+    "wordType": "noun"
   },
   {
     "word": "die S-Bahn, -en",
     "zh_cn": "轻轨",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈɛsˌbaːn/",
+    "wordType": "noun"
   },
   {
     "word": "die Karte, -n",
     "zh_cn": "票，卡片，地图",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈkaʁtə/",
+    "wordType": "noun"
   },
   {
     "word": "die Bibliothek, -en",
     "zh_cn": "图书馆",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/biblioˈteːk/",
+    "wordType": "noun"
   },
   {
     "word": "der Platz, ¨e",
     "zh_cn": "广场，座位",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/plat͡s/",
+    "wordType": "noun"
   },
   {
     "word": "die Leute (nur Pl.)",
     "zh_cn": "人，人们",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈlɔɪ̯tə/",
+    "wordType": "noun"
   },
   {
     "word": "der DJ, -s",
     "zh_cn": "唱片选播员",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈdiːd͡ʒɛɪ̯/",
+    "wordType": "noun"
   },
   {
     "word": "die Idee, -n",
     "zh_cn": "主意，想法",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/iˈdeː/",
+    "wordType": "noun"
   },
   {
     "word": "das Produkt, -e",
     "zh_cn": "产品",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/pʁoˈdʊkt/",
+    "wordType": "noun"
   },
   {
     "word": "die Erfahrung, -en",
     "zh_cn": "经验，经历",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ɛɐ̯ˈfaːʁʊŋ/",
+    "wordType": "noun"
   },
   {
     "word": "das Studium (nur Sg.)",
     "zh_cn": "(在大学)学习",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈʃtuːdi̯ʊm/",
+    "wordType": "noun"
   },
   {
     "word": "das Studentenwohnheim, -e",
     "zh_cn": "学生宿舍",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ʃtuˈdɛntn̩ˌvoːnhaɪ̯m/",
+    "wordType": "noun"
   },
   {
     "word": "das Zimmer, -",
     "zh_cn": "房间",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈt͡sɪmɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die WG, -s (Wohngemeinschaft)",
     "zh_cn": "合租公寓",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/veːˈɡeː/",
+    "wordType": "noun"
   },
   {
     "word": "das Dorf, ¨er",
     "zh_cn": "村，村庄",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/dɔʁf/",
+    "wordType": "noun"
   },
   {
     "word": "das Fahrrad, ¨er",
     "zh_cn": "自行车",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈfaːɐ̯ˌʁaːt/",
+    "wordType": "noun"
   },
   {
     "word": "das Open-Air-Kino, -s",
     "zh_cn": "露天影院",
-    "unitId": 6
+    "unitId": 6,
+    "phoneticFailed": true,
+    "wordType": "noun"
   },
   {
     "word": "der Besuch, -e",
     "zh_cn": "参观，访问",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/bəˈzuːx/",
+    "wordType": "noun"
   },
   {
     "word": "der Bär, -en",
     "zh_cn": "熊",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/bɛːɐ̯/",
+    "wordType": "noun"
   },
   {
     "word": "der Künstler, -",
     "zh_cn": "艺术家",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈkʏnstlɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Künstlerin, -nen",
     "zh_cn": "女艺术家",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈkʏnstləʁɪn/",
+    "wordType": "noun"
   },
   {
     "word": "frühstücken",
     "zh_cn": "用早餐，吃早餐",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈfʁyːˌʃtʏkn̩/",
+    "wordType": "verb"
   },
   {
     "word": "kaufen",
     "zh_cn": "买",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈkaʊ̯fn̩/",
+    "wordType": "verb"
   },
   {
     "word": "genießen",
     "zh_cn": "享受",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ɡəˈniːsn̩/",
+    "wordType": "verb"
   },
   {
     "word": "sitzen",
     "zh_cn": "坐",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈzɪt͡sn̩/",
+    "wordType": "verb"
   },
   {
     "word": "stehen",
     "zh_cn": "站，立，竖放",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈʃteːən/",
+    "wordType": "verb"
   },
   {
     "word": "liegen",
     "zh_cn": "躺，卧，平放",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈliːɡn̩/",
+    "wordType": "verb"
   },
   {
     "word": "besuchen",
     "zh_cn": "拜访，上学",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/bəˈzuːxn̩/",
+    "wordType": "verb"
   },
   {
     "word": "erleben",
     "zh_cn": "经历",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ɛɐ̯ˈleːbn̩/",
+    "wordType": "verb"
   },
   {
     "word": "beginnen",
     "zh_cn": "开始",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/bəˈɡɪnən/",
+    "wordType": "verb"
   },
   {
     "word": "chillen",
     "zh_cn": "放松，使凉快",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈt͡ʃɪlən/",
+    "wordType": "verb"
   },
   {
     "word": "ausgehen, geht aus",
     "zh_cn": "外出",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈaʊ̯sˌɡeːən/",
+    "wordType": "other"
   },
   {
     "word": "starten",
     "zh_cn": "开始，出发",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈʃtaʁtn̩/",
+    "wordType": "verb"
   },
   {
     "word": "sagen",
     "zh_cn": "说",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈzaːɡn̩/",
+    "wordType": "verb",
+    "verbConjugation": {
+      "infinitive": "sagen",
+      "present": {
+        "ich": "sage",
+        "du": "sagst",
+        "er": "sagt",
+        "wir": "sagen",
+        "ihr": "sagt",
+        "sie": "sagen"
+      }
+    }
   },
   {
     "word": "holen",
     "zh_cn": "拿，取",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈhoːlən/",
+    "wordType": "verb"
   },
   {
     "word": "entschuldigen",
     "zh_cn": "原谅，道歉",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ɛntˈʃʊldɪɡn̩/",
+    "wordType": "verb"
   },
   {
     "word": "glauben",
     "zh_cn": "相信，认为",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈɡlaʊ̯bn̩/",
+    "wordType": "verb"
   },
   {
     "word": "günstig",
     "zh_cn": "有益的，物美价廉的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈɡʏnstɪç/",
+    "wordType": "other"
   },
   {
     "word": "super",
     "zh_cn": "棒极的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈzuːpɐ/",
+    "wordType": "other"
   },
   {
     "word": "chinesisch",
     "zh_cn": "中国的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/çiˈneːzɪʃ/",
+    "wordType": "other"
   },
   {
     "word": "amerikanisch",
     "zh_cn": "美国的，美洲的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ameʁiˈkaːnɪʃ/",
+    "wordType": "other"
   },
   {
     "word": "französisch",
     "zh_cn": "法国的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/fʁanˈt͡søːzɪʃ/",
+    "wordType": "other"
   },
   {
     "word": "italienisch",
     "zh_cn": "意大利的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˌitaˈli̯eːnɪʃ/",
+    "wordType": "other"
   },
   {
     "word": "türkisch",
     "zh_cn": "土耳其的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈtʏʁkɪʃ/",
+    "wordType": "other"
   },
   {
     "word": "wunderbar",
     "zh_cn": "不可思议的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈvʊndɐbaːɐ̯/",
+    "wordType": "other"
   },
   {
     "word": "bunt",
     "zh_cn": "彩色的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/bʊnt/",
+    "wordType": "other"
   },
   {
     "word": "kreativ",
     "zh_cn": "创造性的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˌkʁeaˈtiːf/",
+    "wordType": "other"
   },
   {
     "word": "lang",
     "zh_cn": "长的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/laŋ/",
+    "wordType": "other"
   },
   {
     "word": "offen",
     "zh_cn": "开着的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈɔfn̩/",
+    "wordType": "verb"
   },
   {
     "word": "international",
     "zh_cn": "国际的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˌɪntɐnat͡si̯oˈnaːl/",
+    "wordType": "other"
   },
   {
     "word": "anstrengend",
     "zh_cn": "紧张的，费力的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈanˌʃtʁɛŋənt/",
+    "wordType": "other"
   },
   {
     "word": "anonym",
     "zh_cn": "匿名的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˌanoˈnyːm/",
+    "wordType": "other"
   },
   {
     "word": "tief",
     "zh_cn": "深的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/tiːf/",
+    "wordType": "other"
   },
   {
     "word": "fest",
     "zh_cn": "固定的，牢固的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/fɛst/",
+    "wordType": "other"
   },
   {
     "word": "müde",
     "zh_cn": "疲倦的",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈmyːdə/",
+    "wordType": "other"
   },
   {
     "word": "links",
     "zh_cn": "在左边",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/lɪŋks/",
+    "wordType": "other"
   },
   {
     "word": "rechts",
     "zh_cn": "在右边",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ʁɛçt͡s/",
+    "wordType": "other"
   },
   {
     "word": "geradeaus",
     "zh_cn": "笔直地",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ɡəʁaːdəˈʔaʊ̯s/",
+    "wordType": "other"
   },
   {
     "word": "zuerst",
     "zh_cn": "首先",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/t͡suˈʔeːɐ̯st/",
+    "wordType": "other"
   },
   {
     "word": "dann",
     "zh_cn": "然后",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/dan/",
+    "wordType": "other"
   },
   {
     "word": "danach",
     "zh_cn": "此后",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/daˈnaːx/",
+    "wordType": "other"
   },
   {
     "word": "gestern",
     "zh_cn": "昨天",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈɡɛstɐn/",
+    "wordType": "verb"
   },
   {
     "word": "gerade (Zeit)",
     "zh_cn": "恰巧，刚刚",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ɡəˈʁaːdə/",
+    "wordType": "other"
   },
   {
     "word": "später",
     "zh_cn": "将来，以后",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ˈʃpɛːtɐ/",
+    "wordType": "other"
   },
   {
     "word": "in",
     "zh_cn": "在…里",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/ɪn/",
+    "wordType": "other"
   },
   {
     "word": "an",
     "zh_cn": "在…旁",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/an/",
+    "wordType": "other"
   },
   {
     "word": "auf",
     "zh_cn": "在…上",
-    "unitId": 6
+    "unitId": 6,
+    "phonetic": "/aʊ̯f/",
+    "wordType": "other"
   },
   {
     "word": "von ... zu ...",
     "zh_cn": "从…到…",
-    "unitId": 6
+    "unitId": 6,
+    "wordType": "other"
   },
   {
     "word": "wo?",
     "zh_cn": "在哪里?",
-    "unitId": 6
+    "unitId": 6,
+    "wordType": "other"
   },
   {
     "word": "In ... ist was los!",
     "zh_cn": "在……很有趣!",
-    "unitId": 6
+    "unitId": 6,
+    "wordType": "other"
   },
   {
     "word": "Ja genau!",
     "zh_cn": "是的，对!",
-    "unitId": 6
+    "unitId": 6,
+    "wordType": "other"
   },
   {
     "word": "etwas Neues",
     "zh_cn": "一些新东西/事物",
-    "unitId": 6
+    "unitId": 6,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "also",
     "zh_cn": "那，那么",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈalzo/",
+    "wordType": "other"
   },
   {
     "word": "vor ... Jahren",
     "zh_cn": "在……年前",
-    "unitId": 7
+    "unitId": 7,
+    "wordType": "other"
   },
   {
     "word": "besonders",
     "zh_cn": "特别，极其",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/bəˈzɔndɐs/",
+    "wordType": "other"
   },
   {
     "word": "vor allem",
     "zh_cn": "首先，主要是",
-    "unitId": 7
+    "unitId": 7,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "am Anfang",
     "zh_cn": "起初",
-    "unitId": 7
+    "unitId": 7,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "die Natur (nur Sg.)",
     "zh_cn": "大自然",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/naˈtuːɐ̯/",
+    "wordType": "noun"
   },
   {
     "word": "der Schnee (nur Sg.)",
     "zh_cn": "雪",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ʃneː/",
+    "wordType": "noun"
   },
   {
     "word": "die Wiese, -n",
     "zh_cn": "草地",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈviːzə/",
+    "wordType": "noun"
   },
   {
     "word": "der Wald, ¨er",
     "zh_cn": "森林",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/valt/",
+    "wordType": "noun"
   },
   {
     "word": "der Baum, ¨e",
     "zh_cn": "树",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/baʊ̯m/",
+    "wordType": "noun"
   },
   {
     "word": "der Vogel, ¨",
     "zh_cn": "鸟",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈfoːɡl̩/",
+    "wordType": "noun"
   },
   {
     "word": "das Meer, -e",
     "zh_cn": "海",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/meːɐ̯/",
+    "wordType": "noun"
   },
   {
     "word": "der Strand, ¨e",
     "zh_cn": "海滩",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ʃtʁant/",
+    "wordType": "noun"
   },
   {
     "word": "die Muschel, -n",
     "zh_cn": "贝壳",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈmʊʃl̩/",
+    "wordType": "noun"
   },
   {
     "word": "die Welle, -n",
     "zh_cn": "海浪",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈvɛlə/",
+    "wordType": "noun"
   },
   {
     "word": "das Gemüse (nur Sg.)",
     "zh_cn": "蔬菜",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ɡəˈmyːzə/",
+    "wordType": "noun"
   },
   {
     "word": "das Obst (nur Sg.)",
     "zh_cn": "水果",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/oːpst/",
+    "wordType": "noun"
   },
   {
     "word": "die Zeitschrift, -en",
     "zh_cn": "杂志",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈt͡saɪ̯tˌʃʁɪft/",
+    "wordType": "noun"
   },
   {
     "word": "das Thema, Themen",
     "zh_cn": "主题",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈteːma/",
+    "wordType": "noun"
   },
   {
     "word": "die Seite, -n",
     "zh_cn": "页码",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈzaɪ̯tə/",
+    "wordType": "noun"
   },
   {
     "word": "der Leser, -",
     "zh_cn": "读者",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈleːzɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Leserin, -nen",
     "zh_cn": "女读者",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈleːzəʁɪn/",
+    "wordType": "noun"
   },
   {
     "word": "das Problem, -e",
     "zh_cn": "问题",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/pʁoˈbleːm/",
+    "wordType": "noun"
   },
   {
     "word": "der Computer, -",
     "zh_cn": "电脑",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/kɔmˈpjuːtɐ/",
+    "wordType": "noun"
   },
   {
     "word": "der Bergführer, -",
     "zh_cn": "登山向导",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈbɛʁkˌfyːʁɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Bergführerin, -nen",
     "zh_cn": "登山女向导",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈbɛʁkˌfyːʁəʁɪn/",
+    "wordType": "noun"
   },
   {
     "word": "der Fischer, -",
     "zh_cn": "渔夫，捕鱼人",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈfɪʃɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Hausfrau, -en",
     "zh_cn": "家庭主妇",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈhaʊ̯sˌfʁaʊ̯/",
+    "wordType": "noun"
   },
   {
     "word": "der Bauer, -n",
     "zh_cn": "农民",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈbaʊ̯ɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Bäuerin, -nen",
     "zh_cn": "女农民",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈbɔɪ̯əʁɪn/",
+    "wordType": "noun"
   },
   {
     "word": "das Tier, -e",
     "zh_cn": "动物",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/tiːɐ̯/",
+    "wordType": "noun"
   },
   {
     "word": "der See, -n",
     "zh_cn": "湖，湖泊",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/zeː/",
+    "wordType": "noun"
   },
   {
     "word": "der Fluss, ¨e",
     "zh_cn": "河，河流",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/flʊs/",
+    "wordType": "noun"
   },
   {
     "word": "die Ruhe (nur Sg.)",
     "zh_cn": "安静",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈʁuːə/",
+    "wordType": "noun"
   },
   {
     "word": "die Idee, -n",
     "zh_cn": "主意，想法",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/iˈdeː/",
+    "wordType": "noun"
   },
   {
     "word": "der Frühling, -e",
     "zh_cn": "春天",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈfʁyːlɪŋ/",
+    "wordType": "noun"
   },
   {
     "word": "der Sommer, -",
     "zh_cn": "夏天",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈzɔmɐ/",
+    "wordType": "noun"
   },
   {
     "word": "der Herbst, -e",
     "zh_cn": "秋天",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/hɛʁpst/",
+    "wordType": "noun"
   },
   {
     "word": "der Winter, -",
     "zh_cn": "冬天",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈvɪntɐ/",
+    "wordType": "noun"
   },
   {
     "word": "das Eis (Wetter)",
     "zh_cn": "冰",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/aɪ̯s/",
+    "wordType": "noun"
   },
   {
     "word": "der Himmel, -",
     "zh_cn": "天空",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈhɪml̩/",
+    "wordType": "noun"
   },
   {
     "word": "der Kopf, ¨e",
     "zh_cn": "头",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/kɔp͡f/",
+    "wordType": "noun"
   },
   {
     "word": "die Richtung, -en",
     "zh_cn": "方向",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈʁɪçtʊŋ/",
+    "wordType": "noun"
   },
   {
     "word": "die Ampel, -n",
     "zh_cn": "交通灯",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈampl̩/",
+    "wordType": "noun"
   },
   {
     "word": "der Fußweg, -e",
     "zh_cn": "人行道",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈfuːsˌveːk/",
+    "wordType": "noun"
   },
   {
     "word": "der Radweg, -e",
     "zh_cn": "自行车道",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈʁaːtˌveːk/",
+    "wordType": "noun"
   },
   {
     "word": "das T-Shirt, -s",
     "zh_cn": "T恤衫",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈtiːˌʃœːɐ̯t/",
+    "wordType": "noun"
   },
   {
     "word": "der Pullover, -",
     "zh_cn": "毛衣",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/pʊˈloːvɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Regenjacke, -n",
     "zh_cn": "雨衣（防雨上衣）",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈʁeːɡn̩ˌjakə/",
+    "wordType": "noun"
   },
   {
     "word": "das Hobby, -s",
     "zh_cn": "爱好",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈhɔbi/",
+    "wordType": "noun"
   },
   {
     "word": "das Verkehrsmittel, -",
     "zh_cn": "交通工具",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/fɛɐ̯ˈkeːɐ̯sˌmɪtl̩/",
+    "wordType": "noun"
   },
   {
     "word": "das Schild, -er",
     "zh_cn": "指示牌",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ʃɪlt/",
+    "wordType": "noun"
   },
   {
     "word": "die Bewegung, -en",
     "zh_cn": "运动，活动",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/bəˈveːɡʊŋ/",
+    "wordType": "noun"
   },
   {
     "word": "das Protokoll, -e",
     "zh_cn": "记录",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/pʁotoˈkɔl/",
+    "wordType": "noun"
   },
   {
     "word": "das Alter (nur Sg.)",
     "zh_cn": "年龄",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈaltɐ/",
+    "wordType": "noun"
   },
   {
     "word": "der Informatiker, -",
     "zh_cn": "计算机科学家，信息学家",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ɪnfɔʁˈmaːtɪkɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Informatikerin, -nen",
     "zh_cn": "女计算机科学家，女信息学家",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ɪnfɔʁˈmaːtɪkəʁɪn/",
+    "wordType": "noun"
   },
   {
     "word": "die Notiz, -en",
     "zh_cn": "笔记",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/noˈtiːt͡s/",
+    "wordType": "noun"
   },
   {
     "word": "die Arbeit (hier nur Sg.)",
     "zh_cn": "工作",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈaʁbaɪ̯t/",
+    "wordType": "noun"
   },
   {
     "word": "das Wetter (nur Sg.)",
     "zh_cn": "天气",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈvɛtɐ/",
+    "wordType": "noun"
   },
   {
     "word": "der Rücken, -",
     "zh_cn": "背部",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈʁʏkn̩/",
+    "wordType": "noun"
   },
   {
     "word": "der Schmerz, -en",
     "zh_cn": "疼痛",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ʃmɛʁt͡s/",
+    "wordType": "noun"
   },
   {
     "word": "die Rückenschmerzen (nur Pl.)",
     "zh_cn": "背疼",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈʁʏkn̩ˌʃmɛʁt͡sn̩/",
+    "wordType": "noun"
   },
   {
     "word": "die Kopfschmerzen (nur Pl.)",
     "zh_cn": "头疼",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈkɔp͡fˌʃmɛʁt͡sn̩/",
+    "wordType": "noun"
   },
   {
     "word": "das Fitnessstudio, -s",
     "zh_cn": "健身房",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈfɪtnɛsˌʃtuːdi̯o/",
+    "wordType": "noun"
   },
   {
     "word": "die Person, -en",
     "zh_cn": "人",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/pɛʁˈzoːn/",
+    "wordType": "noun"
   },
   {
     "word": "der Kollege, -n",
     "zh_cn": "同事",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/kɔˈleːɡə/",
+    "wordType": "noun"
   },
   {
     "word": "die Kollegin, -nen",
     "zh_cn": "女同事",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˌkɔˈleːɡɪn/",
+    "wordType": "noun"
   },
   {
     "word": "der Chef, -s",
     "zh_cn": "老板",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ʃɛf/",
+    "wordType": "noun"
   },
   {
     "word": "die Chefin, -nen",
     "zh_cn": "女老板",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈʃɛfɪn/",
+    "wordType": "noun"
   },
   {
     "word": "kochen (v.)",
     "zh_cn": "烹饪",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈkɔxn̩/",
+    "wordType": "other"
   },
   {
     "word": "verdienen (v.)",
     "zh_cn": "挣钱",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/fɛɐ̯ˈdiːnən/",
+    "wordType": "other"
   },
   {
     "word": "fangen, fängt (v.)",
     "zh_cn": "捕住",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈfaŋən/",
+    "wordType": "other"
   },
   {
     "word": "bauen (v.)",
     "zh_cn": "建造",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈbaʊ̯ən/",
+    "wordType": "other"
   },
   {
     "word": "werden, wird (v.)",
     "zh_cn": "成为",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈveːɐ̯dn̩/",
+    "wordType": "other"
   },
   {
     "word": "joggen (v.)",
     "zh_cn": "慢跑",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈd͡ʒɔɡn̩/",
+    "wordType": "other"
   },
   {
     "word": "klettern (v.)",
     "zh_cn": "攀登，登山",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈklɛtɐn/",
+    "wordType": "other"
   },
   {
     "word": "mitkommen, kommt mit (v.)",
     "zh_cn": "同来，一起来",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈmɪtˌkɔmən/",
+    "wordType": "other"
   },
   {
     "word": "treten, tritt (v.)",
     "zh_cn": "踏入，进入",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈtʁeːtn̩/",
+    "wordType": "other"
   },
   {
     "word": "nachdenken, denkt nach (v.)",
     "zh_cn": "思考",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈnaːxˌdɛŋkn̩/",
+    "wordType": "other"
   },
   {
     "word": "träumen (v.)",
     "zh_cn": "梦想",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈtʁɔɪ̯mən/",
+    "wordType": "other"
   },
   {
     "word": "anziehen, zieht an (v.)",
     "zh_cn": "穿上",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈanˌt͡siːən/",
+    "wordType": "other"
   },
   {
     "word": "regnen (v.)",
     "zh_cn": "下雨",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈʁeːɡnən/",
+    "wordType": "other"
   },
   {
     "word": "Inliner fahren, fährt Inliner (v.)",
     "zh_cn": "滑旱冰",
-    "unitId": 7
+    "unitId": 7,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Skateboard fahren, fährt Skateboard (v.)",
     "zh_cn": "滑滑板",
-    "unitId": 7
+    "unitId": 7,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "Yoga machen (v.)",
     "zh_cn": "做瑜伽",
-    "unitId": 7
+    "unitId": 7,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "trainieren (v.)",
     "zh_cn": "训练",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/tʁɛˈniːʁən/",
+    "wordType": "other"
   },
   {
     "word": "zu Fuß gehen (v.)",
     "zh_cn": "步行",
-    "unitId": 7
+    "unitId": 7,
+    "wordType": "other"
   },
   {
     "word": "weiterfahren, fährt weiter (v.)",
     "zh_cn": "继续行驶",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈvaɪ̯tɐˌfaːʁən/",
+    "wordType": "other"
   },
   {
     "word": "chatten (v.)",
     "zh_cn": "聊天",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈt͡ʃɛtn̩/",
+    "wordType": "other"
   },
   {
     "word": "dürfen, darf (v.)",
     "zh_cn": "允许",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈdʏʁfn̩/",
+    "wordType": "other"
   },
   {
     "word": "herrlich (Adj.)",
     "zh_cn": "美好的",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈhɛʁlɪç/",
+    "wordType": "other"
   },
   {
     "word": "ruhig (Adj.)",
     "zh_cn": "安静的",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈʁuːɪç/",
+    "wordType": "other"
   },
   {
     "word": "stressig (Adj.)",
     "zh_cn": "有压力的",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈʃtʁɛsɪç/",
+    "wordType": "other"
   },
   {
     "word": "gesund (Adj.)",
     "zh_cn": "健康的",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ɡəˈzʊnt/",
+    "wordType": "other"
   },
   {
     "word": "krank (Adj.)",
     "zh_cn": "生病的",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/kʁaŋk/",
+    "wordType": "other"
   },
   {
     "word": "sportlich (Adj.)",
     "zh_cn": "运动的",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈʃpɔʁtlɪç/",
+    "wordType": "other"
   },
   {
     "word": "barfuß (Adj.)",
     "zh_cn": "光脚的",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈbaːɐ̯fuːs/",
+    "wordType": "other"
   },
   {
     "word": "komisch (Adj.)",
     "zh_cn": "可笑的",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈkoːmɪʃ/",
+    "wordType": "other"
   },
   {
     "word": "richtig (Adj.)",
     "zh_cn": "正确的",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈʁɪçtɪç/",
+    "wordType": "other"
   },
   {
     "word": "schlecht (Adj.)",
     "zh_cn": "坏的",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ʃlɛçt/",
+    "wordType": "other"
   },
   {
     "word": "sonnig (Adj.)",
     "zh_cn": "有阳光的",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈzɔnɪç/",
+    "wordType": "other"
   },
   {
     "word": "blau (Adj.)",
     "zh_cn": "蓝色的",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/blaʊ̯/",
+    "wordType": "other"
   },
   {
     "word": "verbieten (v.)",
     "zh_cn": "禁止的",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/fɛɐ̯ˈbiːtn̩/",
+    "wordType": "other"
   },
   {
     "word": "erlaubt (Adj.)",
     "zh_cn": "允许的",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ɛɐ̯ˈlaʊ̯pt/",
+    "wordType": "other"
   },
   {
     "word": "es gibt + Akk.",
     "zh_cn": "有，存在",
-    "unitId": 7
+    "unitId": 7,
+    "wordType": "other"
   },
   {
     "word": "Er lebt auf dem Land.",
     "zh_cn": "他住在农村。",
-    "unitId": 7
+    "unitId": 7,
+    "wordType": "other"
   },
   {
     "word": "Ich habe Lust. / Ich habe keine Lust.",
     "zh_cn": "我有兴趣。/我没兴趣。",
-    "unitId": 7
+    "unitId": 7,
+    "wordType": "other"
   },
   {
     "word": "Gute Idee!",
     "zh_cn": "好主意！",
-    "unitId": 7
+    "unitId": 7,
+    "wordType": "other"
   },
   {
     "word": "Das ist kein Problem.",
     "zh_cn": "没问题。",
-    "unitId": 7
+    "unitId": 7,
+    "wordType": "noun"
   },
   {
     "word": "Das ist doch egal!",
     "zh_cn": "随便！",
-    "unitId": 7
+    "unitId": 7,
+    "wordType": "noun"
   },
   {
     "word": "Es regnet.",
     "zh_cn": "下雨了。",
-    "unitId": 7
+    "unitId": 7,
+    "wordType": "other"
   },
   {
     "word": "etwas",
     "zh_cn": "一些，一点儿",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈɛtvas/",
+    "wordType": "other"
   },
   {
     "word": "zum Beispiel",
     "zh_cn": "比如",
-    "unitId": 7
+    "unitId": 7,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "ein bisschen",
     "zh_cn": "一些",
-    "unitId": 7
+    "unitId": 7,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "mehr",
     "zh_cn": "更多",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/meːɐ̯/",
+    "wordType": "other"
   },
   {
     "word": "oben",
     "zh_cn": "在上面",
-    "unitId": 7
+    "unitId": 7,
+    "phonetic": "/ˈoːbn̩/",
+    "wordType": "verb"
   },
   {
     "word": "das Zimmer",
     "zh_cn": "房间",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈt͡sɪmɐ/",
+    "wordType": "noun"
   },
   {
     "word": "das Hotelzimmer",
     "zh_cn": "酒店房间",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/hoˈtɛlˌt͡sɪmɐ/",
+    "wordType": "noun"
   },
   {
     "word": "das Studentenzimmer",
     "zh_cn": "学生宿舍",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ʃtuˈdɛntn̩ˌt͡sɪmɐ/",
+    "wordType": "noun"
   },
   {
     "word": "das Einfamilienhaus, ¨er",
     "zh_cn": "单户住宅",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈaɪ̯nfamiːli̯ənˌhaʊ̯s/",
+    "wordType": "noun"
   },
   {
     "word": "die Wohnung, -en",
     "zh_cn": "住房，公寓",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈvoːnʊŋ/",
+    "wordType": "noun"
   },
   {
     "word": "die Ferienwohnung, -en",
     "zh_cn": "假日公寓",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈfeːʁiənˌvoːnʊŋ/",
+    "wordType": "noun"
   },
   {
     "word": "die Zweizimmerwohnung, -en",
     "zh_cn": "两房公寓",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/t͡svaɪ̯ˈt͡sɪmɐˌvoːnʊŋ/",
+    "wordType": "noun"
   },
   {
     "word": "die Miete, -n",
     "zh_cn": "房租",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈmiːtə/",
+    "wordType": "noun"
   },
   {
     "word": "die Mietwohnung, -en",
     "zh_cn": "租房",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈmiːtˌvoːnʊŋ/",
+    "wordType": "noun"
   },
   {
     "word": "der Norden (nur Sg.)",
     "zh_cn": "北方",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈnɔʁdn̩/",
+    "wordType": "noun"
   },
   {
     "word": "der Süden (nur Sg.)",
     "zh_cn": "南方",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈzyːdn̩/",
+    "wordType": "noun"
   },
   {
     "word": "der Westen (nur Sg.)",
     "zh_cn": "西方",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈvɛstn̩/",
+    "wordType": "noun"
   },
   {
     "word": "der Osten (nur Sg.)",
     "zh_cn": "东方",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈɔstn̩/",
+    "wordType": "noun"
   },
   {
     "word": "das Angebot, -e",
     "zh_cn": "供给",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈanɡəˌboːt/",
+    "wordType": "noun"
   },
   {
     "word": "die Großstadt, ¨e",
     "zh_cn": "大城市",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈɡʁoːsˌʃtat/",
+    "wordType": "noun"
   },
   {
     "word": "der Einwohner, - 居民，房客",
     "zh_cn": "居民，房客",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈaɪ̯nˌvoːnɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Einwohnerin, -nen",
     "zh_cn": "女性居民，女房客",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈaɪ̯nvoːnəʁɪn/",
+    "wordType": "noun"
   },
   {
     "word": "der Bauernhof, ¨e",
     "zh_cn": "农庄",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈbaʊ̯ɐnˌhoːf/",
+    "wordType": "noun"
   },
   {
     "word": "der Wohnwagen, -",
     "zh_cn": "房车",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈvoːnˌvaːɡn̩/",
+    "wordType": "noun"
   },
   {
     "word": "der Leuchtturm, ¨e",
     "zh_cn": "灯塔",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈlɔɪ̯çtˌtʊʁm/",
+    "wordType": "noun"
   },
   {
     "word": "das Baumhaus, ¨er",
     "zh_cn": "树屋",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈbaʊ̯mˌhaʊ̯s/",
+    "wordType": "noun"
   },
   {
     "word": "das Hausboot, -e",
     "zh_cn": "水上房屋",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈhaʊ̯sˌboːt/",
+    "wordType": "noun"
   },
   {
     "word": "der Nachbar, -n",
     "zh_cn": "邻居",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈnaxˌbaːɐ̯/",
+    "wordType": "noun"
   },
   {
     "word": "die Nachbarin, -nen",
     "zh_cn": "女邻居",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈnaxbaːʁɪn/",
+    "wordType": "noun"
   },
   {
     "word": "die Dusche, -n",
     "zh_cn": "淋浴",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈduːʃə/",
+    "wordType": "noun"
   },
   {
     "word": "das Internet",
     "zh_cn": "互联网",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈɪntɐnɛt/",
+    "wordType": "noun"
   },
   {
     "word": "der Koffer, -",
     "zh_cn": "箱子",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈkɔfɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Maus, ¨e",
     "zh_cn": "老鼠",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/maʊ̯s/",
+    "wordType": "noun"
   },
   {
     "word": "der Hund, -e",
     "zh_cn": "狗",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/hʊnt/",
+    "wordType": "noun"
   },
   {
     "word": "die Katze, -n",
     "zh_cn": "猫",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈkat͡sə/",
+    "wordType": "noun"
   },
   {
     "word": "das Fenster, -",
     "zh_cn": "窗户",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈfɛnstɐ/",
+    "wordType": "noun"
   },
   {
     "word": "der Stuhl, ¨e",
     "zh_cn": "椅子",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ʃtuːl/",
+    "wordType": "noun"
   },
   {
     "word": "der Tisch, -e",
     "zh_cn": "桌子",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/tɪʃ/",
+    "wordType": "noun"
   },
   {
     "word": "der Schreibtisch, -e",
     "zh_cn": "书桌",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈʃʁaɪ̯pˌtɪʃ/",
+    "wordType": "noun"
   },
   {
     "word": "der Esstisch, -e",
     "zh_cn": "餐桌",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈɛsˌtɪʃ/",
+    "wordType": "noun"
   },
   {
     "word": "der Schrank, ¨e",
     "zh_cn": "柜子",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ʃʁaŋk/",
+    "wordType": "noun"
   },
   {
     "word": "der Kühlschrank, ¨e",
     "zh_cn": "冰箱",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈkyːlˌʃʁaŋk/",
+    "wordType": "noun"
   },
   {
     "word": "die Decke, -n",
     "zh_cn": "被子",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈdɛkə/",
+    "wordType": "noun"
   },
   {
     "word": "das Kissen, -",
     "zh_cn": "枕头",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈkɪsn̩/",
+    "wordType": "noun"
   },
   {
     "word": "das Kinderbett, -en",
     "zh_cn": "儿童床",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈkɪndɐˌbɛt/",
+    "wordType": "noun"
   },
   {
     "word": "der Teddybär, -en",
     "zh_cn": "泰迪熊",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈtɛdiˌbɛːɐ̯/",
+    "wordType": "noun"
   },
   {
     "word": "der Fernseher, -",
     "zh_cn": "电视机",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈfɛʁnˌzeːɐ/",
+    "wordType": "noun"
   },
   {
     "word": "das Sofa, -s",
     "zh_cn": "沙发",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈzoːfa/",
+    "wordType": "noun"
   },
   {
     "word": "das iPad, -s",
     "zh_cn": "平板电脑",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈaɪ̯pæd/",
+    "wordType": "noun"
   },
   {
     "word": "der/das Laptop, -s",
     "zh_cn": "笔记本电脑",
-    "unitId": 8
+    "unitId": 8,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "das Arbeitszimmer, - 工作室，书房",
     "zh_cn": "工作室，书房",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈaʁbaɪ̯t͡sˌt͡sɪmɐ/",
+    "wordType": "noun"
   },
   {
     "word": "das Wohnzimmer, -",
     "zh_cn": "客厅",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈvoːnˌt͡sɪmɐ/",
+    "wordType": "noun"
   },
   {
     "word": "das Esszimmer, -",
     "zh_cn": "饭厅",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈɛsˌt͡sɪmɐ/",
+    "wordType": "noun"
   },
   {
     "word": "das Schlafzimmer, -",
     "zh_cn": "卧室",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈʃlaːfˌt͡sɪmɐ/",
+    "wordType": "noun"
   },
   {
     "word": "das Kinderzimmer, -",
     "zh_cn": "儿童房",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈkɪndɐˌt͡sɪmɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Küche, -n",
     "zh_cn": "厨房",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈkʏçə/",
+    "wordType": "noun"
   },
   {
     "word": "das Badezimmer, -(das Bad, ¨er)",
     "zh_cn": "浴室",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈbaːdəˌt͡sɪmɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Badewanne, -n",
     "zh_cn": "浴缸",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈbaːdəˌvanə/",
+    "wordType": "noun"
   },
   {
     "word": "die Toilette, -n",
     "zh_cn": "卫生间",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/toˈlɛtə/",
+    "wordType": "noun"
   },
   {
     "word": "die Lampe, -n",
     "zh_cn": "灯",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈlampə/",
+    "wordType": "noun"
   },
   {
     "word": "das Licht, -er",
     "zh_cn": "光",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/lɪçt/",
+    "wordType": "noun"
   },
   {
     "word": "die Nationalität, -en",
     "zh_cn": "国籍",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/nat͡si̯onaliˈtɛːt/",
+    "wordType": "noun"
   },
   {
     "word": "das Interesse, -n",
     "zh_cn": "兴趣（只用单数），利益",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ɪntəˈʁɛsə/",
+    "wordType": "noun"
   },
   {
     "word": "die Adresse, -n",
     "zh_cn": "地址",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/aˈdʁɛsə/",
+    "wordType": "noun"
   },
   {
     "word": "der Wohnort, -e",
     "zh_cn": "住处",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈvoːnˌʔɔʁt/",
+    "wordType": "noun"
   },
   {
     "word": "die Hausnummer, -n",
     "zh_cn": "门牌号",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈhaʊ̯sˌnʊmɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Pflanze, -n",
     "zh_cn": "植物",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈp͡flant͡sə/",
+    "wordType": "noun"
   },
   {
     "word": "der Fotoapparat, -e",
     "zh_cn": "照相机",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈfoːtoʔapaˌʁaːt/",
+    "wordType": "noun"
   },
   {
     "word": "die Kaffeemaschine, -n",
     "zh_cn": "咖啡机",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈkafemaˌʃiːnə/",
+    "wordType": "noun"
   },
   {
     "word": "das Geschenk, -e",
     "zh_cn": "礼物",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ɡəˈʃɛŋk/",
+    "wordType": "noun"
   },
   {
     "word": "das Ding, -e",
     "zh_cn": "东西",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/dɪŋ/",
+    "wordType": "noun"
   },
   {
     "word": "das Lieblingsding, -e",
     "zh_cn": "喜欢的东西",
-    "unitId": 8
+    "unitId": 8,
+    "phoneticFailed": true,
+    "wordType": "noun"
   },
   {
     "word": "die Nachricht, -en",
     "zh_cn": "消息，信息",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈnaːxˌʁɪçt/",
+    "wordType": "noun"
   },
   {
     "word": "mieten",
     "zh_cn": "租房",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈmiːtn̩/",
+    "wordType": "verb"
   },
   {
     "word": "hin/fahren, fährt hin",
     "zh_cn": "驶向那里",
-    "unitId": 8
+    "unitId": 8,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "brauchen",
     "zh_cn": "需要",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈbʁaʊ̯xn̩/",
+    "wordType": "verb"
   },
   {
     "word": "nerven",
     "zh_cn": "使紧张，使烦躁",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈnɛʁfn̩/",
+    "wordType": "verb"
   },
   {
     "word": "baden",
     "zh_cn": "洗澡",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈbaːdn̩/",
+    "wordType": "verb"
   },
   {
     "word": "riechen",
     "zh_cn": "闻",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈʁiːçn̩/",
+    "wordType": "verb"
   },
   {
     "word": "anmachen, macht an",
     "zh_cn": "打开",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈanˌmaxn̩/",
+    "wordType": "other"
   },
   {
     "word": "mitnehmen, nimmt mit",
     "zh_cn": "随身携带",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈmɪtˌneːmən/",
+    "wordType": "other"
   },
   {
     "word": "abholen, holt ab",
     "zh_cn": "取走，接",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈapˌhoːlən/",
+    "wordType": "other"
   },
   {
     "word": "bei + Dat.",
     "zh_cn": "在…附近，在…地方",
-    "unitId": 8
+    "unitId": 8,
+    "wordType": "other"
   },
   {
     "word": "mit + Dat.",
     "zh_cn": "在…一起，带着",
-    "unitId": 8
+    "unitId": 8,
+    "wordType": "other"
   },
   {
     "word": "ohne + Akk.",
     "zh_cn": "没有",
-    "unitId": 8
+    "unitId": 8,
+    "wordType": "other"
   },
   {
     "word": "für + Akk.",
     "zh_cn": "为了",
-    "unitId": 8
+    "unitId": 8,
+    "wordType": "other"
   },
   {
     "word": "romantisch",
     "zh_cn": "浪漫的",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ʁoˈmantɪʃ/",
+    "wordType": "other"
   },
   {
     "word": "voll",
     "zh_cn": "满的",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/fɔl/",
+    "wordType": "other"
   },
   {
     "word": "stark",
     "zh_cn": "强的",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ʃtaʁk/",
+    "wordType": "other"
   },
   {
     "word": "heiß",
     "zh_cn": "热的",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/haɪ̯s/",
+    "wordType": "other"
   },
   {
     "word": "groß",
     "zh_cn": "大的",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ɡʁoːs/",
+    "wordType": "other"
   },
   {
     "word": "klein",
     "zh_cn": "小的",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/klaɪ̯n/",
+    "wordType": "other"
   },
   {
     "word": "schwierig",
     "zh_cn": "难的",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈʃviːʁɪç/",
+    "wordType": "other"
   },
   {
     "word": "furchtbar",
     "zh_cn": "恐怖的，可怕的",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈfʊʁçtbaːɐ̯/",
+    "wordType": "other"
   },
   {
     "word": "schmutzig",
     "zh_cn": "脏的",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈʃmʊt͡sɪç/",
+    "wordType": "other"
   },
   {
     "word": "sauber",
     "zh_cn": "干净的",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈzaʊ̯bɐ/",
+    "wordType": "other"
   },
   {
     "word": "(ein)hundert, zweihundert, drei(e)hundert,...",
     "zh_cn": "100, 200, 300……",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈhʊndɐt/",
+    "wordType": "other"
   },
   {
     "word": "zweihundert(eins, zweihundertzwei, zweihundert drei,...)",
     "zh_cn": "201, 202, 203……",
-    "unitId": 8
+    "unitId": 8,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "(ein)tausend, zweitausend, dreitausend,...",
     "zh_cn": "1000, 2000, 3000……",
-    "unitId": 8
+    "unitId": 8,
+    "phonetic": "/ˈtaʊ̯zn̩t/",
+    "wordType": "other"
   },
   {
     "word": "Wirklich!",
     "zh_cn": "真的！",
-    "unitId": 8
+    "unitId": 8,
+    "wordType": "other"
   },
   {
     "word": "Ich hab dich lieb.",
     "zh_cn": "我爱你！",
-    "unitId": 8
+    "unitId": 8,
+    "wordType": "other"
   },
   {
     "word": "Mein Handy ist weg.",
     "zh_cn": "我的手机不见了。",
-    "unitId": 8
+    "unitId": 8,
+    "wordType": "other"
   },
   {
     "word": "Meinen Fotoapparat habe ich immer dabei.",
     "zh_cn": "相机我一直随身带着。",
-    "unitId": 8
+    "unitId": 8,
+    "wordType": "other"
   },
   {
     "word": "der Trend, -s",
     "zh_cn": "趋势",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/tʁɛnt/",
+    "wordType": "noun"
   },
   {
     "word": "die Kleidung (nur Sg.)",
     "zh_cn": "服装（总称）",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈklaɪ̯dʊŋ/",
+    "wordType": "noun"
   },
   {
     "word": "der Schmuck (nur Sg.)",
     "zh_cn": "首饰",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ʃmʊk/",
+    "wordType": "noun"
   },
   {
     "word": "der Schuh, -e",
     "zh_cn": "鞋",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ʃuː/",
+    "wordType": "noun"
   },
   {
     "word": "die Unterwäsche (nur Sg.)",
     "zh_cn": "内衣",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈʊntɐˌvɛʃə/",
+    "wordType": "noun"
   },
   {
     "word": "die Sport sachen (nur Pl.)",
     "zh_cn": "体育用品",
-    "unitId": 9
+    "unitId": 9,
+    "phoneticFailed": true,
+    "wordType": "noun"
   },
   {
     "word": "die Waschmaschine, -n",
     "zh_cn": "洗衣机",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈvaʃmaˌʃiːnə/",
+    "wordType": "noun"
   },
   {
     "word": "das Werkzeug, -e",
     "zh_cn": "工具",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈvɛʁkˌt͡sɔɪ̯k/",
+    "wordType": "noun"
   },
   {
     "word": "das Bankkonto, -konten",
     "zh_cn": "银行账户",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈbaŋkˌkɔntoː/",
+    "wordType": "noun"
   },
   {
     "word": "das Passwort, ¨er",
     "zh_cn": "密码",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈpasˌvɔʁt/",
+    "wordType": "noun"
   },
   {
     "word": "das Wissen (nur Sg.)",
     "zh_cn": "知识",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈvɪsn̩/",
+    "wordType": "noun"
   },
   {
     "word": "das Mobiltelefon, -e",
     "zh_cn": "移动电话，手机",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/moˈbiːlteleˌfoːn/",
+    "wordType": "noun"
   },
   {
     "word": "das Smartphone, -s / das iPhone, -s",
     "zh_cn": "智能手机",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈsmaʁtfoːn/",
+    "wordType": "noun"
   },
   {
     "word": "der Automechaniker, -",
     "zh_cn": "汽车修理工",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈaʊ̯tomeˌçaːnɪkɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Sonnenbrille, -n",
     "zh_cn": "太阳镜",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈzɔnənˌbʁɪlə/",
+    "wordType": "noun"
   },
   {
     "word": "die Kette, -n",
     "zh_cn": "项链",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈkɛtə/",
+    "wordType": "noun"
   },
   {
     "word": "das Kleidungsstück, -e",
     "zh_cn": "服装（单件）",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈklaɪ̯dʊŋsˌʃtʏk/",
+    "wordType": "noun"
   },
   {
     "word": "die Hose, -n",
     "zh_cn": "裤子",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈhoːzə/",
+    "wordType": "noun"
   },
   {
     "word": "die Badehose, -n",
     "zh_cn": "游泳裤",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈbaːdəˌhoːzə/",
+    "wordType": "noun"
   },
   {
     "word": "die Jogginghose, -n",
     "zh_cn": "运动裤",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈd͡ʒɔɡɪŋˌhoːzə/",
+    "wordType": "noun"
   },
   {
     "word": "die Jeans, -",
     "zh_cn": "牛仔裤",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/d͡ʒiːns/",
+    "wordType": "noun"
   },
   {
     "word": "der Gürtel, -",
     "zh_cn": "皮带",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈɡʏʁtl̩/",
+    "wordType": "noun"
   },
   {
     "word": "die Jacke, -n",
     "zh_cn": "夹克",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈjakə/",
+    "wordType": "noun"
   },
   {
     "word": "der Mantel, ¨",
     "zh_cn": "大衣",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈmantl̩/",
+    "wordType": "noun"
   },
   {
     "word": "der Regenmantel, ¨",
     "zh_cn": "雨衣",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈʁeːɡn̩ˌmantl̩/",
+    "wordType": "noun"
   },
   {
     "word": "die Mütze, -n",
     "zh_cn": "帽子",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈmʏt͡sə/",
+    "wordType": "noun"
   },
   {
     "word": "der Schal, -s",
     "zh_cn": "围巾",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ʃaːl/",
+    "wordType": "noun"
   },
   {
     "word": "der Handschuh, -e",
     "zh_cn": "手套",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈhantˌʃuː/",
+    "wordType": "noun"
   },
   {
     "word": "das Kleid, -er",
     "zh_cn": "连衣裙",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/klaɪ̯t/",
+    "wordType": "noun"
   },
   {
     "word": "der Rock, ¨e",
     "zh_cn": "裙子",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ʁɔk/",
+    "wordType": "noun"
   },
   {
     "word": "die Bluse, -n",
     "zh_cn": "女士衬衣",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈbluːzə/",
+    "wordType": "noun"
   },
   {
     "word": "das Hemd, -en",
     "zh_cn": "男士衬衣",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/hɛmt/",
+    "wordType": "noun"
   },
   {
     "word": "der Anzug, ¨e",
     "zh_cn": "西服",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈanˌt͡suːk/",
+    "wordType": "noun"
   },
   {
     "word": "die Krawatte, -n",
     "zh_cn": "领带",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/kʁaˈvatə/",
+    "wordType": "noun"
   },
   {
     "word": "der Laufschuh, -e",
     "zh_cn": "跑鞋",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈlaʊ̯fˌʃuː/",
+    "wordType": "noun"
   },
   {
     "word": "der Strumpf, ¨e",
     "zh_cn": "长筒袜",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ʃtʁʊmp͡f/",
+    "wordType": "noun"
   },
   {
     "word": "die Socke, -n",
     "zh_cn": "短袜",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈzɔkə/",
+    "wordType": "noun"
   },
   {
     "word": "die Farbe, -n",
     "zh_cn": "颜色",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈfaʁbə/",
+    "wordType": "noun"
   },
   {
     "word": "das Netzwerk, -e",
     "zh_cn": "网络",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈnɛt͡sˌvɛʁk/",
+    "wordType": "noun"
   },
   {
     "word": "die Fähigkeit, -en",
     "zh_cn": "能力",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈfɛːɪçkaɪ̯t/",
+    "wordType": "noun"
   },
   {
     "word": "der Lehrer, -",
     "zh_cn": "老师，男老师",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈleːʁɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Lehrerin, -nen",
     "zh_cn": "女老师",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈleːʁəʁɪn/",
+    "wordType": "noun"
   },
   {
     "word": "der Unterricht",
     "zh_cn": "课程",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈʊntɐˌʁɪçt/",
+    "wordType": "noun"
   },
   {
     "word": "die Gymnastikübung, -en",
     "zh_cn": "体操练习",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ɡʏmˈnastɪkˌʔyːbʊŋ/",
+    "wordType": "noun"
   },
   {
     "word": "das Computerprogramm, -e",
     "zh_cn": "电脑程序",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/kɔmˈpjuːtɐpʁoˌɡʁam/",
+    "wordType": "noun"
   },
   {
     "word": "das Rezept, -e",
     "zh_cn": "食谱，菜谱",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ʁeˈt͡sɛpt/",
+    "wordType": "noun"
   },
   {
     "word": "der Tipp, -s",
     "zh_cn": "建议",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/tɪp/",
+    "wordType": "noun"
   },
   {
     "word": "der Brief, -e",
     "zh_cn": "信件",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/bʁiːf/",
+    "wordType": "noun"
   },
   {
     "word": "das Märchen, -",
     "zh_cn": "童话",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈmɛːɐ̯çən/",
+    "wordType": "noun"
   },
   {
     "word": "das Bild, -er",
     "zh_cn": "图片",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/bɪlt/",
+    "wordType": "noun"
   },
   {
     "word": "teilen",
     "zh_cn": "分享",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈtaɪ̯lən/",
+    "wordType": "verb"
   },
   {
     "word": "tauschen",
     "zh_cn": "交换",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈtaʊ̯ʃn̩/",
+    "wordType": "verb"
   },
   {
     "word": "übrigbleiben, bleibt übrig",
     "zh_cn": "剩余",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈyːbʁɪçˌblaɪ̯bn̩/",
+    "wordType": "other"
   },
   {
     "word": "geben, gibt",
     "zh_cn": "给",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈɡeːbn̩/",
+    "wordType": "other"
   },
   {
     "word": "gefallen, gefällt",
     "zh_cn": "喜欢",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ɡəˈfalən/",
+    "wordType": "other"
   },
   {
     "word": "stehen (Kleid) （如连衣裙）",
     "zh_cn": "适合",
-    "unitId": 9
+    "unitId": 9,
+    "wordType": "other"
   },
   {
     "word": "passen",
     "zh_cn": "合适",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈpasn̩/",
+    "wordType": "verb"
   },
   {
     "word": "anprobieren, probiert an",
     "zh_cn": "试穿",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈanpʁoˌbiːʁən/",
+    "wordType": "other"
   },
   {
     "word": "reparieren",
     "zh_cn": "修理",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ʁepaˈʁiːʁən/",
+    "wordType": "verb"
   },
   {
     "word": "helfen, hilft",
     "zh_cn": "帮助",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈhɛlfn̩/",
+    "wordType": "other"
   },
   {
     "word": "zeigen",
     "zh_cn": "指示",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈt͡saɪ̯ɡn̩/",
+    "wordType": "verb"
   },
   {
     "word": "kennenlernen, lernt kennen",
     "zh_cn": "认识",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈkɛnənˌlɛʁnən/",
+    "wordType": "other"
   },
   {
     "word": "verbessern",
     "zh_cn": "完善",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/fɛɐ̯ˈbɛsɐn/",
+    "wordType": "verb"
   },
   {
     "word": "schenken",
     "zh_cn": "赠送",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈʃɛŋkn̩/",
+    "wordType": "verb"
   },
   {
     "word": "hinunterfallen, fällt hinunter",
     "zh_cn": "落下去",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/hɪˈnʊntɐˌfalən/",
+    "wordType": "other"
   },
   {
     "word": "kommunikativ",
     "zh_cn": "交际的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/kɔmunikaˈtiːf/",
+    "wordType": "other"
   },
   {
     "word": "korrekt",
     "zh_cn": "正确的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/kɔˈʁɛkt/",
+    "wordType": "other"
   },
   {
     "word": "praktisch",
     "zh_cn": "实际的，实用的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈpʁaktɪʃ/",
+    "wordType": "other"
   },
   {
     "word": "ökologisch",
     "zh_cn": "生态的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/økoˈloːɡɪʃ/",
+    "wordType": "other"
   },
   {
     "word": "sozial",
     "zh_cn": "社会的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/zoˈt͡si̯aːl/",
+    "wordType": "other"
   },
   {
     "word": "modern",
     "zh_cn": "现代的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/moˈdɛʁn/",
+    "wordType": "verb"
   },
   {
     "word": "perfekt",
     "zh_cn": "完美的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/pɛʁˈfɛkt/",
+    "wordType": "other"
   },
   {
     "word": "echt",
     "zh_cn": "真的，真正的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ɛçt/",
+    "wordType": "other"
   },
   {
     "word": "kaputt",
     "zh_cn": "破的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/kaˈpʊt/",
+    "wordType": "other"
   },
   {
     "word": "dumm",
     "zh_cn": "愚蠢的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/dʊm/",
+    "wordType": "other"
   },
   {
     "word": "altmodisch",
     "zh_cn": "过时的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈaltˌmoːdɪʃ/",
+    "wordType": "other"
   },
   {
     "word": "elegant",
     "zh_cn": "高雅的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/eleˈɡant/",
+    "wordType": "other"
   },
   {
     "word": "schick",
     "zh_cn": "时髦的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ʃɪk/",
+    "wordType": "other"
   },
   {
     "word": "kurz",
     "zh_cn": "短的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/kʊʁt͡s/",
+    "wordType": "other"
   },
   {
     "word": "eng",
     "zh_cn": "狭窄的，紧的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ɛŋ/",
+    "wordType": "other"
   },
   {
     "word": "weit",
     "zh_cn": "宽的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/vaɪ̯t/",
+    "wordType": "other"
   },
   {
     "word": "rot",
     "zh_cn": "红色的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ʁoːt/",
+    "wordType": "other"
   },
   {
     "word": "grün",
     "zh_cn": "绿色的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ɡʁyːn/",
+    "wordType": "other"
   },
   {
     "word": "gelb",
     "zh_cn": "黄色的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ɡɛlp/",
+    "wordType": "other"
   },
   {
     "word": "schwarz",
     "zh_cn": "黑色的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ʃvaʁt͡s/",
+    "wordType": "other"
   },
   {
     "word": "weiß",
     "zh_cn": "白色的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/vaɪ̯s/",
+    "wordType": "other"
   },
   {
     "word": "grau",
     "zh_cn": "灰色的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ɡʁaʊ̯/",
+    "wordType": "other"
   },
   {
     "word": "braun",
     "zh_cn": "棕色的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/bʁaʊ̯n/",
+    "wordType": "other"
   },
   {
     "word": "lila",
     "zh_cn": "淡紫色的",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/ˈliːla/",
+    "wordType": "other"
   },
   {
     "word": "okay",
     "zh_cn": "好",
-    "unitId": 9
+    "unitId": 9,
+    "phonetic": "/oˈkeː/",
+    "wordType": "other"
   },
   {
     "word": "zum Schluss",
     "zh_cn": "结束，最后",
-    "unitId": 9
+    "unitId": 9,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "niemand",
     "zh_cn": "无人",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈniːmant/",
+    "wordType": "other"
   },
   {
     "word": "wenige",
     "zh_cn": "少数几人",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈveːnɪɡə/",
+    "wordType": "other"
   },
   {
     "word": "viele",
     "zh_cn": "许多人",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈfiːlə/",
+    "wordType": "other"
   },
   {
     "word": "alle",
     "zh_cn": "所有人",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈalə/",
+    "wordType": "other"
   },
   {
     "word": "jeder",
     "zh_cn": "每个人",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈjeːdɐ/",
+    "wordType": "other"
   },
   {
     "word": "fast",
     "zh_cn": "几乎",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/fast/",
+    "wordType": "other"
   },
   {
     "word": "echt",
     "zh_cn": "真的",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ɛçt/",
+    "wordType": "other"
   },
   {
     "word": "das Fest, -e",
     "zh_cn": "节日",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/fɛst/",
+    "wordType": "noun"
   },
   {
     "word": "der Gast, -e",
     "zh_cn": "客人",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ɡast/",
+    "wordType": "noun"
   },
   {
     "word": "der Ball, -e (Fest)",
     "zh_cn": "舞会",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/bal/",
+    "wordType": "noun"
   },
   {
     "word": "das Kostüm, -e",
     "zh_cn": "服装",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/kɔsˈtyːm/",
+    "wordType": "noun"
   },
   {
     "word": "die Maske, -n",
     "zh_cn": "面具",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈmaskə/",
+    "wordType": "noun"
   },
   {
     "word": "der Politiker, -",
     "zh_cn": "政治家",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/poˈliːtɪkɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Politikerin, -nen",
     "zh_cn": "女政治家",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/poˈliːtɪkəʁɪn/",
+    "wordType": "noun"
   },
   {
     "word": "die Veranstaltung, -en",
     "zh_cn": "活动",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/fɛɐ̯ˈʔanʃtaltʊŋ/",
+    "wordType": "noun"
   },
   {
     "word": "die Hilfe, -n",
     "zh_cn": "帮助",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈhɪlfə/",
+    "wordType": "noun"
   },
   {
     "word": "die Modenschau, -en",
     "zh_cn": "时装表演",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈmoːdn̩ˌʃaʊ̯/",
+    "wordType": "noun"
   },
   {
     "word": "der Prinz, -en",
     "zh_cn": "王子",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/pʁɪnt͡s/",
+    "wordType": "noun"
   },
   {
     "word": "die Prinzessin, -nen",
     "zh_cn": "公主",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/pʁɪnˈt͡sɛsɪn/",
+    "wordType": "noun"
   },
   {
     "word": "das Gesicht, -er",
     "zh_cn": "面孔，脸",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ɡəˈzɪçt/",
+    "wordType": "noun"
   },
   {
     "word": "das Datum, Daten",
     "zh_cn": "日期；数据",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈdaːtʊm/",
+    "wordType": "noun"
   },
   {
     "word": "der Geburtstag, -e",
     "zh_cn": "生日",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ɡəˈbuːɐ̯t͡sˌtaːk/",
+    "wordType": "noun"
   },
   {
     "word": "der Namenstag, -e",
     "zh_cn": "命名日",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈnaːmənsˌtaːk/",
+    "wordType": "noun"
   },
   {
     "word": "das Geschenk, -e",
     "zh_cn": "礼物",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ɡəˈʃɛŋk/",
+    "wordType": "noun"
   },
   {
     "word": "der Geburtstagskalender, -",
     "zh_cn": "生日日历",
-    "unitId": 10
+    "unitId": 10,
+    "phoneticFailed": true,
+    "wordType": "noun"
   },
   {
     "word": "die Geburtstagskarte, -n",
     "zh_cn": "生日卡",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ɡəˈbuːɐ̯t͡staːksˌkaʁtə/",
+    "wordType": "noun"
   },
   {
     "word": "die Feier, -n",
     "zh_cn": "庆祝",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈfaɪ̯ɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Einladung, -en",
     "zh_cn": "邀请",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈaɪ̯nˌlaːdʊŋ/",
+    "wordType": "noun"
   },
   {
     "word": "die Entschuldigung, -en",
     "zh_cn": "抱歉，对不起",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ɛntˈʃʊldɪɡʊŋ/",
+    "wordType": "noun"
   },
   {
     "word": "das Motto, -s",
     "zh_cn": "格言",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈmɔto/",
+    "wordType": "noun"
   },
   {
     "word": "der Partner, -",
     "zh_cn": "伙伴",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈpaʁtnɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Partnerin, -nen",
     "zh_cn": "女伙伴",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈpaʁtnəʁɪn/",
+    "wordType": "noun"
   },
   {
     "word": "der Ordner, -",
     "zh_cn": "文件夹",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈɔʁdnɐ/",
+    "wordType": "noun"
   },
   {
     "word": "der / die Jugendliche, -n",
     "zh_cn": "年轻人",
-    "unitId": 10
+    "unitId": 10,
+    "wordType": "noun"
   },
   {
     "word": "der / die Erwachsene, -n",
     "zh_cn": "成年人",
-    "unitId": 10
+    "unitId": 10,
+    "wordType": "noun"
   },
   {
     "word": "das Treffen, -",
     "zh_cn": "见面",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈtʁɛfn̩/",
+    "wordType": "noun"
   },
   {
     "word": "das Abendessen, -",
     "zh_cn": "晚餐",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈaːbn̩tˌʔɛsn̩/",
+    "wordType": "noun"
   },
   {
     "word": "die Atmosphäre (nur Sg.)",
     "zh_cn": "气氛",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/atmoˈsfɛːʁə/",
+    "wordType": "noun"
   },
   {
     "word": "die Organisation, -en",
     "zh_cn": "组织",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˌɔʁɡanizaˈt͡si̯oːn/",
+    "wordType": "noun"
   },
   {
     "word": "die Daten (nur Pl.)",
     "zh_cn": "数据",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈdaːtn̩/",
+    "wordType": "noun"
   },
   {
     "word": "die Vorspeise, -n",
     "zh_cn": "前餐",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈfoːɐ̯ˌʃpaɪ̯zə/",
+    "wordType": "noun"
   },
   {
     "word": "die Hauptspeise, -n",
     "zh_cn": "主餐",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈhaʊ̯ptˌʃpaɪ̯zə/",
+    "wordType": "noun"
   },
   {
     "word": "das Lokal, -e",
     "zh_cn": "酒馆，地点",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/loˈkaːl/",
+    "wordType": "noun"
   },
   {
     "word": "die Kosten (nur Pl.)",
     "zh_cn": "费用",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈkɔstn̩/",
+    "wordType": "noun"
   },
   {
     "word": "die Website, -s",
     "zh_cn": "网页",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈvɛpˌsaɪ̯t/",
+    "wordType": "noun"
   },
   {
     "word": "die Telefonnummer, -n",
     "zh_cn": "电话号码",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/teləˈfoːnˌnʊmɐ/",
+    "wordType": "noun"
   },
   {
     "word": "die Postleitzahl, -en",
     "zh_cn": "邮编",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈpɔstlaɪ̯tˌt͡saːl/",
+    "wordType": "noun"
   },
   {
     "word": "das Fleisch (nur Sg.)",
     "zh_cn": "肉",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/flaɪ̯ʃ/",
+    "wordType": "noun"
   },
   {
     "word": "der Reis (nur Sg.)",
     "zh_cn": "大米",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ʁaɪ̯s/",
+    "wordType": "noun"
   },
   {
     "word": "die Kartoffel, -n",
     "zh_cn": "土豆",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/kaʁˈtɔfl̩/",
+    "wordType": "noun"
   },
   {
     "word": "die Nudel, -n",
     "zh_cn": "面条",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈnuːdl̩/",
+    "wordType": "noun"
   },
   {
     "word": "die Tomate, -n",
     "zh_cn": "番茄",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/toˈmaːtə/",
+    "wordType": "noun"
   },
   {
     "word": "der Zucker (nur Sg.)",
     "zh_cn": "糖",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈt͡sʊkɐ/",
+    "wordType": "noun"
   },
   {
     "word": "der Alkohol (nur Sg.)",
     "zh_cn": "酒，酒精",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈalkohoːl/",
+    "wordType": "noun"
   },
   {
     "word": "das Glas, -er",
     "zh_cn": "杯子，玻璃杯",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ɡlaːs/",
+    "wordType": "noun"
   },
   {
     "word": "der Bauch, -e",
     "zh_cn": "肚子",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/baʊ̯x/",
+    "wordType": "noun"
   },
   {
     "word": "die Bauchschmerzen (nur Pl.)",
     "zh_cn": "肚子疼",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈbaʊ̯xˌʃmɛʁt͡sn̩/",
+    "wordType": "noun"
   },
   {
     "word": "der Januar, -e",
     "zh_cn": "一月",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈjanuaːɐ̯/",
+    "wordType": "noun"
   },
   {
     "word": "der Februar, -e",
     "zh_cn": "二月",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈfeːbʁuaːɐ̯/",
+    "wordType": "noun"
   },
   {
     "word": "der März, -e",
     "zh_cn": "三月",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/mɛʁt͡s/",
+    "wordType": "noun"
   },
   {
     "word": "der April, -e",
     "zh_cn": "四月",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/aˈpʁɪl/",
+    "wordType": "noun"
   },
   {
     "word": "der Mai, -e",
     "zh_cn": "五月",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/maɪ̯/",
+    "wordType": "noun"
   },
   {
     "word": "der Juni, -s",
     "zh_cn": "六月",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈjuːni/",
+    "wordType": "noun"
   },
   {
     "word": "der Juli, -s",
     "zh_cn": "七月",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈjuːli/",
+    "wordType": "noun"
   },
   {
     "word": "der August, -e",
     "zh_cn": "八月",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/aʊ̯ˈɡʊst/",
+    "wordType": "noun"
   },
   {
     "word": "der September, -",
     "zh_cn": "九月",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/zɛpˈtɛmbɐ/",
+    "wordType": "noun"
   },
   {
     "word": "der Oktober, -",
     "zh_cn": "十月",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ɔkˈtoːbɐ/",
+    "wordType": "noun"
   },
   {
     "word": "der November, -",
     "zh_cn": "十一月",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/noˈvɛmbɐ/",
+    "wordType": "noun"
   },
   {
     "word": "der Dezember, -",
     "zh_cn": "十二月",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/deˈt͡sɛmbɐ/",
+    "wordType": "noun"
   },
   {
     "word": "feiern",
     "zh_cn": "庆祝",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈfaɪ̯ɐn/",
+    "wordType": "verb"
   },
   {
     "word": "sammeln",
     "zh_cn": "收集",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈzaml̩n/",
+    "wordType": "verb"
   },
   {
     "word": "tragen, trägt (Kleidung)",
     "zh_cn": "穿（衣服）",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈtʁaːɡn̩/",
+    "wordType": "other"
   },
   {
     "word": "stattfinden, findet statt",
     "zh_cn": "举行",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈʃtatˌfɪndn̩/",
+    "wordType": "other"
   },
   {
     "word": "aussehen, sieht aus",
     "zh_cn": "看起来",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈaʊ̯sˌz̥eːən/",
+    "wordType": "other"
   },
   {
     "word": "meinen",
     "zh_cn": "认为",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈmaɪ̯nən/",
+    "wordType": "verb"
   },
   {
     "word": "geboren sein",
     "zh_cn": "出生",
-    "unitId": 10
+    "unitId": 10,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "bringen",
     "zh_cn": "带来",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈbʁɪŋən/",
+    "wordType": "verb"
   },
   {
     "word": "mitbringen, bringt mit",
     "zh_cn": "带来，拿来",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈmɪtˌbʁɪŋən/",
+    "wordType": "other"
   },
   {
     "word": "organisieren",
     "zh_cn": "组织",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ɔʁɡaniˈziːʁən/",
+    "wordType": "verb"
   },
   {
     "word": "einladen, lädt ein",
     "zh_cn": "邀请",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈaɪ̯nˌlaːdn̩/",
+    "wordType": "other"
   },
   {
     "word": "hochladen, lädt hoch",
     "zh_cn": "上传",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈhoːxˌlaːdn̩/",
+    "wordType": "other"
   },
   {
     "word": "fehlen",
     "zh_cn": "缺少",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈfeːlən/",
+    "wordType": "verb"
   },
   {
     "word": "eingeben, gibt ein",
     "zh_cn": "输入",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈaɪ̯nˌɡeːbn̩/",
+    "wordType": "other"
   },
   {
     "word": "bekommen",
     "zh_cn": "得到",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/bəˈkɔmən/",
+    "wordType": "verb"
   },
   {
     "word": "zu Abend essen, isst zu Abend",
     "zh_cn": "吃晚饭",
-    "unitId": 10
+    "unitId": 10,
+    "wordType": "other"
   },
   {
     "word": "anbieten, bietet an",
     "zh_cn": "提供",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈanˌbiːtn̩/",
+    "wordType": "other"
   },
   {
     "word": "reden",
     "zh_cn": "说，讲话",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈʁeːdn̩/",
+    "wordType": "verb"
   },
   {
     "word": "erzählen",
     "zh_cn": "讲述",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ɛɐ̯ˈt͡sɛːlən/",
+    "wordType": "verb"
   },
   {
     "word": "fragen",
     "zh_cn": "提问",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈfʁaːɡn̩/",
+    "wordType": "verb"
   },
   {
     "word": "antworten",
     "zh_cn": "回答",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈantˌvɔʁtn̩/",
+    "wordType": "verb"
   },
   {
     "word": "austauschen, tauscht aus",
     "zh_cn": "交换",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈaʊ̯sˌtaʊ̯ʃn̩/",
+    "wordType": "other"
   },
   {
     "word": "vergessen, vergisst",
     "zh_cn": "忘记",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/fɛɐ̯ˈɡɛsn̩/",
+    "wordType": "other"
   },
   {
     "word": "treffen, trifft",
     "zh_cn": "碰到",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈtʁɛfn̩/",
+    "wordType": "other"
   },
   {
     "word": "rauchen",
     "zh_cn": "抽烟",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈʁaʊ̯xn̩/",
+    "wordType": "verb"
   },
   {
     "word": "weh tun",
     "zh_cn": "疼痛",
-    "unitId": 10
+    "unitId": 10,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "aufräumen, räumt auf",
     "zh_cn": "整理",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈaʊ̯fˌʁɔɪ̯mən/",
+    "wordType": "other"
   },
   {
     "word": "planen",
     "zh_cn": "计划",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈplaːnən/",
+    "wordType": "verb"
   },
   {
     "word": "verrückt",
     "zh_cn": "疯狂的",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/fɛɐ̯ˈʁʏkt/",
+    "wordType": "other"
   },
   {
     "word": "fantastisch",
     "zh_cn": "好极的",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/fanˈtastɪʃ/",
+    "wordType": "other"
   },
   {
     "word": "berühmt",
     "zh_cn": "著名的",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/bəˈʁyːmt/",
+    "wordType": "other"
   },
   {
     "word": "geschminkt",
     "zh_cn": "化妆的",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ɡəˈʃmɪŋkt/",
+    "wordType": "other"
   },
   {
     "word": "herzlich",
     "zh_cn": "衷心的",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈhɛʁt͡slɪç/",
+    "wordType": "other"
   },
   {
     "word": "privat",
     "zh_cn": "私人的",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/pʁiˈvaːt/",
+    "wordType": "other"
   },
   {
     "word": "gemeinsam",
     "zh_cn": "共同的",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ɡəˈmaɪ̯nzaːm/",
+    "wordType": "other"
   },
   {
     "word": "vegetarisch",
     "zh_cn": "素食的",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/veɡeˈtaːʁɪʃ/",
+    "wordType": "other"
   },
   {
     "word": "ähnlich",
     "zh_cn": "相似的",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈɛːnlɪç/",
+    "wordType": "other"
   },
   {
     "word": "selbst",
     "zh_cn": "自己",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/zɛlpst/",
+    "wordType": "other"
   },
   {
     "word": "ein paar",
     "zh_cn": "几个",
-    "unitId": 10
+    "unitId": 10,
+    "phoneticFailed": true,
+    "wordType": "other"
   },
   {
     "word": "zu (+ Adjektiv)",
     "zh_cn": "太（+形容词）",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/t͡suː/",
+    "wordType": "other"
   },
   {
     "word": "morgen",
     "zh_cn": "明天",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈmɔʁɡn̩/",
+    "wordType": "verb"
   },
   {
     "word": "sicher",
     "zh_cn": "确定的",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/ˈzɪçɐ/",
+    "wordType": "other"
   },
   {
     "word": "natürlich",
     "zh_cn": "当然",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/naˈtyːɐ̯lɪç/",
+    "wordType": "other"
   },
   {
     "word": "denn",
     "zh_cn": "因为",
-    "unitId": 10
+    "unitId": 10,
+    "phonetic": "/dɛn/",
+    "wordType": "other"
   },
   {
     "word": "Du hast recht!",
     "zh_cn": "你是对的!",
-    "unitId": 10
+    "unitId": 10,
+    "wordType": "other"
   },
   {
     "word": "Schau mal! / Guck mal!",
     "zh_cn": "看呀!",
-    "unitId": 10
+    "unitId": 10,
+    "wordType": "other"
   },
   {
     "word": "Bis bald.",
     "zh_cn": "一会儿见!",
-    "unitId": 10
+    "unitId": 10,
+    "wordType": "other"
   },
   {
     "word": "Alles Gute!",
     "zh_cn": "一切都好!",
-    "unitId": 10
+    "unitId": 10,
+    "wordType": "other"
   },
   {
     "word": "Alles Liebe!",
     "zh_cn": "一切都好!",
-    "unitId": 10
+    "unitId": 10,
+    "wordType": "other"
   },
   {
     "word": "Herzlichen Glückwunsch!",
     "zh_cn": "衷心祝愿!",
-    "unitId": 10
+    "unitId": 10,
+    "wordType": "other"
   },
   {
     "word": "Danke für alles!",
     "zh_cn": "感谢所有的一切!",
-    "unitId": 10
+    "unitId": 10,
+    "wordType": "other"
   },
   {
     "word": "Das ist schade!",
     "zh_cn": "很遗憾!",
-    "unitId": 10
+    "unitId": 10,
+    "wordType": "noun"
   },
   {
     "word": "Guten Appetit!",
     "zh_cn": "祝胃口好!",
-    "unitId": 10
+    "unitId": 10,
+    "wordType": "other"
   },
   {
     "word": "Prost!",
     "zh_cn": "干杯!",
-    "unitId": 10
+    "unitId": 10,
+    "wordType": "other"
   },
   {
     "word": "Ich mache lieber...",
     "zh_cn": "我更乐意做...",
-    "unitId": 10
+    "unitId": 10,
+    "wordType": "other"
   }
 ]
