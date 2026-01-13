@@ -1,7 +1,5 @@
 import type { Word } from "../types/word";
 
-export const WORDS_PER_UNIT = 100;
-
 export interface Unit {
   id: number;
   name: string;
@@ -10,39 +8,64 @@ export interface Unit {
   totalWords: number;
 }
 
-export function createUnits(totalWords: number): Unit[] {
+/**
+ * 根据 words 数组中的 unitId 字段动态创建单元
+ */
+export function createUnits(words: Word[]): Unit[] {
   const units: Unit[] = [];
-  const totalUnits = Math.ceil(totalWords / WORDS_PER_UNIT);
+  const unitMap = new Map<number, { startIndex: number; endIndex: number; count: number }>();
 
-  for (let i = 0; i < totalUnits; i++) {
-    const startIndex = i * WORDS_PER_UNIT;
-    const endIndex = Math.min((i + 1) * WORDS_PER_UNIT, totalWords);
+  // 遍历所有单词，统计每个单元的信息
+  words.forEach((word, index) => {
+    const unitId = word.unitId || 1; // 如果没有 unitId，默认归入单元 1
     
-    units.push({
-      id: i + 1,
-      name: `单元 ${i + 1}`,
-      startIndex,
-      endIndex,
-      totalWords: endIndex - startIndex,
+    if (!unitMap.has(unitId)) {
+      unitMap.set(unitId, {
+        startIndex: index,
+        endIndex: index,
+        count: 0,
+      });
+    }
+    
+    const unitInfo = unitMap.get(unitId)!;
+    unitInfo.endIndex = index;
+    unitInfo.count++;
+  });
+
+  // 将 Map 转换为 Unit 数组
+  Array.from(unitMap.entries())
+    .sort((a, b) => a[0] - b[0]) // 按单元 ID 排序
+    .forEach(([unitId, info]) => {
+      units.push({
+        id: unitId,
+        name: `单元 ${unitId}`,
+        startIndex: info.startIndex,
+        endIndex: info.endIndex + 1, // +1 是为了和 slice 的 endIndex 保持一致
+        totalWords: info.count,
+      });
     });
-  }
 
   return units;
 }
 
+/**
+ * 获取指定单元的所有单词
+ */
 export function getUnitWords(words: Word[], unitId: number): Word[] {
-  const units = createUnits(words.length);
-  const unit = units.find((u) => u.id === unitId);
-  
-  if (!unit) return [];
-  
-  return words.slice(unit.startIndex, unit.endIndex);
+  return words.filter((word) => (word.unitId || 1) === unitId);
 }
 
-export function getWordUnit(wordIndex: number): number {
-  return Math.floor(wordIndex / WORDS_PER_UNIT) + 1;
+/**
+ * 根据单词索引获取单元 ID
+ */
+export function getWordUnit(words: Word[], wordIndex: number): number {
+  if (wordIndex < 0 || wordIndex >= words.length) return 1;
+  return words[wordIndex].unitId || 1;
 }
 
+/**
+ * 获取指定单元的学习进度
+ */
 export function getUnitProgress(unitId: number, learnedWords: string[], allWords: Word[]): {
   learned: number;
   total: number;
@@ -56,8 +79,11 @@ export function getUnitProgress(unitId: number, learnedWords: string[], allWords
   return { learned, total, percentage };
 }
 
+/**
+ * 获取所有单元的进度
+ */
 export function getAllUnitsProgress(learnedWords: string[], allWords: Word[]) {
-  const units = createUnits(allWords.length);
+  const units = createUnits(allWords);
   return units.map((unit) => ({
     ...unit,
     progress: getUnitProgress(unit.id, learnedWords, allWords),

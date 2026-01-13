@@ -8,17 +8,19 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { execSync } from 'child_process';
 import { JSDOM } from 'jsdom';
-import https from 'https';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const WORDS_FILE = join(__dirname, '../public/words.json');
-const DELAY_MS = 200; // API 调用间隔，避免请求过快
+const DELAY_MS = 300; // API 调用间隔（毫秒）
 
-// 延迟函数
-const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+// 延迟函数（同步方式）
+const delay = (ms) => {
+  execSync(`sleep ${ms / 1000}`);
+};
 
 // 清理单词（去掉冠词和复数信息）
 function cleanWord(word) {
@@ -29,32 +31,73 @@ function cleanWord(word) {
     .trim();
 }
 
-// 使用 https 模块获取 HTML（更可靠）
+// 判断是否为单词（而非句子或短语）
+function isWord(word) {
+  const cleaned = cleanWord(word);
+  
+  // 如果包含多个空格，可能是句子
+  if ((cleaned.match(/\s/g) || []).length > 1) {
+    return false;
+  }
+  
+  // 如果包含句子标点符号，是句子
+  if (/[.!?;:]/.test(cleaned)) {
+    return false;
+  }
+  
+  // 如果长度超过50个字符，可能是句子
+  if (cleaned.length > 50) {
+    return false;
+  }
+  
+  return true;
+}
+
+// 使用 curl 命令获取 HTML
 function fetchHTML(url) {
-  return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
-      let data = '';
-      
-      res.on('data', (chunk) => {
-        data += chunk;
-      });
-      
-      res.on('end', () => {
-        resolve({ ok: res.statusCode === 200, status: res.statusCode, text: data });
-      });
-    }).on('error', (err) => {
-      reject(err);
+  try {
+    // 构建 curl 命令，包含所有必要的 headers
+    const curlCommand = `curl -s -w "\\nHTTP_STATUS:%{http_code}" '${url}' \
+      -H 'accept: */*' \
+      -H 'accept-language: zh-CN,zh-TW;q=0.9,zh;q=0.8,en;q=0.7,fr;q=0.6' \
+      -H 'cache-control: no-cache' \
+      -H 'pragma: no-cache' \
+      -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'`;
+    
+    // 执行 curl 命令
+    const output = execSync(curlCommand, { 
+      encoding: 'utf-8',
+      maxBuffer: 10 * 1024 * 1024, // 10MB buffer
+      timeout: 30000 // 30秒超时
     });
-  });
+    
+    // 解析响应和状态码
+    const parts = output.split('HTTP_STATUS:');
+    const text = parts[0];
+    const statusCode = parseInt(parts[1] || '0');
+    
+    return { 
+      ok: statusCode === 200, 
+      status: statusCode, 
+      text: text 
+    };
+  } catch (error) {
+    console.error('Curl 执行错误:', error.message);
+    return { 
+      ok: false, 
+      status: 0, 
+      text: '' 
+    };
+  }
 }
 
 // 获取单个单词的音标
-async function fetchPhonetic(word) {
+function fetchPhonetic(word) {
   const cleanedWord = cleanWord(word);
   
   try {
     const url = `https://de.wiktionary.org/api/rest_v1/page/html/${encodeURIComponent(cleanedWord)}`;
-    const response = await fetchHTML(url);
+    const response = fetchHTML(url);
 
     if (!response.ok) {
       console.log(`  ⚠️  API 返回错误: ${response.status} - ${cleanedWord}`);
@@ -93,7 +136,7 @@ async function fetchPhonetic(word) {
 }
 
 // 主函数
-async function main() {
+function main() {
   console.log('🚀 开始批量获取音标...\n');
   
   // 读取 words.json
@@ -116,16 +159,48 @@ async function main() {
       continue;
     }
     
+    // 如果之前获取失败过，跳过
+    if (wordObj.phoneticFailed) {
+      console.log(`${progress} ⏭️  跳过（之前失败）: ${wordObj.word}`);
+      skipCount++;
+      continue;
+    }
+    
+    // 判断是否为单词，如果是句子则跳过
+    if (!isWord(wordObj.word)) {
+      console.log(`${progress} ⏭️  跳过（句子/短语）: ${wordObj.word}`);
+      skipCount++;
+      continue;
+    }
+    
     console.log(`${progress} 🔍 获取: ${wordObj.word}`);
     
-    const phonetic = await fetchPhonetic(wordObj.word);
+    // 重试机制：最多尝试1次（即总共尝试2次）
+    let phonetic = null;
+    let retries = 0;
+    const maxRetries = 1;
+    
+    while (!phonetic && retries <= maxRetries) {
+      if (retries > 0) {
+        console.log(`${progress} 🔄 重试 ${retries}/${maxRetries}: ${wordObj.word}`);
+        // 重试前等待（使用同步方式）
+        execSync('sleep 1');
+      }
+      
+      phonetic = fetchPhonetic(wordObj.word);
+      retries++;
+    }
     
     if (phonetic) {
       wordObj.phonetic = phonetic;
+      // 清除失败标记（如果之前有）
+      delete wordObj.phoneticFailed;
       console.log(`${progress} ✅ 成功: ${wordObj.word} -> ${phonetic}`);
       successCount++;
     } else {
-      console.log(`${progress} ⚠️  未找到: ${wordObj.word}`);
+      // 标记为失败，下次运行时跳过
+      wordObj.phoneticFailed = true;
+      console.log(`${progress} ⚠️  未找到: ${wordObj.word} (已标记为失败)`);
       failCount++;
     }
     
@@ -136,7 +211,7 @@ async function main() {
     }
     
     // 延迟，避免请求过快
-    await delay(DELAY_MS);
+    delay(DELAY_MS);
   }
   
   // 最终保存

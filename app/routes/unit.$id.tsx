@@ -34,7 +34,7 @@ export default function UnitDetail() {
       });
   }, [unitId]);
 
-  const progress = getUnitProgress(unitId, learnedWords, allWords);
+  const progress = allWords.length > 0 ? getUnitProgress(unitId, learnedWords, allWords) : { learned: 0, total: 0, percentage: 0 };
   const isCompleted = progress.percentage === 100;
 
   return (
@@ -86,7 +86,7 @@ export default function UnitDetail() {
         <h2 className="text-xl font-bold text-gray-800 mb-4">单词列表</h2>
         
         <div className="grid gap-3">
-          {unitWords.map((word, index) => {
+          {unitWords.map((word, unitIndex) => {
             const isLearned = learnedWords.includes(word.word);
             const parsed = parseGermanWord(word.word);
             
@@ -98,8 +98,8 @@ export default function UnitDetail() {
             
             return (
               <Link
-                key={index}
-                to={`/learn?unit=${unitId}&index=${index}`}
+                key={unitIndex}
+                to={`/learn?unit=${unitId}&index=${unitIndex}`}
                 className={`block p-4 rounded-xl transition-all ${
                   isLearned
                     ? "bg-green-50 hover:bg-green-100 border-2 border-green-200"
@@ -115,7 +115,7 @@ export default function UnitDetail() {
                       </span>
                     ) : (
                       <span className="inline-flex items-center justify-center w-7 h-7 bg-gray-200 text-gray-600 rounded-full text-sm font-medium">
-                        {index + 1}
+                        {unitIndex + 1}
                       </span>
                     )}
                   </div>

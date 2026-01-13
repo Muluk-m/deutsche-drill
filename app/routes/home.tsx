@@ -15,6 +15,11 @@ export default function Home() {
   const [words, setWords] = useState<Word[]>([]);
   const [learnedWords, setLearnedWords] = useState<string[]>([]);
   const [todayCount, setTodayCount] = useState(0);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState<
+    Array<{ word: Word; index: number; unitId: number }>
+  >([]);
+  const [isSearching, setIsSearching] = useState(false);
 
   useEffect(() => {
     fetch("/words.json")
@@ -34,7 +39,34 @@ export default function Home() {
       });
   }, []);
 
-  const units = createUnits(words.length);
+  // 搜索功能
+  useEffect(() => {
+    if (!searchQuery.trim()) {
+      setSearchResults([]);
+      setIsSearching(false);
+      return;
+    }
+
+    setIsSearching(true);
+    const query = searchQuery.toLowerCase().trim();
+    const results = words
+      .map((word, index) => ({
+        word,
+        index,
+        unitId: Math.floor(index / 100) + 1,
+      }))
+      .filter(({ word }) => {
+        return (
+          word.word.toLowerCase().includes(query) ||
+          word.zh_cn.toLowerCase().includes(query)
+        );
+      })
+      .slice(0, 20); // 最多显示20个结果
+
+    setSearchResults(results);
+  }, [searchQuery, words]);
+
+  const units = createUnits(words);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
@@ -46,6 +78,119 @@ export default function Home() {
           </h1>
           <p className="text-gray-600">德语单词分单元学习系统</p>
         </header>
+
+        {/* Search Box */}
+        <div className="mb-8">
+          <div className="relative">
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="搜索单词或中文释义..."
+              className="w-full px-4 py-3 pl-12 pr-4 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:outline-none transition-colors text-gray-800 placeholder-gray-400"
+            />
+            <svg
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+            {searchQuery && (
+              <button
+                onClick={() => setSearchQuery("")}
+                className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+              >
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            )}
+          </div>
+
+          {/* Search Results */}
+          {isSearching && searchResults.length > 0 && (
+            <div className="mt-4 bg-white rounded-xl shadow-lg border-2 border-gray-200 max-h-96 overflow-y-auto">
+              {searchResults.map(({ word, index, unitId }) => {
+                const isLearned = learnedWords.includes(word.word);
+                const indexInUnit = index % 100;
+
+                return (
+                  <Link
+                    key={index}
+                    to={`/learn?unit=${unitId}&index=${indexInUnit}`}
+                    onClick={() => setSearchQuery("")}
+                    className="block p-4 hover:bg-gray-50 border-b border-gray-100 last:border-b-0 transition-colors"
+                  >
+                    <div className="flex items-center gap-3">
+                      <div className="flex-shrink-0">
+                        {isLearned ? (
+                          <span className="inline-flex items-center justify-center w-6 h-6 bg-green-500 text-white rounded-full text-xs">
+                            ✓
+                          </span>
+                        ) : (
+                          <span className="inline-flex items-center justify-center w-6 h-6 bg-gray-200 text-gray-600 rounded-full text-xs">
+                            •
+                          </span>
+                        )}
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-2 mb-1">
+                          <span className="font-medium text-gray-800">
+                            {word.word}
+                          </span>
+                          <span className="text-xs text-gray-500 bg-gray-100 px-2 py-0.5 rounded">
+                            单元 {unitId}
+                          </span>
+                        </div>
+                        <div className="text-sm text-gray-600">
+                          {word.zh_cn}
+                        </div>
+                      </div>
+                      <svg
+                        className="w-5 h-5 text-gray-400 flex-shrink-0"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M9 5l7 7-7 7"
+                        />
+                      </svg>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          )}
+
+          {/* No Results */}
+          {isSearching && searchResults.length === 0 && searchQuery.trim() && (
+            <div className="mt-4 bg-white rounded-xl shadow-lg border-2 border-gray-200 p-8 text-center">
+              <div className="text-4xl mb-2">🔍</div>
+              <p className="text-gray-600">未找到匹配的单词</p>
+            </div>
+          )}
+        </div>
 
         {/* Stats Cards */}
         <div className="grid grid-cols-3 gap-4 mb-8">
@@ -99,109 +244,115 @@ export default function Home() {
           </div>
         )}
 
-        {/* Units List */}
-        <div className="mb-6">
-          <h2 className="text-2xl font-bold text-gray-800 mb-2">学习单元</h2>
-          <p className="text-sm text-gray-600">
-            每个单元包含 100 个单词，选择单元后可进行学习、复习和测试
-          </p>
-        </div>
+        {/* Units List - 只在非搜索状态下显示 */}
+        {!isSearching && (
+          <>
+            <div className="mb-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-2">
+                学习单元
+              </h2>
+              <p className="text-sm text-gray-600">
+                每个单元包含 100 个单词，选择单元后可进行学习、复习和测试
+              </p>
+            </div>
 
-        <div className="grid gap-4">
-          {units.map((unit) => {
-            const progress = getUnitProgress(unit.id, learnedWords, words);
-            const isCompleted = progress.percentage === 100;
-            const isStarted = progress.percentage > 0;
+            <div className="grid gap-4">
+              {units.map((unit) => {
+                const progress = getUnitProgress(unit.id, learnedWords, words);
+                const isCompleted = progress.percentage === 100;
+                const isStarted = progress.percentage > 0;
 
-            return (
-              <div
-                key={unit.id}
-                className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all p-6"
-              >
-                <div className="flex items-center justify-between mb-3">
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-800">
-                      {unit.name}
-                    </h3>
-                    <p className="text-sm text-gray-600">
-                      单词 {unit.startIndex + 1} - {unit.endIndex} · 共{" "}
-                      {unit.totalWords} 个
-                    </p>
-                  </div>
-                  <div className="text-right">
-                    {isCompleted ? (
-                      <span className="inline-flex items-center justify-center w-12 h-12 bg-green-100 text-green-600 rounded-full text-2xl">
-                        ✓
-                      </span>
-                    ) : isStarted ? (
-                      <div className="text-2xl font-bold text-blue-600">
-                        {progress.percentage}%
+                return (
+                  <div
+                    key={unit.id}
+                    className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all p-6"
+                  >
+                    <div className="flex items-center justify-between mb-3">
+                      <div>
+                        <h3 className="text-xl font-bold text-gray-800">
+                          {unit.name}
+                        </h3>
+                        <p className="text-sm text-gray-600">
+                          单词 {unit.startIndex + 1} - {unit.endIndex} · 共{" "}
+                          {unit.totalWords} 个
+                        </p>
                       </div>
-                    ) : (
-                      <div className="text-2xl text-gray-400">📚</div>
-                    )}
-                  </div>
-                </div>
-
-                <div className="mb-4">
-                  <div className="flex justify-between text-sm text-gray-600 mb-1">
-                    <span>
-                      已学习 {progress.learned} / {progress.total}
-                    </span>
-                    <span>{progress.percentage}%</span>
-                  </div>
-                  <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div
-                      className={`h-2 rounded-full transition-all ${
-                        isCompleted
-                          ? "bg-green-500"
-                          : isStarted
-                          ? "bg-blue-500"
-                          : "bg-gray-300"
-                      }`}
-                      style={{ width: `${progress.percentage}%` }}
-                    />
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-2 gap-2">
-                  <Link
-                    to={`/unit/${unit.id}`}
-                    className="col-span-2 text-center bg-gray-50 text-gray-700 py-2.5 rounded-lg text-sm font-medium hover:bg-gray-100 transition-colors border border-gray-200"
-                  >
-                    📖 查看单词列表
-                  </Link>
-                  <Link
-                    to={`/learn?unit=${unit.id}`}
-                    className="text-center bg-blue-50 text-blue-600 py-2.5 rounded-lg text-sm font-medium hover:bg-blue-100 transition-colors"
-                  >
-                    📚 学习
-                  </Link>
-                  {isStarted ? (
-                    <>
-                      <Link
-                        to={`/review?unit=${unit.id}`}
-                        className="text-center bg-purple-50 text-purple-600 py-2.5 rounded-lg text-sm font-medium hover:bg-purple-100 transition-colors"
-                      >
-                        🔄 复习
-                      </Link>
-                      <Link
-                        to={`/random?unit=${unit.id}`}
-                        className="col-span-2 text-center bg-green-50 text-green-600 py-2.5 rounded-lg text-sm font-medium hover:bg-green-100 transition-colors"
-                      >
-                        🎲 测试
-                      </Link>
-                    </>
-                  ) : (
-                    <div className="text-center bg-gray-100 text-gray-400 py-2.5 rounded-lg text-sm font-medium cursor-not-allowed">
-                      🔄 复习
+                      <div className="text-right">
+                        {isCompleted ? (
+                          <span className="inline-flex items-center justify-center w-12 h-12 bg-green-100 text-green-600 rounded-full text-2xl">
+                            ✓
+                          </span>
+                        ) : isStarted ? (
+                          <div className="text-2xl font-bold text-blue-600">
+                            {progress.percentage}%
+                          </div>
+                        ) : (
+                          <div className="text-2xl text-gray-400">📚</div>
+                        )}
+                      </div>
                     </div>
-                  )}
-                </div>
-              </div>
-            );
-          })}
-        </div>
+
+                    <div className="mb-4">
+                      <div className="flex justify-between text-sm text-gray-600 mb-1">
+                        <span>
+                          已学习 {progress.learned} / {progress.total}
+                        </span>
+                        <span>{progress.percentage}%</span>
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2">
+                        <div
+                          className={`h-2 rounded-full transition-all ${
+                            isCompleted
+                              ? "bg-green-500"
+                              : isStarted
+                              ? "bg-blue-500"
+                              : "bg-gray-300"
+                          }`}
+                          style={{ width: `${progress.percentage}%` }}
+                        />
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-2">
+                      <Link
+                        to={`/unit/${unit.id}`}
+                        className="col-span-2 text-center bg-gray-50 text-gray-700 py-2.5 rounded-lg text-sm font-medium hover:bg-gray-100 transition-colors border border-gray-200"
+                      >
+                        📖 查看单词列表
+                      </Link>
+                      <Link
+                        to={`/learn?unit=${unit.id}`}
+                        className="text-center bg-blue-50 text-blue-600 py-2.5 rounded-lg text-sm font-medium hover:bg-blue-100 transition-colors"
+                      >
+                        📚 学习
+                      </Link>
+                      {isStarted ? (
+                        <>
+                          <Link
+                            to={`/review?unit=${unit.id}`}
+                            className="text-center bg-purple-50 text-purple-600 py-2.5 rounded-lg text-sm font-medium hover:bg-purple-100 transition-colors"
+                          >
+                            🔄 复习
+                          </Link>
+                          <Link
+                            to={`/random?unit=${unit.id}`}
+                            className="col-span-2 text-center bg-green-50 text-green-600 py-2.5 rounded-lg text-sm font-medium hover:bg-green-100 transition-colors"
+                          >
+                            🎲 测试
+                          </Link>
+                        </>
+                      ) : (
+                        <div className="text-center bg-gray-100 text-gray-400 py-2.5 rounded-lg text-sm font-medium cursor-not-allowed">
+                          🔄 复习
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
