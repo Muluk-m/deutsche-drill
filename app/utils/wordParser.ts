@@ -22,7 +22,17 @@ export interface ParsedWord {
 /**
  * 解析德语单词
  */
-export function parseGermanWord(wordString: string): ParsedWord {
+export function parseGermanWord(wordString: string | undefined): ParsedWord {
+  // 安全检查
+  if (!wordString) {
+    return {
+      full: '',
+      forPronunciation: '',
+      singularForPronunciation: '',
+      word: '',
+    };
+  }
+  
   const full = wordString.trim();
   
   // 提取括号内的说明

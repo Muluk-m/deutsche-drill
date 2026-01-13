@@ -2,14 +2,22 @@ import { parseGermanWord } from "../utils/wordParser";
 
 interface AnswerFeedbackProps {
   isCorrect: boolean;
-  correctWord: string;
+  correctWord?: string;
+  correctAnswer?: string;
+  userAnswer?: string;
+  phonetic?: string;
 }
 
 export function AnswerFeedback({
   isCorrect,
   correctWord,
+  correctAnswer,
+  userAnswer,
+  phonetic,
 }: AnswerFeedbackProps) {
-  const parsed = parseGermanWord(correctWord);
+  // 兼容两种参数名称
+  const answer = correctAnswer || correctWord || '';
+  const parsed = parseGermanWord(answer);
 
   return (
     <div
@@ -31,12 +39,24 @@ export function AnswerFeedback({
           <div className="text-gray-600">
             正确答案：
             <span className="font-bold text-gray-800">
-              {parsed.forPronunciation}
+              {parsed.forPronunciation || answer}
             </span>
           </div>
-          <div className="text-sm text-gray-500 mt-2">
-            完整形式：{correctWord}
-          </div>
+          {answer && (
+            <div className="text-sm text-gray-500 mt-2">
+              完整形式：{answer}
+            </div>
+          )}
+          {userAnswer && (
+            <div className="text-sm text-gray-500 mt-2">
+              你的答案：<span className="text-red-600">{userAnswer}</span>
+            </div>
+          )}
+          {phonetic && (
+            <div className="text-sm text-gray-500 mt-2">
+              音标：{phonetic}
+            </div>
+          )}
         </div>
       )}
     </div>
