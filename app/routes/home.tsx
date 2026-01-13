@@ -3,7 +3,12 @@ import { Link } from "react-router";
 import { useState, useEffect } from "react";
 import type { Word } from "../types/word";
 import { createUnits, getUnitProgress } from "../utils/unitManager";
-import { getSRSProgress, getMistakesList, needsMigration, migrateData } from "../utils/storageManager";
+import {
+  getSRSProgress,
+  getMistakesList,
+  needsMigration,
+  migrateData,
+} from "../utils/storageManager";
 import { getDueWords, getSRSStats } from "../utils/srsAlgorithm";
 
 export function meta({}: Route.MetaArgs) {
@@ -19,7 +24,7 @@ export default function Home() {
   const [todayCount, setTodayCount] = useState(0);
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState<
-    Array<{ word: Word; index: number; unitId: number }>
+    Array<{ word: Word; index: number; unitId: number; globalIndex: number }>
   >([]);
   const [isSearching, setIsSearching] = useState(false);
   const [dueCount, setDueCount] = useState(0);
@@ -67,21 +72,37 @@ export default function Home() {
 
     setIsSearching(true);
     const query = searchQuery.toLowerCase().trim();
-    const results = words
-      .map((word, index) => ({
-        word,
-        index,
-        unitId: Math.floor(index / 100) + 1,
-      }))
-      .filter(({ word }) => {
-        return (
-          word.word.toLowerCase().includes(query) ||
-          word.zh_cn.toLowerCase().includes(query)
-        );
-      })
-      .slice(0, 20); // 最多显示20个结果
 
-    setSearchResults(results);
+    // 搜索匹配的单词
+    const matchedWords: Array<{
+      word: Word;
+      index: number;
+      unitId: number;
+      globalIndex: number;
+    }> = [];
+
+    words.forEach((word, globalIndex) => {
+      const matches =
+        word.word.toLowerCase().includes(query) ||
+        word.zh_cn.toLowerCase().includes(query);
+
+      if (matches) {
+        const unitId = word.unitId || 1;
+        // 获取该单元的所有单词（和 learn 页面相同的方式）
+        const unitWords = words.filter((w) => (w.unitId || 1) === unitId);
+        // 找到这个单词在单元内的索引
+        const indexInUnit = unitWords.findIndex((w) => w.word === word.word);
+
+        matchedWords.push({
+          word,
+          index: indexInUnit,
+          unitId,
+          globalIndex,
+        });
+      }
+    });
+
+    setSearchResults(matchedWords.slice(0, 20)); // 最多显示20个结果
   }, [searchQuery, words]);
 
   const units = createUnits(words);
@@ -145,14 +166,13 @@ export default function Home() {
           {/* Search Results */}
           {isSearching && searchResults.length > 0 && (
             <div className="mt-4 bg-white rounded-xl shadow-lg border-2 border-gray-200 max-h-96 overflow-y-auto">
-              {searchResults.map(({ word, index, unitId }) => {
+              {searchResults.map(({ word, index, unitId, globalIndex }) => {
                 const isLearned = learnedWords.includes(word.word);
-                const indexInUnit = index % 100;
 
                 return (
                   <Link
-                    key={index}
-                    to={`/learn?unit=${unitId}&index=${indexInUnit}`}
+                    key={globalIndex}
+                    to={`/learn?unit=${unitId}&index=${index}`}
                     onClick={() => setSearchQuery("")}
                     className="block p-4 hover:bg-gray-50 border-b border-gray-100 last:border-b-0 transition-colors"
                   >
@@ -175,6 +195,9 @@ export default function Home() {
                           </span>
                           <span className="text-xs text-gray-500 bg-gray-100 px-2 py-0.5 rounded">
                             单元 {unitId}
+                          </span>
+                          <span className="text-xs text-blue-500 bg-blue-50 px-2 py-0.5 rounded">
+                            #{index + 1}
                           </span>
                         </div>
                         <div className="text-sm text-gray-600">
@@ -233,10 +256,14 @@ export default function Home() {
           <Link
             to="/srs-review"
             className={`bg-white rounded-xl shadow-sm p-4 text-center hover:shadow-md transition-shadow ${
-              dueCount > 0 ? 'ring-2 ring-red-500' : ''
+              dueCount > 0 ? "ring-2 ring-red-500" : ""
             }`}
           >
-            <div className={`text-3xl font-bold ${dueCount > 0 ? 'text-red-600' : 'text-gray-400'}`}>
+            <div
+              className={`text-3xl font-bold ${
+                dueCount > 0 ? "text-red-600" : "text-gray-400"
+              }`}
+            >
               {dueCount}
             </div>
             <div className="text-sm text-gray-600 mt-1">待复习</div>
@@ -245,7 +272,11 @@ export default function Home() {
             to="/mistakes"
             className="bg-white rounded-xl shadow-sm p-4 text-center hover:shadow-md transition-shadow"
           >
-            <div className={`text-3xl font-bold ${mistakesCount > 0 ? 'text-orange-600' : 'text-gray-400'}`}>
+            <div
+              className={`text-3xl font-bold ${
+                mistakesCount > 0 ? "text-orange-600" : "text-gray-400"
+              }`}
+            >
               {mistakesCount}
             </div>
             <div className="text-sm text-gray-600 mt-1">错题本</div>
@@ -254,9 +285,7 @@ export default function Home() {
             to="/test-modes"
             className="bg-white rounded-xl shadow-sm p-4 text-center hover:shadow-md transition-shadow"
           >
-            <div className="text-3xl font-bold text-indigo-600">
-              🎯
-            </div>
+            <div className="text-3xl font-bold text-indigo-600">🎯</div>
             <div className="text-sm text-gray-600 mt-1">多种测试</div>
           </Link>
         </div>
