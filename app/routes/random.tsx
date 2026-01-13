@@ -130,21 +130,35 @@ export default function Random() {
 
       {/* Main Card */}
       <div className="bg-white rounded-2xl shadow-xl p-8 mb-6">
-        <div className="text-center mb-8">
-          <div className="text-2xl text-gray-600 mb-4">{currentWord.zh_cn}</div>
+        <div className="mb-8">
+          {/* 中文释义 */}
+          <div className="text-center mb-6">
+            <div className="bg-green-50 rounded-xl px-6 py-4">
+              <div className="text-2xl text-gray-800 font-medium">
+                {currentWord.zh_cn}
+              </div>
+            </div>
+          </div>
 
+          {/* 音标 */}
           {phonetic && (
-            <div className="text-base text-gray-500 mb-3 font-mono">
-              {phonetic}
+            <div className="text-center mb-4">
+              <div className="text-base text-gray-500 font-mono">
+                {phonetic}
+              </div>
             </div>
           )}
 
-          <PronunciationButtons
-            word={currentWord.word}
-            singularColor="green"
-            pluralColor="emerald"
-          />
+          {/* 发音按钮 */}
+          <div className="mb-6">
+            <PronunciationButtons
+              word={currentWord.word}
+              singularColor="green"
+              pluralColor="emerald"
+            />
+          </div>
 
+          {/* 输入框 */}
           <AnswerInput
             value={userInput}
             onChange={setUserInput}
@@ -153,6 +167,7 @@ export default function Random() {
             borderColor="green"
           />
 
+          {/* 答案反馈 */}
           {isCorrect !== null && (
             <AnswerFeedback
               isCorrect={isCorrect}

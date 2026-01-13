@@ -168,17 +168,50 @@ export default function Learn() {
       <div className="bg-white rounded-2xl shadow-xl p-8 mb-6">
         {mode === "learn" ? (
           <>
-            <div className="text-center mb-8">
-              <div className="text-5xl font-bold text-gray-800 mb-2">
-                {currentWord.word}
+            <div className="mb-8">
+              {/* 词性标签 */}
+              {(() => {
+                const parsed = parseGermanWord(currentWord.word);
+                if (parsed.article) {
+                  return (
+                    <div className="text-center mb-4">
+                      <span
+                        className={`inline-block px-3 py-1 rounded-lg text-sm font-bold ${
+                          parsed.article === "der"
+                            ? "bg-blue-100 text-blue-700"
+                            : parsed.article === "die"
+                            ? "bg-pink-100 text-pink-700"
+                            : "bg-purple-100 text-purple-700"
+                        }`}
+                      >
+                        {parsed.article}
+                      </span>
+                    </div>
+                  );
+                }
+                return null;
+              })()}
+
+              {/* 单词 */}
+              <div className="text-center mb-4">
+                <div className="text-5xl font-bold text-gray-800">
+                  {(() => {
+                    const parsed = parseGermanWord(currentWord.word);
+                    return parsed.word;
+                  })()}
+                </div>
               </div>
 
+              {/* 音标 */}
               {phonetic && (
-                <div className="text-lg text-gray-500 mb-3 font-mono">
-                  {phonetic}
+                <div className="text-center mb-4">
+                  <div className="text-lg text-gray-500 font-mono">
+                    {phonetic}
+                  </div>
                 </div>
               )}
 
+              {/* 复数形式 */}
               {(() => {
                 const parsed = parseGermanWord(currentWord.word);
                 if (parsed.plural && parsed.plural !== "-") {
@@ -187,29 +220,38 @@ export default function Learn() {
                     parsed.plural
                   );
                   return (
-                    <div className="text-sm text-gray-500 mb-4">
-                      复数: {pluralForm}
+                    <div className="text-center mb-4">
+                      <div className="text-sm text-gray-600">
+                        <span className="font-medium">复数：</span>
+                        <span className="ml-1">{pluralForm}</span>
+                      </div>
                     </div>
                   );
                 }
                 return null;
               })()}
 
-              <PronunciationButtons
-                word={currentWord.word}
-                singularColor="blue"
-                pluralColor="purple"
-              />
+              {/* 发音按钮 */}
+              <div className="mb-6">
+                <PronunciationButtons
+                  word={currentWord.word}
+                  singularColor="blue"
+                  pluralColor="purple"
+                />
+              </div>
 
-              <div className="min-h-[60px] mb-6">
+              {/* 中文释义 */}
+              <div className="min-h-[80px] flex items-center justify-center mb-6">
                 {showChinese ? (
-                  <div className="text-2xl text-gray-600 animate-fadeIn">
-                    {currentWord.zh_cn}
+                  <div className="w-full bg-blue-50 rounded-xl px-6 py-4 text-center">
+                    <div className="text-2xl text-gray-800 font-medium animate-fadeIn">
+                      {currentWord.zh_cn}
+                    </div>
                   </div>
                 ) : (
                   <button
                     onClick={() => setShowChinese(true)}
-                    className="text-blue-600 hover:text-blue-700 font-medium"
+                    className="px-6 py-3 bg-blue-50 text-blue-600 hover:bg-blue-100 font-medium rounded-xl transition-colors"
                   >
                     点击显示中文释义
                   </button>
@@ -230,17 +272,26 @@ export default function Learn() {
           </>
         ) : (
           <>
-            <div className="text-center mb-8">
-              <div className="text-2xl text-gray-600 mb-4">
-                {currentWord.zh_cn}
+            <div className="mb-8">
+              {/* 中文释义 */}
+              <div className="text-center mb-6">
+                <div className="bg-blue-50 rounded-xl px-6 py-4">
+                  <div className="text-2xl text-gray-800 font-medium">
+                    {currentWord.zh_cn}
+                  </div>
+                </div>
               </div>
 
-              <PronunciationButtons
-                word={currentWord.word}
-                singularColor="blue"
-                pluralColor="purple"
-              />
+              {/* 发音按钮 */}
+              <div className="mb-6">
+                <PronunciationButtons
+                  word={currentWord.word}
+                  singularColor="blue"
+                  pluralColor="purple"
+                />
+              </div>
 
+              {/* 输入框 */}
               <AnswerInput
                 value={userInput}
                 onChange={setUserInput}
@@ -249,6 +300,7 @@ export default function Learn() {
                 borderColor="blue"
               />
 
+              {/* 答案反馈 */}
               {isCorrect !== null && (
                 <AnswerFeedback
                   isCorrect={isCorrect}
@@ -294,21 +346,6 @@ export default function Learn() {
           下一个
         </button>
       </div>
-
-      {/* Learning Tip */}
-      {mode === "learn" && (
-        <div className="mt-6 bg-blue-50 border border-blue-200 rounded-xl p-4">
-          <div className="flex items-start space-x-3">
-            <div className="text-xl">💡</div>
-            <div className="text-sm text-gray-700">
-              <p className="font-medium mb-1">学习建议</p>
-              <p>1. 先听发音，模仿读几遍</p>
-              <p>2. 理解中文意思</p>
-              <p>3. 尝试拼写测试，加深记忆</p>
-            </div>
-          </div>
-        </div>
-      )}
     </PageContainer>
   );
 }
