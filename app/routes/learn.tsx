@@ -20,6 +20,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Learn() {
   const [searchParams] = useSearchParams();
   const unitId = searchParams.get("unit");
+  const indexParam = searchParams.get("index");
 
   const [allWords, setAllWords] = useState<Word[]>([]);
   const [words, setWords] = useState<Word[]>([]);
@@ -59,6 +60,16 @@ export default function Learn() {
         ) as string[];
         setLearnedWords(learned);
 
+        // 如果有 index 参数，直接跳转到该单词
+        if (indexParam !== null) {
+          const targetIndex = parseInt(indexParam);
+          if (targetIndex >= 0 && targetIndex < wordsToLearn.length) {
+            setCurrentIndex(targetIndex);
+            return;
+          }
+        }
+
+        // 否则跳转到第一个未学习的单词
         const firstUnlearned = wordsToLearn.findIndex(
           (w: Word) => !learned.includes(w.word)
         );
@@ -66,7 +77,7 @@ export default function Learn() {
           setCurrentIndex(firstUnlearned);
         }
       });
-  }, [unitId]);
+  }, [unitId, indexParam]);
 
   const handleCheckAnswer = () => {
     const correct = checkAnswer(userInput, currentWord.word);
