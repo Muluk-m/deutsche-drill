@@ -153,7 +153,11 @@ export default function TestModes() {
                 className="w-full px-4 py-2 border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none text-gray-800 bg-white"
               >
                 {units.map((unit) => (
-                  <option key={unit.id} value={unit.id} className="text-gray-800">
+                  <option
+                    key={unit.id}
+                    value={unit.id}
+                    className="text-gray-800"
+                  >
                     单元 {unit.id} ({unit.totalWords} 个单词)
                   </option>
                 ))}
