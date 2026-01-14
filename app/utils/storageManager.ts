@@ -3,7 +3,7 @@
  * 管理所有应用数据的持久化
  */
 
-import type { WordSRSProgress, MistakeRecord, LearningStats, TestResult } from "../types/word";
+import type { WordSRSProgress, MistakeRecord, LearningStats, TestResult, DailyGoal, FavoriteWord } from "../types/word";
 import { migrateLegacyData } from "./srsAlgorithm";
 
 // LocalStorage keys
@@ -16,6 +16,8 @@ const KEYS = {
   TEST_RESULTS: 'testResults',             // 测试结果历史
   GRAMMAR_STATS: 'grammarStats',           // 语法练习统计
   MIGRATED: 'dataMigrated',                // 数据迁移标记
+  DAILY_GOAL: 'dailyGoal',                 // 每日学习目标
+  FAVORITES: 'favorites',                   // 生词本
 };
 
 // ==================== SRS Progress ====================
@@ -350,6 +352,149 @@ export function migrateData(): boolean {
     return false;
   }
 }
+
+// ==================== Daily Goal ====================
+
+/**
+ * 获取每日学习目标
+ */
+export function getDailyGoal(): DailyGoal | null {
+  try {
+    const data = localStorage.getItem(KEYS.DAILY_GOAL);
+    return data ? JSON.parse(data) : null;
+  } catch (error) {
+    console.error('Error reading daily goal:', error);
+    return null;
+  }
+}
+
+/**
+ * 设置每日学习目标
+ */
+export function setDailyGoal(target: 10 | 20 | 30 | 50): void {
+  const goal: DailyGoal = {
+    target,
+    updatedAt: new Date().toISOString(),
+  };
+  
+  try {
+    localStorage.setItem(KEYS.DAILY_GOAL, JSON.stringify(goal));
+  } catch (error) {
+    console.error('Error saving daily goal:', error);
+  }
+}
+
+/**
+ * 检查今日目标是否达成
+ */
+export function checkGoalCompletion(): { completed: boolean; current: number; target: number } {
+  const goal = getDailyGoal();
+  const todayCount = getTodayLearnedCount();
+  
+  if (!goal) {
+    return { completed: false, current: todayCount, target: 20 }; // 默认目标 20
+  }
+  
+  return {
+    completed: todayCount >= goal.target,
+    current: todayCount,
+    target: goal.target,
+  };
+}
+
+// ==================== Favorites (生词本) ====================
+
+/**
+ * 获取所有生词
+ */
+export function getFavorites(): Record<string, FavoriteWord> {
+  try {
+    const data = localStorage.getItem(KEYS.FAVORITES);
+    return data ? JSON.parse(data) : {};
+  } catch (error) {
+    console.error('Error reading favorites:', error);
+    return {};
+  }
+}
+
+/**
+ * 获取生词列表（按添加时间排序，最新在前）
+ */
+export function getFavoritesList(): FavoriteWord[] {
+  const favorites = getFavorites();
+  return Object.values(favorites).sort(
+    (a, b) => new Date(b.addedAt).getTime() - new Date(a.addedAt).getTime()
+  );
+}
+
+/**
+ * 添加生词
+ */
+export function addFavorite(word: string, zh_cn: string, note?: string): void {
+  const favorites = getFavorites();
+  
+  favorites[word] = {
+    word,
+    zh_cn,
+    addedAt: new Date().toISOString(),
+    note,
+  };
+  
+  try {
+    localStorage.setItem(KEYS.FAVORITES, JSON.stringify(favorites));
+  } catch (error) {
+    console.error('Error saving favorite:', error);
+  }
+}
+
+/**
+ * 移除生词
+ */
+export function removeFavorite(word: string): void {
+  const favorites = getFavorites();
+  delete favorites[word];
+  
+  try {
+    localStorage.setItem(KEYS.FAVORITES, JSON.stringify(favorites));
+  } catch (error) {
+    console.error('Error removing favorite:', error);
+  }
+}
+
+/**
+ * 检查单词是否在生词本中
+ */
+export function isFavorite(word: string): boolean {
+  const favorites = getFavorites();
+  return !!favorites[word];
+}
+
+/**
+ * 更新生词备注
+ */
+export function updateFavoriteNote(word: string, note: string): void {
+  const favorites = getFavorites();
+  
+  if (favorites[word]) {
+    favorites[word].note = note;
+    
+    try {
+      localStorage.setItem(KEYS.FAVORITES, JSON.stringify(favorites));
+    } catch (error) {
+      console.error('Error updating favorite note:', error);
+    }
+  }
+}
+
+/**
+ * 获取生词数量
+ */
+export function getFavoritesCount(): number {
+  const favorites = getFavorites();
+  return Object.keys(favorites).length;
+}
+
+// ==================== Clear Data ====================
 
 /**
  * 清除所有数据（用于测试）

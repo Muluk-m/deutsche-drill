@@ -11,6 +11,10 @@ export default [
 	route("srs-review", "routes/srs-review.tsx"),
 	route("mistakes", "routes/mistakes.tsx"),
 	
+	// 我的 & 生词本
+	route("profile", "routes/profile.tsx"),
+	route("favorites", "routes/favorites.tsx"),
+	
 	// 测试模式
 	route("test-modes", "routes/test-modes.tsx"),
 	route("test-listening", "routes/test-listening.tsx"),

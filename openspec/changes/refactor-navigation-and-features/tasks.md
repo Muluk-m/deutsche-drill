@@ -6,16 +6,14 @@
   - 进度条和统计显示优化
   - 空状态和完成状态美化
 
+- [x] **Phase 1: 数据层 + 德语字符输入**
+  - [x] 1.1 在 `word.ts` 添加类型定义（DailyGoal, FavoriteWord）
+  - [x] 1.2 在 `storageManager.ts` 添加每日目标函数（getDailyGoal, setDailyGoal, checkGoalCompletion）
+  - [x] 1.3 在 `storageManager.ts` 添加生词本函数（getFavorites, addFavorite, removeFavorite, isFavorite 等）
+  - [x] 2.1 创建 `GermanKeyboard.tsx` 组件（完整版 + 紧凑版）
+  - [x] 2.2 集成到 `AnswerInput.tsx` 和 `srs-review.tsx`
+
 ---
-
-## 1. 数据层准备
-- [ ] 1.1 在 `word.ts` 添加类型定义（DailyGoal, FavoriteWord）
-- [ ] 1.2 在 `storageManager.ts` 添加每日目标相关函数（getDailyGoal, setDailyGoal, checkGoalCompletion）
-- [ ] 1.3 在 `storageManager.ts` 添加生词本相关函数（getFavorites, addFavorite, removeFavorite）
-
-## 2. 德语特殊字符输入
-- [ ] 2.1 创建 `GermanKeyboard.tsx` 组件，支持快捷输入 ä ö ü ß Ä Ö Ü
-- [ ] 2.2 在所有答题输入框集成特殊字符输入栏
 
 ## 3. "我的" 页面
 - [ ] 3.1 创建 `app/routes/profile.tsx` 页面

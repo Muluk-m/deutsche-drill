@@ -80,3 +80,17 @@ export interface TestResult {
   timeSpent?: number;      // 秒数
 }
 
+// 每日学习目标
+export interface DailyGoal {
+  target: 10 | 20 | 30 | 50;  // 目标词数
+  updatedAt: string;          // ISO日期字符串
+}
+
+// 生词本记录
+export interface FavoriteWord {
+  word: string;
+  zh_cn: string;
+  addedAt: string;            // ISO日期字符串
+  note?: string;              // 用户备注
+}
+

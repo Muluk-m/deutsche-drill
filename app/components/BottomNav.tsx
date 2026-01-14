@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router";
-import { Home, BookOpen, Target, Clock, User } from "lucide-react";
+import { Home, BookOpen, Target, User } from "lucide-react";
 
 interface NavItem {
   path: string;
@@ -19,7 +19,7 @@ export function BottomNav({ dueCount = 0 }: BottomNavProps) {
     { path: "/", icon: Home, label: "首页" },
     { path: "/learn", icon: BookOpen, label: "学习" },
     { path: "/test-modes", icon: Target, label: "测试" },
-    { path: "/srs-review", icon: Clock, label: "复习", badge: dueCount },
+    { path: "/profile", icon: User, label: "我的" },
   ];
 
   return (

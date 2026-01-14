@@ -1,6 +1,6 @@
 import type { Route } from "./+types/srs-review";
 import { Link, useNavigate } from "react-router";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import type { Word, WordSRSProgress } from "../types/word";
 import { useAnswerCheck } from "../hooks/useAnswerCheck";
 import { usePhonetics } from "../hooks/usePhonetics";
@@ -12,6 +12,9 @@ import {
   recordStudySession,
   needsMigration,
   migrateData,
+  isFavorite,
+  addFavorite,
+  removeFavorite,
 } from "../utils/storageManager";
 import {
   getDueWords,
@@ -33,7 +36,9 @@ import {
   Meh,
   Smile,
   Laugh,
+  Star,
 } from "lucide-react";
+import { GermanKeyboardCompact } from "../components/GermanKeyboard";
 
 export function meta({}: Route.MetaArgs) {
   return [{ title: "智能复习 - Deutsch Wörter" }];
@@ -41,6 +46,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function SRSReview() {
   const navigate = useNavigate();
+  const inputRef = useRef<HTMLInputElement>(null);
   const [allWords, setAllWords] = useState<Word[]>([]);
   const [dueWords, setDueWords] = useState<WordSRSProgress[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -49,11 +55,50 @@ export default function SRSReview() {
   const [showQualityRating, setShowQualityRating] = useState(false);
   const [reviewedCount, setReviewedCount] = useState(0);
   const [correctCount, setCorrectCount] = useState(0);
+  const [isWordFavorite, setIsWordFavorite] = useState(false);
+
+  // 德语特殊字符插入处理
+  const handleInsertChar = (char: string) => {
+    const input = inputRef.current;
+    if (!input) return;
+
+    const start = input.selectionStart ?? userInput.length;
+    const end = input.selectionEnd ?? userInput.length;
+
+    const newValue = userInput.slice(0, start) + char + userInput.slice(end);
+    setUserInput(newValue);
+
+    requestAnimationFrame(() => {
+      input.focus();
+      const newPos = start + char.length;
+      input.setSelectionRange(newPos, newPos);
+    });
+  };
 
   const currentProgress = dueWords[currentIndex];
   const currentWord = currentProgress
     ? allWords.find((w) => w.word === currentProgress.word)
     : null;
+
+  // 检查当前单词是否在生词本中
+  useEffect(() => {
+    if (currentWord) {
+      setIsWordFavorite(isFavorite(currentWord.word));
+    }
+  }, [currentWord]);
+
+  // 切换生词本状态
+  const toggleFavorite = () => {
+    if (!currentWord) return;
+
+    if (isWordFavorite) {
+      removeFavorite(currentWord.word);
+      setIsWordFavorite(false);
+    } else {
+      addFavorite(currentWord.word, currentWord.zh_cn);
+      setIsWordFavorite(true);
+    }
+  };
 
   const { checkAnswer } = useAnswerCheck();
   const { phonetic } = usePhonetics(
@@ -315,8 +360,9 @@ export default function SRSReview() {
             </div>
 
             {/* Input */}
-            <div className="flex-1 flex flex-col justify-center">
+            <div className="flex-1 flex flex-col justify-center space-y-3">
               <input
+                ref={inputRef}
                 type="text"
                 value={userInput}
                 onChange={(e) => setUserInput(e.target.value)}
@@ -327,6 +373,8 @@ export default function SRSReview() {
                 autoFocus
                 className="w-full h-14 px-4 text-center text-xl font-medium bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 focus:border-blue-500 dark:focus:border-blue-400 rounded-2xl outline-none transition-all"
               />
+              {/* 德语特殊字符键盘 */}
+              <GermanKeyboardCompact onInsert={handleInsertChar} />
             </div>
 
             {/* Actions */}
@@ -353,7 +401,7 @@ export default function SRSReview() {
           <div className="flex-1 flex flex-col">
             {/* Feedback */}
             <div
-              className={`p-4 rounded-2xl mb-6 ${
+              className={`p-4 rounded-2xl mb-4 ${
                 isCorrect
                   ? "bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800"
                   : "bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800"
@@ -365,7 +413,7 @@ export default function SRSReview() {
                 ) : (
                   <XCircle className="w-8 h-8 text-red-500 flex-shrink-0" />
                 )}
-                <div>
+                <div className="flex-1">
                   <p
                     className={`font-semibold ${
                       isCorrect
@@ -382,6 +430,21 @@ export default function SRSReview() {
                     </span>
                   </p>
                 </div>
+                {/* 生词本按钮 */}
+                <button
+                  onClick={toggleFavorite}
+                  className={`p-2 rounded-xl transition-all cursor-pointer ${
+                    isWordFavorite
+                      ? "bg-amber-100 dark:bg-amber-900/30 text-amber-500"
+                      : "bg-gray-100 dark:bg-gray-700 text-gray-400 hover:text-amber-500"
+                  }`}
+                >
+                  <Star
+                    className={`w-5 h-5 ${
+                      isWordFavorite ? "fill-current" : ""
+                    }`}
+                  />
+                </button>
               </div>
             </div>
 

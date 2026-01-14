@@ -1,3 +1,6 @@
+import { useRef } from "react";
+import { GermanKeyboardCompact } from "./GermanKeyboard";
+
 interface AnswerInputProps {
   value: string;
   onChange: (value: string) => void;
@@ -8,6 +11,7 @@ interface AnswerInputProps {
   placeholder?: string;
   borderColor?: "purple" | "blue" | "green";
   autoFocus?: boolean;
+  showGermanKeyboard?: boolean;
 }
 
 export function AnswerInput({
@@ -20,7 +24,10 @@ export function AnswerInput({
   placeholder = "请输入德语单词...",
   borderColor = "purple",
   autoFocus = true,
+  showGermanKeyboard = true,
 }: AnswerInputProps) {
+  const inputRef = useRef<HTMLInputElement>(null);
+
   const colorClasses = {
     purple: "focus:border-purple-500 focus:ring-purple-500/20",
     blue: "focus:border-blue-500 focus:ring-blue-500/20",
@@ -36,10 +43,29 @@ export function AnswerInput({
     }
   };
 
+  const handleInsertChar = (char: string) => {
+    const input = inputRef.current;
+    if (!input || disabled) return;
+
+    const start = input.selectionStart ?? value.length;
+    const end = input.selectionEnd ?? value.length;
+
+    const newValue = value.slice(0, start) + char + value.slice(end);
+    onChange(newValue);
+
+    // 恢复焦点并设置光标位置
+    requestAnimationFrame(() => {
+      input.focus();
+      const newPos = start + char.length;
+      input.setSelectionRange(newPos, newPos);
+    });
+  };
+
   return (
-    <div className="space-y-4">
+    <div className="space-y-3">
       <div className="relative group">
         <input
+          ref={inputRef}
           type="text"
           value={value}
           onChange={(e) => onChange(e.target.value)}
@@ -60,7 +86,12 @@ export function AnswerInput({
           <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-gray-300 dark:via-gray-600 to-transparent opacity-50"></div>
         )}
       </div>
-      
+
+      {/* 德语特殊字符键盘 */}
+      {showGermanKeyboard && !disabled && (
+        <GermanKeyboardCompact onInsert={handleInsertChar} className="py-1" />
+      )}
+
       {/* 提交和跳过按钮 */}
       {(onSubmit || onSkip) && (
         <div className="flex gap-3">
@@ -71,8 +102,16 @@ export function AnswerInput({
               className="flex-1 btn-primary disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:shadow-lg"
             >
               <span className="flex items-center justify-center gap-2">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                <svg
+                  className="w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  />
                 </svg>
                 提交答案
               </span>
