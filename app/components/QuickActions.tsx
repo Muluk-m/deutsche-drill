@@ -2,12 +2,12 @@ import { Link } from "react-router";
 import { 
   BookOpen, 
   RefreshCw, 
-  Target, 
   Headphones, 
   PenTool, 
-  Languages,
   ChevronRight,
-  Zap
+  Zap,
+  Layers,
+  Grid3X3,
 } from "lucide-react";
 
 interface QuickAction {
@@ -29,12 +29,12 @@ const quickActions: QuickAction[] = [
     gradient: "from-blue-500 to-blue-600",
   },
   {
-    title: "快速复习",
-    description: "复习已学单词",
-    icon: RefreshCw,
-    path: "/srs-review",
+    title: "闪卡复习",
+    description: "快速翻卡记忆",
+    icon: Layers,
+    path: "/flashcard",
     color: "text-purple-600",
-    gradient: "from-purple-500 to-purple-600",
+    gradient: "from-purple-500 to-violet-600",
   },
   {
     title: "听力练习",
@@ -45,12 +45,12 @@ const quickActions: QuickAction[] = [
     gradient: "from-green-500 to-green-600",
   },
   {
-    title: "拼写测试",
-    description: "检验拼写能力",
-    icon: PenTool,
-    path: "/test-cn-to-de",
+    title: "词汇分类",
+    description: "按词性浏览",
+    icon: Grid3X3,
+    path: "/categories",
     color: "text-orange-600",
-    gradient: "from-orange-500 to-orange-600",
+    gradient: "from-orange-500 to-amber-600",
   },
 ];
 
@@ -110,6 +110,7 @@ export function GrammarPractice() {
     { title: "冠词练习", subtitle: "der/die/das", path: "/practice-articles", color: "blue" },
     { title: "复数练习", subtitle: "Plural", path: "/practice-plural", color: "purple" },
     { title: "动词变位", subtitle: "Konjugation", path: "/practice-verbs", color: "green" },
+    { title: "形近词", subtitle: "Confusables", path: "/practice-confusables", color: "pink" },
   ];
 
   return (
@@ -127,6 +128,7 @@ export function GrammarPractice() {
             className={`flex-shrink-0 px-4 py-3 bg-gradient-to-r ${
               practice.color === "blue" ? "from-blue-500 to-blue-600" :
               practice.color === "purple" ? "from-purple-500 to-purple-600" :
+              practice.color === "pink" ? "from-pink-500 to-rose-600" :
               "from-green-500 to-green-600"
             } text-white rounded-xl hover:shadow-lg transition-all duration-200 cursor-pointer`}
           >

@@ -14,6 +14,7 @@ import {
   Calendar,
   Settings,
   Percent,
+  Database,
 } from "lucide-react";
 import {
   getLearningStats,
@@ -220,7 +221,7 @@ export default function Profile() {
             {/* 生词本 */}
             <Link
               to="/favorites"
-              className="flex items-center gap-4 p-4 border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-750 cursor-pointer transition-colors"
+              className="flex items-center gap-4 p-4 border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 cursor-pointer transition-colors"
             >
               <div className="w-10 h-10 rounded-xl bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center">
                 <Star className="w-5 h-5 text-amber-600 dark:text-amber-400" />
@@ -241,7 +242,7 @@ export default function Profile() {
             {/* 错题本 */}
             <Link
               to="/mistakes"
-              className="flex items-center gap-4 p-4 border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-750 cursor-pointer transition-colors"
+              className="flex items-center gap-4 p-4 border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 cursor-pointer transition-colors"
             >
               <div className="w-10 h-10 rounded-xl bg-red-100 dark:bg-red-900/30 flex items-center justify-center">
                 <BookOpen className="w-5 h-5 text-red-600 dark:text-red-400" />
@@ -258,7 +259,7 @@ export default function Profile() {
             </Link>
 
             {/* 学习记录 */}
-            <div className="flex items-center gap-4 p-4 hover:bg-gray-50 dark:hover:bg-gray-750 cursor-pointer transition-colors">
+            <div className="flex items-center gap-4 p-4 border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 cursor-pointer transition-colors">
               <div className="w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center">
                 <TrendingUp className="w-5 h-5 text-purple-600 dark:text-purple-400" />
               </div>
@@ -274,6 +275,25 @@ export default function Profile() {
                 即将推出
               </span>
             </div>
+
+            {/* 设置 */}
+            <Link
+              to="/settings"
+              className="flex items-center gap-4 p-4 hover:bg-gray-50 dark:hover:bg-gray-700/50 cursor-pointer transition-colors"
+            >
+              <div className="w-10 h-10 rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
+                <Database className="w-5 h-5 text-gray-600 dark:text-gray-400" />
+              </div>
+              <div className="flex-1">
+                <h4 className="font-semibold text-gray-900 dark:text-gray-100">
+                  数据管理
+                </h4>
+                <p className="text-xs text-gray-500 dark:text-gray-400">
+                  备份、恢复、清除数据
+                </p>
+              </div>
+              <ChevronRight className="w-5 h-5 text-gray-300 dark:text-gray-600" />
+            </Link>
           </div>
         </section>
 

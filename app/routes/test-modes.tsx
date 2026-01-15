@@ -14,7 +14,8 @@ import {
   Zap,
   ChevronRight,
   Settings,
-  Home
+  Home,
+  Sparkles,
 } from "lucide-react";
 
 export function meta({}: Route.MetaArgs) {
@@ -234,7 +235,7 @@ export default function TestModes() {
           <div className="bg-white dark:bg-gray-800 rounded-2xl border border-gray-100 dark:border-gray-700 overflow-hidden">
             <Link
               to="/practice-articles"
-              className="flex items-center gap-4 p-4 border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-750 cursor-pointer transition-colors"
+              className="flex items-center gap-4 p-4 border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 cursor-pointer transition-colors"
             >
               <div className="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 flex items-center justify-center">
                 <BookOpen className="w-5 h-5" />
@@ -248,7 +249,7 @@ export default function TestModes() {
 
             <Link
               to="/practice-plural"
-              className="flex items-center gap-4 p-4 border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-750 cursor-pointer transition-colors"
+              className="flex items-center gap-4 p-4 border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 cursor-pointer transition-colors"
             >
               <div className="w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 flex items-center justify-center">
                 <Languages className="w-5 h-5" />
@@ -262,7 +263,7 @@ export default function TestModes() {
 
             <Link
               to="/practice-verbs"
-              className="flex items-center gap-4 p-4 hover:bg-gray-50 dark:hover:bg-gray-750 cursor-pointer transition-colors"
+              className="flex items-center gap-4 p-4 border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 cursor-pointer transition-colors"
             >
               <div className="w-10 h-10 rounded-xl bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 flex items-center justify-center">
                 <FileText className="w-5 h-5" />
@@ -270,6 +271,20 @@ export default function TestModes() {
               <div className="flex-1">
                 <h3 className="font-semibold text-gray-900 dark:text-gray-100">动词变位</h3>
                 <p className="text-xs text-gray-500 dark:text-gray-400">Konjugation</p>
+              </div>
+              <ChevronRight className="w-5 h-5 text-gray-300 dark:text-gray-600" />
+            </Link>
+
+            <Link
+              to="/practice-confusables"
+              className="flex items-center gap-4 p-4 hover:bg-gray-50 dark:hover:bg-gray-700/50 cursor-pointer transition-colors"
+            >
+              <div className="w-10 h-10 rounded-xl bg-pink-100 dark:bg-pink-900/30 text-pink-600 dark:text-pink-400 flex items-center justify-center">
+                <Sparkles className="w-5 h-5" />
+              </div>
+              <div className="flex-1">
+                <h3 className="font-semibold text-gray-900 dark:text-gray-100">形近词练习</h3>
+                <p className="text-xs text-gray-500 dark:text-gray-400">Confusables</p>
               </div>
               <ChevronRight className="w-5 h-5 text-gray-300 dark:text-gray-600" />
             </Link>

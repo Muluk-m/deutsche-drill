@@ -11,9 +11,10 @@ export default [
 	route("srs-review", "routes/srs-review.tsx"),
 	route("mistakes", "routes/mistakes.tsx"),
 	
-	// 我的 & 生词本
+	// 我的 & 生词本 & 设置
 	route("profile", "routes/profile.tsx"),
 	route("favorites", "routes/favorites.tsx"),
+	route("settings", "routes/settings.tsx"),
 	
 	// 测试模式
 	route("test-modes", "routes/test-modes.tsx"),
@@ -26,4 +27,14 @@ export default [
 	route("practice-articles", "routes/practice-articles.tsx"),
 	route("practice-plural", "routes/practice-plural.tsx"),
 	route("practice-verbs", "routes/practice-verbs.tsx"),
+	
+	// 词汇浏览
+	route("categories", "routes/categories.tsx"),
+	route("word/:word", "routes/word.$word.tsx"),
+	
+	// 闪卡模式
+	route("flashcard", "routes/flashcard.tsx"),
+	
+	// 形近词练习
+	route("practice-confusables", "routes/practice-confusables.tsx"),
 ] satisfies RouteConfig;

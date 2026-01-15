@@ -9,6 +9,7 @@ import {
   removeFavorite,
   isFavorite,
 } from "../utils/storageManager";
+import { conjugateVerb } from "../utils/verbConjugator";
 import { GermanKeyboardCompact } from "../components/GermanKeyboard";
 import {
   ChevronLeft,
@@ -176,10 +177,28 @@ export default function PracticeVerbs() {
     fetch("/words.json")
       .then((res) => res.json() as Promise<Word[]>)
       .then((data) => {
-        const verbsWithConjugation = data.filter(
-          (w): w is Word & { verbConjugation: VerbConjugation } =>
-            w.wordType === "verb" && w.verbConjugation !== undefined
-        );
+        // 获取所有动词
+        const allVerbs = data.filter((w) => w.wordType === "verb");
+        
+        // 为每个动词生成或使用现有变位
+        const verbsWithConjugation: Array<Word & { verbConjugation: VerbConjugation }> = [];
+        
+        for (const verb of allVerbs) {
+          if (verb.verbConjugation) {
+            // 已有变位数据
+            verbsWithConjugation.push(verb as Word & { verbConjugation: VerbConjugation });
+          } else {
+            // 尝试自动生成变位
+            const conjugation = conjugateVerb(verb.word);
+            if (conjugation) {
+              verbsWithConjugation.push({
+                ...verb,
+                verbConjugation: conjugation,
+              });
+            }
+          }
+        }
+        
         setVerbs(
           verbsWithConjugation.length > 0 ? verbsWithConjugation : sampleVerbs
         );

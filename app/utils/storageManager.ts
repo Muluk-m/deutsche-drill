@@ -505,3 +505,161 @@ export function clearAllData(): void {
   });
 }
 
+// ==================== Backup & Restore ====================
+
+/**
+ * 备份数据结构
+ */
+export interface BackupData {
+  version: string;
+  exportedAt: string;
+  learnedWords: string[];
+  srsProgress: Record<string, WordSRSProgress>;
+  mistakes: Record<string, MistakeRecord>;
+  favorites: Record<string, FavoriteWord>;
+  learningStats: LearningStats;
+  dailyGoal: DailyGoal | null;
+  todayLearned: Record<string, number>;
+  testResults: TestResult[];
+}
+
+/**
+ * 导出所有学习数据
+ */
+export function exportAllData(): BackupData {
+  return {
+    version: '1.0.0',
+    exportedAt: new Date().toISOString(),
+    learnedWords: getLearnedWords(),
+    srsProgress: getSRSProgress(),
+    mistakes: getMistakes(),
+    favorites: getFavorites(),
+    learningStats: getLearningStats(),
+    dailyGoal: getDailyGoal(),
+    todayLearned: getTodayLearned(),
+    testResults: getTestResults(),
+  };
+}
+
+/**
+ * 验证备份数据格式
+ */
+export function validateBackupData(data: unknown): data is BackupData {
+  if (!data || typeof data !== 'object') return false;
+  
+  const backup = data as Record<string, unknown>;
+  
+  // 检查必要字段
+  if (typeof backup.version !== 'string') return false;
+  if (typeof backup.exportedAt !== 'string') return false;
+  if (!Array.isArray(backup.learnedWords)) return false;
+  if (typeof backup.srsProgress !== 'object' || backup.srsProgress === null) return false;
+  if (typeof backup.mistakes !== 'object' || backup.mistakes === null) return false;
+  if (typeof backup.favorites !== 'object' || backup.favorites === null) return false;
+  if (typeof backup.learningStats !== 'object' || backup.learningStats === null) return false;
+  
+  return true;
+}
+
+/**
+ * 导入学习数据（会覆盖现有数据）
+ */
+export function importAllData(data: BackupData): { success: boolean; message: string } {
+  try {
+    // 验证数据格式
+    if (!validateBackupData(data)) {
+      return { success: false, message: '无效的备份文件格式' };
+    }
+    
+    // 导入数据
+    setLearnedWords(data.learnedWords);
+    setSRSProgress(data.srsProgress);
+    setMistakes(data.mistakes);
+    
+    // 导入生词本
+    try {
+      localStorage.setItem(KEYS.FAVORITES, JSON.stringify(data.favorites));
+    } catch (e) {
+      console.error('Error importing favorites:', e);
+    }
+    
+    // 导入学习统计
+    updateLearningStats(data.learningStats);
+    
+    // 导入每日目标
+    if (data.dailyGoal) {
+      try {
+        localStorage.setItem(KEYS.DAILY_GOAL, JSON.stringify(data.dailyGoal));
+      } catch (e) {
+        console.error('Error importing daily goal:', e);
+      }
+    }
+    
+    // 导入今日学习数据
+    if (data.todayLearned) {
+      try {
+        localStorage.setItem(KEYS.TODAY_LEARNED, JSON.stringify(data.todayLearned));
+      } catch (e) {
+        console.error('Error importing today learned:', e);
+      }
+    }
+    
+    // 导入测试结果
+    if (data.testResults && Array.isArray(data.testResults)) {
+      try {
+        localStorage.setItem(KEYS.TEST_RESULTS, JSON.stringify(data.testResults));
+      } catch (e) {
+        console.error('Error importing test results:', e);
+      }
+    }
+    
+    return { 
+      success: true, 
+      message: `成功导入 ${data.learnedWords.length} 个已学单词` 
+    };
+  } catch (error) {
+    console.error('Error importing data:', error);
+    return { success: false, message: '导入数据时发生错误' };
+  }
+}
+
+/**
+ * 下载备份文件
+ */
+export function downloadBackup(): void {
+  const data = exportAllData();
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  
+  const date = new Date().toISOString().split('T')[0];
+  const filename = `deutsch-words-backup-${date}.json`;
+  
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+/**
+ * 获取数据统计摘要
+ */
+export function getDataSummary(): {
+  learnedCount: number;
+  mistakesCount: number;
+  favoritesCount: number;
+  totalReviews: number;
+  streak: number;
+} {
+  const stats = getLearningStats();
+  return {
+    learnedCount: getLearnedWords().length,
+    mistakesCount: Object.keys(getMistakes()).length,
+    favoritesCount: Object.keys(getFavorites()).length,
+    totalReviews: stats.totalReviews,
+    streak: stats.streak,
+  };
+}
+
