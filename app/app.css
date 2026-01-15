@@ -335,8 +335,9 @@ button {
 }
 
 /* 底部导航内容区域适配 - 为底部导航预留空间 */
+/* 注意：BottomNav 组件本身会处理 safe-area-inset-bottom，这里只需预留导航栏高度 */
 .pb-nav {
-  padding-bottom: calc(4rem + env(safe-area-inset-bottom, 0) + 1rem);
+  padding-bottom: calc(4rem + 1rem); /* 4rem = h-16 导航栏高度, 1rem = 额外间距 */
 }
 
 /* Fixed/Sticky 元素的安全区域适配 */

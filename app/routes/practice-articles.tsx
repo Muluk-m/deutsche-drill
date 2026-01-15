@@ -2,7 +2,6 @@ import type { Route } from "./+types/practice-articles";
 import { Link, useNavigate } from "react-router";
 import { useState, useEffect } from "react";
 import type { Word } from "../types/word";
-import { parseGermanWord } from "../utils/wordParser";
 import { recordStudySession, saveTestResult } from "../utils/storageManager";
 import {
   ChevronLeft,
@@ -37,25 +36,22 @@ export default function PracticeArticles() {
   const [startTime] = useState(Date.now());
 
   const currentWord = nounWords[currentIndex];
-  const parsed = currentWord ? parseGermanWord(currentWord.word) : null;
 
   useEffect(() => {
     fetch("/words.json")
       .then((res) => res.json() as Promise<Word[]>)
       .then((data) => {
-        const nouns = data.filter((w) => {
-          const p = parseGermanWord(w.word);
-          return p.article && ["der", "die", "das"].includes(p.article);
-        });
+        // 直接使用 Word 对象上的 article 字段
+        const nouns = data.filter((w) => w.article && ["der", "die", "das"].includes(w.article));
         const shuffled = [...nouns].sort(() => Math.random() - 0.5);
         setNounWords(shuffled.slice(0, 50));
       });
   }, []);
 
   const handleSelectArticle = (article: string) => {
-    if (!parsed || selectedArticle !== null) return;
+    if (!currentWord || selectedArticle !== null) return;
     setSelectedArticle(article);
-    const correct = article === parsed.article;
+    const correct = article === currentWord.article;
     setIsCorrect(correct);
 
     if (correct) {
@@ -65,9 +61,9 @@ export default function PracticeArticles() {
     }
 
     const newStats = { ...stats };
-    if (parsed.article === "der" || parsed.article === "die" || parsed.article === "das") {
-      newStats[parsed.article].total++;
-      if (correct) newStats[parsed.article].correct++;
+    if (currentWord.article === "der" || currentWord.article === "die" || currentWord.article === "das") {
+      newStats[currentWord.article].total++;
+      if (correct) newStats[currentWord.article].correct++;
     }
     setStats(newStats);
     recordStudySession(correct);
@@ -190,7 +186,7 @@ export default function PracticeArticles() {
   }
 
   // Loading State
-  if (!currentWord || !parsed) {
+  if (!currentWord) {
     return (
       <div className="min-h-screen bg-gray-50 dark:bg-gray-950 flex items-center justify-center">
         <div className="text-center">
@@ -242,7 +238,7 @@ export default function PracticeArticles() {
           {/* Word */}
           <div className="bg-indigo-50 dark:bg-indigo-900/20 rounded-xl p-6 mb-6">
             <p className="text-xs text-indigo-600 dark:text-indigo-400 font-medium mb-2">请为这个名词选择正确的冠词：</p>
-            <p className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-2">{parsed.word}</p>
+            <p className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-2">{currentWord.word}</p>
             <p className="text-gray-600 dark:text-gray-400">{currentWord.zh_cn}</p>
           </div>
 
@@ -278,11 +274,11 @@ export default function PracticeArticles() {
               <p className="text-gray-700 dark:text-gray-300">
                 正确答案：
                 <span className={`font-bold text-2xl ml-2 ${
-                  parsed.article === "der" ? "text-blue-600" :
-                  parsed.article === "die" ? "text-pink-600" :
+                  currentWord.article === "der" ? "text-blue-600" :
+                  currentWord.article === "die" ? "text-pink-600" :
                   "text-purple-600"
-                }`}>{parsed.article}</span>
-                <span className="ml-2 text-2xl font-semibold">{parsed.word}</span>
+                }`}>{currentWord.article}</span>
+                <span className="ml-2 text-2xl font-semibold">{currentWord.word}</span>
               </p>
               {!isCorrect && (
                 <p className="text-sm text-gray-500 mt-2">你选择的是：<span className="font-bold">{selectedArticle}</span></p>
@@ -305,7 +301,7 @@ export default function PracticeArticles() {
       )}
 
       {/* Tips */}
-      <div className="px-4 pb-4" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
+      <div className="px-4 pb-4">
         <div className="bg-amber-50 dark:bg-amber-900/20 rounded-xl p-4">
           <div className="flex items-start gap-2">
             <Lightbulb className="w-4 h-4 text-amber-600 dark:text-amber-400 mt-0.5 flex-shrink-0" />

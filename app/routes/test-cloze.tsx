@@ -13,7 +13,6 @@ import {
   removeFavorite,
   isFavorite,
 } from "../utils/storageManager";
-import { parseGermanWord } from "../utils/wordParser";
 import { GermanKeyboardCompact } from "../components/GermanKeyboard";
 import {
   ChevronLeft,
@@ -106,11 +105,8 @@ export default function TestCloze() {
           wordsToTest = data;
         }
 
-        // 只选择名词（有可能构成句子的单词）
-        const nounWords = wordsToTest.filter((w) => {
-          const parsed = parseGermanWord(w.word);
-          return parsed.article !== undefined;
-        });
+        // 只选择名词（有可能构成句子的单词）- 使用 Word 对象上的新字段
+        const nounWords = wordsToTest.filter((w) => w.article !== undefined);
 
         const finalWords = nounWords.length >= count ? nounWords : wordsToTest;
         const shuffled = [...finalWords].sort(() => Math.random() - 0.5);
@@ -315,8 +311,6 @@ export default function TestCloze() {
     );
   }
 
-  const parsed = parseGermanWord(currentWord.word);
-
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 flex flex-col">
       {/* Header */}
@@ -396,7 +390,7 @@ export default function TestCloze() {
                 <Lightbulb className="w-4 h-4" />
                 <span className="font-medium">
                   提示：填入「{currentWord.zh_cn}」的德语
-                  {parsed.article && `（${parsed.article} 词性）`}
+                  {currentWord.article && `（${currentWord.article} 词性）`}
                 </span>
               </div>
             </div>
@@ -509,10 +503,7 @@ export default function TestCloze() {
 
       {/* Footer */}
       {isCorrect === null ? (
-        <footer
-          className="sticky bottom-0 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-t border-gray-100 dark:border-gray-800"
-          style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
-        >
+        <footer className="sticky bottom-0 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-t border-gray-100 dark:border-gray-800">
           <div className="px-4 py-3">
             <button
               onClick={handleCheckAnswer}
@@ -525,10 +516,7 @@ export default function TestCloze() {
           </div>
         </footer>
       ) : (
-        <footer
-          className="sticky bottom-0 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-t border-gray-100 dark:border-gray-800"
-          style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
-        >
+        <footer className="sticky bottom-0 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-t border-gray-100 dark:border-gray-800">
           <div className="px-4 py-3">
             <button
               onClick={handleNext}

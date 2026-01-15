@@ -10,7 +10,6 @@ import {
   recordStudySession,
   saveTestResult,
 } from "../utils/storageManager";
-import { parseGermanWord } from "../utils/wordParser";
 import { 
   Trophy, 
   Target, 
@@ -83,12 +82,12 @@ export default function TestChoice() {
   }, [currentIndex, currentWord, allWords]);
 
   const generateChoices = (correctWord: Word) => {
-    const parsed = parseGermanWord(correctWord.word);
+    // 使用 Word 对象上的 article 字段
     let potentialDistractions = allWords.filter((w) => {
       if (w.word === correctWord.word) return false;
-      if (parsed.article) {
-        const wParsed = parseGermanWord(w.word);
-        return wParsed.article === parsed.article;
+      // 如果正确答案有冠词，尽量找相同冠词的干扰项
+      if (correctWord.article) {
+        return w.article === correctWord.article;
       }
       return true;
     });
@@ -364,7 +363,7 @@ export default function TestChoice() {
 
       {/* Footer */}
       {selectedChoice !== null && (
-        <footer className="sticky bottom-0 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-t border-gray-100 dark:border-gray-800" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
+        <footer className="sticky bottom-0 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-t border-gray-100 dark:border-gray-800">
           <div className="px-4 py-3">
             <button
               onClick={handleNext}

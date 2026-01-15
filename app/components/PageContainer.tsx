@@ -15,7 +15,7 @@ export function PageContainer({ children, maxWidth = "2xl" }: PageContainerProps
   };
 
   return (
-    <div className="min-h-screen relative overflow-hidden" style={{ paddingTop: 'env(safe-area-inset-top, 0px)', paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
+    <div className="min-h-screen relative overflow-hidden" style={{ paddingTop: 'env(safe-area-inset-top, 0px)' }}>
       {/* 背景装饰 */}
       <div className="fixed inset-0 -z-10">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-400/10 dark:bg-blue-500/5 rounded-full blur-3xl"></div>

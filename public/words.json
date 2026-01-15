@@ -14,263 +14,346 @@
     "wordType": "other"
   },
   {
-    "word": "die Schweiz",
+    "word": "Schweiz",
     "zh_cn": "瑞士",
     "phonetic": "/ʃvaɪ̯t͡s/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die"
   },
   {
-    "word": "der Name, -n",
+    "word": "Name",
     "zh_cn": "姓名",
     "phonetic": "/ˈnaːmə/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-n"
   },
   {
-    "word": "der Vorname, -n",
+    "word": "Vorname",
     "zh_cn": "名字",
     "phonetic": "/ˈfoːɐ̯ˌnaːmə/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-n"
   },
   {
-    "word": "der Nachname, -n",
+    "word": "Nachname",
     "zh_cn": "姓氏",
     "phonetic": "/ˈnaːxˌnaːmə/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-n"
   },
   {
-    "word": "der Kaffee (nur Sg.)",
+    "word": "Kaffee",
     "zh_cn": "咖啡",
     "phonetic": "/ˈkafe/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "der Tee (nur Sg.)",
+    "word": "Tee",
     "zh_cn": "茶",
     "phonetic": "/teː/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "die Schokolade (nur Sg.)",
+    "word": "Schokolade",
     "zh_cn": "巧克力",
     "phonetic": "/ʃokoˈlaːdə/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
-    "word": "die Chips (nur Pl.)",
+    "word": "Chips",
     "zh_cn": "薯片",
     "phonetic": "/t͡ʃɪps/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": true,
+    "singularOnly": false,
+    "article": "die"
   },
   {
-    "word": "das Kino, -s",
+    "word": "Kino",
     "zh_cn": "电影院",
     "phonetic": "/ˈkiːno/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "das Theater, -",
+    "word": "Theater",
     "zh_cn": "剧院，戏剧",
     "phonetic": "/teˈaːtɐ/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "der Sport (nur Sg.)",
+    "word": "Sport",
     "zh_cn": "体育",
     "phonetic": "/ʃpɔʁt/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "die Musik (nur Sg.)",
+    "word": "Musik",
     "zh_cn": "音乐",
     "phonetic": "/muˈziːk/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
-    "word": "der Fußball (nur Sg.)",
+    "word": "Fußball",
     "zh_cn": "足球",
     "phonetic": "/ˈfuːsˌbal/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "das Tennis (nur Sg.)",
+    "word": "Tennis",
     "zh_cn": "网球",
     "phonetic": "/ˈtɛnɪs/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "das"
   },
   {
-    "word": "die Sonne (nur Sg.)",
+    "word": "Sonne",
     "zh_cn": "太阳",
     "phonetic": "/ˈzɔnə/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
-    "word": "der Regen (nur Sg.)",
+    "word": "Regen",
     "zh_cn": "雨",
     "phonetic": "/ˈʁeːɡn̩/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "das Telefon, -e",
+    "word": "Telefon",
     "zh_cn": "电话",
     "phonetic": "/ˈteːləfoːn/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "die E-Mail, -s",
+    "word": "E-Mail",
     "zh_cn": "电子邮件",
     "phonetic": "/ˈiːmeɪ̯l/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-s"
   },
   {
-    "word": "die Tasche, -n",
+    "word": "Tasche",
     "zh_cn": "包",
     "phonetic": "/ˈtaʃə/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Stift, -e",
+    "word": "Stift",
     "zh_cn": "笔",
     "phonetic": "/ʃtɪft/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "das Handy, -s",
+    "word": "Handy",
     "zh_cn": "手机",
     "phonetic": "/ˈhɛndi/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "das Buch, ¨-er",
+    "word": "Buch",
     "zh_cn": "书",
     "phonetic": "/buːx/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "¨-er"
   },
   {
-    "word": "der Schlüssel, -",
+    "word": "Schlüssel",
     "zh_cn": "钥匙",
     "phonetic": "/ˈʃlʏsl̩/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Flasche, -n",
+    "word": "Flasche",
     "zh_cn": "瓶子",
     "phonetic": "/ˈflaʃə/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Portmonee, -s",
+    "word": "Portmonee",
     "zh_cn": "钱包",
     "unitId": 1,
     "wordType": "noun",
-    "phonetic": "/pɔʁtmoˈneː/"
+    "phonetic": "/pɔʁtmoˈneː/",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "die Brille, -n",
+    "word": "Brille",
     "zh_cn": "眼镜",
     "phonetic": "/ˈbʁɪlə/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Lippenstift, -e",
+    "word": "Lippenstift",
     "zh_cn": "唇膏，口红",
     "phonetic": "/ˈlɪpn̩ˌʃtɪft/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "das Foto, -s",
+    "word": "Foto",
     "zh_cn": "照片",
     "phonetic": "/ˈfoːto/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "das Heft, -e",
+    "word": "Heft",
     "zh_cn": "练习本，本子",
     "phonetic": "/hɛft/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Taschentuch, ¨-er",
+    "word": "Taschentuch",
     "zh_cn": "手帕，纸巾",
     "phonetic": "/ˈtaʃn̩ˌtuːx/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "¨-er"
   },
   {
-    "word": "die Zigarette, -n",
+    "word": "Zigarette",
     "zh_cn": "香烟",
     "phonetic": "/t͡siɡaˈʁɛtə/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Zeitung, -en",
+    "word": "Zeitung",
     "zh_cn": "报纸",
     "phonetic": "/ˈt͡saɪ̯tʊŋ/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "der Spiegel, -",
+    "word": "Spiegel",
     "zh_cn": "镜子",
     "phonetic": "/ˈʃpiːɡl̩/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Zahnbürste, -n",
+    "word": "Zahnbürste",
     "zh_cn": "牙刷",
     "phonetic": "/ˈt͡saːnˌbʏʁstə/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Mann, ¨-er",
+    "word": "Mann",
     "zh_cn": "男人，丈夫",
     "phonetic": "/man/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨-er"
   },
   {
-    "word": "die Frau, -en",
+    "word": "Frau",
     "zh_cn": "女人，妻子，女士（称呼），太太（称呼）",
     "phonetic": "/fʁaʊ̯/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "das Wort, ¨-er",
+    "word": "Wort",
     "zh_cn": "词",
     "phonetic": "/vɔʁt/",
     "unitId": 1,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "¨-er"
   },
   {
     "word": "ich",
@@ -479,11 +562,12 @@
     "wordType": "other"
   },
   {
-    "word": "Das ist",
+    "word": "ist",
     "zh_cn": "这是…",
     "unitId": 1,
     "phoneticFailed": true,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das"
   },
   {
     "word": "Noch einmal, bitte",
@@ -554,32 +638,41 @@
     "wordType": "other"
   },
   {
-    "word": "der Berg, -e",
+    "word": "Berg",
     "zh_cn": "山",
     "phonetic": "/bɛʁk/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "die Stadt, -e",
+    "word": "Stadt",
     "zh_cn": "城市",
     "phonetic": "/ʃtat/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-e"
   },
   {
-    "word": "das Land, ¨er",
+    "word": "Land",
     "zh_cn": "国家",
     "phonetic": "/lant/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "¨er"
   },
   {
-    "word": "die Freizeit (nur Sg.)",
+    "word": "Freizeit",
     "zh_cn": "业余时间",
     "phonetic": "/ˈfʁaɪ̯ˌt͡saɪ̯t/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
     "word": "Ägypten",
@@ -652,25 +745,29 @@
     "wordType": "verb"
   },
   {
-    "word": "die Türkei",
+    "word": "Türkei",
     "zh_cn": "土耳其",
     "phonetic": "/tʏʁˈkaɪ̯/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die"
   },
   {
-    "word": "die USA (Pl.)",
+    "word": "USA (Pl.)",
     "zh_cn": "美国",
     "phonetic": "/ˌuːʔɛsˈʔaː/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die"
   },
   {
-    "word": "die Sprache, -n",
+    "word": "Sprache",
     "zh_cn": "语言",
     "phonetic": "/ˈʃpʁaːxə/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
     "word": "Arabisch",
@@ -750,158 +847,202 @@
     "wordType": "other"
   },
   {
-    "word": "das Computerspiel, -e",
+    "word": "Computerspiel",
     "zh_cn": "电脑游戏",
     "phonetic": "/kɔmˈpjuːtɐˌʃpiːl/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Restaurant, -s",
+    "word": "Restaurant",
     "zh_cn": "餐馆",
     "phonetic": "/ʁɛstoˈʁɑ̃ː/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "das Souvenir, -s",
+    "word": "Souvenir",
     "zh_cn": "纪念品，纪念礼物",
     "phonetic": "/zuvəˈniːɐ̯/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "das Auto, -s",
+    "word": "Auto",
     "zh_cn": "小轿车、汽车",
     "phonetic": "/ˈaʊ̯to/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "das Bier, -e",
+    "word": "Bier",
     "zh_cn": "啤酒",
     "phonetic": "/biːɐ̯/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "die Blume, -n",
+    "word": "Blume",
     "zh_cn": "花",
     "phonetic": "/ˈbluːmə/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Bürste, -n",
+    "word": "Bürste",
     "zh_cn": "刷子",
     "phonetic": "/ˈbʏʁstə/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Flasche, -n",
+    "word": "Flasche",
     "zh_cn": "瓶子",
     "phonetic": "/ˈflaʃə/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Fußball, ¨e",
+    "word": "Fußball",
     "zh_cn": "足球",
     "phonetic": "/ˈfuːsˌbal/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "das Gummibärchen, -",
+    "word": "Gummibärchen",
     "zh_cn": "小熊软糖",
     "phonetic": "/ˈɡʊmiˌbɛːɐ̯çən/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "das Herz, -en",
+    "word": "Herz",
     "zh_cn": "心",
     "phonetic": "/hɛʁt͡s/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-en"
   },
   {
-    "word": "der Hut, ¨e",
+    "word": "Hut",
     "zh_cn": "帽子",
     "phonetic": "/huːt/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "das Messer, -",
+    "word": "Messer",
     "zh_cn": "刀",
     "phonetic": "/ˈmɛsɐ/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "die Postkarte, -n",
+    "word": "Postkarte",
     "zh_cn": "明信片",
     "phonetic": "/ˈpɔstˌkaʁtə/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Haus, ¨er",
+    "word": "Haus",
     "zh_cn": "房子，家",
     "phonetic": "/haʊ̯s/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "¨er"
   },
   {
-    "word": "die Tasse, -n",
+    "word": "Tasse",
     "zh_cn": "杯子",
     "phonetic": "/ˈtasə/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Wein, -e",
+    "word": "Wein",
     "zh_cn": "葡萄酒",
     "phonetic": "/vaɪ̯n/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "die Uhr, -en",
+    "word": "Uhr",
     "zh_cn": "钟点，表，钟",
     "phonetic": "/uːɐ̯/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "der Euro, -s",
+    "word": "Euro",
     "zh_cn": "欧元",
     "phonetic": "/ˈɔɪ̯ʁo/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "der Franken, -",
+    "word": "Franken",
     "zh_cn": "瑞士法郎",
     "phonetic": "/ˈfʁaŋkən/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "der Cent, -s ( 欧 )",
+    "word": "Cent",
     "zh_cn": "分",
     "phonetic": "/t͡sɛnt/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s ( 欧 )"
   },
   {
-    "word": "der Preis, -e",
+    "word": "Preis",
     "zh_cn": "价格",
     "phonetic": "/pʁaɪ̯s/",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
     "word": "wir",
@@ -1191,17 +1332,19 @@
     "wordType": "other"
   },
   {
-    "word": "Das ist kein/e...",
+    "word": "ist kein/e...",
     "zh_cn": "这不是…!",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das"
   },
   {
-    "word": "Doch, das ist ein/e...",
+    "word": "Doch",
     "zh_cn": "不，这是一个…",
     "unitId": 2,
     "phoneticFailed": true,
-    "wordType": "noun"
+    "wordType": "noun",
+    "plural": "das ist ein/e..."
   },
   {
     "word": "Was kostet das?",
@@ -1210,10 +1353,11 @@
     "wordType": "other"
   },
   {
-    "word": "Das ist teuer!",
+    "word": "ist teuer!",
     "zh_cn": "这个好贵!",
     "unitId": 2,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das"
   },
   {
     "word": "doch",
@@ -1237,381 +1381,497 @@
     "wordType": "other"
   },
   {
-    "word": "das Essen",
+    "word": "Essen",
     "zh_cn": "饮食",
     "phonetic": "/ˈɛsn̩/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das"
   },
   {
-    "word": "die Zeit (nur Sg.)",
+    "word": "Zeit",
     "zh_cn": "时间",
     "phonetic": "/t͡saɪ̯t/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
-    "word": "das Brot, -e",
+    "word": "Brot",
     "zh_cn": "面包",
     "phonetic": "/bʁoːt/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Weißbrot, -e",
+    "word": "Weißbrot",
     "zh_cn": "白面包",
     "phonetic": "/ˈvaɪ̯sˌbʁoːt/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Schwarzbrot, -e",
+    "word": "Schwarzbrot",
     "zh_cn": "黑面包",
     "phonetic": "/ˈʃvaʁt͡sˌbʁoːt/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Brötchen, -",
+    "word": "Brötchen",
     "zh_cn": "小面包",
     "phonetic": "/ˈbʁøːtçən/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "die Brezel, -n",
+    "word": "Brezel",
     "zh_cn": "8字形面包",
     "phonetic": "/ˈbʁeːt͡sl̩/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Bäcker, - / die Bäckerin, -nen",
+    "word": "Bäcker",
     "zh_cn": "面包师/女面包师",
     "phonetic": "/ˈbɛkɐ/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "- / die Bäckerin, -nen"
   },
   {
-    "word": "der Kunde, -n / die Kundin, -nen",
+    "word": "Kunde",
     "zh_cn": "顾客/女顾客",
     "phonetic": "/ˈkʊndə/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-n / die Kundin, -nen"
   },
   {
-    "word": "der, die Deutsche, -n",
+    "word": "der",
     "zh_cn": "德国人",
     "phonetic": "/deːɐ̯/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "plural": "die Deutsche, -n"
   },
   {
-    "word": "das Kilogramm",
+    "word": "Kilogramm",
     "zh_cn": "公斤，千克",
     "phonetic": "/kiloˈɡʁam/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das"
   },
   {
-    "word": "das Prozent, -e",
+    "word": "Prozent",
     "zh_cn": "百分数",
     "phonetic": "/pʁoˈt͡sɛnt/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Frühstück, -e",
+    "word": "Frühstück",
     "zh_cn": "早餐",
     "phonetic": "/ˈfʁyːˌʃtʏk/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Ei, -er",
+    "word": "Ei",
     "zh_cn": "鸡蛋",
     "phonetic": "/aɪ̯/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-er"
   },
   {
-    "word": "die Butter (nur Sg.)",
+    "word": "Butter",
     "zh_cn": "黄油",
     "phonetic": "/ˈbʊtɐ/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
-    "word": "der Schinken, -",
+    "word": "Schinken",
     "zh_cn": "火腿",
     "phonetic": "/ˈʃɪŋkn̩/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "der Käse (nur Sg.)",
+    "word": "Käse",
     "zh_cn": "奶酪",
     "phonetic": "/ˈkɛːzə/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "die Marmelade, -n",
+    "word": "Marmelade",
     "zh_cn": "果酱",
     "phonetic": "/ˌmaʁməˈlaːdə/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Honig (nur Sg.)",
+    "word": "Honig",
     "zh_cn": "蜂蜜",
     "phonetic": "/ˈhoːnɪç/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "die Milch (nur Sg.)",
+    "word": "Milch",
     "zh_cn": "牛奶",
     "phonetic": "/mɪlç/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
-    "word": "das Butterbrot, -e",
+    "word": "Butterbrot",
     "zh_cn": "黄油面包片",
     "phonetic": "/ˈbʊtɐˌbʁoːt/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Abendbrot (nur Sg.)",
+    "word": "Abendbrot",
     "zh_cn": "(以面包为主)晚餐",
     "phonetic": "/ˈaːbn̩tˌbʁoːt/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "das"
   },
   {
-    "word": "die Scheibe, -n",
+    "word": "Scheibe",
     "zh_cn": "(薄)片",
     "phonetic": "/ˈʃaɪ̯bə/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Korb, -e",
+    "word": "Korb",
     "zh_cn": "筐，篮子",
     "phonetic": "/kɔʁp/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Fisch, -e",
+    "word": "Fisch",
     "zh_cn": "鱼",
     "phonetic": "/fɪʃ/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Imbissstand, -e",
+    "word": "Imbissstand",
     "zh_cn": "小吃亭",
     "phonetic": "/ˈɪmbɪsˌʃtant/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "die Speise, -n",
+    "word": "Speise",
     "zh_cn": "菜肴",
     "phonetic": "/ˈʃpaɪ̯zə/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Getränk, -e",
+    "word": "Getränk",
     "zh_cn": "饮料",
     "phonetic": "/ɡəˈtʁɛŋk/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "der Hamburger, -",
+    "word": "Hamburger",
     "zh_cn": "汉堡",
     "phonetic": "/ˈhamˌbʊʁɡɐ/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Pizza, -s / Pizzen",
+    "word": "Pizza",
     "zh_cn": "披萨",
     "phonetic": "/ˈpɪt͡sa/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-s / Pizzen"
   },
   {
-    "word": "die Wurst, -e",
+    "word": "Wurst",
     "zh_cn": "香肠",
     "phonetic": "/vʊʁst/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-e"
   },
   {
-    "word": "die Bratwurst, -e",
+    "word": "Bratwurst",
     "zh_cn": "烤香肠",
     "phonetic": "/…ʃt…/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-e"
   },
   {
-    "word": "der Senf, -e",
+    "word": "Senf",
     "zh_cn": "芥末",
     "phonetic": "/zɛnf/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "die Pommes frites (Pl.)",
+    "word": "Pommes frites (Pl.)",
     "zh_cn": "炸薯条",
     "unitId": 3,
     "phoneticFailed": true,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die"
   },
   {
-    "word": "der / das Ketchup (nur Sg.)",
+    "word": "/ das Ketchup",
     "zh_cn": "番茄酱",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "die Majonäse, -n",
+    "word": "Majonäse",
     "zh_cn": "蛋黄酱",
     "phonetic": "/majɔˈnɛːzə/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Salat, -e",
+    "word": "Salat",
     "zh_cn": "色拉，沙拉",
     "phonetic": "/zaˈlaːt/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "das Hähnchen, -",
+    "word": "Hähnchen",
     "zh_cn": "小鸡，小鸡肉",
     "phonetic": "/ˈhɛːnçən/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "das Wasser (nur Sg.)",
+    "word": "Wasser",
     "zh_cn": "水",
     "phonetic": "/ˈvasɐ/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "das"
   },
   {
-    "word": "das Mineralwasser (nur Sg.)",
+    "word": "Mineralwasser",
     "zh_cn": "矿泉水",
     "phonetic": "/mineˈʁaːlˌvasɐ/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "das"
   },
   {
-    "word": "der Saft, -e",
+    "word": "Saft",
     "zh_cn": "果汁",
     "phonetic": "/zaft/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Apfelsaft, -e",
+    "word": "Apfelsaft",
     "zh_cn": "苹果汁",
     "phonetic": "/ˈap͡fl̩ˌzaft/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "die Cola, -s",
+    "word": "Cola",
     "zh_cn": "可乐",
     "phonetic": "/ˈkoːla/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-s"
   },
   {
-    "word": "die Limonade, -n",
+    "word": "Limonade",
     "zh_cn": "柠檬水",
     "phonetic": "/limoˈnaːdə/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Bier, -e",
+    "word": "Bier",
     "zh_cn": "啤酒",
     "phonetic": "/biːɐ̯/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "der Hunger (nur Sg.)",
+    "word": "Hunger",
     "zh_cn": "饥饿",
     "phonetic": "/ˈhʊŋɐ/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "der Durst (nur Sg.)",
+    "word": "Durst",
     "zh_cn": "口渴",
     "phonetic": "/dʊʁst/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "das Dessert, -s",
+    "word": "Dessert",
     "zh_cn": "甜品",
     "phonetic": "/dɛˈseːɐ̯/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "der Kuchen, -",
+    "word": "Kuchen",
     "zh_cn": "蛋糕",
     "phonetic": "/ˈkuːxn̩/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Torte, -n",
+    "word": "Torte",
     "zh_cn": "奶油大蛋糕",
     "phonetic": "/ˈtɔʁtə/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Eis (nur Sg.)",
+    "word": "Eis",
     "zh_cn": "冰淇淋",
     "phonetic": "/aɪ̯s/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "das"
   },
   {
-    "word": "der Apfel, -",
+    "word": "Apfel",
     "zh_cn": "苹果",
     "phonetic": "/ˈap͡fl̩/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Birne, -n",
+    "word": "Birne",
     "zh_cn": "梨子",
     "phonetic": "/ˈbɪʁnə/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Banane, -n",
+    "word": "Banane",
     "zh_cn": "香蕉",
     "phonetic": "/baˈnaːnə/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
     "word": "Lebensmittel, Pl.",
@@ -1621,67 +1881,85 @@
     "wordType": "other"
   },
   {
-    "word": "das Fastfood, -",
+    "word": "Fastfood",
     "zh_cn": "快餐",
     "phonetic": "/ˈfaːstfuːt/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "der Döner (Kebab), -",
+    "word": "Döner (Kebab)",
     "zh_cn": "土耳其肉夹馍",
     "phonetic": "/ˈdœnɛr/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "das Sushi, -",
+    "word": "Sushi",
     "zh_cn": "寿司",
     "phonetic": "/sɯɕiꜜ/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "die Currywurst, ¨e",
+    "word": "Currywurst",
     "zh_cn": "咖喱香肠",
     "phonetic": "/…ʃt…/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "¨e"
   },
   {
-    "word": "der Apfelstrudel, -",
+    "word": "Apfelstrudel",
     "zh_cn": "苹果派",
     "phonetic": "/ˈap͡fl̩ˌʃtʁuːdl̩/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Buchtel, -n",
+    "word": "Buchtel",
     "zh_cn": "果酱面包",
     "phonetic": "/ˈbʊxtl̩/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Sachertorte, -n",
+    "word": "Sachertorte",
     "zh_cn": "维也纳萨赫巧克力蛋糕",
     "phonetic": "/ˈzaxɐˌtɔʁtə/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Schokoladen-Fondue, -s",
+    "word": "Schokoladen-Fondue",
     "zh_cn": "巧克力火锅",
     "unitId": 3,
     "phoneticFailed": true,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "die Vanillesoße, -n",
+    "word": "Vanillesoße",
     "zh_cn": "香草汁",
     "phonetic": "/vaˈnɪləˌzoːsə/",
     "unitId": 3,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
     "word": "trinken",
@@ -1999,326 +2277,419 @@
     "wordType": "other"
   },
   {
-    "word": "das Jahr, -e",
+    "word": "Jahr",
     "zh_cn": "年",
     "phonetic": "/jaːɐ̯/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "der Monat, -e",
+    "word": "Monat",
     "zh_cn": "月",
     "phonetic": "/ˈmoːnat/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "die Woche, -n",
+    "word": "Woche",
     "zh_cn": "星期",
     "phonetic": "/ˈvɔxə/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Tag, -e",
+    "word": "Tag",
     "zh_cn": "白天，天",
     "phonetic": "/taːk/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Wochentag, -e",
+    "word": "Wochentag",
     "zh_cn": "一周中的某一天；工作日",
     "phonetic": "/ˈvɔxn̩ˌtaːk/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Montag, -e",
+    "word": "Montag",
     "zh_cn": "星期一",
     "phonetic": "/ˈmoːnˌtaːk/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Dienstag, -e",
+    "word": "Dienstag",
     "zh_cn": "星期二",
     "phonetic": "/ˈdiːnsˌtaːk/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Mittwoch, -e",
+    "word": "Mittwoch",
     "zh_cn": "星期三",
     "phonetic": "/ˈmɪtˌvɔx/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Donnerstag, -e",
+    "word": "Donnerstag",
     "zh_cn": "星期四",
     "phonetic": "/ˈdɔnɐsˌtaːk/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Freitag, -e",
+    "word": "Freitag",
     "zh_cn": "星期五",
     "phonetic": "/ˈfʁaɪ̯ˌtaːk/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Samstag, -e",
+    "word": "Samstag",
     "zh_cn": "星期六",
     "phonetic": "/ˈzamstaːk/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Sonntag, -e",
+    "word": "Sonntag",
     "zh_cn": "星期日",
     "phonetic": "/ˈzɔnˌtaːk/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "das Wochenende, -n",
+    "word": "Wochenende",
     "zh_cn": "周末",
     "phonetic": "/ˈvɔxn̩ˌʔɛndə/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-n"
   },
   {
-    "word": "der Mensch, -en",
+    "word": "Mensch",
     "zh_cn": "人",
     "phonetic": "/mɛnʃ/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-en"
   },
   {
-    "word": "der Beruf, -e",
+    "word": "Beruf",
     "zh_cn": "职业，工作",
     "phonetic": "/bəˈʁuːf/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Student, -en",
+    "word": "Student",
     "zh_cn": "大学生",
     "phonetic": "/ʃtuˈdɛnt/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-en"
   },
   {
-    "word": "die Studentin, -nen",
+    "word": "Studentin",
     "zh_cn": "女大学生",
     "phonetic": "/ʃtuˈdɛntɪn/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "der Praktikant, -en",
+    "word": "Praktikant",
     "zh_cn": "实习生",
     "phonetic": "/pʁaktiˈkant/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-en"
   },
   {
-    "word": "die Praktikantin, -nen",
+    "word": "Praktikantin",
     "zh_cn": "女实习生",
     "phonetic": "/pʁaktiˈkantɪn/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "der IT-Spezialist, -en",
+    "word": "IT-Spezialist",
     "zh_cn": "电脑专家",
     "phonetic": "/aɪ̯ˈtiːʃpet͡si̯aˌlɪst/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-en"
   },
   {
-    "word": "die IT-Spezialistin, -nen",
+    "word": "IT-Spezialistin",
     "zh_cn": "女电脑专家",
     "phonetic": "/aɪ̯ˈtiːʃpet͡si̯aˌlɪstɪn/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "der Hotelfachmann, ¨er",
+    "word": "Hotelfachmann",
     "zh_cn": "酒店管理人员",
     "unitId": 4,
     "phoneticFailed": true,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨er"
   },
   {
-    "word": "die Hotelfachfrau, -en",
+    "word": "Hotelfachfrau",
     "zh_cn": "酒店管理人员（女）",
     "unitId": 4,
     "phoneticFailed": true,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "der Taxifahrer, -",
+    "word": "Taxifahrer",
     "zh_cn": "出租车司机",
     "phonetic": "/ˈtaksiˌfaːʁɐ/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Taxifahrerin, -nen",
+    "word": "Taxifahrerin",
     "zh_cn": "女出租车司机",
     "phonetic": "/ˈtaksiˌfaːʁəʁɪn/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "das Hotel, -s",
+    "word": "Hotel",
     "zh_cn": "酒店，宾馆",
     "phonetic": "/hoˈtɛl/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "die Universität, -en",
+    "word": "Universität",
     "zh_cn": "大学",
     "phonetic": "/ˌunivɛʁziˈtɛːt/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "das Krankenhaus, ¨er",
+    "word": "Krankenhaus",
     "zh_cn": "医院",
     "phonetic": "/ˈkʁaŋkn̩ˌhaʊ̯s/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "¨er"
   },
   {
-    "word": "das Praktikum, die Praktika",
+    "word": "Praktikum",
     "zh_cn": "实习",
     "phonetic": "/ˈpʁaktikʊm/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "die Praktika"
   },
   {
-    "word": "das Kindergarten, ¨",
+    "word": "Kindergarten",
     "zh_cn": "幼儿园",
     "phonetic": "/ˈkɪndɐˌɡaʁtn̩/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "¨"
   },
   {
-    "word": "die Firma, die Firmen",
+    "word": "Firma",
     "zh_cn": "公司",
     "phonetic": "/ˈfɪʁma/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "die Firmen"
   },
   {
-    "word": "das Büro, -s",
+    "word": "Büro",
     "zh_cn": "办公室",
     "phonetic": "/byˈʁoː/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "die Mittagspause, -n",
+    "word": "Mittagspause",
     "zh_cn": "午休",
     "phonetic": "/ˈmɪtaːksˌpaʊ̯zə/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Moment, -e",
+    "word": "Moment",
     "zh_cn": "时刻，瞬间",
     "phonetic": "/moˈmɛnt/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "das Bett, -en",
+    "word": "Bett",
     "zh_cn": "床",
     "phonetic": "/bɛt/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-en"
   },
   {
-    "word": "der Stress (nur Sg.)",
+    "word": "Stress",
     "zh_cn": "压力",
     "phonetic": "/ʃtʁɛs/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "der Ruhetag, -e",
+    "word": "Ruhetag",
     "zh_cn": "休息日",
     "phonetic": "/ˈʁuːəˌtaːk/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Supermarkt, ¨e",
+    "word": "Supermarkt",
     "zh_cn": "超市",
     "phonetic": "/ˈzuːpɐˌmaʁkt/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "das Geschäft, -e",
+    "word": "Geschäft",
     "zh_cn": "商店",
     "phonetic": "/ɡəˈʃɛft/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "die Party, -s",
+    "word": "Party",
     "zh_cn": "聚会",
     "phonetic": "/ˈpaːɐ̯ti/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-s"
   },
   {
-    "word": "der Freund, -e",
+    "word": "Freund",
     "zh_cn": "朋友",
     "phonetic": "/fʁɔɪ̯nt/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "die Freundin, -nen",
+    "word": "Freundin",
     "zh_cn": "女朋友",
     "phonetic": "/ˈfʁɔɪ̯ndɪn/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "der Krimi, -s",
+    "word": "Krimi",
     "zh_cn": "侦探片",
     "phonetic": "/ˈkʁɪmi/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "der Bus, -se",
+    "word": "Bus",
     "zh_cn": "公共汽车",
     "phonetic": "/bʊs/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-se"
   },
   {
-    "word": "die Haltestelle, -n",
+    "word": "Haltestelle",
     "zh_cn": "车站",
     "phonetic": "/ˈhaltəˌʃtɛlə/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Fahrplan, ¨e",
+    "word": "Fahrplan",
     "zh_cn": "时刻表",
     "phonetic": "/ˈfaːɐ̯ˌplaːn/",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
     "word": "schlafen, schläft",
@@ -2713,10 +3084,11 @@
     "wordType": "other"
   },
   {
-    "word": "Das geht leider nicht",
+    "word": "geht leider nicht",
     "zh_cn": "遗憾的是这不可以。",
     "unitId": 4,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das"
   },
   {
     "word": "Es ist Viertel nach/vor",
@@ -2771,263 +3143,343 @@
     "wordType": "other"
   },
   {
-    "word": "der Wunsch, ¨-e",
+    "word": "Wunsch",
     "zh_cn": "愿望，祝愿",
     "phonetic": "/vʊnʃ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨-e"
   },
   {
-    "word": "der Traum, ¨-e",
+    "word": "Traum",
     "zh_cn": "梦，梦想",
     "phonetic": "/tʁaʊ̯m/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨-e"
   },
   {
-    "word": "die Familie, -n",
+    "word": "Familie",
     "zh_cn": "家，家庭",
     "phonetic": "/faˈmiːli̯ə/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Eltern (nur Pl.)",
+    "word": "Eltern",
     "zh_cn": "父母",
     "phonetic": "/ˈɛltɐn/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": true,
+    "singularOnly": false,
+    "article": "die"
   },
   {
-    "word": "der Vater, ¨-",
+    "word": "Vater",
     "zh_cn": "父亲，爸爸",
     "phonetic": "/ˈfaːtɐ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨-"
   },
   {
-    "word": "die Mutter, ¨-",
+    "word": "Mutter",
     "zh_cn": "母亲，妈妈",
     "phonetic": "/ˈmʊtɐ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "¨-"
   },
   {
-    "word": "der Sohn, ¨-e",
+    "word": "Sohn",
     "zh_cn": "儿子",
     "phonetic": "/zoːn/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨-e"
   },
   {
-    "word": "die Tochter, ¨-",
+    "word": "Tochter",
     "zh_cn": "女儿",
     "phonetic": "/ˈtɔxtɐ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "¨-"
   },
   {
-    "word": "die Geschwister (nur Pl.)",
+    "word": "Geschwister",
     "zh_cn": "兄弟姐妹",
     "phonetic": "/ɡəˈʃvɪstɐ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": true,
+    "singularOnly": false,
+    "article": "die"
   },
   {
-    "word": "der Bruder, ¨-",
+    "word": "Bruder",
     "zh_cn": "弟",
     "phonetic": "/ˈbʁuːdɐ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨-"
   },
   {
-    "word": "die Schwester, -n",
+    "word": "Schwester",
     "zh_cn": "姐，妹",
     "phonetic": "/ˈʃvɛstɐ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Großeltern (nur Pl.)",
+    "word": "Großeltern",
     "zh_cn": "祖父母",
     "phonetic": "/ˈɡʁoːsˌʔɛltɐn/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": true,
+    "singularOnly": false,
+    "article": "die"
   },
   {
-    "word": "der Großvater, ¨- (外)",
+    "word": "Großvater",
     "zh_cn": "祖父",
     "phonetic": "/ˈɡʁoːsˌfaːtɐ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨- (外)"
   },
   {
-    "word": "die Großmutter, ¨- (外)",
+    "word": "Großmutter",
     "zh_cn": "祖母",
     "phonetic": "/ˈɡʁoːsˌmʊtɐ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "¨- (外)"
   },
   {
-    "word": "der Enkel, - (外)",
+    "word": "Enkel",
     "zh_cn": "孙子",
     "phonetic": "/ˈɛŋkl̩/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "- (外)"
   },
   {
-    "word": "die Enkelin, -nen (外)",
+    "word": "Enkelin",
     "zh_cn": "孙女",
     "phonetic": "/ˈɛŋkəlɪn/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen (外)"
   },
   {
-    "word": "die Tante, -n",
+    "word": "Tante",
     "zh_cn": "姑母，伯母，舅母，婶婶，阿姨",
     "phonetic": "/ˈtantə/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Onkel, -",
+    "word": "Onkel",
     "zh_cn": "姑父，伯父，舅舅，叔叔，姨夫",
     "phonetic": "/ˈɔŋkl̩/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "das Kind, -er",
+    "word": "Kind",
     "zh_cn": "孩子",
     "phonetic": "/kɪnt/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-er"
   },
   {
-    "word": "das Baby, -s",
+    "word": "Baby",
     "zh_cn": "婴儿",
     "phonetic": "/ˈbeːbi/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "der Zwilling, -e",
+    "word": "Zwilling",
     "zh_cn": "双胞胎",
     "phonetic": "/ˈt͡svɪlɪŋ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Single, -s",
+    "word": "Single",
     "zh_cn": "单身者",
     "phonetic": "/ˈsɪŋl̩/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "der Erfolg, -e",
+    "word": "Erfolg",
     "zh_cn": "成功，成果",
     "phonetic": "/ɛɐ̯ˈfɔlk/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "das Glück (nur Sg.)",
+    "word": "Glück",
     "zh_cn": "幸运，幸福",
     "phonetic": "/ɡlʏk/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "das"
   },
   {
-    "word": "die Gesundheit (nur Sg.)",
+    "word": "Gesundheit",
     "zh_cn": "健康",
     "phonetic": "/ɡəˈzʊnthaɪ̯t/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
-    "word": "die Liebe (nur Sg.)",
+    "word": "Liebe",
     "zh_cn": "爱，爱情",
     "phonetic": "/ˈliːbə/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
-    "word": "das Leben, -",
+    "word": "Leben",
     "zh_cn": "生活",
     "phonetic": "/ˈleːbn̩/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "die Angst, ¨-e",
+    "word": "Angst",
     "zh_cn": "害怕，恐惧",
     "phonetic": "/aŋst/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "¨-e"
   },
   {
-    "word": "der Spaß, ¨-e",
+    "word": "Spaß",
     "zh_cn": "愉快，乐趣",
     "phonetic": "/ʃpaːs/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨-e"
   },
   {
-    "word": "der Weg, -e",
+    "word": "Weg",
     "zh_cn": "路，道路",
     "phonetic": "/veːk/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "das Ziel, -e",
+    "word": "Ziel",
     "zh_cn": "目的，目标",
     "phonetic": "/t͡siːl/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "der Musiker, -/ ",
+    "word": "Musiker",
     "zh_cn": "音乐家",
     "phonetic": "/ˈmuːzɪkɐ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-/"
   },
   {
-    "word": "die Musikerin, -nen",
+    "word": "Musikerin",
     "zh_cn": "女音乐家",
     "phonetic": "/ˈmuːzɪkəʁɪn/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "die Gitarre, -n",
+    "word": "Gitarre",
     "zh_cn": "吉他",
     "phonetic": "/ɡiˈtaʁə/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Star, -s",
+    "word": "Star",
     "zh_cn": "明星",
     "phonetic": "/ʃtaːɐ̯/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "der Fan, -s",
+    "word": "Fan",
     "zh_cn": "迷，粉丝",
     "phonetic": "/fæn/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "der Song, -s",
+    "word": "Song",
     "zh_cn": "歌曲",
     "phonetic": "/zɔŋ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
     "word": "Europa",
@@ -3037,123 +3489,154 @@
     "wordType": "other"
   },
   {
-    "word": "der Garten, ¨-",
+    "word": "Garten",
     "zh_cn": "花园",
     "phonetic": "/ˈɡaʁtn̩/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨-"
   },
   {
-    "word": "der Zoo, -s",
+    "word": "Zoo",
     "zh_cn": "动物园",
     "phonetic": "/t͡soː/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "der Affe, -n",
+    "word": "Affe",
     "zh_cn": "猴子",
     "phonetic": "/ˈafə/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-n"
   },
   {
-    "word": "der Fotograf, -en /",
+    "word": "Fotograf",
     "zh_cn": "摄影师",
     "phonetic": "/fotoˈɡʁaːf/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-en /"
   },
   {
-    "word": "die Fotografin, -nen",
+    "word": "Fotografin",
     "zh_cn": "女摄影师",
     "phonetic": "/fotoˈɡʁaːfɪn/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "der Journalist, -en /",
+    "word": "Journalist",
     "zh_cn": "记者",
     "phonetic": "/ʒʊʁnaˈlɪst/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-en /"
   },
   {
-    "word": "die Journalistin, -nen",
+    "word": "Journalistin",
     "zh_cn": "女记者",
     "phonetic": "/ʒʊʁnaˈlɪstɪn/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "die Welt (nur Sg.)",
+    "word": "Welt",
     "zh_cn": "世界",
     "phonetic": "/vɛlt/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
-    "word": "die Weltreise, -n",
+    "word": "Weltreise",
     "zh_cn": "环球旅行",
     "phonetic": "/ˈvɛltˌʁaɪ̯zə/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Million, -en",
+    "word": "Million",
     "zh_cn": "百万",
     "phonetic": "/mɪˈli̯oːn/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "das Geld, -er",
+    "word": "Geld",
     "zh_cn": "钱",
     "phonetic": "/ɡɛlt/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-er"
   },
   {
-    "word": "der Bestseller, - /",
+    "word": "Bestseller",
     "zh_cn": "畅销品（尤指书和唱片）",
     "phonetic": "/ˈbɛstˌsɛlɐ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "- /"
   },
   {
-    "word": "die Überraschung, -en",
+    "word": "Überraschung",
     "zh_cn": "惊喜，惊讶",
     "phonetic": "/yːbɐˈʁaʃʊŋ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "die Großeltern",
+    "word": "Großeltern",
     "zh_cn": "祖父母",
     "phonetic": "/ˈɡʁoːsˌʔɛltɐn/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die"
   },
   {
-    "word": "die Geschwister",
+    "word": "Geschwister",
     "zh_cn": "兄弟姐妹",
     "phonetic": "/ɡəˈʃvɪstɐ/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die"
   },
   {
-    "word": "der Onkel",
+    "word": "Onkel",
     "zh_cn": "叔叔",
     "phonetic": "/ˈɔŋkl̩/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der"
   },
   {
-    "word": "die Tante",
+    "word": "Tante",
     "zh_cn": "阿姨",
     "phonetic": "/ˈtantə/",
     "unitId": 5,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die"
   },
   {
     "word": "wünschen (V.)",
@@ -3478,361 +3961,463 @@
     "wordType": "other"
   },
   {
-    "word": "der Ort, -e",
+    "word": "Ort",
     "zh_cn": "地点，地方",
     "unitId": 6,
     "phonetic": "/ɔʁt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "die Straße, -n",
+    "word": "Straße",
     "zh_cn": "街，街道",
     "unitId": 6,
     "phonetic": "/ˈʃtʁaːsə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Kunst, ¨-e",
+    "word": "Kunst",
     "zh_cn": "艺术",
     "unitId": 6,
     "phonetic": "/kʊnst/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "¨-e"
   },
   {
-    "word": "die Kultur, -en",
+    "word": "Kultur",
     "zh_cn": "文化",
     "unitId": 6,
     "phonetic": "/kʊlˈtuːɐ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "das Café, -s ,法]",
+    "word": "Café",
     "zh_cn": "咖啡馆",
     "unitId": 6,
     "phonetic": "/kaˈfeː/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s ,法]"
   },
   {
-    "word": "der Turm, ¨-e",
+    "word": "Turm",
     "zh_cn": "钟楼，塔",
     "unitId": 6,
     "phonetic": "/tʊʁm/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨-e"
   },
   {
-    "word": "der Fernsehturm",
+    "word": "Fernsehturm",
     "zh_cn": "电视塔",
     "unitId": 6,
     "phonetic": "/ˈfɛʁnzeːˌtʊʁm/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der"
   },
   {
-    "word": "die Aussicht, -en",
+    "word": "Aussicht",
     "zh_cn": "前景，视野",
     "unitId": 6,
     "phonetic": "/ˈaʊ̯sˌz̥ɪçt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "das Ticket, -s",
+    "word": "Ticket",
     "zh_cn": "票",
     "unitId": 6,
     "phonetic": "/ˈtɪkət/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "die Stadtrundfahrt, -en",
+    "word": "Stadtrundfahrt",
     "zh_cn": "环城观光",
     "unitId": 6,
     "phonetic": "/ˈʃtatʁʊntˌfaːɐ̯t/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "die Sehenswürdigkeit, -en",
+    "word": "Sehenswürdigkeit",
     "zh_cn": "名胜古迹",
     "unitId": 6,
     "phonetic": "/ˈzeːənsˌvʏʁdɪçkaɪ̯t/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "das Museum, Museen",
+    "word": "Museum",
     "zh_cn": "博物馆",
     "unitId": 6,
     "phonetic": "/muˈzeːʊm/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "Museen"
   },
   {
-    "word": "die Geschichte (hier nur Sg.)",
+    "word": "Geschichte (hier nur Sg.)",
     "zh_cn": "历史",
     "unitId": 6,
     "phonetic": "/ɡəˈʃɪçtə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die"
   },
   {
-    "word": "der Park, -s",
+    "word": "Park",
     "zh_cn": "公园",
     "unitId": 6,
     "phonetic": "/paʁk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "die Insel, -n",
+    "word": "Insel",
     "zh_cn": "岛，岛屿",
     "unitId": 6,
     "phonetic": "/ˈɪnzl̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Schiff, -e",
+    "word": "Schiff",
     "zh_cn": "船，舰",
     "unitId": 6,
     "phonetic": "/ʃɪf/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Boot, -e",
+    "word": "Boot",
     "zh_cn": "小船",
     "unitId": 6,
     "phonetic": "/boːt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "die Bar, -s",
+    "word": "Bar",
     "zh_cn": "酒吧",
     "unitId": 6,
     "phonetic": "/baːɐ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-s"
   },
   {
-    "word": "die Strandbar, -s",
+    "word": "Strandbar",
     "zh_cn": "海滨酒吧",
     "unitId": 6,
     "phoneticFailed": true,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-s"
   },
   {
-    "word": "der Club, -s",
+    "word": "Club",
     "zh_cn": "俱乐部",
     "unitId": 6,
     "phonetic": "/klʊp/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "der Cocktail, -s",
+    "word": "Cocktail",
     "zh_cn": "鸡尾酒",
     "unitId": 6,
     "phonetic": "/ˈkɔktɛɪ̯l/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "das Einkaufszentrum, -zentren",
+    "word": "Einkaufszentrum",
     "zh_cn": "购物中心",
     "unitId": 6,
     "phonetic": "/ˈaɪ̯nkaʊ̯fsˌt͡sɛntʁʊm/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-zentren"
   },
   {
-    "word": "das Kaufhaus, ¨er",
+    "word": "Kaufhaus",
     "zh_cn": "百货公司",
     "unitId": 6,
     "phonetic": "/ˈkaʊ̯fˌhaʊ̯s/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "¨er"
   },
   {
-    "word": "die Flohmarkt, ¨e",
+    "word": "Flohmarkt",
     "zh_cn": "跳蚤市场",
     "unitId": 6,
     "phonetic": "/ˈfloːˌmaʁkt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "¨e"
   },
   {
-    "word": "die Galerie, -n",
+    "word": "Galerie",
     "zh_cn": "长廊，美术馆",
     "unitId": 6,
     "phonetic": "/ɡaləˈʁiː/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Tourist, -en",
+    "word": "Tourist",
     "zh_cn": "游客",
     "unitId": 6,
     "phonetic": "/tuˈʁɪst/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-en"
   },
   {
-    "word": "die Touristin, -nen",
+    "word": "Touristin",
     "zh_cn": "女游客",
     "unitId": 6,
     "phonetic": "/tuˈʁɪstɪn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "die Tour, -en",
+    "word": "Tour",
     "zh_cn": "远足，旅行",
     "unitId": 6,
     "phonetic": "/tuːɐ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "der Bahnhof, ¨e",
+    "word": "Bahnhof",
     "zh_cn": "火车站",
     "unitId": 6,
     "phonetic": "/ˈbaːnˌhoːf/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "die Station, -en",
+    "word": "Station",
     "zh_cn": "站",
     "unitId": 6,
     "phonetic": "/ʃtaˈt͡si̯oːn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "die U-Bahn, -en",
+    "word": "U-Bahn",
     "zh_cn": "地铁",
     "unitId": 6,
     "phonetic": "/ˈuːˌbaːn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "die S-Bahn, -en",
+    "word": "S-Bahn",
     "zh_cn": "轻轨",
     "unitId": 6,
     "phonetic": "/ˈɛsˌbaːn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "die Karte, -n",
+    "word": "Karte",
     "zh_cn": "票，卡片，地图",
     "unitId": 6,
     "phonetic": "/ˈkaʁtə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Bibliothek, -en",
+    "word": "Bibliothek",
     "zh_cn": "图书馆",
     "unitId": 6,
     "phonetic": "/biblioˈteːk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "der Platz, ¨e",
+    "word": "Platz",
     "zh_cn": "广场，座位",
     "unitId": 6,
     "phonetic": "/plat͡s/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "die Leute (nur Pl.)",
+    "word": "Leute",
     "zh_cn": "人，人们",
     "unitId": 6,
     "phonetic": "/ˈlɔɪ̯tə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": true,
+    "singularOnly": false,
+    "article": "die"
   },
   {
-    "word": "der DJ, -s",
+    "word": "DJ",
     "zh_cn": "唱片选播员",
     "unitId": 6,
     "phonetic": "/ˈdiːd͡ʒɛɪ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "die Idee, -n",
+    "word": "Idee",
     "zh_cn": "主意，想法",
     "unitId": 6,
     "phonetic": "/iˈdeː/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Produkt, -e",
+    "word": "Produkt",
     "zh_cn": "产品",
     "unitId": 6,
     "phonetic": "/pʁoˈdʊkt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "die Erfahrung, -en",
+    "word": "Erfahrung",
     "zh_cn": "经验，经历",
     "unitId": 6,
     "phonetic": "/ɛɐ̯ˈfaːʁʊŋ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "das Studium (nur Sg.)",
+    "word": "Studium",
     "zh_cn": "(在大学)学习",
     "unitId": 6,
     "phonetic": "/ˈʃtuːdi̯ʊm/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "das"
   },
   {
-    "word": "das Studentenwohnheim, -e",
+    "word": "Studentenwohnheim",
     "zh_cn": "学生宿舍",
     "unitId": 6,
     "phonetic": "/ʃtuˈdɛntn̩ˌvoːnhaɪ̯m/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Zimmer, -",
+    "word": "Zimmer",
     "zh_cn": "房间",
     "unitId": 6,
     "phonetic": "/ˈt͡sɪmɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "die WG, -s (Wohngemeinschaft)",
+    "word": "WG",
     "zh_cn": "合租公寓",
     "unitId": 6,
     "phonetic": "/veːˈɡeː/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-s (Wohngemeinschaft)"
   },
   {
-    "word": "das Dorf, ¨er",
+    "word": "Dorf",
     "zh_cn": "村，村庄",
     "unitId": 6,
     "phonetic": "/dɔʁf/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "¨er"
   },
   {
-    "word": "das Fahrrad, ¨er",
+    "word": "Fahrrad",
     "zh_cn": "自行车",
     "unitId": 6,
     "phonetic": "/ˈfaːɐ̯ˌʁaːt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "¨er"
   },
   {
-    "word": "das Open-Air-Kino, -s",
+    "word": "Open-Air-Kino",
     "zh_cn": "露天影院",
     "unitId": 6,
     "phoneticFailed": true,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "der Besuch, -e",
+    "word": "Besuch",
     "zh_cn": "参观，访问",
     "unitId": 6,
     "phonetic": "/bəˈzuːx/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Bär, -en",
+    "word": "Bär",
     "zh_cn": "熊",
     "unitId": 6,
     "phonetic": "/bɛːɐ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-en"
   },
   {
-    "word": "der Künstler, -",
+    "word": "Künstler",
     "zh_cn": "艺术家",
     "unitId": 6,
     "phonetic": "/ˈkʏnstlɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Künstlerin, -nen",
+    "word": "Künstlerin",
     "zh_cn": "女艺术家",
     "unitId": 6,
     "phonetic": "/ˈkʏnstləʁɪn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
     "word": "frühstücken",
@@ -4233,459 +4818,596 @@
     "wordType": "other"
   },
   {
-    "word": "die Natur (nur Sg.)",
+    "word": "Natur",
     "zh_cn": "大自然",
     "unitId": 7,
     "phonetic": "/naˈtuːɐ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
-    "word": "der Schnee (nur Sg.)",
+    "word": "Schnee",
     "zh_cn": "雪",
     "unitId": 7,
     "phonetic": "/ʃneː/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "die Wiese, -n",
+    "word": "Wiese",
     "zh_cn": "草地",
     "unitId": 7,
     "phonetic": "/ˈviːzə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Wald, ¨er",
+    "word": "Wald",
     "zh_cn": "森林",
     "unitId": 7,
     "phonetic": "/valt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨er"
   },
   {
-    "word": "der Baum, ¨e",
+    "word": "Baum",
     "zh_cn": "树",
     "unitId": 7,
     "phonetic": "/baʊ̯m/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "der Vogel, ¨",
+    "word": "Vogel",
     "zh_cn": "鸟",
     "unitId": 7,
     "phonetic": "/ˈfoːɡl̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨"
   },
   {
-    "word": "das Meer, -e",
+    "word": "Meer",
     "zh_cn": "海",
     "unitId": 7,
     "phonetic": "/meːɐ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "der Strand, ¨e",
+    "word": "Strand",
     "zh_cn": "海滩",
     "unitId": 7,
     "phonetic": "/ʃtʁant/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "die Muschel, -n",
+    "word": "Muschel",
     "zh_cn": "贝壳",
     "unitId": 7,
     "phonetic": "/ˈmʊʃl̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Welle, -n",
+    "word": "Welle",
     "zh_cn": "海浪",
     "unitId": 7,
     "phonetic": "/ˈvɛlə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Gemüse (nur Sg.)",
+    "word": "Gemüse",
     "zh_cn": "蔬菜",
     "unitId": 7,
     "phonetic": "/ɡəˈmyːzə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "das"
   },
   {
-    "word": "das Obst (nur Sg.)",
+    "word": "Obst",
     "zh_cn": "水果",
     "unitId": 7,
     "phonetic": "/oːpst/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "das"
   },
   {
-    "word": "die Zeitschrift, -en",
+    "word": "Zeitschrift",
     "zh_cn": "杂志",
     "unitId": 7,
     "phonetic": "/ˈt͡saɪ̯tˌʃʁɪft/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "das Thema, Themen",
+    "word": "Thema",
     "zh_cn": "主题",
     "unitId": 7,
     "phonetic": "/ˈteːma/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "Themen"
   },
   {
-    "word": "die Seite, -n",
+    "word": "Seite",
     "zh_cn": "页码",
     "unitId": 7,
     "phonetic": "/ˈzaɪ̯tə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Leser, -",
+    "word": "Leser",
     "zh_cn": "读者",
     "unitId": 7,
     "phonetic": "/ˈleːzɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Leserin, -nen",
+    "word": "Leserin",
     "zh_cn": "女读者",
     "unitId": 7,
     "phonetic": "/ˈleːzəʁɪn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "das Problem, -e",
+    "word": "Problem",
     "zh_cn": "问题",
     "unitId": 7,
     "phonetic": "/pʁoˈbleːm/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "der Computer, -",
+    "word": "Computer",
     "zh_cn": "电脑",
     "unitId": 7,
     "phonetic": "/kɔmˈpjuːtɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "der Bergführer, -",
+    "word": "Bergführer",
     "zh_cn": "登山向导",
     "unitId": 7,
     "phonetic": "/ˈbɛʁkˌfyːʁɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Bergführerin, -nen",
+    "word": "Bergführerin",
     "zh_cn": "登山女向导",
     "unitId": 7,
     "phonetic": "/ˈbɛʁkˌfyːʁəʁɪn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "der Fischer, -",
+    "word": "Fischer",
     "zh_cn": "渔夫，捕鱼人",
     "unitId": 7,
     "phonetic": "/ˈfɪʃɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Hausfrau, -en",
+    "word": "Hausfrau",
     "zh_cn": "家庭主妇",
     "unitId": 7,
     "phonetic": "/ˈhaʊ̯sˌfʁaʊ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "der Bauer, -n",
+    "word": "Bauer",
     "zh_cn": "农民",
     "unitId": 7,
     "phonetic": "/ˈbaʊ̯ɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-n"
   },
   {
-    "word": "die Bäuerin, -nen",
+    "word": "Bäuerin",
     "zh_cn": "女农民",
     "unitId": 7,
     "phonetic": "/ˈbɔɪ̯əʁɪn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "das Tier, -e",
+    "word": "Tier",
     "zh_cn": "动物",
     "unitId": 7,
     "phonetic": "/tiːɐ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "der See, -n",
+    "word": "See",
     "zh_cn": "湖，湖泊",
     "unitId": 7,
     "phonetic": "/zeː/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-n"
   },
   {
-    "word": "der Fluss, ¨e",
+    "word": "Fluss",
     "zh_cn": "河，河流",
     "unitId": 7,
     "phonetic": "/flʊs/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "die Ruhe (nur Sg.)",
+    "word": "Ruhe",
     "zh_cn": "安静",
     "unitId": 7,
     "phonetic": "/ˈʁuːə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
-    "word": "die Idee, -n",
+    "word": "Idee",
     "zh_cn": "主意，想法",
     "unitId": 7,
     "phonetic": "/iˈdeː/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Frühling, -e",
+    "word": "Frühling",
     "zh_cn": "春天",
     "unitId": 7,
     "phonetic": "/ˈfʁyːlɪŋ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Sommer, -",
+    "word": "Sommer",
     "zh_cn": "夏天",
     "unitId": 7,
     "phonetic": "/ˈzɔmɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "der Herbst, -e",
+    "word": "Herbst",
     "zh_cn": "秋天",
     "unitId": 7,
     "phonetic": "/hɛʁpst/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Winter, -",
+    "word": "Winter",
     "zh_cn": "冬天",
     "unitId": 7,
     "phonetic": "/ˈvɪntɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "das Eis (Wetter)",
+    "word": "Eis (Wetter)",
     "zh_cn": "冰",
     "unitId": 7,
     "phonetic": "/aɪ̯s/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das"
   },
   {
-    "word": "der Himmel, -",
+    "word": "Himmel",
     "zh_cn": "天空",
     "unitId": 7,
     "phonetic": "/ˈhɪml̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "der Kopf, ¨e",
+    "word": "Kopf",
     "zh_cn": "头",
     "unitId": 7,
     "phonetic": "/kɔp͡f/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "die Richtung, -en",
+    "word": "Richtung",
     "zh_cn": "方向",
     "unitId": 7,
     "phonetic": "/ˈʁɪçtʊŋ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "die Ampel, -n",
+    "word": "Ampel",
     "zh_cn": "交通灯",
     "unitId": 7,
     "phonetic": "/ˈampl̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Fußweg, -e",
+    "word": "Fußweg",
     "zh_cn": "人行道",
     "unitId": 7,
     "phonetic": "/ˈfuːsˌveːk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Radweg, -e",
+    "word": "Radweg",
     "zh_cn": "自行车道",
     "unitId": 7,
     "phonetic": "/ˈʁaːtˌveːk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "das T-Shirt, -s",
+    "word": "T-Shirt",
     "zh_cn": "T恤衫",
     "unitId": 7,
     "phonetic": "/ˈtiːˌʃœːɐ̯t/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "der Pullover, -",
+    "word": "Pullover",
     "zh_cn": "毛衣",
     "unitId": 7,
     "phonetic": "/pʊˈloːvɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Regenjacke, -n",
+    "word": "Regenjacke",
     "zh_cn": "雨衣（防雨上衣）",
     "unitId": 7,
     "phonetic": "/ˈʁeːɡn̩ˌjakə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Hobby, -s",
+    "word": "Hobby",
     "zh_cn": "爱好",
     "unitId": 7,
     "phonetic": "/ˈhɔbi/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "das Verkehrsmittel, -",
+    "word": "Verkehrsmittel",
     "zh_cn": "交通工具",
     "unitId": 7,
     "phonetic": "/fɛɐ̯ˈkeːɐ̯sˌmɪtl̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "das Schild, -er",
+    "word": "Schild",
     "zh_cn": "指示牌",
     "unitId": 7,
     "phonetic": "/ʃɪlt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-er"
   },
   {
-    "word": "die Bewegung, -en",
+    "word": "Bewegung",
     "zh_cn": "运动，活动",
     "unitId": 7,
     "phonetic": "/bəˈveːɡʊŋ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "das Protokoll, -e",
+    "word": "Protokoll",
     "zh_cn": "记录",
     "unitId": 7,
     "phonetic": "/pʁotoˈkɔl/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Alter (nur Sg.)",
+    "word": "Alter",
     "zh_cn": "年龄",
     "unitId": 7,
     "phonetic": "/ˈaltɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "das"
   },
   {
-    "word": "der Informatiker, -",
+    "word": "Informatiker",
     "zh_cn": "计算机科学家，信息学家",
     "unitId": 7,
     "phonetic": "/ɪnfɔʁˈmaːtɪkɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Informatikerin, -nen",
+    "word": "Informatikerin",
     "zh_cn": "女计算机科学家，女信息学家",
     "unitId": 7,
     "phonetic": "/ɪnfɔʁˈmaːtɪkəʁɪn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "die Notiz, -en",
+    "word": "Notiz",
     "zh_cn": "笔记",
     "unitId": 7,
     "phonetic": "/noˈtiːt͡s/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "die Arbeit (hier nur Sg.)",
+    "word": "Arbeit (hier nur Sg.)",
     "zh_cn": "工作",
     "unitId": 7,
     "phonetic": "/ˈaʁbaɪ̯t/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die"
   },
   {
-    "word": "das Wetter (nur Sg.)",
+    "word": "Wetter",
     "zh_cn": "天气",
     "unitId": 7,
     "phonetic": "/ˈvɛtɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "das"
   },
   {
-    "word": "der Rücken, -",
+    "word": "Rücken",
     "zh_cn": "背部",
     "unitId": 7,
     "phonetic": "/ˈʁʏkn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "der Schmerz, -en",
+    "word": "Schmerz",
     "zh_cn": "疼痛",
     "unitId": 7,
     "phonetic": "/ʃmɛʁt͡s/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-en"
   },
   {
-    "word": "die Rückenschmerzen (nur Pl.)",
+    "word": "Rückenschmerzen",
     "zh_cn": "背疼",
     "unitId": 7,
     "phonetic": "/ˈʁʏkn̩ˌʃmɛʁt͡sn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": true,
+    "singularOnly": false,
+    "article": "die"
   },
   {
-    "word": "die Kopfschmerzen (nur Pl.)",
+    "word": "Kopfschmerzen",
     "zh_cn": "头疼",
     "unitId": 7,
     "phonetic": "/ˈkɔp͡fˌʃmɛʁt͡sn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": true,
+    "singularOnly": false,
+    "article": "die"
   },
   {
-    "word": "das Fitnessstudio, -s",
+    "word": "Fitnessstudio",
     "zh_cn": "健身房",
     "unitId": 7,
     "phonetic": "/ˈfɪtnɛsˌʃtuːdi̯o/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "die Person, -en",
+    "word": "Person",
     "zh_cn": "人",
     "unitId": 7,
     "phonetic": "/pɛʁˈzoːn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "der Kollege, -n",
+    "word": "Kollege",
     "zh_cn": "同事",
     "unitId": 7,
     "phonetic": "/kɔˈleːɡə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-n"
   },
   {
-    "word": "die Kollegin, -nen",
+    "word": "Kollegin",
     "zh_cn": "女同事",
     "unitId": 7,
     "phonetic": "/ˌkɔˈleːɡɪn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "der Chef, -s",
+    "word": "Chef",
     "zh_cn": "老板",
     "unitId": 7,
     "phonetic": "/ʃɛf/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "die Chefin, -nen",
+    "word": "Chefin",
     "zh_cn": "女老板",
     "unitId": 7,
     "phonetic": "/ˈʃɛfɪn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
     "word": "kochen (v.)",
@@ -4956,16 +5678,18 @@
     "wordType": "other"
   },
   {
-    "word": "Das ist kein Problem.",
+    "word": "ist kein Problem.",
     "zh_cn": "没问题。",
     "unitId": 7,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das"
   },
   {
-    "word": "Das ist doch egal!",
+    "word": "ist doch egal!",
     "zh_cn": "随便！",
     "unitId": 7,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das"
   },
   {
     "word": "Es regnet.",
@@ -5009,312 +5733,400 @@
     "wordType": "verb"
   },
   {
-    "word": "das Zimmer",
+    "word": "Zimmer",
     "zh_cn": "房间",
     "unitId": 8,
     "phonetic": "/ˈt͡sɪmɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das"
   },
   {
-    "word": "das Hotelzimmer",
+    "word": "Hotelzimmer",
     "zh_cn": "酒店房间",
     "unitId": 8,
     "phonetic": "/hoˈtɛlˌt͡sɪmɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das"
   },
   {
-    "word": "das Studentenzimmer",
+    "word": "Studentenzimmer",
     "zh_cn": "学生宿舍",
     "unitId": 8,
     "phonetic": "/ʃtuˈdɛntn̩ˌt͡sɪmɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das"
   },
   {
-    "word": "das Einfamilienhaus, ¨er",
+    "word": "Einfamilienhaus",
     "zh_cn": "单户住宅",
     "unitId": 8,
     "phonetic": "/ˈaɪ̯nfamiːli̯ənˌhaʊ̯s/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "¨er"
   },
   {
-    "word": "die Wohnung, -en",
+    "word": "Wohnung",
     "zh_cn": "住房，公寓",
     "unitId": 8,
     "phonetic": "/ˈvoːnʊŋ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "die Ferienwohnung, -en",
+    "word": "Ferienwohnung",
     "zh_cn": "假日公寓",
     "unitId": 8,
     "phonetic": "/ˈfeːʁiənˌvoːnʊŋ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "die Zweizimmerwohnung, -en",
+    "word": "Zweizimmerwohnung",
     "zh_cn": "两房公寓",
     "unitId": 8,
     "phonetic": "/t͡svaɪ̯ˈt͡sɪmɐˌvoːnʊŋ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "die Miete, -n",
+    "word": "Miete",
     "zh_cn": "房租",
     "unitId": 8,
     "phonetic": "/ˈmiːtə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Mietwohnung, -en",
+    "word": "Mietwohnung",
     "zh_cn": "租房",
     "unitId": 8,
     "phonetic": "/ˈmiːtˌvoːnʊŋ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "der Norden (nur Sg.)",
+    "word": "Norden",
     "zh_cn": "北方",
     "unitId": 8,
     "phonetic": "/ˈnɔʁdn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "der Süden (nur Sg.)",
+    "word": "Süden",
     "zh_cn": "南方",
     "unitId": 8,
     "phonetic": "/ˈzyːdn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "der Westen (nur Sg.)",
+    "word": "Westen",
     "zh_cn": "西方",
     "unitId": 8,
     "phonetic": "/ˈvɛstn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "der Osten (nur Sg.)",
+    "word": "Osten",
     "zh_cn": "东方",
     "unitId": 8,
     "phonetic": "/ˈɔstn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "das Angebot, -e",
+    "word": "Angebot",
     "zh_cn": "供给",
     "unitId": 8,
     "phonetic": "/ˈanɡəˌboːt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "die Großstadt, ¨e",
+    "word": "Großstadt",
     "zh_cn": "大城市",
     "unitId": 8,
     "phonetic": "/ˈɡʁoːsˌʃtat/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "¨e"
   },
   {
-    "word": "der Einwohner, - 居民，房客",
+    "word": "Einwohner",
     "zh_cn": "居民，房客",
     "unitId": 8,
     "phonetic": "/ˈaɪ̯nˌvoːnɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "- 居民，房客"
   },
   {
-    "word": "die Einwohnerin, -nen",
+    "word": "Einwohnerin",
     "zh_cn": "女性居民，女房客",
     "unitId": 8,
     "phonetic": "/ˈaɪ̯nvoːnəʁɪn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "der Bauernhof, ¨e",
+    "word": "Bauernhof",
     "zh_cn": "农庄",
     "unitId": 8,
     "phonetic": "/ˈbaʊ̯ɐnˌhoːf/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "der Wohnwagen, -",
+    "word": "Wohnwagen",
     "zh_cn": "房车",
     "unitId": 8,
     "phonetic": "/ˈvoːnˌvaːɡn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "der Leuchtturm, ¨e",
+    "word": "Leuchtturm",
     "zh_cn": "灯塔",
     "unitId": 8,
     "phonetic": "/ˈlɔɪ̯çtˌtʊʁm/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "das Baumhaus, ¨er",
+    "word": "Baumhaus",
     "zh_cn": "树屋",
     "unitId": 8,
     "phonetic": "/ˈbaʊ̯mˌhaʊ̯s/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "¨er"
   },
   {
-    "word": "das Hausboot, -e",
+    "word": "Hausboot",
     "zh_cn": "水上房屋",
     "unitId": 8,
     "phonetic": "/ˈhaʊ̯sˌboːt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "der Nachbar, -n",
+    "word": "Nachbar",
     "zh_cn": "邻居",
     "unitId": 8,
     "phonetic": "/ˈnaxˌbaːɐ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-n"
   },
   {
-    "word": "die Nachbarin, -nen",
+    "word": "Nachbarin",
     "zh_cn": "女邻居",
     "unitId": 8,
     "phonetic": "/ˈnaxbaːʁɪn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "die Dusche, -n",
+    "word": "Dusche",
     "zh_cn": "淋浴",
     "unitId": 8,
     "phonetic": "/ˈduːʃə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Internet",
+    "word": "Internet",
     "zh_cn": "互联网",
     "unitId": 8,
     "phonetic": "/ˈɪntɐnɛt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das"
   },
   {
-    "word": "der Koffer, -",
+    "word": "Koffer",
     "zh_cn": "箱子",
     "unitId": 8,
     "phonetic": "/ˈkɔfɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Maus, ¨e",
+    "word": "Maus",
     "zh_cn": "老鼠",
     "unitId": 8,
     "phonetic": "/maʊ̯s/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "¨e"
   },
   {
-    "word": "der Hund, -e",
+    "word": "Hund",
     "zh_cn": "狗",
     "unitId": 8,
     "phonetic": "/hʊnt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "die Katze, -n",
+    "word": "Katze",
     "zh_cn": "猫",
     "unitId": 8,
     "phonetic": "/ˈkat͡sə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Fenster, -",
+    "word": "Fenster",
     "zh_cn": "窗户",
     "unitId": 8,
     "phonetic": "/ˈfɛnstɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "der Stuhl, ¨e",
+    "word": "Stuhl",
     "zh_cn": "椅子",
     "unitId": 8,
     "phonetic": "/ʃtuːl/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "der Tisch, -e",
+    "word": "Tisch",
     "zh_cn": "桌子",
     "unitId": 8,
     "phonetic": "/tɪʃ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Schreibtisch, -e",
+    "word": "Schreibtisch",
     "zh_cn": "书桌",
     "unitId": 8,
     "phonetic": "/ˈʃʁaɪ̯pˌtɪʃ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Esstisch, -e",
+    "word": "Esstisch",
     "zh_cn": "餐桌",
     "unitId": 8,
     "phonetic": "/ˈɛsˌtɪʃ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Schrank, ¨e",
+    "word": "Schrank",
     "zh_cn": "柜子",
     "unitId": 8,
     "phonetic": "/ʃʁaŋk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "der Kühlschrank, ¨e",
+    "word": "Kühlschrank",
     "zh_cn": "冰箱",
     "unitId": 8,
     "phonetic": "/ˈkyːlˌʃʁaŋk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "die Decke, -n",
+    "word": "Decke",
     "zh_cn": "被子",
     "unitId": 8,
     "phonetic": "/ˈdɛkə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Kissen, -",
+    "word": "Kissen",
     "zh_cn": "枕头",
     "unitId": 8,
     "phonetic": "/ˈkɪsn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "das Kinderbett, -en",
+    "word": "Kinderbett",
     "zh_cn": "儿童床",
     "unitId": 8,
     "phonetic": "/ˈkɪndɐˌbɛt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-en"
   },
   {
-    "word": "der Teddybär, -en",
+    "word": "Teddybär",
     "zh_cn": "泰迪熊",
     "unitId": 8,
     "phonetic": "/ˈtɛdiˌbɛːɐ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-en"
   },
   {
-    "word": "der Fernseher, -",
+    "word": "Fernseher",
     "zh_cn": "电视机",
     "unitId": 8,
     "phonetic": "/ˈfɛʁnˌzeːɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "das Sofa, -s",
+    "word": "Sofa",
     "zh_cn": "沙发",
     "unitId": 8,
     "phonetic": "/ˈzoːfa/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "das iPad, -s",
+    "word": "iPad",
     "zh_cn": "平板电脑",
     "unitId": 8,
     "phonetic": "/ˈaɪ̯pæd/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
     "word": "der/das Laptop, -s",
@@ -5324,165 +6136,211 @@
     "wordType": "other"
   },
   {
-    "word": "das Arbeitszimmer, - 工作室，书房",
+    "word": "Arbeitszimmer",
     "zh_cn": "工作室，书房",
     "unitId": 8,
     "phonetic": "/ˈaʁbaɪ̯t͡sˌt͡sɪmɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "- 工作室，书房"
   },
   {
-    "word": "das Wohnzimmer, -",
+    "word": "Wohnzimmer",
     "zh_cn": "客厅",
     "unitId": 8,
     "phonetic": "/ˈvoːnˌt͡sɪmɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "das Esszimmer, -",
+    "word": "Esszimmer",
     "zh_cn": "饭厅",
     "unitId": 8,
     "phonetic": "/ˈɛsˌt͡sɪmɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "das Schlafzimmer, -",
+    "word": "Schlafzimmer",
     "zh_cn": "卧室",
     "unitId": 8,
     "phonetic": "/ˈʃlaːfˌt͡sɪmɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "das Kinderzimmer, -",
+    "word": "Kinderzimmer",
     "zh_cn": "儿童房",
     "unitId": 8,
     "phonetic": "/ˈkɪndɐˌt͡sɪmɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "die Küche, -n",
+    "word": "Küche",
     "zh_cn": "厨房",
     "unitId": 8,
     "phonetic": "/ˈkʏçə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Badezimmer, -(das Bad, ¨er)",
+    "word": "Badezimmer",
     "zh_cn": "浴室",
     "unitId": 8,
     "phonetic": "/ˈbaːdəˌt͡sɪmɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-(das Bad, ¨er)"
   },
   {
-    "word": "die Badewanne, -n",
+    "word": "Badewanne",
     "zh_cn": "浴缸",
     "unitId": 8,
     "phonetic": "/ˈbaːdəˌvanə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Toilette, -n",
+    "word": "Toilette",
     "zh_cn": "卫生间",
     "unitId": 8,
     "phonetic": "/toˈlɛtə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Lampe, -n",
+    "word": "Lampe",
     "zh_cn": "灯",
     "unitId": 8,
     "phonetic": "/ˈlampə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Licht, -er",
+    "word": "Licht",
     "zh_cn": "光",
     "unitId": 8,
     "phonetic": "/lɪçt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-er"
   },
   {
-    "word": "die Nationalität, -en",
+    "word": "Nationalität",
     "zh_cn": "国籍",
     "unitId": 8,
     "phonetic": "/nat͡si̯onaliˈtɛːt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "das Interesse, -n",
+    "word": "Interesse",
     "zh_cn": "兴趣（只用单数），利益",
     "unitId": 8,
     "phonetic": "/ɪntəˈʁɛsə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-n"
   },
   {
-    "word": "die Adresse, -n",
+    "word": "Adresse",
     "zh_cn": "地址",
     "unitId": 8,
     "phonetic": "/aˈdʁɛsə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Wohnort, -e",
+    "word": "Wohnort",
     "zh_cn": "住处",
     "unitId": 8,
     "phonetic": "/ˈvoːnˌʔɔʁt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "die Hausnummer, -n",
+    "word": "Hausnummer",
     "zh_cn": "门牌号",
     "unitId": 8,
     "phonetic": "/ˈhaʊ̯sˌnʊmɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Pflanze, -n",
+    "word": "Pflanze",
     "zh_cn": "植物",
     "unitId": 8,
     "phonetic": "/ˈp͡flant͡sə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Fotoapparat, -e",
+    "word": "Fotoapparat",
     "zh_cn": "照相机",
     "unitId": 8,
     "phonetic": "/ˈfoːtoʔapaˌʁaːt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "die Kaffeemaschine, -n",
+    "word": "Kaffeemaschine",
     "zh_cn": "咖啡机",
     "unitId": 8,
     "phonetic": "/ˈkafemaˌʃiːnə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Geschenk, -e",
+    "word": "Geschenk",
     "zh_cn": "礼物",
     "unitId": 8,
     "phonetic": "/ɡəˈʃɛŋk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Ding, -e",
+    "word": "Ding",
     "zh_cn": "东西",
     "unitId": 8,
     "phonetic": "/dɪŋ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Lieblingsding, -e",
+    "word": "Lieblingsding",
     "zh_cn": "喜欢的东西",
     "unitId": 8,
     "phoneticFailed": true,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "die Nachricht, -en",
+    "word": "Nachricht",
     "zh_cn": "消息，信息",
     "unitId": 8,
     "phonetic": "/ˈnaːxˌʁɪçt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
     "word": "mieten",
@@ -5687,354 +6545,458 @@
     "wordType": "other"
   },
   {
-    "word": "der Trend, -s",
+    "word": "Trend",
     "zh_cn": "趋势",
     "unitId": 9,
     "phonetic": "/tʁɛnt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "die Kleidung (nur Sg.)",
+    "word": "Kleidung",
     "zh_cn": "服装（总称）",
     "unitId": 9,
     "phonetic": "/ˈklaɪ̯dʊŋ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
-    "word": "der Schmuck (nur Sg.)",
+    "word": "Schmuck",
     "zh_cn": "首饰",
     "unitId": 9,
     "phonetic": "/ʃmʊk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "der Schuh, -e",
+    "word": "Schuh",
     "zh_cn": "鞋",
     "unitId": 9,
     "phonetic": "/ʃuː/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "die Unterwäsche (nur Sg.)",
+    "word": "Unterwäsche",
     "zh_cn": "内衣",
     "unitId": 9,
     "phonetic": "/ˈʊntɐˌvɛʃə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
-    "word": "die Sport sachen (nur Pl.)",
+    "word": "Sport sachen",
     "zh_cn": "体育用品",
     "unitId": 9,
     "phoneticFailed": true,
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": true,
+    "singularOnly": false,
+    "article": "die"
   },
   {
-    "word": "die Waschmaschine, -n",
+    "word": "Waschmaschine",
     "zh_cn": "洗衣机",
     "unitId": 9,
     "phonetic": "/ˈvaʃmaˌʃiːnə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Werkzeug, -e",
+    "word": "Werkzeug",
     "zh_cn": "工具",
     "unitId": 9,
     "phonetic": "/ˈvɛʁkˌt͡sɔɪ̯k/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Bankkonto, -konten",
+    "word": "Bankkonto",
     "zh_cn": "银行账户",
     "unitId": 9,
     "phonetic": "/ˈbaŋkˌkɔntoː/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-konten"
   },
   {
-    "word": "das Passwort, ¨er",
+    "word": "Passwort",
     "zh_cn": "密码",
     "unitId": 9,
     "phonetic": "/ˈpasˌvɔʁt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "¨er"
   },
   {
-    "word": "das Wissen (nur Sg.)",
+    "word": "Wissen",
     "zh_cn": "知识",
     "unitId": 9,
     "phonetic": "/ˈvɪsn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "das"
   },
   {
-    "word": "das Mobiltelefon, -e",
+    "word": "Mobiltelefon",
     "zh_cn": "移动电话，手机",
     "unitId": 9,
     "phonetic": "/moˈbiːlteleˌfoːn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Smartphone, -s / das iPhone, -s",
+    "word": "Smartphone",
     "zh_cn": "智能手机",
     "unitId": 9,
     "phonetic": "/ˈsmaʁtfoːn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s / das iPhone, -s"
   },
   {
-    "word": "der Automechaniker, -",
+    "word": "Automechaniker",
     "zh_cn": "汽车修理工",
     "unitId": 9,
     "phonetic": "/ˈaʊ̯tomeˌçaːnɪkɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Sonnenbrille, -n",
+    "word": "Sonnenbrille",
     "zh_cn": "太阳镜",
     "unitId": 9,
     "phonetic": "/ˈzɔnənˌbʁɪlə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Kette, -n",
+    "word": "Kette",
     "zh_cn": "项链",
     "unitId": 9,
     "phonetic": "/ˈkɛtə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Kleidungsstück, -e",
+    "word": "Kleidungsstück",
     "zh_cn": "服装（单件）",
     "unitId": 9,
     "phonetic": "/ˈklaɪ̯dʊŋsˌʃtʏk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "die Hose, -n",
+    "word": "Hose",
     "zh_cn": "裤子",
     "unitId": 9,
     "phonetic": "/ˈhoːzə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Badehose, -n",
+    "word": "Badehose",
     "zh_cn": "游泳裤",
     "unitId": 9,
     "phonetic": "/ˈbaːdəˌhoːzə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Jogginghose, -n",
+    "word": "Jogginghose",
     "zh_cn": "运动裤",
     "unitId": 9,
     "phonetic": "/ˈd͡ʒɔɡɪŋˌhoːzə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Jeans, -",
+    "word": "Jeans",
     "zh_cn": "牛仔裤",
     "unitId": 9,
     "phonetic": "/d͡ʒiːns/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-"
   },
   {
-    "word": "der Gürtel, -",
+    "word": "Gürtel",
     "zh_cn": "皮带",
     "unitId": 9,
     "phonetic": "/ˈɡʏʁtl̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Jacke, -n",
+    "word": "Jacke",
     "zh_cn": "夹克",
     "unitId": 9,
     "phonetic": "/ˈjakə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Mantel, ¨",
+    "word": "Mantel",
     "zh_cn": "大衣",
     "unitId": 9,
     "phonetic": "/ˈmantl̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨"
   },
   {
-    "word": "der Regenmantel, ¨",
+    "word": "Regenmantel",
     "zh_cn": "雨衣",
     "unitId": 9,
     "phonetic": "/ˈʁeːɡn̩ˌmantl̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨"
   },
   {
-    "word": "die Mütze, -n",
+    "word": "Mütze",
     "zh_cn": "帽子",
     "unitId": 9,
     "phonetic": "/ˈmʏt͡sə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Schal, -s",
+    "word": "Schal",
     "zh_cn": "围巾",
     "unitId": 9,
     "phonetic": "/ʃaːl/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "der Handschuh, -e",
+    "word": "Handschuh",
     "zh_cn": "手套",
     "unitId": 9,
     "phonetic": "/ˈhantˌʃuː/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "das Kleid, -er",
+    "word": "Kleid",
     "zh_cn": "连衣裙",
     "unitId": 9,
     "phonetic": "/klaɪ̯t/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-er"
   },
   {
-    "word": "der Rock, ¨e",
+    "word": "Rock",
     "zh_cn": "裙子",
     "unitId": 9,
     "phonetic": "/ʁɔk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "die Bluse, -n",
+    "word": "Bluse",
     "zh_cn": "女士衬衣",
     "unitId": 9,
     "phonetic": "/ˈbluːzə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Hemd, -en",
+    "word": "Hemd",
     "zh_cn": "男士衬衣",
     "unitId": 9,
     "phonetic": "/hɛmt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-en"
   },
   {
-    "word": "der Anzug, ¨e",
+    "word": "Anzug",
     "zh_cn": "西服",
     "unitId": 9,
     "phonetic": "/ˈanˌt͡suːk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "die Krawatte, -n",
+    "word": "Krawatte",
     "zh_cn": "领带",
     "unitId": 9,
     "phonetic": "/kʁaˈvatə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Laufschuh, -e",
+    "word": "Laufschuh",
     "zh_cn": "跑鞋",
     "unitId": 9,
     "phonetic": "/ˈlaʊ̯fˌʃuː/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Strumpf, ¨e",
+    "word": "Strumpf",
     "zh_cn": "长筒袜",
     "unitId": 9,
     "phonetic": "/ʃtʁʊmp͡f/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "¨e"
   },
   {
-    "word": "die Socke, -n",
+    "word": "Socke",
     "zh_cn": "短袜",
     "unitId": 9,
     "phonetic": "/ˈzɔkə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Farbe, -n",
+    "word": "Farbe",
     "zh_cn": "颜色",
     "unitId": 9,
     "phonetic": "/ˈfaʁbə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Netzwerk, -e",
+    "word": "Netzwerk",
     "zh_cn": "网络",
     "unitId": 9,
     "phonetic": "/ˈnɛt͡sˌvɛʁk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "die Fähigkeit, -en",
+    "word": "Fähigkeit",
     "zh_cn": "能力",
     "unitId": 9,
     "phonetic": "/ˈfɛːɪçkaɪ̯t/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "der Lehrer, -",
+    "word": "Lehrer",
     "zh_cn": "老师，男老师",
     "unitId": 9,
     "phonetic": "/ˈleːʁɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Lehrerin, -nen",
+    "word": "Lehrerin",
     "zh_cn": "女老师",
     "unitId": 9,
     "phonetic": "/ˈleːʁəʁɪn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "der Unterricht",
+    "word": "Unterricht",
     "zh_cn": "课程",
     "unitId": 9,
     "phonetic": "/ˈʊntɐˌʁɪçt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der"
   },
   {
-    "word": "die Gymnastikübung, -en",
+    "word": "Gymnastikübung",
     "zh_cn": "体操练习",
     "unitId": 9,
     "phonetic": "/ɡʏmˈnastɪkˌʔyːbʊŋ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "das Computerprogramm, -e",
+    "word": "Computerprogramm",
     "zh_cn": "电脑程序",
     "unitId": 9,
     "phonetic": "/kɔmˈpjuːtɐpʁoˌɡʁam/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "das Rezept, -e",
+    "word": "Rezept",
     "zh_cn": "食谱，菜谱",
     "unitId": 9,
     "phonetic": "/ʁeˈt͡sɛpt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "der Tipp, -s",
+    "word": "Tipp",
     "zh_cn": "建议",
     "unitId": 9,
     "phonetic": "/tɪp/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "der Brief, -e",
+    "word": "Brief",
     "zh_cn": "信件",
     "unitId": 9,
     "phonetic": "/bʁiːf/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "das Märchen, -",
+    "word": "Märchen",
     "zh_cn": "童话",
     "unitId": 9,
     "phonetic": "/ˈmɛːɐ̯çən/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "das Bild, -er",
+    "word": "Bild",
     "zh_cn": "图片",
     "unitId": 9,
     "phonetic": "/bɪlt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-er"
   },
   {
     "word": "teilen",
@@ -6372,436 +7334,568 @@
     "wordType": "other"
   },
   {
-    "word": "das Fest, -e",
+    "word": "Fest",
     "zh_cn": "节日",
     "unitId": 10,
     "phonetic": "/fɛst/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "der Gast, -e",
+    "word": "Gast",
     "zh_cn": "客人",
     "unitId": 10,
     "phonetic": "/ɡast/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Ball, -e (Fest)",
+    "word": "Ball",
     "zh_cn": "舞会",
     "unitId": 10,
     "phonetic": "/bal/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e (Fest)"
   },
   {
-    "word": "das Kostüm, -e",
+    "word": "Kostüm",
     "zh_cn": "服装",
     "unitId": 10,
     "phonetic": "/kɔsˈtyːm/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "die Maske, -n",
+    "word": "Maske",
     "zh_cn": "面具",
     "unitId": 10,
     "phonetic": "/ˈmaskə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Politiker, -",
+    "word": "Politiker",
     "zh_cn": "政治家",
     "unitId": 10,
     "phonetic": "/poˈliːtɪkɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Politikerin, -nen",
+    "word": "Politikerin",
     "zh_cn": "女政治家",
     "unitId": 10,
     "phonetic": "/poˈliːtɪkəʁɪn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "die Veranstaltung, -en",
+    "word": "Veranstaltung",
     "zh_cn": "活动",
     "unitId": 10,
     "phonetic": "/fɛɐ̯ˈʔanʃtaltʊŋ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "die Hilfe, -n",
+    "word": "Hilfe",
     "zh_cn": "帮助",
     "unitId": 10,
     "phonetic": "/ˈhɪlfə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Modenschau, -en",
+    "word": "Modenschau",
     "zh_cn": "时装表演",
     "unitId": 10,
     "phonetic": "/ˈmoːdn̩ˌʃaʊ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "der Prinz, -en",
+    "word": "Prinz",
     "zh_cn": "王子",
     "unitId": 10,
     "phonetic": "/pʁɪnt͡s/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-en"
   },
   {
-    "word": "die Prinzessin, -nen",
+    "word": "Prinzessin",
     "zh_cn": "公主",
     "unitId": 10,
     "phonetic": "/pʁɪnˈt͡sɛsɪn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "das Gesicht, -er",
+    "word": "Gesicht",
     "zh_cn": "面孔，脸",
     "unitId": 10,
     "phonetic": "/ɡəˈzɪçt/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-er"
   },
   {
-    "word": "das Datum, Daten",
+    "word": "Datum",
     "zh_cn": "日期；数据",
     "unitId": 10,
     "phonetic": "/ˈdaːtʊm/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "Daten"
   },
   {
-    "word": "der Geburtstag, -e",
+    "word": "Geburtstag",
     "zh_cn": "生日",
     "unitId": 10,
     "phonetic": "/ɡəˈbuːɐ̯t͡sˌtaːk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Namenstag, -e",
+    "word": "Namenstag",
     "zh_cn": "命名日",
     "unitId": 10,
     "phonetic": "/ˈnaːmənsˌtaːk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "das Geschenk, -e",
+    "word": "Geschenk",
     "zh_cn": "礼物",
     "unitId": 10,
     "phonetic": "/ɡəˈʃɛŋk/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "der Geburtstagskalender, -",
+    "word": "Geburtstagskalender",
     "zh_cn": "生日日历",
     "unitId": 10,
     "phoneticFailed": true,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Geburtstagskarte, -n",
+    "word": "Geburtstagskarte",
     "zh_cn": "生日卡",
     "unitId": 10,
     "phonetic": "/ɡəˈbuːɐ̯t͡staːksˌkaʁtə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Feier, -n",
+    "word": "Feier",
     "zh_cn": "庆祝",
     "unitId": 10,
     "phonetic": "/ˈfaɪ̯ɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Einladung, -en",
+    "word": "Einladung",
     "zh_cn": "邀请",
     "unitId": 10,
     "phonetic": "/ˈaɪ̯nˌlaːdʊŋ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "die Entschuldigung, -en",
+    "word": "Entschuldigung",
     "zh_cn": "抱歉，对不起",
     "unitId": 10,
     "phonetic": "/ɛntˈʃʊldɪɡʊŋ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "das Motto, -s",
+    "word": "Motto",
     "zh_cn": "格言",
     "unitId": 10,
     "phonetic": "/ˈmɔto/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-s"
   },
   {
-    "word": "der Partner, -",
+    "word": "Partner",
     "zh_cn": "伙伴",
     "unitId": 10,
     "phonetic": "/ˈpaʁtnɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "die Partnerin, -nen",
+    "word": "Partnerin",
     "zh_cn": "女伙伴",
     "unitId": 10,
     "phonetic": "/ˈpaʁtnəʁɪn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-nen"
   },
   {
-    "word": "der Ordner, -",
+    "word": "Ordner",
     "zh_cn": "文件夹",
     "unitId": 10,
     "phonetic": "/ˈɔʁdnɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "der / die Jugendliche, -n",
+    "word": "/ die Jugendliche",
     "zh_cn": "年轻人",
     "unitId": 10,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-n"
   },
   {
-    "word": "der / die Erwachsene, -n",
+    "word": "/ die Erwachsene",
     "zh_cn": "成年人",
     "unitId": 10,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-n"
   },
   {
-    "word": "das Treffen, -",
+    "word": "Treffen",
     "zh_cn": "见面",
     "unitId": 10,
     "phonetic": "/ˈtʁɛfn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "das Abendessen, -",
+    "word": "Abendessen",
     "zh_cn": "晚餐",
     "unitId": 10,
     "phonetic": "/ˈaːbn̩tˌʔɛsn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-"
   },
   {
-    "word": "die Atmosphäre (nur Sg.)",
+    "word": "Atmosphäre",
     "zh_cn": "气氛",
     "unitId": 10,
     "phonetic": "/atmoˈsfɛːʁə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "die"
   },
   {
-    "word": "die Organisation, -en",
+    "word": "Organisation",
     "zh_cn": "组织",
     "unitId": 10,
     "phonetic": "/ˌɔʁɡanizaˈt͡si̯oːn/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "die Daten (nur Pl.)",
+    "word": "Daten",
     "zh_cn": "数据",
     "unitId": 10,
     "phonetic": "/ˈdaːtn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": true,
+    "singularOnly": false,
+    "article": "die"
   },
   {
-    "word": "die Vorspeise, -n",
+    "word": "Vorspeise",
     "zh_cn": "前餐",
     "unitId": 10,
     "phonetic": "/ˈfoːɐ̯ˌʃpaɪ̯zə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Hauptspeise, -n",
+    "word": "Hauptspeise",
     "zh_cn": "主餐",
     "unitId": 10,
     "phonetic": "/ˈhaʊ̯ptˌʃpaɪ̯zə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "das Lokal, -e",
+    "word": "Lokal",
     "zh_cn": "酒馆，地点",
     "unitId": 10,
     "phonetic": "/loˈkaːl/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-e"
   },
   {
-    "word": "die Kosten (nur Pl.)",
+    "word": "Kosten",
     "zh_cn": "费用",
     "unitId": 10,
     "phonetic": "/ˈkɔstn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": true,
+    "singularOnly": false,
+    "article": "die"
   },
   {
-    "word": "die Website, -s",
+    "word": "Website",
     "zh_cn": "网页",
     "unitId": 10,
     "phonetic": "/ˈvɛpˌsaɪ̯t/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-s"
   },
   {
-    "word": "die Telefonnummer, -n",
+    "word": "Telefonnummer",
     "zh_cn": "电话号码",
     "unitId": 10,
     "phonetic": "/teləˈfoːnˌnʊmɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Postleitzahl, -en",
+    "word": "Postleitzahl",
     "zh_cn": "邮编",
     "unitId": 10,
     "phonetic": "/ˈpɔstlaɪ̯tˌt͡saːl/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-en"
   },
   {
-    "word": "das Fleisch (nur Sg.)",
+    "word": "Fleisch",
     "zh_cn": "肉",
     "unitId": 10,
     "phonetic": "/flaɪ̯ʃ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "das"
   },
   {
-    "word": "der Reis (nur Sg.)",
+    "word": "Reis",
     "zh_cn": "大米",
     "unitId": 10,
     "phonetic": "/ʁaɪ̯s/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "die Kartoffel, -n",
+    "word": "Kartoffel",
     "zh_cn": "土豆",
     "unitId": 10,
     "phonetic": "/kaʁˈtɔfl̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Nudel, -n",
+    "word": "Nudel",
     "zh_cn": "面条",
     "unitId": 10,
     "phonetic": "/ˈnuːdl̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "die Tomate, -n",
+    "word": "Tomate",
     "zh_cn": "番茄",
     "unitId": 10,
     "phonetic": "/toˈmaːtə/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "die",
+    "plural": "-n"
   },
   {
-    "word": "der Zucker (nur Sg.)",
+    "word": "Zucker",
     "zh_cn": "糖",
     "unitId": 10,
     "phonetic": "/ˈt͡sʊkɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "der Alkohol (nur Sg.)",
+    "word": "Alkohol",
     "zh_cn": "酒，酒精",
     "unitId": 10,
     "phonetic": "/ˈalkohoːl/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": false,
+    "singularOnly": true,
+    "article": "der"
   },
   {
-    "word": "das Glas, -er",
+    "word": "Glas",
     "zh_cn": "杯子，玻璃杯",
     "unitId": 10,
     "phonetic": "/ɡlaːs/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das",
+    "plural": "-er"
   },
   {
-    "word": "der Bauch, -e",
+    "word": "Bauch",
     "zh_cn": "肚子",
     "unitId": 10,
     "phonetic": "/baʊ̯x/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "die Bauchschmerzen (nur Pl.)",
+    "word": "Bauchschmerzen",
     "zh_cn": "肚子疼",
     "unitId": 10,
     "phonetic": "/ˈbaʊ̯xˌʃmɛʁt͡sn̩/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "pluralOnly": true,
+    "singularOnly": false,
+    "article": "die"
   },
   {
-    "word": "der Januar, -e",
+    "word": "Januar",
     "zh_cn": "一月",
     "unitId": 10,
     "phonetic": "/ˈjanuaːɐ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Februar, -e",
+    "word": "Februar",
     "zh_cn": "二月",
     "unitId": 10,
     "phonetic": "/ˈfeːbʁuaːɐ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der März, -e",
+    "word": "März",
     "zh_cn": "三月",
     "unitId": 10,
     "phonetic": "/mɛʁt͡s/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der April, -e",
+    "word": "April",
     "zh_cn": "四月",
     "unitId": 10,
     "phonetic": "/aˈpʁɪl/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Mai, -e",
+    "word": "Mai",
     "zh_cn": "五月",
     "unitId": 10,
     "phonetic": "/maɪ̯/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der Juni, -s",
+    "word": "Juni",
     "zh_cn": "六月",
     "unitId": 10,
     "phonetic": "/ˈjuːni/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "der Juli, -s",
+    "word": "Juli",
     "zh_cn": "七月",
     "unitId": 10,
     "phonetic": "/ˈjuːli/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-s"
   },
   {
-    "word": "der August, -e",
+    "word": "August",
     "zh_cn": "八月",
     "unitId": 10,
     "phonetic": "/aʊ̯ˈɡʊst/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-e"
   },
   {
-    "word": "der September, -",
+    "word": "September",
     "zh_cn": "九月",
     "unitId": 10,
     "phonetic": "/zɛpˈtɛmbɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "der Oktober, -",
+    "word": "Oktober",
     "zh_cn": "十月",
     "unitId": 10,
     "phonetic": "/ɔkˈtoːbɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "der November, -",
+    "word": "November",
     "zh_cn": "十一月",
     "unitId": 10,
     "phonetic": "/noˈvɛmbɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
-    "word": "der Dezember, -",
+    "word": "Dezember",
     "zh_cn": "十二月",
     "unitId": 10,
     "phonetic": "/deˈt͡sɛmbɐ/",
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "der",
+    "plural": "-"
   },
   {
     "word": "feiern",
@@ -7153,10 +8247,11 @@
     "wordType": "other"
   },
   {
-    "word": "Das ist schade!",
+    "word": "ist schade!",
     "zh_cn": "很遗憾!",
     "unitId": 10,
-    "wordType": "noun"
+    "wordType": "noun",
+    "article": "das"
   },
   {
     "word": "Guten Appetit!",

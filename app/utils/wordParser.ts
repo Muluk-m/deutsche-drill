@@ -1,11 +1,11 @@
 /**
  * 德语单词格式解析工具
  * 
- * 格式规则：
- * 1. der Vorname, -n → 词性 der, 复数加 -n
- * 2. die Schokolade (nur Sg.) → 括号内是说明
- * 3. das Buch, ¨-er → 复数有元音变音
+ * 新版本优先使用 Word 对象上的 article/plural 字段
+ * 同时保持对旧格式字符串的兼容
  */
+
+import type { Word } from '../types/word';
 
 export interface ParsedWord {
   full: string;                 // 完整的单词（包括词性、复数标记等）
@@ -16,11 +16,61 @@ export interface ParsedWord {
   word: string;                 // 单词本身
   plural?: string;              // 复数形式标记
   pluralWord?: string;          // 复数单词
-  note?: string;                // 括号内的说明
+  singularOnly?: boolean;       // 只有单数
+  pluralOnly?: boolean;         // 只有复数
 }
 
 /**
- * 解析德语单词
+ * 从 Word 对象解析德语单词（新版本，优先使用）
+ */
+export function parseWord(wordObj: Word): ParsedWord {
+  const word = wordObj.word;
+  const article = wordObj.article;
+  const plural = wordObj.plural;
+  const singularOnly = wordObj.singularOnly;
+  const pluralOnly = wordObj.pluralOnly;
+  
+  let forPronunciation = word;
+  let singularForPronunciation = article ? `${article} ${word}` : word;
+  let pluralForPronunciation: string | undefined;
+  let pluralWord: string | undefined;
+  
+  // 计算复数形式
+  if (plural && plural !== '-' && !singularOnly) {
+    pluralWord = buildPluralForm(word, plural);
+    // 复数通常使用 die
+    pluralForPronunciation = article ? `die ${pluralWord}` : pluralWord;
+  }
+  
+  // 构建完整显示形式
+  let full = article ? `${article} ${word}` : word;
+  if (plural) {
+    full += `, ${plural}`;
+  }
+  if (singularOnly) {
+    full += ' (nur Sg.)';
+  }
+  if (pluralOnly) {
+    full += ' (nur Pl.)';
+  }
+  
+  return {
+    full,
+    forPronunciation,
+    singularForPronunciation,
+    pluralForPronunciation,
+    article,
+    word,
+    plural,
+    pluralWord,
+    singularOnly,
+    pluralOnly,
+  };
+}
+
+/**
+ * 解析德语单词字符串（兼容旧格式）
+ * @deprecated 优先使用 parseWord(wordObj)
  */
 export function parseGermanWord(wordString: string | undefined): ParsedWord {
   // 安全检查
@@ -38,6 +88,8 @@ export function parseGermanWord(wordString: string | undefined): ParsedWord {
   // 提取括号内的说明
   const noteMatch = full.match(/\((.*?)\)/);
   const note = noteMatch ? noteMatch[1] : undefined;
+  const singularOnly = note?.includes('nur Sg') || false;
+  const pluralOnly = note?.includes('nur Pl') || false;
   
   // 移除括号部分，获取主要内容
   const mainPart = full.replace(/\s*\(.*?\)\s*/g, '').trim();
@@ -71,7 +123,7 @@ export function parseGermanWord(wordString: string | undefined): ParsedWord {
     singularForPronunciation = `${article} ${word}`;
     
     // 计算复数形式
-    if (plural && plural !== '-' && !note?.includes('nur Sg')) {
+    if (plural && plural !== '-' && !singularOnly) {
       pluralWord = buildPluralForm(word, plural);
       // 复数通常使用 die
       pluralForPronunciation = `die ${pluralWord}`;
@@ -89,7 +141,7 @@ export function parseGermanWord(wordString: string | undefined): ParsedWord {
     singularForPronunciation = word;
     
     // 没有词性的情况，复数也不加词性
-    if (plural && plural !== '-' && !note?.includes('nur Sg')) {
+    if (plural && plural !== '-' && !singularOnly) {
       pluralWord = buildPluralForm(word, plural);
       pluralForPronunciation = pluralWord;
     }
@@ -104,7 +156,8 @@ export function parseGermanWord(wordString: string | undefined): ParsedWord {
     word,
     plural,
     pluralWord,
-    note,
+    singularOnly,
+    pluralOnly,
   };
 }
 

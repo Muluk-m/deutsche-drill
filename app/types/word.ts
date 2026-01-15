@@ -5,6 +5,10 @@ export interface Word {
   phoneticFailed?: boolean; // 音标获取失败标记
   unitId?: number;          // 所属单元 ID，例如 1, 2, 3...
   wordType?: 'noun' | 'verb' | 'adjective' | 'other'; // 单词类型
+  article?: 'der' | 'die' | 'das';  // 名词冠词
+  plural?: string;          // 复数后缀，如 -n, -e, ¨-er
+  singularOnly?: boolean;   // 只有单数形式 (nur Sg.)
+  pluralOnly?: boolean;     // 只有复数形式 (nur Pl.)
   verbConjugation?: VerbConjugation; // 动词变位数据
   exampleSentences?: string[]; // 例句（用于填空练习）
 }

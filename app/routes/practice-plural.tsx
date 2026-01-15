@@ -2,7 +2,7 @@ import type { Route } from "./+types/practice-plural";
 import { Link, useNavigate } from "react-router";
 import { useState, useEffect, useRef } from "react";
 import type { Word } from "../types/word";
-import { parseGermanWord } from "../utils/wordParser";
+import { buildPluralForm } from "../utils/wordParser";
 import { recordStudySession, saveTestResult, addFavorite, removeFavorite, isFavorite } from "../utils/storageManager";
 import { GermanKeyboardCompact } from "../components/GermanKeyboard";
 import {
@@ -56,17 +56,17 @@ export default function PracticePlural() {
       setIsWordFavorite(true);
     }
   };
-  const parsed = currentWord ? parseGermanWord(currentWord.word) : null;
-  const correctPlural = parsed?.pluralWord;
+  // 使用新数据结构计算复数形式
+  const correctPlural = currentWord?.plural && currentWord.plural !== '-' && !currentWord.singularOnly
+    ? buildPluralForm(currentWord.word, currentWord.plural)
+    : null;
 
   useEffect(() => {
     fetch("/words.json")
       .then((res) => res.json() as Promise<Word[]>)
       .then((data) => {
-        const wordsWithPlural = data.filter((w) => {
-          const p = parseGermanWord(w.word);
-          return p.plural && p.plural !== "-" && !p.note?.includes("nur Sg");
-        });
+        // 直接使用 Word 对象上的 plural 字段
+        const wordsWithPlural = data.filter((w) => w.plural && w.plural !== "-" && !w.singularOnly);
         const shuffled = [...wordsWithPlural].sort(() => Math.random() - 0.5);
         setPluralWords(shuffled.slice(0, 40));
       });
@@ -131,7 +131,7 @@ export default function PracticePlural() {
     }, 0);
   };
 
-  const getHint = () => (!parsed || !parsed.plural ? "" : `变化规则：${parsed.plural}`);
+  const getHint = () => (!currentWord?.plural ? "" : `变化规则：${currentWord.plural}`);
   const progress = pluralWords.length > 0 ? ((currentIndex + 1) / pluralWords.length) * 100 : 0;
 
   // Completion State
@@ -202,7 +202,7 @@ export default function PracticePlural() {
   }
 
   // Loading State
-  if (!currentWord || !parsed || !correctPlural) {
+  if (!currentWord || !correctPlural) {
     return (
       <div className="min-h-screen bg-gray-50 dark:bg-gray-950 flex items-center justify-center">
         <div className="text-center">
@@ -254,7 +254,10 @@ export default function PracticePlural() {
           {/* Singular Word */}
           <div className="bg-teal-50 dark:bg-teal-900/20 rounded-xl p-6 mb-4">
             <p className="text-xs text-teal-600 dark:text-teal-400 font-medium mb-2">单数：</p>
-            <p className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2">{currentWord.word}</p>
+            <p className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2">
+              {currentWord.article && <span className="text-gray-500">{currentWord.article} </span>}
+              {currentWord.word}
+            </p>
             <p className="text-gray-600 dark:text-gray-400">{currentWord.zh_cn}</p>
           </div>
 
@@ -337,7 +340,7 @@ export default function PracticePlural() {
               <div className="bg-white dark:bg-gray-800 rounded-xl p-4">
                 <p className="text-sm text-gray-500 mb-1">变化规则：</p>
                 <p className="text-gray-700 dark:text-gray-300">
-                  {parsed.word} <span className="text-teal-600 font-bold">+ {parsed.plural}</span> = {correctPlural}
+                  {currentWord.word} <span className="text-teal-600 font-bold">+ {currentWord.plural}</span> = {correctPlural}
                 </p>
               </div>
             </div>
@@ -371,7 +374,7 @@ export default function PracticePlural() {
       )}
 
       {/* Tips */}
-      <div className="px-4 pb-4" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
+      <div className="px-4 pb-4">
         <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-4">
           <div className="flex items-start gap-2">
             <Lightbulb className="w-4 h-4 text-blue-600 dark:text-blue-400 mt-0.5 flex-shrink-0" />

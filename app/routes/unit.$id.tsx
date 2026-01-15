@@ -3,15 +3,15 @@ import { Link, useParams, useNavigate } from "react-router";
 import { useState, useEffect } from "react";
 import type { Word } from "../types/word";
 import { getUnitWords, getUnitProgress } from "../utils/unitManager";
-import { parseGermanWord, buildPluralForm } from "../utils/wordParser";
-import { 
-  ChevronLeft, 
-  ChevronRight, 
-  BookOpen, 
-  RefreshCw, 
-  Target, 
+import { buildPluralForm } from "../utils/wordParser";
+import {
+  ChevronLeft,
+  ChevronRight,
+  BookOpen,
+  RefreshCw,
+  Target,
   CheckCircle,
-  Trophy
+  Trophy,
 } from "lucide-react";
 
 export function meta({ params }: Route.MetaArgs) {
@@ -22,7 +22,7 @@ export default function UnitDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
   const unitId = parseInt(id || "1");
-  
+
   const [allWords, setAllWords] = useState<Word[]>([]);
   const [unitWords, setUnitWords] = useState<Word[]>([]);
   const [learnedWords, setLearnedWords] = useState<string[]>([]);
@@ -34,7 +34,7 @@ export default function UnitDetail() {
         setAllWords(data);
         const words = getUnitWords(data, unitId);
         setUnitWords(words);
-        
+
         const learned = JSON.parse(
           localStorage.getItem("learnedWords") || "[]"
         ) as string[];
@@ -42,13 +42,19 @@ export default function UnitDetail() {
       });
   }, [unitId]);
 
-  const progress = allWords.length > 0 ? getUnitProgress(unitId, learnedWords, allWords) : { learned: 0, total: 0, percentage: 0 };
+  const progress =
+    allWords.length > 0
+      ? getUnitProgress(unitId, learnedWords, allWords)
+      : { learned: 0, total: 0, percentage: 0 };
   const isCompleted = progress.percentage === 100;
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
       {/* Header */}
-      <header className="sticky top-0 z-40 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-b border-gray-100 dark:border-gray-800" style={{ paddingTop: 'env(safe-area-inset-top, 0px)' }}>
+      <header
+        className="sticky top-0 z-40 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-b border-gray-100 dark:border-gray-800"
+        style={{ paddingTop: "env(safe-area-inset-top, 0px)" }}
+      >
         <div className="px-4 py-3 flex items-center justify-between">
           <button
             onClick={() => navigate(-1)}
@@ -78,9 +84,9 @@ export default function UnitDetail() {
               <p className="text-xs text-blue-300">已学习</p>
             </div>
           </div>
-          
+
           <div className="h-2 bg-white/20 rounded-full overflow-hidden mb-4">
-            <div 
+            <div
               className="h-full bg-white rounded-full transition-all duration-500"
               style={{ width: `${progress.percentage}%` }}
             />
@@ -98,8 +104,8 @@ export default function UnitDetail() {
             <Link
               to={`/review?unit=${unitId}`}
               className={`flex flex-col items-center gap-1 py-3 rounded-xl text-center transition-colors cursor-pointer ${
-                progress.learned > 0 
-                  ? "bg-white/20 hover:bg-white/30" 
+                progress.learned > 0
+                  ? "bg-white/20 hover:bg-white/30"
                   : "bg-white/10 opacity-50 pointer-events-none"
               }`}
             >
@@ -109,8 +115,8 @@ export default function UnitDetail() {
             <Link
               to={`/test-modes?unit=${unitId}`}
               className={`flex flex-col items-center gap-1 py-3 rounded-xl text-center transition-colors cursor-pointer ${
-                progress.learned > 0 
-                  ? "bg-white/20 hover:bg-white/30" 
+                progress.learned > 0
+                  ? "bg-white/20 hover:bg-white/30"
                   : "bg-white/10 opacity-50 pointer-events-none"
               }`}
             >
@@ -127,8 +133,12 @@ export default function UnitDetail() {
               <Trophy className="w-6 h-6 text-green-600 dark:text-green-400" />
             </div>
             <div>
-              <h3 className="font-semibold text-green-700 dark:text-green-400">单元完成！</h3>
-              <p className="text-sm text-green-600 dark:text-green-500">你已掌握所有单词</p>
+              <h3 className="font-semibold text-green-700 dark:text-green-400">
+                单元完成！
+              </h3>
+              <p className="text-sm text-green-600 dark:text-green-500">
+                你已掌握所有单词
+              </p>
             </div>
           </div>
         )}
@@ -138,15 +148,15 @@ export default function UnitDetail() {
           <h2 className="text-lg font-bold text-gray-900 dark:text-gray-100 px-1 mb-3">
             单词列表
           </h2>
-          
+
           {unitWords.map((word, unitIndex) => {
             const isLearned = learnedWords.includes(word.word);
-            const parsed = parseGermanWord(word.word);
-            let pluralForm = null;
-            if (parsed.plural && parsed.plural !== "-") {
-              pluralForm = buildPluralForm(parsed.word, parsed.plural);
-            }
-            
+            // 使用 Word 对象上的新字段
+            const pluralForm =
+              word.plural && word.plural !== "-" && !word.singularOnly
+                ? buildPluralForm(word.word, word.plural)
+                : null;
+
             return (
               <Link
                 key={unitIndex}
@@ -159,41 +169,49 @@ export default function UnitDetail() {
               >
                 <div className="flex items-start gap-3">
                   {/* Status */}
-                  <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ${
-                    isLearned 
-                      ? "bg-green-500 text-white" 
-                      : "bg-gray-100 dark:bg-gray-700 text-gray-500 dark:text-gray-400"
-                  }`}>
+                  <div
+                    className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ${
+                      isLearned
+                        ? "bg-green-500 text-white"
+                        : "bg-gray-100 dark:bg-gray-700 text-gray-500 dark:text-gray-400"
+                    }`}
+                  >
                     {isLearned ? (
                       <CheckCircle className="w-4 h-4" />
                     ) : (
-                      <span className="text-xs font-medium">{unitIndex + 1}</span>
+                      <span className="text-xs font-medium">
+                        {unitIndex + 1}
+                      </span>
                     )}
                   </div>
 
                   {/* Content */}
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      {parsed.article && (
-                        <span className={`text-xs font-bold px-1.5 py-0.5 rounded ${
-                          parsed.article === "der" ? "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400" :
-                          parsed.article === "die" ? "bg-pink-100 dark:bg-pink-900/30 text-pink-700 dark:text-pink-400" :
-                          "bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-400"
-                        }`}>
-                          {parsed.article}
+                      {word.article && (
+                        <span
+                          className={`text-xs font-bold px-1.5 py-0.5 rounded ${
+                            word.article === "der"
+                              ? "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400"
+                              : word.article === "die"
+                              ? "bg-pink-100 dark:bg-pink-900/30 text-pink-700 dark:text-pink-400"
+                              : "bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-400"
+                          }`}
+                        >
+                          {word.article}
                         </span>
                       )}
                       <span className="font-semibold text-gray-900 dark:text-gray-100">
-                        {parsed.word}
+                        {word.word}
                       </span>
                     </div>
-                    
+
                     {pluralForm && (
                       <p className="text-xs text-gray-500 dark:text-gray-400 mb-1">
                         复数: {pluralForm}
                       </p>
                     )}
-                    
+
                     <p className="text-sm text-gray-600 dark:text-gray-400">
                       {word.zh_cn}
                     </p>

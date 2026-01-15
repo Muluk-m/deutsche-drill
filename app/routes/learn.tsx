@@ -1,7 +1,7 @@
 import type { Route } from "./+types/learn";
 import { useState, useEffect, useRef } from "react";
 import { useSearchParams, useNavigate } from "react-router";
-import { parseGermanWord, buildPluralForm } from "../utils/wordParser";
+import { buildPluralForm } from "../utils/wordParser";
 import type { Word } from "../types/word";
 import { useAnswerCheck } from "../hooks/useAnswerCheck";
 import { usePhonetics } from "../hooks/usePhonetics";
@@ -13,12 +13,14 @@ import {
   ChevronRight,
   Volume2,
   Eye,
+  EyeOff,
   PenTool,
   CheckCircle,
   XCircle,
   Sparkles,
   Home,
   RotateCcw,
+  ArrowRight,
 } from "lucide-react";
 
 export function meta({}: Route.MetaArgs) {
@@ -31,7 +33,6 @@ export default function Learn() {
   const unitId = searchParams.get("unit");
   const indexParam = searchParams.get("index");
 
-  const [allWords, setAllWords] = useState<Word[]>([]);
   const [words, setWords] = useState<Word[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showChinese, setShowChinese] = useState(false);
@@ -54,7 +55,6 @@ export default function Learn() {
     fetch("/words.json")
       .then((res) => res.json() as Promise<Word[]>)
       .then((data) => {
-        setAllWords(data);
         let wordsToLearn: Word[];
         if (unitId) {
           wordsToLearn = getUnitWords(data, parseInt(unitId));
@@ -137,7 +137,6 @@ export default function Learn() {
 
   const progress =
     words.length > 0 ? ((currentIndex + 1) / words.length) * 100 : 0;
-  const parsed = currentWord ? parseGermanWord(currentWord.word) : null;
 
   if (!currentWord) {
     return (
@@ -188,7 +187,7 @@ export default function Learn() {
           {/* Progress Bar */}
           <div className="mt-3 h-1.5 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
             <div
-              className="h-full bg-gradient-to-r from-blue-500 to-purple-500 rounded-full transition-all duration-300"
+              className="h-full bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full transition-all duration-300"
               style={{ width: `${progress}%` }}
             />
           </div>
@@ -200,7 +199,6 @@ export default function Learn() {
         {mode === "learn" ? (
           <LearnMode
             word={currentWord}
-            parsed={parsed}
             phonetic={phonetic}
             showChinese={showChinese}
             setShowChinese={setShowChinese}
@@ -214,7 +212,6 @@ export default function Learn() {
             setUserInput={setUserInput}
             isCorrect={isCorrect}
             handleCheckAnswer={handleCheckAnswer}
-            handleNext={handleNext}
             handleKeyPress={handleKeyPress}
             resetState={() => {
               resetState();
@@ -225,28 +222,62 @@ export default function Learn() {
         )}
       </main>
 
-      {/* Navigation Footer */}
-      <footer
-        className="sticky bottom-0 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-t border-gray-100 dark:border-gray-800"
-        style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
-      >
-        <div className="px-4 py-3 flex gap-3">
-          <button
-            onClick={handlePrevious}
-            disabled={currentIndex === 0}
-            className="flex-1 flex items-center justify-center gap-2 py-3 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-xl font-medium disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-all active:scale-95"
-          >
-            <ChevronLeft className="w-5 h-5" />
-            上一个
-          </button>
-          <button
-            onClick={handleNext}
-            disabled={currentIndex === words.length - 1}
-            className="flex-1 flex items-center justify-center gap-2 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-medium disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-all active:scale-95"
-          >
-            下一个
-            <ChevronRight className="w-5 h-5" />
-          </button>
+      {/* Footer - 根据模式和状态显示不同按钮 */}
+      <footer className="sticky bottom-0 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-t border-gray-100 dark:border-gray-800">
+        <div className="px-4 py-3">
+          {mode === "learn" ? (
+            // 学习模式：显示导航按钮
+            <div className="flex gap-3">
+              <button
+                onClick={handlePrevious}
+                disabled={currentIndex === 0}
+                className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-xl font-medium disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-all active:scale-[0.98]"
+              >
+                <ChevronLeft className="w-5 h-5" />
+                上一个
+              </button>
+              <button
+                onClick={handleNext}
+                disabled={currentIndex === words.length - 1}
+                className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-medium disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-all active:scale-[0.98]"
+              >
+                下一个
+                <ChevronRight className="w-5 h-5" />
+              </button>
+            </div>
+          ) : isCorrect === null ? (
+            // 测试模式-未提交：显示检查按钮
+            <button
+              onClick={handleCheckAnswer}
+              disabled={!userInput.trim()}
+              className="w-full flex items-center justify-center gap-2 py-3.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-all active:scale-[0.98]"
+            >
+              <Sparkles className="w-5 h-5" />
+              检查答案
+            </button>
+          ) : (
+            // 测试模式-已提交：显示操作按钮
+            <div className="flex gap-3">
+              <button
+                onClick={() => {
+                  resetState();
+                  setMode("learn");
+                }}
+                className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-xl font-medium cursor-pointer transition-all active:scale-[0.98]"
+              >
+                <RotateCcw className="w-5 h-5" />
+                重新学习
+              </button>
+              <button
+                onClick={handleNext}
+                disabled={currentIndex === words.length - 1}
+                className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-emerald-500 hover:bg-emerald-600 text-white rounded-xl font-semibold disabled:opacity-40 cursor-pointer transition-all active:scale-[0.98]"
+              >
+                继续
+                <ArrowRight className="w-5 h-5" />
+              </button>
+            </div>
+          )}
         </div>
       </footer>
     </div>
@@ -255,7 +286,6 @@ export default function Learn() {
 
 interface LearnModeProps {
   word: Word;
-  parsed: ReturnType<typeof parseGermanWord> | null;
   phonetic: string | null;
   showChinese: boolean;
   setShowChinese: (show: boolean) => void;
@@ -265,7 +295,6 @@ interface LearnModeProps {
 
 function LearnMode({
   word,
-  parsed,
   phonetic,
   showChinese,
   setShowChinese,
@@ -273,8 +302,8 @@ function LearnMode({
   speak,
 }: LearnModeProps) {
   const pluralForm =
-    parsed?.plural && parsed.plural !== "-"
-      ? buildPluralForm(parsed.word, parsed.plural)
+    word.plural && word.plural !== "-" && !word.singularOnly
+      ? buildPluralForm(word.word, word.plural)
       : null;
 
   return (
@@ -282,37 +311,37 @@ function LearnMode({
       {/* Word Card */}
       <div className="flex-1 flex flex-col items-center justify-center">
         {/* Article Badge */}
-        {parsed?.article && (
+        {word.article && (
           <span
             className={`px-4 py-1.5 rounded-full text-sm font-bold text-white mb-4 ${
-              parsed.article === "der"
+              word.article === "der"
                 ? "bg-blue-500"
-                : parsed.article === "die"
+                : word.article === "die"
                 ? "bg-pink-500"
-                : "bg-purple-500"
+                : "bg-violet-500"
             }`}
           >
-            {parsed.article}
+            {word.article}
           </span>
         )}
 
         {/* Word */}
-        <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-gray-100 text-center mb-3">
-          {parsed?.word || word.word}
+        <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 text-center mb-2">
+          {word.word}
         </h1>
 
         {/* Phonetic */}
         {phonetic && (
-          <p className="text-lg text-gray-500 dark:text-gray-400 font-mono mb-4">
+          <p className="text-base text-gray-400 dark:text-gray-500 font-mono mb-4">
             [{phonetic}]
           </p>
         )}
 
         {/* Plural */}
         {pluralForm && (
-          <div className="px-4 py-2 bg-purple-50 dark:bg-purple-900/20 rounded-xl mb-4">
-            <span className="text-sm text-purple-600 dark:text-purple-400">
-              复数: <span className="font-semibold">{pluralForm}</span>
+          <div className="px-3 py-1.5 bg-violet-50 dark:bg-violet-900/20 rounded-lg mb-4">
+            <span className="text-sm text-violet-600 dark:text-violet-400">
+              复数: <span className="font-medium">{pluralForm}</span>
             </span>
           </div>
         )}
@@ -320,35 +349,42 @@ function LearnMode({
         {/* Pronunciation Button */}
         <button
           onClick={() => speak(word.word)}
-          className="w-16 h-16 rounded-full flex items-center justify-center mb-6 cursor-pointer transition-all active:scale-90 bg-blue-500 hover:bg-blue-600 text-white shadow-lg"
+          className="w-14 h-14 rounded-full flex items-center justify-center mb-8 cursor-pointer transition-all active:scale-90 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-400"
         >
-          <Volume2 className="w-7 h-7" />
+          <Volume2 className="w-6 h-6" />
         </button>
 
-        {/* Chinese Meaning */}
+        {/* Chinese Meaning Toggle */}
         <div className="w-full max-w-sm">
-          {showChinese ? (
-            <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 text-center shadow-lg border border-gray-100 dark:border-gray-700 animate-scaleIn">
-              <p className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
-                {word.zh_cn}
-              </p>
-            </div>
-          ) : (
-            <button
-              onClick={() => setShowChinese(true)}
-              className="w-full flex items-center justify-center gap-2 py-4 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-2xl font-medium cursor-pointer transition-all active:scale-95"
-            >
-              <Eye className="w-5 h-5" />
-              显示中文释义
-            </button>
-          )}
+          <button
+            onClick={() => setShowChinese(!showChinese)}
+            className={`w-full flex items-center justify-center gap-2 py-4 rounded-2xl font-medium cursor-pointer transition-all active:scale-[0.98] ${
+              showChinese
+                ? "bg-white dark:bg-gray-800 shadow-lg border border-gray-100 dark:border-gray-700"
+                : "bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-400"
+            }`}
+          >
+            {showChinese ? (
+              <>
+                <span className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+                  {word.zh_cn}
+                </span>
+                <EyeOff className="w-4 h-4 text-gray-400 ml-2" />
+              </>
+            ) : (
+              <>
+                <Eye className="w-5 h-5" />
+                点击查看中文释义
+              </>
+            )}
+          </button>
         </div>
       </div>
 
       {/* Test Button */}
       <button
         onClick={() => setMode("test")}
-        className="w-full flex items-center justify-center gap-2 py-4 bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white rounded-2xl font-semibold shadow-lg cursor-pointer transition-all active:scale-95 mt-6"
+        className="w-full flex items-center justify-center gap-2 py-4 bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-600 hover:to-teal-600 text-white rounded-2xl font-semibold cursor-pointer transition-all active:scale-[0.98] mt-6"
       >
         <PenTool className="w-5 h-5" />
         开始拼写测试
@@ -363,7 +399,6 @@ interface TestModeProps {
   setUserInput: (value: string) => void;
   isCorrect: boolean | null;
   handleCheckAnswer: () => void;
-  handleNext: () => void;
   handleKeyPress: (e: React.KeyboardEvent) => void;
   resetState: () => void;
   speak: (text: string) => void;
@@ -374,10 +409,7 @@ function TestMode({
   userInput,
   setUserInput,
   isCorrect,
-  handleCheckAnswer,
-  handleNext,
   handleKeyPress,
-  resetState,
   speak,
 }: TestModeProps) {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -402,9 +434,9 @@ function TestMode({
     <div className="flex-1 flex flex-col">
       {/* Question */}
       <div className="flex-1 flex flex-col items-center justify-center">
-        {/* Chinese Meaning */}
-        <div className="bg-blue-50 dark:bg-blue-900/20 rounded-2xl p-6 mb-6 w-full max-w-sm text-center">
-          <p className="text-xs text-blue-600 dark:text-blue-400 font-medium mb-2">
+        {/* Chinese Meaning Card */}
+        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-2xl p-6 mb-6 w-full max-w-sm text-center border border-blue-100 dark:border-blue-800/30">
+          <p className="text-xs text-blue-500 dark:text-blue-400 font-medium mb-2 uppercase tracking-wide">
             请输入德语单词
           </p>
           <p className="text-2xl font-bold text-gray-900 dark:text-gray-100">
@@ -415,9 +447,9 @@ function TestMode({
         {/* Pronunciation */}
         <button
           onClick={() => speak(word.word)}
-          className="w-14 h-14 rounded-full flex items-center justify-center mb-6 cursor-pointer transition-all active:scale-90 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-400"
+          className="w-12 h-12 rounded-full flex items-center justify-center mb-6 cursor-pointer transition-all active:scale-90 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-500 dark:text-gray-400"
         >
-          <Volume2 className="w-6 h-6" />
+          <Volume2 className="w-5 h-5" />
         </button>
 
         {/* Input */}
@@ -430,47 +462,47 @@ function TestMode({
           disabled={isCorrect !== null}
           placeholder="输入德语单词..."
           autoFocus
-          className={`w-full max-w-sm h-14 px-4 text-center text-xl font-medium bg-white dark:bg-gray-800 border-2 rounded-2xl outline-none transition-all ${
+          className={`w-full max-w-sm h-14 px-4 text-center text-xl font-medium bg-white dark:bg-gray-800 border-2 rounded-xl outline-none transition-all ${
             isCorrect === null
               ? "border-gray-200 dark:border-gray-700 focus:border-blue-500 dark:focus:border-blue-400"
               : isCorrect
-              ? "border-green-500 bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400"
+              ? "border-emerald-500 bg-emerald-50 dark:bg-emerald-900/20 text-emerald-700 dark:text-emerald-400"
               : "border-red-500 bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-400"
           }`}
         />
 
         {/* German Keyboard */}
         {isCorrect === null && (
-          <GermanKeyboardCompact onInsert={handleInsertChar} className="mt-3" />
+          <GermanKeyboardCompact onInsert={handleInsertChar} className="mt-4" />
         )}
 
         {/* Feedback */}
         {isCorrect !== null && (
           <div
-            className={`mt-6 p-4 rounded-2xl w-full max-w-sm animate-scaleIn ${
+            className={`mt-6 p-4 rounded-xl w-full max-w-sm ${
               isCorrect
-                ? "bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800"
+                ? "bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800"
                 : "bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800"
             }`}
           >
             <div className="flex items-center gap-3">
               {isCorrect ? (
-                <CheckCircle className="w-8 h-8 text-green-500 flex-shrink-0" />
+                <CheckCircle className="w-6 h-6 text-emerald-500 flex-shrink-0" />
               ) : (
-                <XCircle className="w-8 h-8 text-red-500 flex-shrink-0" />
+                <XCircle className="w-6 h-6 text-red-500 flex-shrink-0" />
               )}
-              <div>
+              <div className="flex-1">
                 <p
                   className={`font-semibold ${
                     isCorrect
-                      ? "text-green-700 dark:text-green-400"
+                      ? "text-emerald-700 dark:text-emerald-400"
                       : "text-red-700 dark:text-red-400"
                   }`}
                 >
-                  {isCorrect ? "回答正确！" : "回答错误"}
+                  {isCorrect ? "正确！" : "错误"}
                 </p>
                 {!isCorrect && (
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                  <p className="text-sm text-gray-600 dark:text-gray-400 mt-0.5">
                     正确答案:{" "}
                     <span className="font-semibold text-gray-900 dark:text-gray-100">
                       {word.word}
@@ -482,35 +514,6 @@ function TestMode({
           </div>
         )}
       </div>
-
-      {/* Actions */}
-      {isCorrect === null ? (
-        <button
-          onClick={handleCheckAnswer}
-          disabled={!userInput.trim()}
-          className="w-full flex items-center justify-center gap-2 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-semibold disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-all active:scale-95"
-        >
-          <Sparkles className="w-5 h-5" />
-          检查答案
-        </button>
-      ) : (
-        <div className="flex gap-3">
-          <button
-            onClick={resetState}
-            className="flex-1 flex items-center justify-center gap-2 py-4 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-2xl font-medium cursor-pointer transition-all active:scale-95"
-          >
-            <RotateCcw className="w-5 h-5" />
-            重新学习
-          </button>
-          <button
-            onClick={handleNext}
-            className="flex-1 flex items-center justify-center gap-2 py-4 bg-green-500 hover:bg-green-600 text-white rounded-2xl font-semibold cursor-pointer transition-all active:scale-95"
-          >
-            下一个
-            <ChevronRight className="w-5 h-5" />
-          </button>
-        </div>
-      )}
     </div>
   );
 }

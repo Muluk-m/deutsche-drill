@@ -13,7 +13,6 @@ import {
   removeFavorite,
   isFavorite,
 } from "../utils/storageManager";
-import { parseGermanWord } from "../utils/wordParser";
 import { GermanKeyboardCompact } from "../components/GermanKeyboard";
 import {
   ChevronLeft,
@@ -156,10 +155,10 @@ export default function TestCnToDe() {
 
   const getHint = () => {
     if (!currentWord) return "";
-    const parsed = parseGermanWord(currentWord.word);
-    return parsed.article
-      ? `${parsed.article} ${parsed.word[0]}...`
-      : `${parsed.word[0]}...`;
+    // 使用 Word 对象上的新字段
+    return currentWord.article
+      ? `${currentWord.article} ${currentWord.word[0]}...`
+      : `${currentWord.word[0]}...`;
   };
 
   const progress =
@@ -276,8 +275,6 @@ export default function TestCnToDe() {
     );
   }
 
-  const parsed = parseGermanWord(currentWord.word);
-
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 flex flex-col">
       {/* Header */}
@@ -342,20 +339,20 @@ export default function TestCnToDe() {
           </div>
 
           {/* Article Hint */}
-          {parsed.article && (
+          {currentWord.article && (
             <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-3 mb-4">
               <p className="text-sm text-blue-700 dark:text-blue-400">
                 这是一个
                 <span
                   className={`font-bold mx-1 ${
-                    parsed.article === "der"
+                    currentWord.article === "der"
                       ? "text-blue-600"
-                      : parsed.article === "die"
+                      : currentWord.article === "die"
                       ? "text-pink-600"
                       : "text-purple-600"
                   }`}
                 >
-                  {parsed.article}
+                  {currentWord.article}
                 </span>
                 词性的名词，请输入完整形式
               </p>

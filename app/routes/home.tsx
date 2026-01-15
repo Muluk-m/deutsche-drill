@@ -16,18 +16,7 @@ import {
   CheckCircle,
   BookOpen,
   ChevronRight,
-  Clock,
   AlertTriangle,
-  Sparkles,
-  Library,
-  GraduationCap,
-  RefreshCw,
-  Target,
-  Headphones,
-  PenTool,
-  Zap,
-  Trophy,
-  Flame,
 } from "lucide-react";
 import { BottomNav } from "../components/BottomNav";
 import { LearningDashboard } from "../components/LearningDashboard";
@@ -276,7 +265,7 @@ export default function Home() {
                   >
                     <div className="flex items-center gap-4">
                       {/* Progress Ring */}
-                      <div className="relative w-14 h-14 flex-shrink-0">
+                      <div className="relative w-14 h-14 shrink-0">
                         <svg className="w-full h-full -rotate-90">
                           <circle
                             cx="28"
@@ -336,7 +325,7 @@ export default function Home() {
                         </p>
                       </div>
 
-                      <ChevronRight className="w-5 h-5 text-gray-300 dark:text-gray-600 flex-shrink-0" />
+                      <ChevronRight className="w-5 h-5 text-gray-300 dark:text-gray-600 shrink-0" />
                     </div>
                   </Link>
                 );
