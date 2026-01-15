@@ -9,6 +9,9 @@ import {
   addMistake,
   recordStudySession,
   saveTestResult,
+  addFavorite,
+  removeFavorite,
+  isFavorite,
 } from "../utils/storageManager";
 import { parseGermanWord } from "../utils/wordParser";
 import { GermanKeyboardCompact } from "../components/GermanKeyboard";
@@ -24,6 +27,7 @@ import {
   XCircle,
   Sparkles,
   SkipForward,
+  Star,
 } from "lucide-react";
 
 export function meta({}: Route.MetaArgs) {
@@ -44,10 +48,30 @@ export default function TestCnToDe() {
   const [score, setScore] = useState({ correct: 0, total: 0 });
   const [showHint, setShowHint] = useState(false);
   const [startTime] = useState(Date.now());
+  const [isWordFavorite, setIsWordFavorite] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
   const currentWord = testWords[currentIndex];
   const { checkAnswer } = useAnswerCheck();
+
+  // 检查当前单词是否已收藏
+  useEffect(() => {
+    if (currentWord) {
+      setIsWordFavorite(isFavorite(currentWord.word));
+    }
+  }, [currentWord]);
+
+  // 切换生词本状态
+  const toggleFavorite = () => {
+    if (!currentWord) return;
+    if (isWordFavorite) {
+      removeFavorite(currentWord.word);
+      setIsWordFavorite(false);
+    } else {
+      addFavorite(currentWord.word, currentWord.zh_cn);
+      setIsWordFavorite(true);
+    }
+  };
 
   useEffect(() => {
     fetch("/words.json")
@@ -365,7 +389,10 @@ export default function TestCnToDe() {
                 autoFocus
                 className="w-full h-14 px-4 text-center text-xl font-medium bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 focus:border-purple-500 rounded-2xl outline-none transition-all mb-2"
               />
-              <GermanKeyboardCompact onInsert={handleInsertChar} className="mb-4" />
+              <GermanKeyboardCompact
+                onInsert={handleInsertChar}
+                className="mb-4"
+              />
               <div className="flex gap-4 justify-center text-sm">
                 <button
                   onClick={() => setShowHint(!showHint)}
@@ -391,29 +418,47 @@ export default function TestCnToDe() {
                   : "bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800"
               }`}
             >
-              <div className="flex items-center gap-3">
-                {isCorrect ? (
-                  <CheckCircle className="w-8 h-8 text-green-500" />
-                ) : (
-                  <XCircle className="w-8 h-8 text-red-500" />
-                )}
-                <div>
-                  <p
-                    className={`font-semibold ${
-                      isCorrect
-                        ? "text-green-700 dark:text-green-400"
-                        : "text-red-700 dark:text-red-400"
-                    }`}
-                  >
-                    {isCorrect ? "回答正确！" : "回答错误"}
-                  </p>
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                    正确答案:{" "}
-                    <span className="font-semibold text-gray-900 dark:text-gray-100">
-                      {currentWord.word}
-                    </span>
-                  </p>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  {isCorrect ? (
+                    <CheckCircle className="w-8 h-8 text-green-500" />
+                  ) : (
+                    <XCircle className="w-8 h-8 text-red-500" />
+                  )}
+                  <div>
+                    <p
+                      className={`font-semibold ${
+                        isCorrect
+                          ? "text-green-700 dark:text-green-400"
+                          : "text-red-700 dark:text-red-400"
+                      }`}
+                    >
+                      {isCorrect ? "回答正确！" : "回答错误"}
+                    </p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                      正确答案:{" "}
+                      <span className="font-semibold text-gray-900 dark:text-gray-100">
+                        {currentWord.word}
+                      </span>
+                    </p>
+                  </div>
                 </div>
+                {/* 生词本按钮 */}
+                <button
+                  onClick={toggleFavorite}
+                  className={`p-2 rounded-xl transition-all cursor-pointer ${
+                    isWordFavorite
+                      ? "bg-amber-100 dark:bg-amber-900/30 text-amber-500"
+                      : "bg-gray-100 dark:bg-gray-700 text-gray-400 hover:text-amber-500"
+                  }`}
+                  title={isWordFavorite ? "从生词本移除" : "加入生词本"}
+                >
+                  <Star
+                    className={`w-5 h-5 ${
+                      isWordFavorite ? "fill-current" : ""
+                    }`}
+                  />
+                </button>
               </div>
             </div>
           )}

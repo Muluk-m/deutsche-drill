@@ -8,17 +8,17 @@ import { usePhonetics } from "../hooks/usePhonetics";
 import { usePronunciation } from "../hooks/usePronunciation";
 import { getUnitWords } from "../utils/unitManager";
 import { GermanKeyboardCompact } from "../components/GermanKeyboard";
-import { 
-  ChevronLeft, 
-  ChevronRight, 
-  Volume2, 
-  Eye, 
-  PenTool, 
-  CheckCircle, 
+import {
+  ChevronLeft,
+  ChevronRight,
+  Volume2,
+  Eye,
+  PenTool,
+  CheckCircle,
   XCircle,
   Sparkles,
   Home,
-  RotateCcw
+  RotateCcw,
 } from "lucide-react";
 
 export function meta({}: Route.MetaArgs) {
@@ -125,12 +125,18 @@ export default function Learn() {
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === "Enter" && mode === "test" && userInput && isCorrect === null) {
+    if (
+      e.key === "Enter" &&
+      mode === "test" &&
+      userInput &&
+      isCorrect === null
+    ) {
       handleCheckAnswer();
     }
   };
 
-  const progress = words.length > 0 ? ((currentIndex + 1) / words.length) * 100 : 0;
+  const progress =
+    words.length > 0 ? ((currentIndex + 1) / words.length) * 100 : 0;
   const parsed = currentWord ? parseGermanWord(currentWord.word) : null;
 
   if (!currentWord) {
@@ -147,7 +153,10 @@ export default function Learn() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 flex flex-col">
       {/* Header */}
-      <header className="sticky top-0 z-40 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-b border-gray-100 dark:border-gray-800" style={{ paddingTop: 'env(safe-area-inset-top, 0px)' }}>
+      <header
+        className="sticky top-0 z-40 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-b border-gray-100 dark:border-gray-800"
+        style={{ paddingTop: "env(safe-area-inset-top, 0px)" }}
+      >
         <div className="px-4 py-3">
           <div className="flex items-center justify-between">
             <button
@@ -156,7 +165,7 @@ export default function Learn() {
             >
               <ChevronLeft className="w-6 h-6" />
             </button>
-            
+
             <div className="text-center">
               {unitId && (
                 <span className="text-xs font-medium text-blue-600 dark:text-blue-400">
@@ -178,7 +187,7 @@ export default function Learn() {
 
           {/* Progress Bar */}
           <div className="mt-3 h-1.5 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
-            <div 
+            <div
               className="h-full bg-gradient-to-r from-blue-500 to-purple-500 rounded-full transition-all duration-300"
               style={{ width: `${progress}%` }}
             />
@@ -207,14 +216,20 @@ export default function Learn() {
             handleCheckAnswer={handleCheckAnswer}
             handleNext={handleNext}
             handleKeyPress={handleKeyPress}
-            resetState={() => { resetState(); setMode("learn"); }}
+            resetState={() => {
+              resetState();
+              setMode("learn");
+            }}
             speak={pronounce}
           />
         )}
       </main>
 
       {/* Navigation Footer */}
-      <footer className="sticky bottom-0 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-t border-gray-100 dark:border-gray-800" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
+      <footer
+        className="sticky bottom-0 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-t border-gray-100 dark:border-gray-800"
+        style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
+      >
         <div className="px-4 py-3 flex gap-3">
           <button
             onClick={handlePrevious}
@@ -248,10 +263,19 @@ interface LearnModeProps {
   speak: (text: string) => void;
 }
 
-function LearnMode({ word, parsed, phonetic, showChinese, setShowChinese, setMode, speak }: LearnModeProps) {
-  const pluralForm = parsed?.plural && parsed.plural !== "-" 
-    ? buildPluralForm(parsed.word, parsed.plural) 
-    : null;
+function LearnMode({
+  word,
+  parsed,
+  phonetic,
+  showChinese,
+  setShowChinese,
+  setMode,
+  speak,
+}: LearnModeProps) {
+  const pluralForm =
+    parsed?.plural && parsed.plural !== "-"
+      ? buildPluralForm(parsed.word, parsed.plural)
+      : null;
 
   return (
     <div className="flex-1 flex flex-col">
@@ -259,11 +283,15 @@ function LearnMode({ word, parsed, phonetic, showChinese, setShowChinese, setMod
       <div className="flex-1 flex flex-col items-center justify-center">
         {/* Article Badge */}
         {parsed?.article && (
-          <span className={`px-4 py-1.5 rounded-full text-sm font-bold text-white mb-4 ${
-            parsed.article === "der" ? "bg-blue-500" :
-            parsed.article === "die" ? "bg-pink-500" :
-            "bg-purple-500"
-          }`}>
+          <span
+            className={`px-4 py-1.5 rounded-full text-sm font-bold text-white mb-4 ${
+              parsed.article === "der"
+                ? "bg-blue-500"
+                : parsed.article === "die"
+                ? "bg-pink-500"
+                : "bg-purple-500"
+            }`}
+          >
             {parsed.article}
           </span>
         )}
@@ -341,17 +369,35 @@ interface TestModeProps {
   speak: (text: string) => void;
 }
 
-function TestMode({ 
-  word, 
-  userInput, 
-  setUserInput, 
-  isCorrect, 
-  handleCheckAnswer, 
+function TestMode({
+  word,
+  userInput,
+  setUserInput,
+  isCorrect,
+  handleCheckAnswer,
   handleNext,
   handleKeyPress,
   resetState,
-  speak
+  speak,
 }: TestModeProps) {
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  const handleInsertChar = (char: string) => {
+    const input = inputRef.current;
+    if (!input) {
+      setUserInput(userInput + char);
+      return;
+    }
+    const start = input.selectionStart || 0;
+    const end = input.selectionEnd || 0;
+    const newValue = userInput.slice(0, start) + char + userInput.slice(end);
+    setUserInput(newValue);
+    setTimeout(() => {
+      input.focus();
+      input.setSelectionRange(start + char.length, start + char.length);
+    }, 0);
+  };
+
   return (
     <div className="flex-1 flex flex-col">
       {/* Question */}
@@ -376,6 +422,7 @@ function TestMode({
 
         {/* Input */}
         <input
+          ref={inputRef}
           type="text"
           value={userInput}
           onChange={(e) => setUserInput(e.target.value)}
@@ -384,21 +431,28 @@ function TestMode({
           placeholder="输入德语单词..."
           autoFocus
           className={`w-full max-w-sm h-14 px-4 text-center text-xl font-medium bg-white dark:bg-gray-800 border-2 rounded-2xl outline-none transition-all ${
-            isCorrect === null 
-              ? "border-gray-200 dark:border-gray-700 focus:border-blue-500 dark:focus:border-blue-400" 
-              : isCorrect 
-              ? "border-green-500 bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400" 
+            isCorrect === null
+              ? "border-gray-200 dark:border-gray-700 focus:border-blue-500 dark:focus:border-blue-400"
+              : isCorrect
+              ? "border-green-500 bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400"
               : "border-red-500 bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-400"
           }`}
         />
 
+        {/* German Keyboard */}
+        {isCorrect === null && (
+          <GermanKeyboardCompact onInsert={handleInsertChar} className="mt-3" />
+        )}
+
         {/* Feedback */}
         {isCorrect !== null && (
-          <div className={`mt-6 p-4 rounded-2xl w-full max-w-sm animate-scaleIn ${
-            isCorrect 
-              ? "bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800" 
-              : "bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800"
-          }`}>
+          <div
+            className={`mt-6 p-4 rounded-2xl w-full max-w-sm animate-scaleIn ${
+              isCorrect
+                ? "bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800"
+                : "bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800"
+            }`}
+          >
             <div className="flex items-center gap-3">
               {isCorrect ? (
                 <CheckCircle className="w-8 h-8 text-green-500 flex-shrink-0" />
@@ -406,12 +460,21 @@ function TestMode({
                 <XCircle className="w-8 h-8 text-red-500 flex-shrink-0" />
               )}
               <div>
-                <p className={`font-semibold ${isCorrect ? "text-green-700 dark:text-green-400" : "text-red-700 dark:text-red-400"}`}>
+                <p
+                  className={`font-semibold ${
+                    isCorrect
+                      ? "text-green-700 dark:text-green-400"
+                      : "text-red-700 dark:text-red-400"
+                  }`}
+                >
                   {isCorrect ? "回答正确！" : "回答错误"}
                 </p>
                 {!isCorrect && (
                   <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                    正确答案: <span className="font-semibold text-gray-900 dark:text-gray-100">{word.word}</span>
+                    正确答案:{" "}
+                    <span className="font-semibold text-gray-900 dark:text-gray-100">
+                      {word.word}
+                    </span>
                   </p>
                 )}
               </div>

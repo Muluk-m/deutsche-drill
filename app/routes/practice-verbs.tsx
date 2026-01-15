@@ -1,8 +1,9 @@
 import type { Route } from "./+types/practice-verbs";
 import { Link, useNavigate } from "react-router";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import type { Word, VerbConjugation } from "../types/word";
-import { recordStudySession, saveTestResult } from "../utils/storageManager";
+import { recordStudySession, saveTestResult, addFavorite, removeFavorite, isFavorite } from "../utils/storageManager";
+import { GermanKeyboardCompact } from "../components/GermanKeyboard";
 import {
   ChevronLeft,
   ChevronRight,
@@ -16,7 +17,8 @@ import {
   XCircle,
   Sparkles,
   SkipForward,
-  AlertCircle
+  AlertCircle,
+  Star,
 } from "lucide-react";
 
 export function meta({}: Route.MetaArgs) {
@@ -94,8 +96,29 @@ export default function PracticeVerbs() {
   const [startTime] = useState(Date.now());
   const [questionsAnswered, setQuestionsAnswered] = useState(0);
   const [totalQuestions] = useState(30);
+  const [isWordFavorite, setIsWordFavorite] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   const currentVerb = verbs[currentIndex];
+
+  // 检查当前单词是否已收藏
+  useEffect(() => {
+    if (currentVerb) {
+      setIsWordFavorite(isFavorite(currentVerb.word));
+    }
+  }, [currentVerb]);
+
+  // 切换生词本状态
+  const toggleFavorite = () => {
+    if (!currentVerb) return;
+    if (isWordFavorite) {
+      removeFavorite(currentVerb.word);
+      setIsWordFavorite(false);
+    } else {
+      addFavorite(currentVerb.word, currentVerb.zh_cn);
+      setIsWordFavorite(true);
+    }
+  };
   const correctAnswer = currentVerb?.verbConjugation.present[currentPronoun];
 
   useEffect(() => {
@@ -162,6 +185,22 @@ export default function PracticeVerbs() {
     setScore({ correct: score.correct, total: score.total + 1 });
     recordStudySession(false);
     setQuestionsAnswered(questionsAnswered + 1);
+  };
+
+  const handleInsertChar = (char: string) => {
+    const input = inputRef.current;
+    if (!input) {
+      setUserInput(userInput + char);
+      return;
+    }
+    const start = input.selectionStart || 0;
+    const end = input.selectionEnd || 0;
+    const newValue = userInput.slice(0, start) + char + userInput.slice(end);
+    setUserInput(newValue);
+    setTimeout(() => {
+      input.focus();
+      input.setSelectionRange(start + char.length, start + char.length);
+    }, 0);
   };
 
   const progress = (questionsAnswered / totalQuestions) * 100;
@@ -335,6 +374,7 @@ export default function PracticeVerbs() {
               <div className="mb-2">
                 <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">{currentPronoun} _______</p>
                 <input
+                  ref={inputRef}
                   type="text"
                   value={userInput}
                   onChange={(e) => setUserInput(e.target.value)}
@@ -343,6 +383,7 @@ export default function PracticeVerbs() {
                   autoFocus
                   className="w-full h-14 px-4 text-center text-xl font-medium bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 focus:border-rose-500 rounded-2xl outline-none transition-all"
                 />
+                <GermanKeyboardCompact onInsert={handleInsertChar} className="mt-2" />
               </div>
               <div className="flex gap-4 justify-center text-sm mt-2">
                 <button onClick={() => setShowHint(!showHint)} className="flex items-center gap-1 text-gray-500 hover:text-rose-600 cursor-pointer">
@@ -363,13 +404,27 @@ export default function PracticeVerbs() {
             <div className={`p-4 rounded-2xl mb-4 ${
               isCorrect ? "bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800" : "bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800"
             }`}>
-              <div className="flex items-center gap-3 mb-3">
-                {isCorrect ? <CheckCircle className="w-8 h-8 text-green-500" /> : <XCircle className="w-8 h-8 text-red-500" />}
-                <div>
-                  <p className={`font-semibold ${isCorrect ? "text-green-700 dark:text-green-400" : "text-red-700 dark:text-red-400"}`}>
-                    {isCorrect ? "正确！" : "错误"}
-                  </p>
+              <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center gap-3">
+                  {isCorrect ? <CheckCircle className="w-8 h-8 text-green-500" /> : <XCircle className="w-8 h-8 text-red-500" />}
+                  <div>
+                    <p className={`font-semibold ${isCorrect ? "text-green-700 dark:text-green-400" : "text-red-700 dark:text-red-400"}`}>
+                      {isCorrect ? "正确！" : "错误"}
+                    </p>
+                  </div>
                 </div>
+                {/* 生词本按钮 */}
+                <button
+                  onClick={toggleFavorite}
+                  className={`p-2 rounded-xl transition-all cursor-pointer ${
+                    isWordFavorite
+                      ? "bg-amber-100 dark:bg-amber-900/30 text-amber-500"
+                      : "bg-gray-100 dark:bg-gray-700 text-gray-400 hover:text-amber-500"
+                  }`}
+                  title={isWordFavorite ? "从生词本移除" : "加入生词本"}
+                >
+                  <Star className={`w-5 h-5 ${isWordFavorite ? "fill-current" : ""}`} />
+                </button>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-xl p-4">
                 <p className="text-sm text-gray-500 mb-1">正确答案：</p>
