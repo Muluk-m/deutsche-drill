@@ -17,13 +17,27 @@
   }
 }
 
-html,
+html {
+  height: 100vh;
+}
+
 body {
   @apply bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 dark:from-gray-950 dark:via-slate-900 dark:to-gray-950;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
+  }
+}
+
+/* iOS 13+ dvh 支持 */
+@supports (height: 100dvh) {
+  html {
+    height: 100dvh;
+  }
+  body {
+    height: 100dvh;
   }
 }
 
@@ -334,12 +348,40 @@ button {
   padding-right: env(safe-area-inset-right, 0);
 }
 
-/* 底部导航内容区域适配 - 为底部导航预留空间 */
-/* 注意：BottomNav 组件本身会处理 safe-area-inset-bottom，这里只需预留导航栏高度 */
-.pb-nav {
-  padding-bottom: calc(
-    4rem + 1rem
-  ); /* 4rem = h-16 导航栏高度, 1rem = 额外间距 */
+/* 
+ * 页面滚动容器 - 解决移动端键盘收起后底部空白问题
+ */
+.scroll-container {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  /* 为底部导航预留空间 */
+  padding-bottom: calc(4rem + env(safe-area-inset-bottom, 0px));
+}
+
+/* 底部固定导航 - 使用 transform3d 硬件加速稳定 fixed 行为 */
+.bottom-nav-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-top: 1px solid rgb(229 231 235);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  /* 硬件加速，稳定 fixed 行为 */
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+@media (prefers-color-scheme: dark) {
+  .bottom-nav-fixed {
+    background: rgba(17, 24, 39, 0.95);
+    border-top-color: rgb(31 41 55);
+  }
 }
 
 /* Fixed/Sticky 元素的安全区域适配 */

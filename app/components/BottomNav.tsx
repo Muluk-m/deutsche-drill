@@ -23,10 +23,7 @@ export function BottomNav({ dueCount }: BottomNavProps) {
   ];
 
   return (
-    <nav 
-      className="fixed bottom-0 left-0 right-0 z-50 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-t border-gray-200 dark:border-gray-800"
-      style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
-    >
+    <nav className="bottom-nav-fixed">
       <div className="flex items-center justify-around h-16 max-w-lg mx-auto px-2">
         {navItems.map((item) => {
           const isActive =
@@ -39,9 +36,10 @@ export function BottomNav({ dueCount }: BottomNavProps) {
               key={item.path}
               to={item.path}
               className={`relative flex flex-col items-center justify-center min-w-[64px] h-14 rounded-2xl cursor-pointer active:scale-90 transition-transform duration-150
-                ${isActive
-                  ? "text-blue-600 dark:text-blue-400"
-                  : "text-gray-400 dark:text-gray-500 active:text-gray-600 dark:active:text-gray-300"
+                ${
+                  isActive
+                    ? "text-blue-600 dark:text-blue-400"
+                    : "text-gray-400 dark:text-gray-500 active:text-gray-600 dark:active:text-gray-300"
                 }
               `}
             >

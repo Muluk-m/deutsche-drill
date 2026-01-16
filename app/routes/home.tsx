@@ -2,7 +2,12 @@ import type { Route } from "./+types/home";
 import { Link } from "react-router";
 import { useState, useEffect } from "react";
 import type { Word } from "../types/word";
-import { createUnits, getUnitProgress, getUnitList, filterWordsByUnits } from "../utils/unitManager";
+import {
+  createUnits,
+  getUnitProgress,
+  getUnitList,
+  filterWordsByUnits,
+} from "../utils/unitManager";
 import {
   getSRSProgress,
   getMistakesList,
@@ -119,17 +124,19 @@ export default function Home() {
 
   const units = createUnits(words);
   const unitList = getUnitList(words);
-  
+
   // 根据选中单元过滤的单词数量
   const filteredWords = filterWordsByUnits(words, selectedUnits);
-  const filteredLearnedCount = filteredWords.filter(w => learnedWords.includes(w.word)).length;
+  const filteredLearnedCount = filteredWords.filter((w) =>
+    learnedWords.includes(w.word)
+  ).length;
 
   const handleUnitChange = (newSelected: number[] | null) => {
     setSelectedUnits(newSelected);
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 pb-nav">
+    <div className="scroll-container bg-gray-50 dark:bg-gray-950">
       {/* Header */}
       <header
         className="sticky top-0 z-40 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-b border-gray-100 dark:border-gray-800"
@@ -266,10 +273,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <UnitSelector
-                units={unitList}
-                onChange={handleUnitChange}
-              />
+              <UnitSelector units={unitList} onChange={handleUnitChange} />
             </div>
           </div>
 
