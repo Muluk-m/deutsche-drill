@@ -113,4 +113,3 @@ export function getUnitList(words: Word[]): Array<{ id: number; name: string; wo
     wordCount: unit.totalWords,
   }));
 }
-

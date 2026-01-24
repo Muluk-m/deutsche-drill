@@ -724,4 +724,3 @@ export function getDataSummary(): {
     streak: stats.streak,
   };
 }
-

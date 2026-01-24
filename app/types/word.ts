@@ -97,4 +97,3 @@ export interface FavoriteWord {
   addedAt: string;            // ISO日期字符串
   note?: string;              // 用户备注
 }
-
