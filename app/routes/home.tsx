@@ -39,7 +39,6 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   // 使用全局词库 Context
   const { words, isLoading, units, unitList, filterByUnits } = useWords();
-  
   const [learnedWords, setLearnedWords] = useState<string[]>([]);
   const [todayCount, setTodayCount] = useState(0);
   const [searchQuery, setSearchQuery] = useState("");
@@ -66,13 +65,13 @@ export default function Home() {
 
     // 读取本地存储的学习数据
     const learned = JSON.parse(
-      localStorage.getItem("learnedWords") || "[]"
+      localStorage.getItem("learnedWords") || "[]",
     ) as string[];
     setLearnedWords(learned);
 
     const todayDate = new Date().toDateString();
     const todayLearned = JSON.parse(
-      localStorage.getItem("todayLearned") || "{}"
+      localStorage.getItem("todayLearned") || "{}",
     );
     setTodayCount(todayLearned[todayDate] || 0);
 
@@ -156,7 +155,7 @@ export default function Home() {
   // 根据选中单元过滤的单词数量
   const filteredWords = filterByUnits(selectedUnits);
   const filteredLearnedCount = filteredWords.filter((w) =>
-    learnedWords.includes(w.word)
+    learnedWords.includes(w.word),
   ).length;
 
   const handleUnitChange = (newSelected: number[] | null) => {
@@ -224,7 +223,13 @@ export default function Home() {
 
       {/* Search Results Overlay */}
       {isSearching && (
-        <div className="fixed inset-x-0 top-[120px] bottom-0 z-30 bg-white dark:bg-gray-900 overflow-y-auto">
+        <div
+          className="fixed inset-x-0 bottom-0 z-30 bg-white dark:bg-gray-900 overflow-y-auto"
+          style={{
+            top: "calc(env(safe-area-inset-top, 0px) + 132px)",
+            paddingTop: "8px",
+          }}
+        >
           {searchResults.length > 0 ? (
             <div className="divide-y divide-gray-100 dark:divide-gray-800">
               {searchResults.map(({ word, index, unitId, globalIndex }) => {
@@ -328,146 +333,160 @@ export default function Home() {
 
             <div className="space-y-4">
               {/* 按5个单元分组 */}
-              {Array.from({ length: Math.ceil(units.length / 5) }, (_, groupIndex) => {
-                const groupUnits = units.slice(groupIndex * 5, (groupIndex + 1) * 5);
-                const isExpanded = expandedGroups.includes(groupIndex);
-                const groupStart = groupIndex * 5 + 1;
-                const groupEnd = Math.min((groupIndex + 1) * 5, units.length);
-                
-                // 计算组进度
-                const groupProgress = groupUnits.reduce((acc, unit) => {
-                  const p = getUnitProgress(unit.id, learnedWords, words);
-                  return acc + p.percentage;
-                }, 0) / groupUnits.length;
+              {Array.from(
+                { length: Math.ceil(units.length / 5) },
+                (_, groupIndex) => {
+                  const groupUnits = units.slice(
+                    groupIndex * 5,
+                    (groupIndex + 1) * 5,
+                  );
+                  const isExpanded = expandedGroups.includes(groupIndex);
+                  const groupStart = groupIndex * 5 + 1;
+                  const groupEnd = Math.min((groupIndex + 1) * 5, units.length);
 
-                return (
-                  <div key={groupIndex} className="space-y-2">
-                    {/* 组标题 - 可点击展开/折叠 */}
-                    <button
-                      onClick={() => {
-                        setExpandedGroups(prev =>
-                          prev.includes(groupIndex)
-                            ? prev.filter(g => g !== groupIndex)
-                            : [...prev, groupIndex]
-                        );
-                      }}
-                      className="w-full flex items-center justify-between px-4 py-3 bg-gray-100 dark:bg-gray-800 rounded-xl cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-                    >
-                      <div className="flex items-center gap-3">
-                        <ChevronDown
-                          className={`w-5 h-5 text-gray-500 transition-transform ${
-                            isExpanded ? "rotate-0" : "-rotate-90"
-                          }`}
-                        />
-                        <span className="font-semibold text-gray-900 dark:text-gray-100">
-                          单元 {groupStart}-{groupEnd}
-                        </span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <div className="w-20 h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
-                          <div
-                            className={`h-full rounded-full transition-all ${
-                              groupProgress === 100
-                                ? "bg-green-500"
-                                : groupProgress > 0
-                                ? "bg-blue-500"
-                                : "bg-gray-300 dark:bg-gray-600"
-                            }`}
-                            style={{ width: `${groupProgress}%` }}
-                          />
-                        </div>
-                        <span className="text-xs text-gray-500 dark:text-gray-400 w-10 text-right">
-                          {Math.round(groupProgress)}%
-                        </span>
-                      </div>
-                    </button>
+                  // 计算组进度
+                  const groupProgress =
+                    groupUnits.reduce((acc, unit) => {
+                      const p = getUnitProgress(unit.id, learnedWords, words);
+                      return acc + p.percentage;
+                    }, 0) / groupUnits.length;
 
-                    {/* 单元列表 */}
-                    {isExpanded && (
-                      <div className="space-y-2 pl-2">
-                        {groupUnits.map((unit) => {
-                          const progress = getUnitProgress(unit.id, learnedWords, words);
-                          const isCompleted = progress.percentage === 100;
-                          const isStarted = progress.percentage > 0;
-
-                          return (
-                            <Link
-                              key={unit.id}
-                              to={`/unit/${unit.id}`}
-                              className="block bg-white dark:bg-gray-800 rounded-2xl p-4 border border-gray-100 dark:border-gray-700 hover:border-gray-200 dark:hover:border-gray-600 hover:shadow-md transition-all cursor-pointer"
-                            >
-                              <div className="flex items-center gap-4">
-                                {/* Progress Ring */}
-                                <div className="relative w-12 h-12 shrink-0">
-                                  <svg className="w-full h-full -rotate-90">
-                                    <circle
-                                      cx="24"
-                                      cy="24"
-                                      r="20"
-                                      stroke="currentColor"
-                                      strokeWidth="3"
-                                      fill="none"
-                                      className="text-gray-200 dark:text-gray-700"
-                                    />
-                                    <circle
-                                      cx="24"
-                                      cy="24"
-                                      r="20"
-                                      stroke="currentColor"
-                                      strokeWidth="3"
-                                      fill="none"
-                                      strokeDasharray={`${2 * Math.PI * 20}`}
-                                      strokeDashoffset={`${
-                                        2 * Math.PI * 20 * (1 - progress.percentage / 100)
-                                      }`}
-                                      strokeLinecap="round"
-                                      className={`${
-                                        isCompleted
-                                          ? "text-green-500"
-                                          : isStarted
-                                          ? "text-blue-500"
-                                          : "text-gray-300 dark:text-gray-600"
-                                      } transition-all duration-500`}
-                                    />
-                                  </svg>
-                                  <div className="absolute inset-0 flex items-center justify-center">
-                                    {isCompleted ? (
-                                      <CheckCircle className="w-5 h-5 text-green-500" />
-                                    ) : (
-                                      <span className="text-xs font-bold text-gray-700 dark:text-gray-300">
-                                        {progress.percentage}%
-                                      </span>
-                                    )}
-                                  </div>
-                                </div>
-
-                                {/* Info */}
-                                <div className="flex-1 min-w-0">
-                                  <div className="flex items-center gap-2 mb-0.5">
-                                    <h4 className="font-semibold text-gray-900 dark:text-gray-100">
-                                      {unit.name}
-                                    </h4>
-                                    {isCompleted && (
-                                      <span className="text-xs px-1.5 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded font-medium">
-                                        完成
-                                      </span>
-                                    )}
-                                  </div>
-                                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                                    {progress.learned}/{progress.total} 个单词
-                                  </p>
-                                </div>
-
-                                <ChevronRight className="w-5 h-5 text-gray-300 dark:text-gray-600 shrink-0" />
-                              </div>
-                            </Link>
+                  return (
+                    <div key={groupIndex} className="space-y-2">
+                      {/* 组标题 - 可点击展开/折叠 */}
+                      <button
+                        onClick={() => {
+                          setExpandedGroups((prev) =>
+                            prev.includes(groupIndex)
+                              ? prev.filter((g) => g !== groupIndex)
+                              : [...prev, groupIndex],
                           );
-                        })}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
+                        }}
+                        className="w-full flex items-center justify-between px-4 py-3 bg-gray-100 dark:bg-gray-800 rounded-xl cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                      >
+                        <div className="flex items-center gap-3">
+                          <ChevronDown
+                            className={`w-5 h-5 text-gray-500 transition-transform ${
+                              isExpanded ? "rotate-0" : "-rotate-90"
+                            }`}
+                          />
+                          <span className="font-semibold text-gray-900 dark:text-gray-100">
+                            单元 {groupStart}-{groupEnd}
+                          </span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <div className="w-20 h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                            <div
+                              className={`h-full rounded-full transition-all ${
+                                groupProgress === 100
+                                  ? "bg-green-500"
+                                  : groupProgress > 0
+                                    ? "bg-blue-500"
+                                    : "bg-gray-300 dark:bg-gray-600"
+                              }`}
+                              style={{ width: `${groupProgress}%` }}
+                            />
+                          </div>
+                          <span className="text-xs text-gray-500 dark:text-gray-400 w-10 text-right">
+                            {Math.round(groupProgress)}%
+                          </span>
+                        </div>
+                      </button>
+
+                      {/* 单元列表 */}
+                      {isExpanded && (
+                        <div className="space-y-2 pl-2">
+                          {groupUnits.map((unit) => {
+                            const progress = getUnitProgress(
+                              unit.id,
+                              learnedWords,
+                              words,
+                            );
+                            const isCompleted = progress.percentage === 100;
+                            const isStarted = progress.percentage > 0;
+
+                            return (
+                              <Link
+                                key={unit.id}
+                                to={`/unit/${unit.id}`}
+                                className="block bg-white dark:bg-gray-800 rounded-2xl p-4 border border-gray-100 dark:border-gray-700 hover:border-gray-200 dark:hover:border-gray-600 hover:shadow-md transition-all cursor-pointer"
+                              >
+                                <div className="flex items-center gap-4">
+                                  {/* Progress Ring */}
+                                  <div className="relative w-12 h-12 shrink-0">
+                                    <svg className="w-full h-full -rotate-90">
+                                      <circle
+                                        cx="24"
+                                        cy="24"
+                                        r="20"
+                                        stroke="currentColor"
+                                        strokeWidth="3"
+                                        fill="none"
+                                        className="text-gray-200 dark:text-gray-700"
+                                      />
+                                      <circle
+                                        cx="24"
+                                        cy="24"
+                                        r="20"
+                                        stroke="currentColor"
+                                        strokeWidth="3"
+                                        fill="none"
+                                        strokeDasharray={`${2 * Math.PI * 20}`}
+                                        strokeDashoffset={`${
+                                          2 *
+                                          Math.PI *
+                                          20 *
+                                          (1 - progress.percentage / 100)
+                                        }`}
+                                        strokeLinecap="round"
+                                        className={`${
+                                          isCompleted
+                                            ? "text-green-500"
+                                            : isStarted
+                                              ? "text-blue-500"
+                                              : "text-gray-300 dark:text-gray-600"
+                                        } transition-all duration-500`}
+                                      />
+                                    </svg>
+                                    <div className="absolute inset-0 flex items-center justify-center">
+                                      {isCompleted ? (
+                                        <CheckCircle className="w-5 h-5 text-green-500" />
+                                      ) : (
+                                        <span className="text-xs font-bold text-gray-700 dark:text-gray-300">
+                                          {progress.percentage}%
+                                        </span>
+                                      )}
+                                    </div>
+                                  </div>
+
+                                  {/* Info */}
+                                  <div className="flex-1 min-w-0">
+                                    <div className="flex items-center gap-2 mb-0.5">
+                                      <h4 className="font-semibold text-gray-900 dark:text-gray-100">
+                                        {unit.name}
+                                      </h4>
+                                      {isCompleted && (
+                                        <span className="text-xs px-1.5 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded font-medium">
+                                          完成
+                                        </span>
+                                      )}
+                                    </div>
+                                    <p className="text-sm text-gray-500 dark:text-gray-400">
+                                      {progress.learned}/{progress.total} 个单词
+                                    </p>
+                                  </div>
+
+                                  <ChevronRight className="w-5 h-5 text-gray-300 dark:text-gray-600 shrink-0" />
+                                </div>
+                              </Link>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </div>
+                  );
+                },
+              )}
             </div>
           </section>
         </main>
